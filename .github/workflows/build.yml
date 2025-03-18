@@ -29,7 +29,7 @@ jobs:
           echo "Triggered by: ${{ github.actor }} (${{ github.actor_id }})" >> build-info.txt
 
       - name: Zip Files
-        run: zip -r ${{ github.event.inputs.version }}.zip .resources/${{ github.event.inputs.version }}/
+        run: zip -r ${{ github.event.inputs.version }}.zip ./resources/${{ github.event.inputs.version }}/
       
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
