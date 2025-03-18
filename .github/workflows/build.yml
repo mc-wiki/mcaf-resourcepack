@@ -1,0 +1,38 @@
+name: Build
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        required: true
+        description: 'Version to build'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Respsitory
+        uses: actions/checkout@v4
+
+      - name: Install zip
+        run: sudo apt-get install zip
+
+      - name: Build Info
+        run: |
+          echo "MAKE_VERSION: ${{ github.event.inputs.version }} "> build-info.txt
+          echo "Run ID: ${{ github.run_id }}" > build-info.txt
+          echo "Run Number: ${{ github.run_number }}" >> build-info.txt
+          echo "Commit SHA: ${{ github.sha }}" >> build-info.txt
+          echo "Repository: ${{ github.repository }} (${{ github.repository_id }})" >> build-info.txt
+          echo "Repository URL: ${{ github.repositoryUrl }}" >> build-info.txt
+          echo "Triggered by: ${{ github.actor }} (${{ github.actor_id }})" >> build-info.txt
+
+      - name: Zip Files
+        run: zip -r ${{ github.event.inputs.version }}.zip .resources/${{ github.event.inputs.version }}/
+      
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.inputs.version }}-${{ github.run_number }}
+          path: ${{ github.event.inputs.version }}.zip
