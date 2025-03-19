@@ -1,10 +1,6 @@
 {
     "pack": { 
-        "pack_format": 20,
-        "supported_formats":{
-            "min_inclusive":20,
-            "max_inclusive":80
-        },
-        "description": "\uD83E\uDD54"
+        "pack_format": 30,
+        "description": "适合24w14potato的中文翻译包"
     }
 }
