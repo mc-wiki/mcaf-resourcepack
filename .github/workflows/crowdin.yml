@@ -1,6 +1,8 @@
 name: Auto Sync with Crowdin
 
-permissions: write-all
+permissions:
+  contents: write
+  pull-requests: write
 
 on:
   workflow_dispatch:
@@ -19,6 +21,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Crowdin Action
         uses: crowdin/github-action@v2
