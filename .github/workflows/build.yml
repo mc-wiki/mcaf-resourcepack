@@ -31,43 +31,16 @@ jobs:
           echo "Repository URL: ${{ github.repositoryUrl }}" >> build-info.txt
           echo "Triggered by: ${{ github.actor }} (${{ github.actor_id }})" >> build-info.txt
 
-      - name: Zip Each Folder in Resources
+      - name: Zip Each Folder in Resources and Upload
         run: |
           for dir in ./resources/*/; do
             folder_name=$(basename "$dir")
             if [ -d "$dir" ]; then
-              zip -r "${folder_name}.zip" "$dir" || echo "Skipping empty folder: $dir"
+              zip_file="${folder_name}.zip"
+              zip -r "$zip_file" "$dir" || echo "Skipping empty folder: $dir"
+
+              # Upload each zip file as an artifact
+              echo "Uploading $zip_file..."
+              gh release upload "build-${{ github.run_number }}" "$zip_file" --clobber
             fi
           done
-
-      - name: Combine All Zips into One Archive
-        run: zip -r combined-zipped-folders.zip ./*.zip
-
-      - name: Upload All Artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: Combined-Zipped-Folders
-          path: ./combined-zipped-folders.zip
-
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        with:
-          tag_name: "build-${{ github.run_number }}"
-          release_name: "Build ${{ github.run_number }}"
-          body: |
-            自动构建的资源包。
-            - Run ID: ${{ github.run_id }}
-            - Commit SHA: ${{ github.sha }}
-          draft: false
-          prerelease: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Upload Assets to Release
-        uses: actions/upload-release-asset@v1
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./combined-zipped-folders.zip
-          asset_name: Combined-Zipped-Folders.zip
-          asset_content_type: application/zip
