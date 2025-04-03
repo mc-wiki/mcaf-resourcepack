@@ -3,10 +3,9 @@ name: Crowdin Action
 permissions: write-all
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 */3 * * *'
-  push:
-    branches: [ main ]
 
 jobs:
   synchronize-with-crowdin:
@@ -55,6 +54,13 @@ jobs:
               -H "Authorization: Bearer ${{ secrets.CROWDIN_PERSONAL_TOKEN }}")
           echo "$response" > files.json
 
+          # Check if files.json is valid and contains data
+          if [ "$(jq '.data | length' files.json)" -eq 0 ]; then
+              echo "No files found in Crowdin project or API request failed."
+              cat files.json
+              exit 1
+          fi
+
           # Generate progress report
           echo "|文件名|当前进度|" > progress.md
           echo "|:----:|:----:|" >> progress.md
@@ -62,6 +68,12 @@ jobs:
               file_name=$(jq -r ".data[] | select(.data.id == $file_id) | .data.name" files.json)
               progress=$(curl -s -X GET "https://api.crowdin.com/api/v2/projects/${{ secrets.CROWDIN_PROJECT_ID }}/files/$file_id/progress" \
                   -H "Authorization: Bearer ${{ secrets.CROWDIN_PERSONAL_TOKEN }}" | jq -r '.data[].data.translationProgress')
+
+              # Handle missing or invalid progress data
+              if [ -z "$progress" ]; then
+                  progress="N/A"
+              fi
+
               echo "| $file_name | $progress% |" >> progress.md
           done
 
