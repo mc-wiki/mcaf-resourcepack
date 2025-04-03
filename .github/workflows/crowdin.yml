@@ -4,7 +4,7 @@ permissions: write-all
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 */3 * * *'
   push:
     branches: [ main ]
 
@@ -16,10 +16,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install jq
+        run: |
+          if ! command -v jq &> /dev/null; then
+              sudo apt-get update && sudo apt-get install -y jq
+          fi
+
       - name: crowdin action
         uses: crowdin/github-action@v2
         with:
-
           upload_sources: true
           upload_translations: false
           import_eq_suggestions: true
@@ -37,11 +42,47 @@ jobs:
           pull_request_assignees: 'crowdin-bot'
           pull_request_base_branch_name: 'main'
         env:
-          # A classic GitHub Personal Access Token with the 'repo' scope selected (the user should have write access to the repository).
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          
-          # A numeric ID, found at https://crowdin.com/project/<projectName>/tools/api
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-
-          # Visit https://crowdin.com/settings#api-key to create this token
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+      - name: Fetch Translation Progress
+        id: fetch_progress
+        run: |
+          set -e
+          # Fetch files from Crowdin API
+          response=$(curl -s -X GET "https://api.crowdin.com/api/v2/projects/${{ secrets.CROWDIN_PROJECT_ID }}/files" \
+              -H "Authorization: Bearer ${{ secrets.CROWDIN_PERSONAL_TOKEN }}")
+          echo "$response" > files.json
+
+          # Generate progress report
+          echo "|文件名|当前进度|" > progress.md
+          echo "|:----:|:----:|" >> progress.md
+          for file_id in $(jq -r '.data[].data.id' files.json); do
+              file_name=$(jq -r ".data[] | select(.data.id == $file_id) | .data.name" files.json)
+              progress=$(curl -s -X GET "https://api.crowdin.com/api/v2/projects/${{ secrets.CROWDIN_PROJECT_ID }}/files/$file_id/progress" \
+                  -H "Authorization: Bearer ${{ secrets.CROWDIN_PERSONAL_TOKEN }}" | jq -r '.data[].data.translationProgress')
+              echo "| $file_name | $progress% |" >> progress.md
+          done
+
+          cat progress.md
+
+      - name: Update README.md
+        run: |
+          set -e
+          # Update translation progress in README.md
+          awk '/## 翻译进度/{flag=1;print;next}/^$/{flag=0}flag{next}1' README.md > temp.md
+          cat progress.md >> temp.md
+          mv temp.md README.md
+
+      - name: Commit and Push Changes
+        run: |
+          set -e
+          # Commit and push changes if README.md is updated
+          git diff --quiet README.md || (
+              git config --global user.name "github-actions[bot]"
+              git config --global user.email "github-actions[bot]@users.noreply.github.com"
+              git add README.md
+              git commit -m "Update translation progress in README.md"
+              git push
+          )
