@@ -98,3 +98,5 @@ jobs:
               git commit -m "Update translation progress in README.md"
               git push
           )
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
