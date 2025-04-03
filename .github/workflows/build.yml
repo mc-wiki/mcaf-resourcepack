@@ -44,3 +44,5 @@ jobs:
               gh release upload "build-${{ github.run_number }}" "$zip_file" --clobber
             fi
           done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
