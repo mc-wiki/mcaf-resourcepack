@@ -108,13 +108,14 @@ jobs:
           cat progress.md >> temp.md
           mv temp.md README.md
 
-      - name: Commit and Push Changes
+      - name: Commit Changes to PR Branch
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+          git fetch origin l10n_main
+          git checkout l10n_main
           git add README.md
-          git commit -m "Update translation progress in README.md"
-          git push
+          git commit -m "Update translation progress in README.md" || echo "No changes to commit"
+          git push origin l10n_main
