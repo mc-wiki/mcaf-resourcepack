@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    trategy:
+    strategy:
       matrix:
         python-version: ["3.12"]
 
@@ -32,8 +32,8 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: "test-${{ github.run_number }}"
-          name: "Test ${{ github.run_number }}"
+          tag_name: "build-${{ github.run_number }}"
+          name: "Build ${{ github.run_number }}"
           body: |
             自动构建的资源包。
             - Run ID: ${{ github.run_id }}
