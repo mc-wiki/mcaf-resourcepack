@@ -16,27 +16,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Cache zip Installation
-        uses: actions/cache@v3
-        with:
-          path: /usr/bin/zip
-          key: ubuntu-zip-cache
-
-      - name: Install zip if Not Cached
+      - name: Install zip
         run: sudo apt-get install -y zip
-
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        with:
-          tag_name: "build-${{ github.run_number }}"
-          release_name: "Build ${{ github.run_number }}"
-          body: |
-            自动构建的资源包。
-            - Run ID: ${{ github.run_id }}
-            - Commit SHA: ${{ github.sha }}
-          draft: false
-          prerelease: false
 
       - name: Zip Each Folder in Resources
         run: |
@@ -54,7 +35,12 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: "${{ github.run_number }}"
+          tag_name: "build-${{ github.run_number }}"
+          release_name: "Build ${{ github.run_number }}"
+          body: |
+            自动构建的资源包。
+            - Run ID: ${{ github.run_id }}
+            - Commit SHA: ${{ github.sha }}
           files: |
             23w13a_or_b.zip
             24w14potato.zip
