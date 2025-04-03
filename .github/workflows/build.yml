@@ -1,0 +1,44 @@
+name: Build and Release
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    trategy:
+      matrix:
+        python-version: ["3.12"]
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Update resource pack
+        run: python pack.py
+      
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "test-${{ github.run_number }}"
+          name: "Test ${{ github.run_number }}"
+          body: |
+            自动构建的资源包。
+            - Run ID: ${{ github.run_id }}
+            - Commit SHA: ${{ github.sha }}
+          files: |
+            outputs/23w13a_or_b.zip
+            outputs/24w14potato.zip
+            outputs/25w14craftmine.zip
