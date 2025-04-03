@@ -1,4 +1,4 @@
-name: Crowdin Action
+name: Auto Sync with Crowdin
 
 permissions: write-all
 
@@ -109,3 +109,4 @@ jobs:
         with:
           commit_message: "Update translation progress in README.md"
           file_pattern: README.md
+          token: ${{ secrets.GITHUB_TOKEN }}
