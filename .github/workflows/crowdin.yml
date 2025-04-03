@@ -1,6 +1,8 @@
 name: Auto Sync with Crowdin
 
-permissions: write-all
+permissions:
+  contents: write
+  pull-requests: write
 
 on:
   workflow_dispatch:
@@ -19,6 +21,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Crowdin Action
         uses: crowdin/github-action@v2
@@ -39,74 +43,3 @@ jobs:
           pull_request_body: 'New Crowdin pull request with translations'
           pull_request_assignees: 'crowdin-bot'
           pull_request_base_branch_name: 'main'
-
-      - name: Fetch Translation Progress
-        uses: actions/github-script@v6
-        id: fetch_progress
-        with:
-          script: |
-            const fs = require('fs');
-
-            const projectId = process.env.CROWDIN_PROJECT_ID;
-            const token = process.env.CROWDIN_PERSONAL_TOKEN;
-
-            // Fetch files from Crowdin API
-            const filesResponse = await fetch(
-              `https://api.crowdin.com/api/v2/projects/${projectId}/files`,
-              { headers: { Authorization: `Bearer ${token}` } }
-            );
-
-            if (!filesResponse.ok) {
-              throw new Error(`Failed to fetch files: ${filesResponse.statusText}`);
-            }
-
-            const filesData = await filesResponse.json();
-            const files = filesData.data;
-            if (!files || files.length === 0) {
-              throw new Error('No files found in Crowdin project.');
-            }
-
-            console.log('Files fetched from Crowdin:', files);
-
-            // Generate progress report
-            let progressReport = "|文件名|当前进度|\n|:----:|:----:|\n";
-
-            for (const file of files) {
-              const fileId = file.data.id;
-              const fileName = file.data.name;
-
-              console.log(`Fetching progress for file: ${fileName} (ID: ${fileId})`);
-
-              const progressResponse = await fetch(
-                `https://api.crowdin.com/api/v2/projects/${projectId}/files/${fileId}/progress`,
-                { headers: { Authorization: `Bearer ${token}` } }
-              );
-
-              if (!progressResponse.ok) {
-                console.error(`Failed to fetch progress for file ${fileName}: ${progressResponse.statusText}`);
-                continue; // Skip this file and move to the next
-              }
-
-              const progressData = await progressResponse.json();
-              const progress = progressData.data[0]?.data?.translationProgress || "N/A";
-              progressReport += `| ${fileName} | ${progress}% |\n`;
-            }
-
-            // Write progress to a file
-            fs.writeFileSync('progress.md', progressReport);
-            console.log(progressReport);
-
-      - name: Update README.md
-        run: |
-          set -e
-          # Update translation progress in README.md
-          awk '/## 翻译进度/{flag=1;print;next}/^$/{flag=0}flag{next}1' README.md > temp.md
-          cat progress.md >> temp.md
-          mv temp.md README.md
-
-      - name: Commit and Push Changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Update translation progress in README.md"
-          file_pattern: README.md
-          token: ${{ secrets.GITHUB_TOKEN }}
