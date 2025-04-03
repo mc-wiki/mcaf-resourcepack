@@ -104,10 +104,6 @@ jobs:
           cat progress.md >> temp.md
           mv temp.md README.md
 
-      - name: Fix Permissions
-        run: |
-          chmod -R u+w .git
-
       - name: Commit and Push Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
