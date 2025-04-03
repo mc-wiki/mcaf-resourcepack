@@ -3,25 +3,28 @@ name: Crowdin Action
 permissions: write-all
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 */12 * * *'
-  push:
-    branches: [ main ]
+    - cron: '0 */3 * * *'
 
 jobs:
   synchronize-with-crowdin:
     runs-on: ubuntu-latest
 
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+      CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: crowdin action
+      - name: Crowdin Action
         uses: crowdin/github-action@v2
         with:
-
           upload_sources: true
-          upload_translations: true
+          upload_translations: false
           import_eq_suggestions: true
 
           # Export options
@@ -30,18 +33,79 @@ jobs:
           export_only_approved: false
 
           # Create Pull Requests
-          localization_branch_name: l18n_main
+          localization_branch_name: l10n_main
           create_pull_request: true
           pull_request_title: 'New Crowdin Translations'
           pull_request_body: 'New Crowdin pull request with translations'
           pull_request_assignees: 'crowdin-bot'
           pull_request_base_branch_name: 'main'
-        env:
-          # A classic GitHub Personal Access Token with the 'repo' scope selected (the user should have write access to the repository).
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          
-          # A numeric ID, found at https://crowdin.com/project/<projectName>/tools/api
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
 
-          # Visit https://crowdin.com/settings#api-key to create this token
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+      - name: Fetch Translation Progress
+        uses: actions/github-script@v6
+        id: fetch_progress
+        with:
+          script: |
+            const fs = require('fs');
+
+            const projectId = process.env.CROWDIN_PROJECT_ID;
+            const token = process.env.CROWDIN_PERSONAL_TOKEN;
+
+            // Fetch files from Crowdin API
+            const filesResponse = await fetch(
+              `https://api.crowdin.com/api/v2/projects/${projectId}/files`,
+              { headers: { Authorization: `Bearer ${token}` } }
+            );
+
+            if (!filesResponse.ok) {
+              throw new Error(`Failed to fetch files: ${filesResponse.statusText}`);
+            }
+
+            const filesData = await filesResponse.json();
+            const files = filesData.data;
+            if (!files || files.length === 0) {
+              throw new Error('No files found in Crowdin project.');
+            }
+
+            console.log('Files fetched from Crowdin:', files);
+
+            // Generate progress report
+            let progressReport = "|文件名|当前进度|\n|:----:|:----:|\n";
+
+            for (const file of files) {
+              const fileId = file.data.id;
+              const fileName = file.data.name;
+
+              console.log(`Fetching progress for file: ${fileName} (ID: ${fileId})`);
+
+              const progressResponse = await fetch(
+                `https://api.crowdin.com/api/v2/projects/${projectId}/files/${fileId}/progress`,
+                { headers: { Authorization: `Bearer ${token}` } }
+              );
+
+              if (!progressResponse.ok) {
+                console.error(`Failed to fetch progress for file ${fileName}: ${progressResponse.statusText}`);
+                continue; // Skip this file and move to the next
+              }
+
+              const progressData = await progressResponse.json();
+              const progress = progressData.data[0]?.data?.translationProgress || "N/A";
+              progressReport += `| ${fileName} | ${progress}% |\n`;
+            }
+
+            // Write progress to a file
+            fs.writeFileSync('progress.md', progressReport);
+            console.log(progressReport);
+
+      - name: Update README.md
+        run: |
+          set -e
+          # Update translation progress in README.md
+          awk '/## 翻译进度/{flag=1;print;next}/^$/{flag=0}flag{next}1' README.md > temp.md
+          cat progress.md >> temp.md
+          mv temp.md README.md
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update translation progress in README.md"
+          file_pattern: README.md

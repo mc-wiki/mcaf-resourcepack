@@ -2,25 +2,31 @@ name: Build
 
 on:
   workflow_dispatch:
-    inputs:
-      version:
-        required: true
-        description: 'Version to build'
+  schedule:
+    - cron: "0 */12 * * *"
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
     steps:
-      - name: Checkout Respsitory
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Install zip
-        run: sudo apt-get install zip
+      - name: Cache zip Installation
+        uses: actions/cache@v3
+        with:
+          path: /usr/bin/zip
+          key: ubuntu-zip-cache
+
+      - name: Install zip if Not Cached
+        run: sudo apt-get install -y zip
 
       - name: Build Info
         run: |
-          echo "MAKE_VERSION: ${{ github.event.inputs.version }} "> build-info.txt
           echo "Run ID: ${{ github.run_id }}" > build-info.txt
           echo "Run Number: ${{ github.run_number }}" >> build-info.txt
           echo "Commit SHA: ${{ github.sha }}" >> build-info.txt
@@ -28,11 +34,34 @@ jobs:
           echo "Repository URL: ${{ github.repositoryUrl }}" >> build-info.txt
           echo "Triggered by: ${{ github.actor }} (${{ github.actor_id }})" >> build-info.txt
 
-      - name: Zip Files
-        run: zip -r ${{ github.event.inputs.version }}.zip ./resources/${{ github.event.inputs.version }}/
-      
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
         with:
-          name: ${{ github.event.inputs.version }}-${{ github.run_number }}
-          path: ${{ github.event.inputs.version }}.zip
+          tag_name: "build-${{ github.run_number }}"
+          release_name: "Build ${{ github.run_number }}"
+          body: |
+            自动构建的资源包。
+            - Run ID: ${{ github.run_id }}
+            - Commit SHA: ${{ github.sha }}
+          draft: false
+          prerelease: false
+
+      - name: Zip Each Folder in Resources and Upload
+        run: |
+          for dir in ./resources/*/; do
+            folder_name=$(basename "$dir")
+            if [ -d "$dir" ]; then
+              zip_file="${folder_name}.zip"
+              zip -r "$zip_file" "$dir" || echo "Skipping empty folder: $dir"
+
+              echo "UPLOAD_FILES=$zip_file $UPLOAD_FILES" >> $GITHUB_ENV
+            fi
+          done
+
+      - name: Upload Assets to Release
+        run: |
+          for file in ${{ env.UPLOAD_FILES }}; do
+            echo "Uploading $file..."
+            gh release upload "${{ steps.create_release.outputs.upload_url }}" "$file" --clobber
+          done
