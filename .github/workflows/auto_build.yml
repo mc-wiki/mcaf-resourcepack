@@ -26,7 +26,8 @@ jobs:
             if [ -d "$dir" ]; then
               folder_name=$(basename "$dir")
               zip_file="${folder_name}.zip"
-              zip -r "$zip_file" "$dir" || echo "Skipping empty folder: $dir"
+              # Change: Use -j option to flatten the directory structure
+              (cd "$dir" && zip -r "../$zip_file" .) || echo "Skipping empty folder: $dir"
               UPLOAD_FILES="$UPLOAD_FILES $zip_file"
             fi
           done
@@ -36,7 +37,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: "build-${{ github.run_number }}"
-          release_name: "Build ${{ github.run_number }}"
+          name: "Build ${{ github.run_number }}"
           body: |
             自动构建的资源包。
             - Run ID: ${{ github.run_id }}
