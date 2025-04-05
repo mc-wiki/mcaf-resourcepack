@@ -3,17 +3,17 @@ name: Auto Sync with Crowdin
 permissions:
   contents: write
   pull-requests: write
-  push:
-    branches:
-      - main
-    paths:
-      - 'resources/**/en_us.json'
 
 on:
   workflow_dispatch:
   schedule:
     - cron: '0 */3 * 4 *'
     - cron: '0 10 * * 3'
+  push:
+    branches:
+      - main
+    paths:
+      - 'resources/**/en_us.json'
 
 jobs:
   synchronize-with-crowdin:
