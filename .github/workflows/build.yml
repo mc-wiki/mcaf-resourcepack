@@ -11,12 +11,45 @@ on:
 
 
 jobs:
-  build:
+  list_folders:
+    runs-on: ubuntu-latest
+    outputs:
+      folders_json: ${{ steps.list_folders.outputs.folders_json }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: List Folders and Set as Output
+        id: list_folders
+        run: |
+          FOLDERS=$(find ./resources -maxdepth 1 -type d -not -path './resources' -printf '"%f", ' | sed 's/, $//')
+          echo "folders_json=[$FOLDERS]" >> $GITHUB_OUTPUT
+
+  create_release:
+    runs-on: ubuntu-latest
+    outputs:
+      release_id: ${{ steps.create_release.outputs.id }}
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+    steps:
+      - name: create_release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          body: |
+            自动构建的资源包。
+            - Run ID: ${{ github.run_id }}
+            - Commit SHA: ${{ github.sha }}
+          name: Build ${{ github.run_number }}
+          tag_name: "build-${{ github.run_number }}"
+
+  release:
+    needs: [list_folders, create_release]
     runs-on: ubuntu-latest
     strategy:
+      # Disabling fail-fast to ensure all matrix jobs run, even if one fails.
+      fail-fast: false
       matrix:
-        python-version: ["3.12"]
-
+        folder: ${{ fromJson(needs.list_folders.outputs.folders_json) }}
     env:
       GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
@@ -24,24 +57,15 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ matrix.python-version }}
+      - name: Package Resources for ${{ matrix.folder }}
+        run: |
+          cd resources/${{ matrix.folder }}
+          zip -r ../../${{ matrix.folder }}.zip ./*
 
-      - name: Update resource pack
-        run: python pack.py
-      
-      - name: Release
-        uses: softprops/action-gh-release@v2
+      # This step uploads the generated zip file as a release asset to the GitHub release.
+      - name: Upload Packaged Release for ${{ matrix.folder }}
+        uses: xresloader/upload-to-github-release@v1
         with:
-          tag_name: "build-${{ github.run_number }}"
-          name: "Build ${{ github.run_number }}"
-          body: |
-            自动构建的资源包。
-            - Run ID: ${{ github.run_id }}
-            - Commit SHA: ${{ github.sha }}
-          files: |
-            outputs/23w13a_or_b.zip
-            outputs/24w14potato.zip
-            outputs/25w14craftmine.zip
+          file: "${{ matrix.folder }}.zip"
+          release_id: ${{ needs.create_release.outputs.release_id }}
+          overwrite: true
