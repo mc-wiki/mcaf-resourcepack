@@ -3,6 +3,11 @@ name: Auto Sync with Crowdin
 permissions:
   contents: write
   pull-requests: write
+  push:
+    branches:
+      - main
+    paths:
+      - 'resources/**/en_us.json'
 
 on:
   workflow_dispatch:
@@ -28,7 +33,7 @@ jobs:
       - name: Crowdin Action
         uses: crowdin/github-action@v2
         with:
-          upload_sources: true
+          upload_sources: false
           upload_translations: false
           import_eq_suggestions: true
 
