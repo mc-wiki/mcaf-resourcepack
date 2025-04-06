@@ -5,7 +5,7 @@
 
 在右侧的Releases里下载最新版本，并**解压**，然后选择需要的版本安装到你的游戏。
 
-如果不会安装资源包，请见[这篇教程](https://zh.minecraft.wiki/?curid=10215#%E4%BD%BF%E7%94%A8%E8%B5%84%E6%BA%90%E5%8C%85)。
+如果不会安装资源包，请见[这篇条目](https://zh.minecraft.wiki/?curid=10215#%E4%BD%BF%E7%94%A8%E8%B5%84%E6%BA%90%E5%8C%85)。
 
 ## 参与翻译
 
