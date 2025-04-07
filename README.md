@@ -11,3 +11,7 @@
 ## 参与翻译
 
 Crowdin：[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/project/mcaf-resourcepack)
+
+## 翻译进度
+<!-- CROWDIN-TRANSLATIONS-PROGRESS-ACTION-START -->
+<!-- CROWDIN-TRANSLATIONS-PROGRESS-ACTION-END -->
