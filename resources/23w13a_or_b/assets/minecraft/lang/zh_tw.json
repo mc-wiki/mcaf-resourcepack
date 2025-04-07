@@ -1,0 +1,17 @@
+{
+    "advancements.adventure.vote_1.title": "我投票了！",
+    "advancements.adventure.vote_1.description": "第一次投票",
+    "advancements.adventure.vote_256.title": "投票專家",
+    "advancements.adventure.vote_256.description": "投票 256 次",
+    "attribute.name.generic.scale": "實體大小",
+    "biome.minecraft.the_moon": "月球",
+    "block.minecraft.pickaxe_block": "鎬方塊",
+    "block.minecraft.place_block": "放置方塊",
+    "effect.minecraft.big": "變大",
+    "effect.minecraft.small": "變小",
+    "gui.voting.title": "投票",
+    "gui.voting.next": "下一個投票",
+    "gui.voting.prev": "上一個投票",
+    "gui.voting.do_it": "投票",
+    "item.minecraft.air_block": "空氣"
+}

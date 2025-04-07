@@ -1,0 +1,13 @@
+{
+    "advancements.adventure.enter_a_mine.description": "進入一個礦境",
+    "advancements.adventure.level_failed.description": "挑戰礦境失敗",
+    "advancements.adventure.level_failed.title": "糟糕",
+    "advancements.adventure.level.description": "完成你的第一個礦境",
+    "advancements.adventure.level.title": "開始了",
+    "sky.end": "終界",
+    "sky.overworld": "主世界",
+    "sky.tooltip": "天空：%s",
+    "unlocks.player.unlocked": "🔓 %s 解鎖了 %s",
+    "unlocks.unlock.golden_starter_apples.name": "金蘋果",
+    "unlocks.unlock.pet.description": "遊戲還是和朋友一起才好玩"
+}
