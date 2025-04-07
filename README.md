@@ -14,4 +14,13 @@ Crowdin：[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/pr
 
 ## 翻译进度
 <!-- CROWDIN-TRANSLATIONS-PROGRESS-ACTION-START -->
+
+
+#### Available
+
+<table><tr><td align="center" valign="top"><img width="30px" height="30px" title="Chinese Simplified" alt="Chinese Simplified" src="https://raw.githubusercontent.com/benjaminjonard/crowdin-translations-progress-action/1.0/flags/zh-CN.png"></div><div align="center" valign="top">100%</td></tr></table>
+
+#### In progress
+
+<table><tr><td align="center" valign="top"><img width="30px" height="30px" title="Chinese Traditional" alt="Chinese Traditional" src="https://raw.githubusercontent.com/benjaminjonard/crowdin-translations-progress-action/1.0/flags/zh-TW.png"></div><div align="center" valign="top">30%</td><td align="center" valign="top"><img width="30px" height="30px" title="Chinese Traditional, Hong Kong" alt="Chinese Traditional, Hong Kong" src="https://raw.githubusercontent.com/benjaminjonard/crowdin-translations-progress-action/1.0/flags/zh-HK.png"></div><div align="center" valign="top">30%</td><td align="center" valign="top"><img width="30px" height="30px" title="Classical Chinese" alt="Classical Chinese" src="https://raw.githubusercontent.com/benjaminjonard/crowdin-translations-progress-action/1.0/flags/lzh.png"></div><div align="center" valign="top">17%</td></tr></table>
 <!-- CROWDIN-TRANSLATIONS-PROGRESS-ACTION-END -->
