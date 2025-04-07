@@ -1,7 +1,5 @@
 # Minecraft愚人节中文翻译包
 
-----
-
 ![Crowdin Localization Badge](https://badges.crowdin.net/mcaf-resourcepack/localized.svg)
 
 ## 如何使用
