@@ -50,6 +50,20 @@ jobs:
           pull_request_assignees: 'crowdin-bot'
           pull_request_base_branch_name: 'main'
 
+  generate-translation-progress:
+    runs-on: ubuntu-latest
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+      CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
           # Check Translation Progress
       - name: Generate Crowdin translations progress markdown
         uses: benjaminjonard/crowdin-translations-progress-action@1.0.7
@@ -57,3 +71,9 @@ jobs:
           languages_per_row: 10
           minimum_completion_percent: 80
           file: README.md
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: Update Crowdin translations progress
+          branch: l10n_main
