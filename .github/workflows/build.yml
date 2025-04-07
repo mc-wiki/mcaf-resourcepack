@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - l10n_main
     paths:
       - 'resources/**/**.json'
       - '!resources/**/en_us.json'
@@ -18,6 +18,9 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          ref: l10n_main
+
       - name: List Folders and Set as Output
         id: list_folders
         run: |
@@ -69,3 +72,10 @@ jobs:
           file: "${{ matrix.folder }}.zip"
           release_id: ${{ needs.create_release.outputs.release_id }}
           overwrite: true
+
+      - name: Clean up releases
+        uses: sgpublic/delete-release-action@v1.1
+        with:
+          release-drop: true
+          release-keep-count: 2
+          release-drop-tag: true
