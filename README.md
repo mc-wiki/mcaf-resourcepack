@@ -2,8 +2,6 @@
 
 *嗨，愚人节中文翻译包更新了，来测。*
 
-![Crowdin Localization Badge](https://badges.crowdin.net/mcaf-resourcepack/localized.svg)
-
 ## 项目背景
 
 从2024年愚人节快照起，愚人节快照的完成度已相当于一个小型模组。但历年愚人节快照所有字符串均不会通过Crowdin进行本地化，导致Wiki相关条目易出现共识问题。由此本人搭建这一项目以期望促进Wiki相关页面共识讨论工作，同时进行“与Wiki相一致的游戏内中文翻译包”的分发工作。
@@ -24,6 +22,11 @@
 ## 参与翻译
 
 Crowdin：[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/project/mcaf-resourcepack)
+
+[![zh-CN translation](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-CN&style=flat&logo=crowdin&query=%24.progress.1.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
+[![zh-HK translation](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-HK&style=flat&logo=crowdin&query=%24.progress.2.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
+[![zh-TW translation](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-TW&style=flat&logo=crowdin&query=%24.progress.3.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
+[![lzh translation](https://img.shields.io/badge/dynamic/json?color=blue&label=lzh&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
 
 ## 反馈问题
 
