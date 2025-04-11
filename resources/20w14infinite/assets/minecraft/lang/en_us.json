@@ -12,5 +12,7 @@
     "block.minecraft.book_box": "Box of Infinite Books",
     "item.minecraft.footprint": "Footprint",
     "item.minecraft.fine_item": "A Very Fine Item",
-    "stat.minecraft.change_dimension": "Dimensions changes"
+    "stat.minecraft.change_dimension": "Dimensions changes",
+    "subtitles.block.end_portal.spawn": "End Portal opens!",
+    "subtitles.entity.horse.land": "Horse lands"
 }
