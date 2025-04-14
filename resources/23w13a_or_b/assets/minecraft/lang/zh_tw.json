@@ -38,5 +38,6 @@
     "item.minecraft.tipped_arrow.effect.big": "變大之箭",
     "item.minecraft.tipped_arrow.effect.small": "變小之箭",
     "item.minecraft.dupe_hack": "minecraft:dupe_hack",
-    "item.minecraft.la_baguette": "長棍麵包"
+    "item.minecraft.la_baguette": "長棍麵包",
+    "key.voting": "投票"
 }
