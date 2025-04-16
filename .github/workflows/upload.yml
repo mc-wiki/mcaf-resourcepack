@@ -10,7 +10,7 @@ on:
     branches:
       - main
     paths:
-      - 'resources/**/en_us.json'
+      - 'resources/en_us/*'
 
 jobs:
   synchronize-with-crowdin:
