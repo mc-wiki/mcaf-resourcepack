@@ -1,1 +1,15 @@
-{}
+{
+    "advancements.adventure.almost_there.title": "行百里者半九十",
+    "advancements.adventure.almost_there.description": "訪界及十億",
+    "biome.minecraft.between": "間",
+    "biome.minecraft.shapes": "型",
+    "block.minecraft.ant": "一蟻",
+    "block.minecraft.zone": "殘物",
+    "block.minecraft.netherite_stairs": "冠史耀階",
+    "block.minecraft.book_box": "不竭之書匣",
+    "item.minecraft.footprint": "足跡",
+    "item.minecraft.fine_item": "善物",
+    "stat.minecraft.change_dimension": "轉界數",
+    "subtitles.block.end_portal.spawn": "終界結界門開！",
+    "subtitles.entity.horse.land": "馬落"
+}

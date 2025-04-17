@@ -1,4 +1,11 @@
 {
+    "menu.select_episode": "擇章回",
+    "menu.modem_play": "ModemPlay(TM)",
+    "menu.modem_played1": "觱發",
+    "demo.help.buy": "啟簿表",
+    "demo.help.nag1": "且籍名於我戲",
+    "demo.help.nag2": "以咸闢章回，",
+    "demo.help.nag3": "悉取兵戎！",
     "demo.help.title": "礦藝享件",
     "key.increase_view": "擴幕幅",
     "key.decrease_view": "縮幕幅",
@@ -6,5 +13,12 @@
     "item.minecraft.blue_key": "靛管",
     "item.minecraft.yellow_key": "黃管",
     "item.minecraft.3d": "躍然",
-    "item.key.tooltip": "啟%s之門"
+    "item.key.tooltip": "啟%s之門",
+    "death.attack.nightmare": "%1$s尪弱於茲世",
+    "death.attack.nightmare.player": "%1$s尪弱於茲世（%2$s亦有與焉）",
+    "ui.next_disk.title": "須次碟",
+    "ui.next_disk.contents": "入第%s盤於甲卯而撳ENTER",
+    "ui.next_disk.wrong_contents": "迴車也哉！！！",
+    "feedback.line1": "惠賜卓見？報謬訐訟？臧否吾功？恭候鸞箋！",
+    "feedback.line2": "吾所：遂歷國思獨含府薛陀買羅師鱣巷第四十三戶魔贊社"
 }
