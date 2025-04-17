@@ -1,4 +1,6 @@
 {
+    "action.repeal": "廢除「%s」",
+    "action.approve": "通過「%s」",
     "advancements.adventure.vote_1.title": "我投票了！",
     "advancements.adventure.vote_1.description": "第一次投票",
     "advancements.adventure.vote_256.title": "投票專家",
@@ -8,6 +10,7 @@
     "block.minecraft.pickaxe_block": "鎬方塊",
     "block.minecraft.place_block": "放置方塊",
     "block.minecraft.copper_sink": "銅水槽",
+    "block.minecraft.filled_copper_sink": "填滿的銅水槽",
     "block.minecraft.cheese": "起司",
     "block.minecraft.other_portal": "異界傳送門",
     "block.minecraft.packed_air": "壓縮空氣",
@@ -38,5 +41,16 @@
     "item.minecraft.tipped_arrow.effect.big": "變大之箭",
     "item.minecraft.tipped_arrow.effect.small": "變小之箭",
     "item.minecraft.dupe_hack": "minecraft:dupe_hack",
-    "item.minecraft.la_baguette": "長棍麵包"
+    "item.minecraft.la_baguette": "長棍麵包",
+    "key.voting": "投票",
+    "rule.infinite_cakes": "無限蛋糕",
+    "rule.recipe.minecraft.diamond_drows": "方配的劍石鑽用啟",
+    "rule.natural_spawn_disable": "停止自然生成 %s",
+    "rule.footprint.0": "腳印？什麼腳印？",
+    "rule.ai_attack.decorate": "[BOT] %s",
+    "rule.replace_sound": "將音效 %s 替換為 %s",
+    "rule.default_sheep_color": "將生成的綿羊毛色設為 %s",
+    "rule.autoJump.on": "自動跳躍開啟",
+    "rule.flailing.mild": "輕擺",
+    "rule.wheels_on_minecarts": "四輪礦車"
 }
