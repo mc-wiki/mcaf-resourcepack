@@ -11,15 +11,19 @@
 ## 项目特色
 
 - 尽可能快速、准确的愚人节快照的中文本地化支持。
-- 尽可能修复愚人节快照中找到的缺失本地化键名及错别字问题（例如2024年马铃薯牧羊人的纹理文件`shepherd_potato.png`错误拼写为`shepard_potato.png`等）。
+- 尽可能修复愚人节快照中发现的本地化键名缺失及错别字问题（例如2024年马铃薯牧羊人的纹理文件`shepherd_potato.png`错误拼写为`shepard_potato.png`等）。
 
 ## 如何使用
 
-在右侧最新Releases里下载需要的版本，然后安装到你的游戏。
+请在[最新Releases](https://github.com/Don-Trueno/mcaf-resourcepack/releases/latest)中下载需要的版本，然后安装到你的游戏。
 
 如果不会安装资源包，请见[这篇条目](https://zh.minecraft.wiki/?curid=10215#%E4%BD%BF%E7%94%A8%E8%B5%84%E6%BA%90%E5%8C%85)。
 
-## 参与翻译
+正在使用**2019年及以前的愚人节快照**？[看看这里吧](#2019年及以前的愚人节快照)。
+
+## 贡献方法
+
+### 参与翻译
 
 Crowdin：[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/project/mcaf-resourcepack)
 
@@ -28,31 +32,33 @@ Crowdin：[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/pr
 [![zh-TW translation](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-TW&style=flat&logo=crowdin&query=%24.progress.3.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
 [![lzh translation](https://img.shields.io/badge/dynamic/json?color=blue&label=lzh&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
 
-## 反馈问题
+### 反馈问题
 
 若游玩过程中出现英文文本：
 
 - 到Crowdin参与贡献（见[上一段](#参与翻译)）。
-- 如果在Crowdin也没发现此文本，大概率硬编码所致，资源包无法修复此问题。
+- 如果在Crowdin也没发现此文本，大概率为硬编码所致，资源包无法修复此问题。
 
-如游玩过程中出现本地化键名（类似`rule.food_restriction.air_block`的文本）：
+若游玩过程中出现本地化键名（类似`rule.food_restriction.air_block`）：
 
-- 一般是语言文件遗漏了，可在本仓库[Issues](https://github.com/Don-Trueno/mcaf-resourcepack/issues)反馈。
+- 一般是语言文件中的缺失，可在本仓库[Issues](https://github.com/Don-Trueno/mcaf-resourcepack/issues)中反馈。
 
-## 2019年<!--及以前的-->愚人节快照
+## 2019年及以前的愚人节快照
 
-繁体中文（香港）、文言自加入后，向前支持直至2019年8月22日发布的快照版本`19w34a`，晚于2019年愚人节快照`3D Shareware v1.34`的发布时间。对此：
+自香港繁体和文言加入后，向前支持直至2019年8月22日发布的快照19w34a。其晚于2019年愚人节快照3D Shareware v1.34的发布时间。对此：
 
 - Crowdin项目和自动打包的资源包中仍会包含相关语言文件，方便Wiki编写时参考。
-- 但2019年<!--及以前的-->愚人节快照中，这两种语言仍然不会出现在语言列表里。
+- 上述两种语言不会出现在语言列表，正常游戏内不可用，使用方法见[下方](#自15w14a至3d-shareware-v134)。
+  - 2013年及以前的愚人节快照除外。由于尚未加入简体中文，暂不在本项目计划内。
 
-如强烈需要，可自行修改`pack.mcmeta`为以下内容：
+### 自15w14a至3D Shareware v1.34
 
-```json
+若有使用需求，请自行修改压缩包中的`pack.mcmeta`：
+
+```jsonc
 {
     "pack": { 
-        "pack_format": 4,
-        "description": "适合3D Shareware v1.34的中文翻译包"
+        // 无需修改此段内容
     },
     "language": {
         "zh_hk": {
@@ -67,4 +73,8 @@ Crowdin：[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/pr
 }
 ```
 
-*另外，这些版本里硬编码文本超多的。资源包能起到的作用十分有限。*
+## 声明
+
+本项目内容采用[CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/)授权，可在Minecraft Wiki上使用。
+
+本项目与Mojang和微软亦无从属关系。
