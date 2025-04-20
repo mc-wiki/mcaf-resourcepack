@@ -49,7 +49,7 @@ Crowdin：[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/pr
 
 - Crowdin项目和自动打包的资源包中仍会包含相关语言文件，方便Wiki编写时参考。
 - 上述两种语言不会出现在语言列表，正常游戏内不可用，使用方法见[下方](#自15w14a至3d-shareware-v134)。
-  - 2013年及以前的愚人节快照除外。由于尚未加入简体中文，暂不在本项目计划内。
+  - 2013年及以前的愚人节快照除外。由于尚未加入资源包，暂不在本项目计划内。
 
 ### 自15w14a至3D Shareware v1.34
 
