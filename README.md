@@ -19,7 +19,7 @@
 
 如果不会安装资源包，请见[这篇条目](https://zh.minecraft.wiki/?curid=10215#%E4%BD%BF%E7%94%A8%E8%B5%84%E6%BA%90%E5%8C%85)。
 
-正在使用**2019年及以前的愚人节快照**？[看看这里吧](#2019年及以前的愚人节快照)。
+另，由于愚人节快照Minecraft 2.0发布时未加入资源包，暂不在本项目计划内。
 
 ## 贡献方法
 
@@ -43,17 +43,15 @@ Crowdin：[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/pr
 
 - 一般是语言文件中的缺失，可在本仓库[Issues](https://github.com/Don-Trueno/mcaf-resourcepack/issues)中反馈。
 
-## 2019年及以前的愚人节快照
+## 香港繁体和文言
 
-自香港繁体和文言加入后，向前支持直至2019年8月22日发布的快照19w34a。其晚于2019年愚人节快照3D Shareware v1.34的发布时间。对此：
+香港繁体和文言的加入，向前覆盖至2019年8月22日发布的快照19w34a。其晚于2019年愚人节快照3D Shareware v1.34的发布时间。
+
+因此，自15w14a至3D Shareware v1.34：
 
 - Crowdin项目和自动打包的资源包中仍会包含相关语言文件，方便Wiki编写时参考。
-- 上述两种语言不会出现在语言列表，正常游戏内不可用，使用方法见[下方](#自15w14a至3d-shareware-v134)。
-  - 2013年及以前的愚人节快照除外。由于尚未加入资源包，暂不在本项目计划内。
-
-### 自15w14a至3D Shareware v1.34
-
-若有使用需求，请自行修改压缩包中的`pack.mcmeta`：
+- 上述两种语言不会出现在语言列表，正常游戏内不可用。
+- 若有使用需求，请自行修改压缩包中的`pack.mcmeta`，格式如下（需去除注释）。
 
 ```jsonc
 {
@@ -61,7 +59,7 @@ Crowdin：[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/pr
         // 无需修改此段内容
     },
     "language": {
-        "zh_hk": {
+        "zh_hk": {  // 15w14a时改为"zh_HK"
             "name": "繁體中文",
             "region": "香港特別行政區"
         },
