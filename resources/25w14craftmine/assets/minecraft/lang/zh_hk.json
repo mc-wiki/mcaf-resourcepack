@@ -122,6 +122,7 @@
     "unlocks.unlock.pet_turtle.name": "寵物海龜",
     "unlocks.unlock.pet_wolf_big.name": "恐狼",
     "unlocks.unlock.pet_wolf.name": "寵物狼",
+    "unlocks.unlock.starter_apples.name": "醫囑",
     "world.effect.fish_out_of_water.description": "一直游泳便是",
     "world.effect.fish_out_of_water.hint": "釣魚！",
     "world.effect.fish_out_of_water.name": "如魚失水",
@@ -130,5 +131,6 @@
     "world.effect.icy.description": "可能有點滑⋯⋯",
     "world.effect.water_world.description": "就像奇雲高士拿的那套熱門電影一樣",
     "world.effect.water_world.hint": "完成一個乾燥礦境",
-    "world.effect.water_world.name": "水世界"
+    "world.effect.water_world.name": "水世界",
+    "world.effect.witches.description": "不憚辛勞不憚煩"
 }
