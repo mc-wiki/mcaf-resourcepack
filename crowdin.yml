@@ -1,10 +1,10 @@
 files:
-  - source: 'resources/en_us/15w14a.lang'
+  - source: 'en_us/15w14a.lang'
     translation: /resources/15w14a/assets/minecraft/lang/%locale%.lang
 
-  - source: 'resources/en_us/1.RV-Pre1.lang'
+  - source: 'en_us/1.RV-Pre1.lang'
     translation: /resources/1.RV-Pre1/assets/minecraft/lang/%locale_with_underscore%.lang
 
-  - source: 'resources/en_us/*.json'
+  - source: 'en_us/*.json'
     translation: /resources/%file_name%/assets/minecraft/lang/%locale_with_underscore%.json
 

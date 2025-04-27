@@ -1,4 +1,4 @@
-name: Auto Sync with Crowdin
+name: Sync and Release
 
 permissions:
   contents: write
@@ -30,17 +30,69 @@ jobs:
         with:
           upload_sources: false
           upload_translations: false
-          import_eq_suggestions: true
 
           # Export options
           download_translations: true
           skip_untranslated_strings: true
           export_only_approved: false
 
-          # Create Pull Requests
-          localization_branch_name: l10n_main
-          create_pull_request: true
-          pull_request_title: 'New Crowdin Translations'
-          pull_request_body: 'New Crowdin pull request with translations'
-          pull_request_assignees: 'crowdin-bot'
-          pull_request_base_branch_name: 'main'
+          localization_branch_name: main
+          create_pull_request: false
+          commit_message: New Crowdin translations
+
+  list_folders:
+    runs-on: ubuntu-latest
+    outputs:
+      folders_json: ${{ steps.list_folders.outputs.folders_json }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: List Folders and Set as Output
+        id: list_folders
+        run: |
+          FOLDERS=$(find ./resources -maxdepth 1 -type d -not -path './resources' -printf '"%f", ' | sed 's/, $//')
+          echo "folders_json=[$FOLDERS]" >> $GITHUB_OUTPUT
+
+  create_release:
+    runs-on: ubuntu-latest
+    outputs:
+      release_id: ${{ steps.create_release.outputs.id }}
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+    steps:
+      - name: create_release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          body: |
+            自动构建的资源包。
+            - Run ID: ${{ github.run_id }}
+            - Commit SHA: ${{ github.sha }}
+          name: Build ${{ github.run_number }}
+          tag_name: "build-${{ github.run_number }}"
+
+  release:
+    needs: [list_folders, create_release]
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        folder: ${{ fromJson(needs.list_folders.outputs.folders_json) }}
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Package Resources for ${{ matrix.folder }}
+        run: |
+          cd resources/${{ matrix.folder }}
+          zip -r ../../${{ matrix.folder }}.zip ./*
+
+      - name: Upload Packaged Release for ${{ matrix.folder }}
+        uses: xresloader/upload-to-github-release@v1
+        with:
+          file: "${{ matrix.folder }}.zip"
+          release_id: ${{ needs.create_release.outputs.release_id }}
+          overwrite: true
