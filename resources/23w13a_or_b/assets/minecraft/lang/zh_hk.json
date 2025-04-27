@@ -223,6 +223,10 @@
     "rule.food_restriction.sweet_berries": "甜蜜蜜飲食",
     "rule.food_restriction.tropical_fish": "只吃 Mo 仔",
     "rule.food_restriction.inedible.air_block": "色即是空",
+    "rule.food_restriction.inedible.cookie": "黃黚黚",
+    "rule.food_restriction.inedible.honey_bottle": "甜耶耶",
+    "rule.food_restriction.inedible.rabbit": "兔仔 :(",
     "rule.wheels_on_minecarts": "四輪礦車！",
+    "rule.fire_sponge": "海綿可以吸去熔岩",
     "stat.minecraft.votes": "投票次數"
 }
