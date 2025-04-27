@@ -64,7 +64,15 @@ jobs:
           TIME="$(TZ='Asia/Shanghai' date +'%y%m%d%H%M')"
           echo "TIME=$TIME" >> $GITHUB_ENV
 
-      - name: create_release
+
+      - name: clean old release
+        uses: dev-drprasad/delete-older-releases@v0.3.4
+        with:
+          keep_latest: 10
+          delete_tags: true
+
+
+      - name: create release
         id: create_release
         uses: softprops/action-gh-release@v2
         with:
@@ -73,7 +81,7 @@ jobs:
             - Run ID: ${{ github.run_id }}
             - Commit SHA: ${{ github.sha }}
           name: Build ${{ env.TIME }}
-          tag_name: "${{ github.sha }}"
+          tag_name: "build-${{ github.run_id }}"
 
   release:
     needs: [list_folders, create_release]
@@ -100,8 +108,3 @@ jobs:
           file: "${{ matrix.folder }}.zip"
           release_id: ${{ needs.create_release.outputs.release_id }}
           overwrite: true
-
-      - uses: dev-drprasad/delete-older-releases@v0.3.4
-        with:
-          keep_latest: 10
-          delete_tags: true

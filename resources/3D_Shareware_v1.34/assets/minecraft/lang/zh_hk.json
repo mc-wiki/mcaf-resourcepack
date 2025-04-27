@@ -20,7 +20,7 @@
     "death.attack.nightmare.player": "%1$s 對於世界來説太弱小了（%2$s 幫助了）",
     "ui.next_disk.title": "插入下一張磁碟",
     "ui.next_disk.contents": "在軟碟機A中插入第%s張磁碟並按下ENTER鍵",
-    "ui.next_disk.wrong_contents": "我說ENTER！！！",
+    "ui.next_disk.wrong_contents": "我話ENTER！",
     "feedback.line1": "提建議？報錯誤？點個讚？向我們郵寄一張明信片！",
     "feedback.line2": "我們的地址：Mojang AB, Söder Mälarstrand 43, 118 25 Stockholm, Sweden"
 }
