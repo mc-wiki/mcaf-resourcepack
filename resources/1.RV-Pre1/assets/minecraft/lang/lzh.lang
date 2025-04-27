@@ -1,4 +1,5 @@
-item.realityVision.name=真視
+tile.usbCharger.name=萬卷牒注電塊
+item.realityVision.name=真視叆叇
 item.ankleMonitor.name=電鐐
 item.ankleMonitor.warning=金吾誡曰：汝破戒矣！其回%s方！
 item.ankleMonitor.warning2=金吾誡曰：汝破戒矣！今安在哉？
@@ -6,5 +7,6 @@ item.ankleMonitor.warning10=金吾誡曰：……
 item.ankleMonitor.warning15=金吾誡曰：噫吁嚱……
 item.ankleMonitor.warning18=金吾誡曰：今則斃矣。
 item.ankleMonitor.warning25=金吾誡曰：澌澌
+item.smarterWatch.name=智錶
 item.smarterWatch.update=誡！%s今爲%d！
 item.smarterWatch.damage=誡！汝近來傷以%d！
