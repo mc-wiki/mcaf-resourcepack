@@ -84,7 +84,7 @@ jobs:
           tag_name: "build-${{ github.run_id }}"
 
   release:
-    needs: [list_folders, create_release]
+    needs: [synchronize-with-crowdin, list_folders, create_release]
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
