@@ -61,7 +61,7 @@ jobs:
     steps:
       - name: set time
         run: |
-          TIME="$(TZ='Asia/Shanghai' date +'%y%m%d%H%M')"
+          TIME="$(TZ='Asia/Shanghai' date +'%y%m%d-%H%M')"
           echo "TIME=$TIME" >> $GITHUB_ENV
 
 
@@ -81,7 +81,7 @@ jobs:
             - Run ID: ${{ github.run_id }}
             - Commit SHA: ${{ github.sha }}
           name: Build ${{ env.TIME }}
-          tag_name: "build-${{ github.run_id }}"
+          tag_name: "build-${{ env.TIME }}"
 
   release:
     needs: [synchronize-with-crowdin, list_folders, create_release]
