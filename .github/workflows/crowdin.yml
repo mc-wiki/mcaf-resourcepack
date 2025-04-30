@@ -1,4 +1,4 @@
-name: Sync with Crowdin
+name: Sync and Release
 
 permissions:
   contents: write
@@ -7,16 +7,19 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: "0 */3 * * *"
   push:
     branches:
       - main
     paths:
-      - 'en_us/*'
+      - "en_us/*"
 
 jobs:
-  synchronize-with-crowdin:
+  sync_and_prepare:
     runs-on: ubuntu-latest
+    outputs:
+      has_commits: ${{ steps.check.outputs.has_commits }}
+      folders_json: ${{ steps.list_folders.outputs.folders_json }}
 
     env:
       GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -43,3 +46,98 @@ jobs:
           localization_branch_name: main
           create_pull_request: false
           commit_message: New Crowdin translations
+
+      - name: Get latest tag
+        id: get_tag
+        run: |
+          latest_tag=$(git describe --tags --abbrev=0)
+          echo "Latest tag: $latest_tag"
+          echo "tag=$latest_tag" >> $GITHUB_OUTPUT
+
+      - name: Check commits since latest tag
+        id: check
+        run: |
+          commits=$(git rev-list ${{ steps.get_tag.outputs.tag }}..HEAD --count)
+          echo "Commits since tag: $commits"
+          if [ "$commits" -eq "0" ]; then
+            echo "has_commits=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_commits=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: List folders
+        id: list_folders
+        run: |
+          FOLDERS=$(find ./resources -maxdepth 1 -type d -not -path './resources' -printf '"%f", ' | sed 's/, $//')
+          echo "folders_json=[$FOLDERS]" >> $GITHUB_OUTPUT
+
+  create_release:
+    runs-on: ubuntu-latest
+    needs: sync_and_prepare
+    if: needs.sync_and_prepare.outputs.has_commits == 'true'
+
+    outputs:
+      release_id: ${{ steps.create_release.outputs.id }}
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+    steps:
+      - name: set time
+        run: |
+          TIME="$(TZ='Asia/Shanghai' date +'%y%m%d-%H%M')"
+          echo "TIME=$TIME" >> $GITHUB_ENV
+
+      - name: create release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          body: |
+            自动构建的资源包。
+            - Run ID: ${{ github.run_id }}
+            - Commit SHA: ${{ github.sha }}
+          name: Build ${{ env.TIME }}
+          tag_name: "build-${{ env.TIME }}"
+
+  release:
+    needs: [sync_and_prepare, create_release]
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        folder: ${{ fromJson(needs.sync_and_prepare.outputs.folders_json) }}
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Package Resources for ${{ matrix.folder }}
+        run: |
+          cd resources/${{ matrix.folder }}
+          zip -r ../../${{ matrix.folder }}.zip ./*
+
+      - name: Upload Packaged Release for ${{ matrix.folder }}
+        uses: xresloader/upload-to-github-release@v1
+        with:
+          file: "${{ matrix.folder }}.zip"
+          release_id: ${{ needs.create_release.outputs.release_id }}
+          overwrite: true
+
+  clean_up:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+    steps:
+      - name: clean old release
+        uses: dev-drprasad/delete-older-releases@v0.3.4
+        with:
+          keep_latest: 10
+          delete_tags: true
+
+      - name: Delete workflow runs
+        uses: dmvict/clean-workflow-runs@v1.0.0
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          save_period: 10
