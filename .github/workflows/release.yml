@@ -1,0 +1,91 @@
+name: Create Release
+
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "resources/*"
+
+jobs:
+  list_folders:
+    runs-on: ubuntu-latest
+    outputs:
+      folders_json: ${{ steps.list_folders.outputs.folders_json }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: List Folders and Set as Output
+        id: list_folders
+        run: |
+          FOLDERS=$(find ./resources -maxdepth 1 -type d -not -path './resources' -printf '"%f", ' | sed 's/, $//')
+          echo "folders_json=[$FOLDERS]" >> $GITHUB_OUTPUT
+
+  create_release:
+    runs-on: ubuntu-latest
+    outputs:
+      release_id: ${{ steps.create_release.outputs.id }}
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+    steps:
+      - name: set time
+        run: |
+          TIME="$(TZ='Asia/Shanghai' date +'%y%m%d-%H%M')"
+          echo "TIME=$TIME" >> $GITHUB_ENV
+
+      - name: clean old release
+        uses: dev-drprasad/delete-older-releases@v0.3.4
+        with:
+          keep_latest: 10
+          delete_tags: true
+
+      - name: create release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          body: |
+            自动构建的资源包。
+            - Run ID: ${{ github.run_id }}
+            - Commit SHA: ${{ github.sha }}
+          name: Build ${{ env.TIME }}
+          tag_name: "build-${{ env.TIME }}"
+
+  release:
+    needs: [list_folders, create_release]
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        folder: ${{ fromJson(needs.list_folders.outputs.folders_json) }}
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Package Resources for ${{ matrix.folder }}
+        run: |
+          cd resources/${{ matrix.folder }}
+          zip -r ../../${{ matrix.folder }}.zip ./*
+
+      - name: Upload Packaged Release for ${{ matrix.folder }}
+        uses: xresloader/upload-to-github-release@v1
+        with:
+          file: "${{ matrix.folder }}.zip"
+          release_id: ${{ needs.create_release.outputs.release_id }}
+          overwrite: true
+
+  delete_runs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete workflow runs
+        uses: dmvict/clean-workflow-runs@v1.0.0
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          save_period: 10
