@@ -87,7 +87,7 @@
     "advancements.unlocks.root.title": "解锁",
     "advancements.unlocks.sigma_grindset.description": "完成“知识”项目树",
     "advancements.unlocks.sigma_grindset.title": "西格玛男人",
-    "attribute.name.experience_gain_modifier": "经验值获取乘数",
+    "attribute.name.experience_gain_modifier": "经验值获取倍数",
     "attribute.name.max_jumps": "最大连跳次数",
     "attribute.name.pickup_area_size": "拾取范围大小",
     "block.minecraft.bed.no_sleep_for_you": "今天没你的觉睡！",
