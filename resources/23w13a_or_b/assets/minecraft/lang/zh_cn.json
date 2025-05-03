@@ -257,7 +257,7 @@
     "rule.autojump.off": "关闭自动跳跃",
     "rule.autoJump.yes": "自动跳跃？好的",
     "rule.autoJump.on": "开启自动跳跃",
-    "rule.autoJump.true": "自动跳跃：实现",
+    "rule.autoJump.true": "自动跳跃：开",
     "rule.autoJump.of_course": "自动跳跃？当然",
     "rule.autoJump.also_default_vanilla_to_true": "开启自动跳跃。同时将原版自动跳跃的默认值设为开启",
     "rule.midas_touch": "夺取强大的迈达斯之力",
