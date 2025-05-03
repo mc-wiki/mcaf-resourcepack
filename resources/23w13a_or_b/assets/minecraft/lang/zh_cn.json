@@ -289,7 +289,7 @@
     "rule.food_restriction.cake": "生日大餐",
     "rule.food_restriction.carrot": "兔子饮食",
     "rule.food_restriction.chicken": "沙门氏菌大餐",
-    "rule.food_restriction.chorus_fruit": "“吃了会传送”大餐",
+    "rule.food_restriction.chorus_fruit": "尽享传送大餐",
     "rule.food_restriction.cod": "腥味十足大餐",
     "rule.food_restriction.cooked_beef": "无肉不欢大餐",
     "rule.food_restriction.cooked_chicken": "鸡块大餐",
@@ -491,6 +491,6 @@
     "vote.voted": "⯪我投票啦！⯫",
     "vote.show_current_rules": "显示已通过的提案",
     "vote.current_rules": "（目前）所有已启用的规则",
-    "tooltip.too_long": "提示框过长，按下Ctrl+左键以显示全部内容",
+    "tooltip.too_long": "提示框过长，按下Ctrl+左键显示全部",
     "tooltip.more_like_cooltip": "长提示框屏幕"
 }
