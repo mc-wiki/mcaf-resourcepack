@@ -460,7 +460,7 @@
     "vote.no_resources": "缺少资源",
     "vote.started": "开始对%s的投票（%s）",
     "vote.finished": "%s的投票结束",
-    "vote.failed": "投票未通过：%s",
+    "vote.failed": "投票失败：%s",
     "vote.total_count": "从%2$s名玩家处获得共计%1$s票",
     "vote.option_count": "选项#%s“%s”从%4$s名玩家处获得共计%3$s票",
     "vote.option_no_count": "选项#%s “%s”的投票者：",
