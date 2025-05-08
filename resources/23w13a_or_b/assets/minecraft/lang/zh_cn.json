@@ -227,7 +227,7 @@
     "rule.text_style.underline": "为“%s”添加下划线",
     "rule.text_style.italic": "把“%s”打歪",
     "rule.text_style.thin": "将“%s”取消加粗",
-    "rule.text_style.sga": "“%s”将带有魔法",
+    "rule.text_style.sga": "将“%s”注入魔力",
     "rule.text_style.illager": "把“%s”送去地牢",
     "rule.give_items": "给予所有在线玩家%s个%s",
     "rule.tnt_tennis": "点燃的TNT可以被击退",
