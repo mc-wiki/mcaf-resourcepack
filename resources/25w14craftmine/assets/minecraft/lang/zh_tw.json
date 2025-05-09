@@ -160,6 +160,7 @@
     "level.gained": "你已升級至 %s 等！",
     "level.unlock_hint": "按下 %s 以花費等級解鎖項",
     "mine.angry_ghast_boss.description": "這傢夥對你沒有好臉色",
+    "mine.angry_ghast_boss.name": "憤怒幽靈",
     "mine.ender_dragon_boss.description": "看來這就是游戏終局了",
     "mine.ender_dragon_boss.name": "終界龍",
     "mine.enderman_boss.description": "那個獨一無二的終界使者",
