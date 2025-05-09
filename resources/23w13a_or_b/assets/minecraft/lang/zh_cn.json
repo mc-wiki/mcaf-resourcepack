@@ -401,7 +401,7 @@
     "rule.payment.item": "村民接受%s，而不再是宝石",
     "rule.payment.seed": "村民接受随机指定的物品，而不再是宝石",
     "rule.payment.seed_reshuffle": "村民接受随机指定的物品，而不再是宝石（重新随机）",
-    "rule.rubies": "用红宝石替换绿宝石物品（仅此而已——我们懒得把它真正做好）",
+    "rule.rubies": "将绿宝石物品替换为红宝石（仅此而已，我们懒得把它做好）",
     "rule.ultra_realistic_mode": "超现实模式",
     "rule.endermen_pick_up_anything": "末影人能够搬起任何东西",
     "rule.beeloons": "启用蜜蜂气球",
