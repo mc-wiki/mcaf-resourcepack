@@ -206,7 +206,7 @@
     "mine.wither_boss.description": "危险！危险！",
     "mine.wither_boss.name": "凋灵",
     "mine.won": "矿境挑战成功",
-    "mine.won.rewards": "%s赢得了%s点经验值",
+    "mine.won.rewards": "%s赢得了%s点经验",
     "minecraftlike.pack_name": "第%s关",
     "multiplayer.enteringMap.0": "正在进入矿境…",
     "multiplayer.enteringMap.1": "正在处理某件重要事务…",
