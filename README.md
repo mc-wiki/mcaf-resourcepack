@@ -10,16 +10,18 @@
 
 ## 项目特色
 
-- 尽可能快速、准确的愚人节快照的中文本地化支持。
+- 尽可能快速、准确地提供最新愚人节快照的中文本地化支持。
 - 尽可能修复愚人节快照中发现的本地化键名缺失及错别字问题（例如2024年马铃薯牧羊人的纹理文件`shepherd_potato.png`错误拼写为`shepard_potato.png`等）。
 
 ## 如何使用
 
 请在[最新Releases](https://github.com/Don-Trueno/mcaf-resourcepack/releases/latest)中下载需要的版本，然后安装到你的游戏。
 
+建议同时搭配[翻新翻译资源包](https://github.com/SkyEye-FAST/renovation_translation_pack)使用。
+
 如果不会安装资源包，请见[这篇条目](https://zh.minecraft.wiki/?curid=10215#%E4%BD%BF%E7%94%A8%E8%B5%84%E6%BA%90%E5%8C%85)。
 
-另，由于愚人节快照Minecraft 2.0发布时未加入资源包，暂不在本项目计划内。
+另，由于愚人节快照Minecraft 2.0发布时未加入资源包功能，该版本暂不在本项目计划内。
 
 ## 贡献方法
 
