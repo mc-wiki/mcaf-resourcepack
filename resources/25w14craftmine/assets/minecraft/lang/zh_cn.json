@@ -891,7 +891,7 @@
     "world.effect.ultrawarm.description": "这里越来越热了",
     "world.effect.ultrawarm.hint": "站在熔岩里…如果你胆子够大",
     "world.effect.ultrawarm.name": "超高温",
-    "world.effect.universal_anger.description": "所有中立生物保持敌对",
+    "world.effect.universal_anger.description": "所有中立生物始终保持敌对",
     "world.effect.universal_anger.hint": "成功挑战一个含有“蜜蜂”原料的矿境",
     "world.effect.universal_anger.name": "（近乎）无差别愤怒",
     "world.effect.unlock": "将此物品带到矿境出口，可解锁为矿境原料",
