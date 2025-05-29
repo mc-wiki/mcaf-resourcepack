@@ -11,13 +11,11 @@
 ## 项目特色
 
 - 尽可能快速、准确地提供最新愚人节快照的中文本地化支持。
-- 尽可能修复愚人节快照中发现的本地化键名缺失及错别字问题（例如2024年马铃薯牧羊人的纹理文件`shepherd_potato.png`错误拼写为`shepard_potato.png`等）。
+- 尽可能修复愚人节快照中发现的本地化键名缺失及严重错别字问题（例如2024年马铃薯牧羊人的纹理文件`shepherd_potato.png`错误拼写为`shepard_potato.png`等）。
 
 ## 如何使用
 
 请在[最新Releases](https://github.com/Don-Trueno/mcaf-resourcepack/releases/latest)中下载需要的版本，然后安装到你的游戏。
-
-建议同时搭配[翻新翻译资源包](https://github.com/SkyEye-FAST/renovation_translation_pack)使用。
 
 如果不会安装资源包，请见[这篇条目](https://zh.minecraft.wiki/?curid=10215#%E4%BD%BF%E7%94%A8%E8%B5%84%E6%BA%90%E5%8C%85)。
 
@@ -37,12 +35,10 @@ Crowdin：[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/pr
 ### 反馈问题
 
 若游玩过程中出现英文文本：
-
 - 到Crowdin参与贡献（见[上一段](#参与翻译)）。
 - 如果在Crowdin也没发现此文本，大概率为硬编码所致，资源包无法修复此问题。
 
 若游玩过程中出现本地化键名（类似`rule.food_restriction.air_block`）：
-
 - 一般是语言文件中的缺失，可在本仓库[Issues](https://github.com/Don-Trueno/mcaf-resourcepack/issues)中反馈。
 
 ## 香港繁体和文言
@@ -50,7 +46,6 @@ Crowdin：[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/pr
 香港繁体和文言的加入，向前覆盖至2019年8月22日发布的快照19w34a。其晚于2019年愚人节快照3D Shareware v1.34的发布时间。
 
 因此，自15w14a至3D Shareware v1.34：
-
 - Crowdin项目和自动打包的资源包中仍会包含相关语言文件，方便Wiki编写时参考。
 - 上述两种语言不会出现在语言列表，正常游戏内不可用。
 - 若有使用需求，请自行修改压缩包中的`pack.mcmeta`，格式如下（需去除注释）。
