@@ -105,7 +105,7 @@
     "rule.flammability.low": "将%s的可燃性设为低",
     "rule.flammability.medium": "将%s的可燃性设为中等",
     "rule.flammability.high": "将%s的可燃性设为高",
-    "rule.flammability.very_high": "将%s的可燃性设为“字面上的枯草丛”",
+    "rule.flammability.very_high": "将%s的可燃性设为“真正的枯草丛”",
     "rule.pot_gems": "饰纹陶罐被破坏后掉落宝石",
     "rule.infinite_cakes": "无限蛋糕",
     "rule.give_effect": "给予所有玩家无限时长的%s效果",
