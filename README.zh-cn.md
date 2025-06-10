@@ -1,7 +1,6 @@
 # Minecraft愚人节翻译资源包
 
-[![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/mc-wiki/mcaf-resourcepack/blob/master/README.md)
-[![zh-cn](https://img.shields.io/badge/lang-zh--cn-red.svg)](https://github.com/mc-wiki/mcaf-resourcepack/blob/master/README.zh-cn.md)
+[English](README.md) | **[简体中文](README.zh-cn.md)**
 
 ## 项目背景
 
@@ -28,14 +27,14 @@
 
 Crowdin：[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/project/mcaf-resourcepack)
 
-[![zh-CN translation](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-CN&style=flat&logo=crowdin&query=%24.progress.1.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
-[![zh-HK translation](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-HK&style=flat&logo=crowdin&query=%24.progress.2.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
-[![zh-TW translation](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-TW&style=flat&logo=crowdin&query=%24.progress.3.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
-[![lzh translation](https://img.shields.io/badge/dynamic/json?color=blue&label=lzh&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
+[![zh-CN翻译进度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-CN&style=flat&logo=crowdin&query=%24.progress.1.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
+[![zh-HK翻译进度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-HK&style=flat&logo=crowdin&query=%24.progress.2.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
+[![zh-TW翻译进度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-TW&style=flat&logo=crowdin&query=%24.progress.3.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
+[![lzh翻译进度](https://img.shields.io/badge/dynamic/json?color=blue&label=lzh&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
 
 ### 常见问题
 
-若游玩过程中出现英文文本：
+若游玩过程中出现未翻译的文本：
 
 - 到Crowdin参与贡献（见[上一段](#参与翻译)）。
 - 如果在Crowdin也没发现此文本，大概率为硬编码所致，资源包无法修复此问题。
@@ -44,6 +43,7 @@ Crowdin：[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/pr
 
 - 一般是语言文件中的缺失，可在本仓库[Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues)中反馈。
 
+<!-- Do not translate the following part -->
 ## 香港繁体和文言
 
 香港繁体和文言的加入，向前覆盖至2019年8月22日发布的快照19w34a。其晚于2019年愚人节快照3D Shareware v1.34的发布时间。
@@ -71,9 +71,3 @@ Crowdin：[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/pr
     }
 }
 ```
-
-## 声明
-
-本项目内容采用[CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/)授权，可在Minecraft Wiki上使用。
-
-本项目与Mojang和微软亦无从属关系。

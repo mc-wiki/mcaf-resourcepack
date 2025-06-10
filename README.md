@@ -1,19 +1,18 @@
 # Minecraft April Fools' Translation Resource Pack
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/mc-wiki/mcaf-resourcepack/blob/master/README.md)
-[![zh-cn](https://img.shields.io/badge/lang-zh--cn-green.svg)](https://github.com/mc-wiki/mcaf-resourcepack/blob/master/README.zh-cn.md)
+**[English](README.md)** | [简体中文](README.zh-cn.md)
 
 ## Introduction
 
-Since 2024, the April Fools' snapshots were fullfilled like a small mod. However, these snapshots will never be localized through Crowdin, which may make editors confusing while editing/tranlating related entries.
+Since 2024, the April Fools' snapshots were fulfilled like a small mod. However, these snapshots will never be localized through Crowdin, which may make editors confusing while editing/translating related entries.
 
-Therefore, this project was create both to promote consensus in Wiki groups while editing/tranlating and to distribute *in-game Wiki-translation resource packs*.
+Therefore, this project was created both to promote consensus in Wiki groups while editing/translating and to distribute *in-game Wiki-translation resource packs*.
 
 ## Features
 
 - For other language players, this project provides the latest localization support for April Fools' snapshots as quickly and accurately as possible.
-  - Currently support Chinese (`zh-CN`, `zh-HK`, `zh-TW` and `lzh`).
-<!--todo - For English players, this project also fixes issues like missing translation keys or typos as it can (like file `shepherd_potato.png` for Potato Shepherd was misspelled as `shepard_potato.png` in 2024).-->
+  - Currently supports Chinese (`zh-CN`, `zh-HK`, `zh-TW` and `lzh`).
+<!--TODO - For English players, this project also fixes issues like missing translation keys or typos as it can (like file `shepherd_potato.png` for Potato Shepherd was misspelled as `shepard_potato.png` in 2024).-->
 
 ## How to Use
 
@@ -36,7 +35,7 @@ Crowdin: [https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/pro
 
 ### FAQ
 
-During gameplay, if you encounter English text:
+During gameplay, if you encounter untranslated text:
 
 - Contribute on Crowdin (see [above](#participate-in-translation)).
 - If the text is not found on Crowdin, it is most likely hardcoded and cannot be fixed by the resource pack.
@@ -44,9 +43,3 @@ During gameplay, if you encounter English text:
 If you encounter raw translation keys (such as `rule.food_restriction.air_block`) during gameplay:
 
 - This is usually due to missing entries in the language files. You can report it in this repository's [Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues).
-
-## License
-
-The content of this project is licensed under [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) and can be used on the Minecraft Wiki.
-
-This project is not affiliated with Mojang or Microsoft.
