@@ -1,6 +1,6 @@
 # Minecraft愚人节翻译资源包
 
-[English](README.md) | **[简体中文](README.zh-cn.md)**
+[English](README.md) | 简体中文
 
 ## 项目背景
 
@@ -15,9 +15,7 @@
 
 请在[最新Releases](https://github.com/mc-wiki/mcaf-resourcepack/releases/latest)中下载需要的版本，然后安装到你的游戏。
 
-建议同时搭配[翻新翻译资源包](https://github.com/SkyEye-FAST/renovation_translation_pack)使用。
-
-如果不会安装资源包，请见[这篇条目](https://zh.minecraft.wiki/?curid=10215#%E4%BD%BF%E7%94%A8%E8%B5%84%E6%BA%90%E5%8C%85)。
+如果不会安装资源包，请阅读[这篇条目](https://zh.minecraft.wiki/?curid=10215#%E4%BD%BF%E7%94%A8%E8%B5%84%E6%BA%90%E5%8C%85)。
 
 另，由于愚人节快照Minecraft 2.0发布时未加入资源包功能，该版本暂不在本项目计划内。
 

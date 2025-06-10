@@ -1,6 +1,6 @@
 # Minecraft April Fools' Translation Resource Pack
 
-**[English](README.md)** | [简体中文](README.zh-cn.md)
+English | [简体中文](README.zh-cn.md)
 
 ## Introduction
 
@@ -16,9 +16,9 @@ Therefore, this project was created both to promote consensus in Wiki groups whi
 
 ## How to Use
 
-Check the [latest Release](https://github.com/mc-wiki/mcaf-resourcepack/releases/latest), download the pack you need and install it in your game.
+Check the [Latest Release](https://github.com/mc-wiki/mcaf-resourcepack/releases/latest), download the pack you need and install it in your game.
 
-In case you don't know how to install a resource pack, please check [this article](https://minecraft.wiki/w/Tutorial:Loading_a_resource_pack).
+In case you don't know how to install a resource pack, please read [this article](https://minecraft.wiki/w/Tutorial:Loading_a_resource_pack).
 
 Additionally, since resource pack hadn't been available when Minecraft 2.0 was released, currently that version will not be planned for this project.
 
@@ -35,11 +35,11 @@ Crowdin: [https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/pro
 
 ### FAQ
 
-During gameplay, if you encounter untranslated text:
+During gameplay, if you encounter untranslated texts:
 
 - Contribute on Crowdin (see [above](#participate-in-translation)).
 - If the text is not found on Crowdin, it is most likely hardcoded and cannot be fixed by the resource pack.
 
 If you encounter raw translation keys (such as `rule.food_restriction.air_block`) during gameplay:
 
-- This is usually due to missing entries in the language files. You can report it in this repository's [Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues).
+- This is usually due to missing entries in language files. You can report it in this repository's [Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues).
