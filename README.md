@@ -11,8 +11,8 @@ Therefore, this project was created both to promote consensus in Wiki groups whi
 ## Features
 
 - For other language players, this project provides the latest localization support for April Fools' snapshots as quickly and accurately as possible.
-  - Currently supports Chinese (`zh-CN`, `zh-HK`, `zh-TW` and `lzh`).
-<!--TODO - For English players, this project also fixes issues like missing translation keys or typos as it can (like file `shepherd_potato.png` for Potato Shepherd was misspelled as `shepard_potato.png` in 2024).-->
+  - Currently support 4 languages (`zh-CN`, `zh-HK`, `zh-TW` and `lzh`).
+- For English players, this project also fixes issues like missing translation keys or severe typos as it can (like file `shepherd_potato.png` for Potato Shepherd was misspelled as `shepard_potato.png` in 2024).
 
 ## How to Use
 
