@@ -17,6 +17,7 @@ on:
 
 jobs:
   sync_and_prepare:
+    if: "!contains(github.event.head_commit.message, '[skip ci]') && github.event_name == 'push'"
     runs-on: ubuntu-latest
     outputs:
       has_commits: ${{ steps.check.outputs.has_commits }}
@@ -141,22 +142,7 @@ jobs:
             - Run ID: ${{ github.run_id }}
             - Commit SHA: ${{ github.sha }}
           loaders: minecraft
-          game-versions: '3D-Shareware-v1.34'
-          files: '${{ matrix.folder }}.zip'
-
-      - name: Upload to Modrinth
-        if: matrix.folder != '3D_Shareware_v1.34'
-        uses: mc-wiki/modrinth-publish@main
-        with:
-          token: ${{ secrets.MODRINTH_TOKEN }}
-          project: '1NAoXRE0'
-          version: '${{ needs.create_release.outputs.time }}+${{ matrix.folder }}'
-          changelog: |
-            Resource packs built from the latest Crowdin translations.
-            - Run ID: ${{ github.run_id }}
-            - Commit SHA: ${{ github.sha }}
-          loaders: minecraft
-          game-versions: ${{ matrix.folder }}
+          game-versions: ${{ matrix.folder != '3D_Shareware_v1.34' && matrix.folder || '3D-Shareware-v1.34'}}
           files: '${{ matrix.folder }}.zip'
 
   clean_up:
