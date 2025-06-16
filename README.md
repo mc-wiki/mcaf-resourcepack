@@ -1,45 +1,50 @@
-# Minecraft April Fools' Translation Resource Pack
+# Minecraft April Fools' Translation Packs
 
 English | [简体中文](README.zh-cn.md)
 
-## Introduction
+**Play April Fools' snapshots with community-driven translations from the Minecraft Wiki.**
 
-Since 2024, the April Fools' snapshots were fulfilled like a small mod. However, these snapshots will never be localized through Crowdin, which may make editors confusing while editing/translating related entries.
-
-Therefore, this project was created both to promote consensus in Wiki groups while editing/translating and to distribute *in-game Wiki-translation resource packs*.
+April Fools' snapshots are not officially localized via Crowdin, but the Minecraft Wiki community provides translations for their features. This project consolidates those translations to facilitate communication and promote consensus on item names.
 
 ## Features
 
-- For other language players, this project provides the latest localization support for April Fools' snapshots as quickly and accurately as possible.
-  - Currently support 4 languages (`zh-CN`, `zh-HK`, `zh-TW` and `lzh`).
-- For English players, this project also fixes issues like missing translation keys or severe typos as it can (like file `shepherd_potato.png` for Potato Shepherd was misspelled as `shepard_potato.png` in 2024).
+- Provides accurate and up-to-date localization for April Fools' snapshots.
+- Fixes missing translation keys and major typos (e.g., correcting `shepard_potato.png` to `shepherd_potato.png` in 24w14potato).
 
-## How to Use
+All currently supported languages:
 
-Check the [Latest Release](https://github.com/mc-wiki/mcaf-resourcepack/releases/latest), download the pack you need and install it in your game.
+- `lzh`: 文言
+- `zh_cn`: 简体中文（中国大陆）
+- `zh_hk`: 繁體中文（香港特別行政區）
+- `zh_tw`: 繁體中文（台灣）
 
-In case you don't know how to install a resource pack, please read [this article](https://minecraft.wiki/w/Tutorial:Loading_a_resource_pack).
+## How to use
 
-Additionally, since resource pack hadn't been available when Minecraft 2.0 was released, currently that version will not be planned for this project.
+1. Visit the [Latest Release](https://github.com/mc-wiki/mcaf-resourcepack/releases/latest) page.
+2. Download the resource pack for your language.
+3. Install it in your game.
 
-## Contribution Guidance
+Need help installing? See the [wiki tutorial](https://minecraft.wiki/w/Tutorial:Loading_a_resource_pack).
 
-### Participate in Translation
+> [!NOTE]
+> Minecraft 2.0 is not included in this project as resource packs were unavailable in that version.
 
-Crowdin: [https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/project/mcaf-resourcepack)
+## Contributing
+
+### Translating
+
+Help improve translations on Crowdin:
+[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/project/mcaf-resourcepack)
 
 [![zh-CN translation](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-CN&style=flat&logo=crowdin&query=%24.progress.1.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
 [![zh-HK translation](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-HK&style=flat&logo=crowdin&query=%24.progress.2.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
 [![zh-TW translation](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-TW&style=flat&logo=crowdin&query=%24.progress.3.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
 [![lzh translation](https://img.shields.io/badge/dynamic/json?color=blue&label=lzh&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
 
-### FAQ
+## FAQ
 
-During gameplay, if you encounter untranslated texts:
+**Q: I see untranslated text in-game. What should I do?**
+A: Contribute translations on [Crowdin](#translating). If the text isn't on Crowdin, it's likely hardcoded and can't be fixed by a resource pack.
 
-- Contribute on Crowdin (see [above](#participate-in-translation)).
-- If the text is not found on Crowdin, it is most likely hardcoded and cannot be fixed by the resource pack.
-
-If you encounter raw translation keys (such as `rule.food_restriction.air_block`) during gameplay:
-
-- This is usually due to missing entries in language files. You can report it in this repository's [Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues).
+**Q: I see raw translation keys (e.g., `rule.food_restriction.air_block`).**
+A: This usually means a missing entry in the language files. Please report it in the [Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues) section.

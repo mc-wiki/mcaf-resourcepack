@@ -7,12 +7,12 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: '0 */3 * * *'
   push:
     branches:
       - main
     paths:
-      - "en_us/*"
+      - 'en_us/*'
 
 jobs:
   sync_and_prepare:
@@ -78,25 +78,28 @@ jobs:
 
     outputs:
       release_id: ${{ steps.create_release.outputs.id }}
+      time: ${{ steps.set_time.outputs.time }}
     env:
       GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
     steps:
       - name: set time
+        id: set_time
         run: |
           TIME="$(TZ='Asia/Shanghai' date +'%y%m%d-%H%M')"
           echo "TIME=$TIME" >> $GITHUB_ENV
+          echo "time=$TIME" >> $GITHUB_OUTPUT
 
       - name: create release
         id: create_release
         uses: softprops/action-gh-release@v2
         with:
           body: |
-            自动构建的资源包。
+            Resource packs built from the latest Crowdin translations.
             - Run ID: ${{ github.run_id }}
             - Commit SHA: ${{ github.sha }}
           name: Build ${{ env.TIME }}
-          tag_name: "build-${{ env.TIME }}"
+          tag_name: 'build-${{ env.TIME }}'
 
   release:
     needs: [sync_and_prepare, create_release]
@@ -121,9 +124,23 @@ jobs:
       - name: Upload Packaged Release for ${{ matrix.folder }}
         uses: xresloader/upload-to-github-release@v1
         with:
-          file: "${{ matrix.folder }}.zip"
+          file: '${{ matrix.folder }}.zip'
           release_id: ${{ needs.create_release.outputs.release_id }}
           overwrite: true
+
+      - name: Upload to Modrinth
+        uses: cloudnode-pro/modrinth-publish@v2
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          project: '1NAoXRE0'
+          version: '${{ needs.create_release.outputs.time }}+${{ matrix.folder }}'
+          changelog: |
+            Resource packs built from the latest Crowdin translations.
+            - Run ID: ${{ github.run_id }}
+            - Commit SHA: ${{ github.sha }}
+          loaders: minecraft
+          game-versions: ${{ matrix.folder }}
+          files: '${{ matrix.folder }}.zip'
 
   clean_up:
     runs-on: ubuntu-latest
