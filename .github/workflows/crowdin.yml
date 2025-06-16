@@ -13,6 +13,7 @@ on:
       - main
     paths:
       - 'en_us/*'
+      - '.github/workflows/crowdin.yml'
 
 jobs:
   sync_and_prepare:
