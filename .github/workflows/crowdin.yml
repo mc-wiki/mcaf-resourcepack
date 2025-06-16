@@ -132,7 +132,7 @@ jobs:
 
       - name: Upload to Modrinth
         if: matrix.folder == '3D_Shareware_v1.34'
-        uses: mc-wiki/modrinth-publish@338a2f5133919489ba1cf86ef4585a7a89f88642
+        uses: mc-wiki/modrinth-publish@main
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
           project: '1NAoXRE0'
