@@ -143,6 +143,7 @@ jobs:
           loaders: minecraft
           game-versions: ${{ matrix.folder == '3D_Shareware_v1.34' && '3D-Shareware-v1.34' || matrix.folder == '22w13oneBlockAtATime' && '22w13oneblockatatime' || matrix.folder }}
           files: '${{ matrix.folder }}.zip'
+          channel: 'release'
 
   clean_up:
     runs-on: ubuntu-latest
