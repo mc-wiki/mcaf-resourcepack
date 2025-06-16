@@ -131,7 +131,6 @@ jobs:
           overwrite: true
 
       - name: Upload to Modrinth
-        if: matrix.folder == '3D_Shareware_v1.34'
         uses: mc-wiki/modrinth-publish@main
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
