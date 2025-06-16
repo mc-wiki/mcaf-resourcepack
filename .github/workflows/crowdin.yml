@@ -141,7 +141,7 @@ jobs:
             - Run ID: ${{ github.run_id }}
             - Commit SHA: ${{ github.sha }}
           loaders: minecraft
-          game-versions: ${{ matrix.folder != '3D_Shareware_v1.34' && matrix.folder || '3D-Shareware-v1.34'}}
+          game-versions: ${{ matrix.folder == '3D_Shareware_v1.34' && '3D-Shareware-v1.34' || matrix.folder == '22w13oneBlockAtATime' && '22w13oneblockatatime' || matrix.folder }}
           files: '${{ matrix.folder }}.zip'
 
   clean_up:
