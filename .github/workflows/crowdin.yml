@@ -130,7 +130,23 @@ jobs:
           overwrite: true
 
       - name: Upload to Modrinth
-        uses: cloudnode-pro/modrinth-publish@v2
+        if: matrix.folder == '3D_Shareware_v1.34'
+        uses: mc-wiki/modrinth-publish@main
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          project: '1NAoXRE0'
+          version: '${{ needs.create_release.outputs.time }}+${{ matrix.folder }}'
+          changelog: |
+            Resource packs built from the latest Crowdin translations.
+            - Run ID: ${{ github.run_id }}
+            - Commit SHA: ${{ github.sha }}
+          loaders: minecraft
+          game-versions: '3D-Shareware-v1.34'
+          files: '${{ matrix.folder }}.zip'
+
+      - name: Upload to Modrinth
+        if: matrix.folder != '3D_Shareware_v1.34'
+        uses: mc-wiki/modrinth-publish@main
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
           project: '1NAoXRE0'
