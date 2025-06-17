@@ -2,7 +2,6 @@ name: Sync and Release
 
 permissions:
   contents: write
-  pull-requests: write
 
 on:
   workflow_dispatch:
@@ -129,21 +128,6 @@ jobs:
           file: '${{ matrix.folder }}.zip'
           release_id: ${{ needs.create_release.outputs.release_id }}
           overwrite: true
-
-      - name: Upload to Modrinth
-        uses: mc-wiki/modrinth-publish@main
-        with:
-          token: ${{ secrets.MODRINTH_TOKEN }}
-          project: '1NAoXRE0'
-          version: '${{ needs.create_release.outputs.time }}+${{ matrix.folder }}'
-          changelog: |
-            Resource packs built from the latest Crowdin translations.
-            - Run ID: ${{ github.run_id }}
-            - Commit SHA: ${{ github.sha }}
-          loaders: minecraft
-          game-versions: ${{ matrix.folder == '3D_Shareware_v1.34' && '3D-Shareware-v1.34' || matrix.folder == '22w13oneBlockAtATime' && '22w13oneblockatatime' || matrix.folder }}
-          files: '${{ matrix.folder }}.zip'
-          channel: 'release'
 
   clean_up:
     runs-on: ubuntu-latest

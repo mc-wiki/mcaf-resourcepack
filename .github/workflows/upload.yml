@@ -1,0 +1,82 @@
+name: Upload Releases
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * 0'
+
+jobs:
+  sync_and_prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      has_commits: ${{ steps.check.outputs.has_commits }}
+      folders_json: ${{ steps.list_folders.outputs.folders_json }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get latest tag
+        id: get_tag
+        run: |
+          latest_tag=$(git describe --tags --abbrev=0)
+          echo "Latest tag: $latest_tag"
+          echo "tag=$latest_tag" >> $GITHUB_OUTPUT
+
+      - name: Check commits since latest tag
+        id: check
+        run: |
+          commits=$(git rev-list ${{ steps.get_tag.outputs.tag }}..HEAD --count)
+          echo "Commits since tag: $commits"
+          if [ "$commits" -eq "0" ]; then
+            echo "has_commits=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_commits=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: List folders
+        id: list_folders
+        run: |
+          FOLDERS=$(find ./resources -maxdepth 1 -type d -not -path './resources' -printf '"%f", ' | sed 's/, $//')
+          echo "folders_json=[$FOLDERS]" >> $GITHUB_OUTPUT
+
+  release:
+    needs: [sync_and_prepare]
+    if: needs.sync_and_prepare.outputs.has_commits == 'true'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        folder: ${{ fromJson(needs.sync_and_prepare.outputs.folders_json) }}
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Package Resources for ${{ matrix.folder }}
+        id: package
+        run: |
+          cp sources/${{ matrix.folder }}/* resources/${{ matrix.folder }}/assets/minecraft/lang
+          cd resources/${{ matrix.folder }}
+          zip -r ../../${{ matrix.folder }}.zip ./*
+          TIME="$(TZ='Asia/Shanghai' date +'%y%m%d-%H%M')"
+          echo "time=$TIME" >> $GITHUB_OUTPUT
+
+      - name: Upload to Modrinth
+        uses: mc-wiki/modrinth-publish@main
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          project: '1NAoXRE0'
+          version: '${{ steps.package.outputs.time }}+${{ matrix.folder }}'
+          changelog: |
+            Resource packs built from the latest Crowdin translations.
+            - Run ID: ${{ github.run_id }}
+            - Commit SHA: ${{ github.sha }}
+          loaders: minecraft
+          game-versions: ${{ matrix.folder == '3D_Shareware_v1.34' && '3D-Shareware-v1.34' || matrix.folder == '22w13oneBlockAtATime' && '22w13oneblockatatime' || matrix.folder }}
+          files: '${{ matrix.folder }}.zip'
+          channel: 'release'
