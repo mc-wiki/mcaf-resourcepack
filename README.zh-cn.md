@@ -44,9 +44,11 @@
 ## 常见问题
 
 **Q: 游戏内出现未翻译文本怎么办？**
+
 A: 请到[Crowdin](#参与翻译)参与贡献。如果 Crowdin 上也没有该文本，通常为硬编码，资源包无法修复。
 
 **Q: 游戏内出现本地化键名（如`rule.food_restriction.air_block`）怎么办？**
+
 A: 通常是语言文件缺失。请在[Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues)反馈。
 
 <!-- Do not translate the following part -->
