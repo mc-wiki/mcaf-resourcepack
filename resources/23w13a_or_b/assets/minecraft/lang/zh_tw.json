@@ -149,7 +149,7 @@
     "rule.autoJump.of_course": "自動跳躍？當然",
     "rule.autoJump.also_default_vanilla_to_true": "開啟自動跳躍，同時將原版自動跳躍的預設值設為開",
     "rule.uncontrolable_lave": "失控熔岩",
-    "rule.snitch.msg": "%s 投票給 %s：%s ",
+    "rule.snitch.msg": "%s 投票給 %s：%s",
     "rule.flailing.mild": "輕擺",
     "rule.food_restriction.golden_apple": "健康飲食",
     "rule.food_restriction.inedible.cake": "謊言",
