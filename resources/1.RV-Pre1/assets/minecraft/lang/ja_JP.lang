@@ -1,1 +1,5 @@
 tile.usbCharger.name=USB充電器ブロック
+item.realityVision.name=3Dメガネ
+item.ankleMonitor.name=足首モニター
+item.smarterWatch.name=スマーターウォッチ
+item.smarterWatch.update=通知！現在の%sは%dです！
