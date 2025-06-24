@@ -27,5 +27,5 @@ item.ankleMonitor.warning23=帰宅警告！どんな気分？
 item.ankleMonitor.warning24=帰宅警告！もういい、私の記憶を消すよ。これでまた始められるね！
 item.ankleMonitor.warning25=帰宅警告！…ザーッ…ピー…
 item.smarterWatch.name=スマーターウォッチ
-item.smarterWatch.update=通知！%sが%dに達しました！
+item.smarterWatch.update=通知！%sが%dになりました！
 item.smarterWatch.damage=通知！あなたは直近で%dポイントのダメージを受けました！
