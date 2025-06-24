@@ -1,5 +1,12 @@
 tile.usbCharger.name=USB充電器ブロック
 item.realityVision.name=3Dメガネ
 item.ankleMonitor.name=足首モニター
+item.ankleMonitor.warning=帰宅警告！自宅軟禁違反ですよ！%dメートル戻ってください！
+item.ankleMonitor.warning2=帰宅警告！自宅軟禁違反ですよ！あれ…どこにいるんですか？
+item.ankleMonitor.warning3=帰宅警告！もしもし？聞こえてますか？
+item.ankleMonitor.warning4=帰宅警告！大事な用事があるんだとは思いますけど、帰ってこないとだめですよ！
+item.ankleMonitor.warning5=帰宅警告！私たち家に寂しく戻ってきちゃいましたよ！
+item.ankleMonitor.warning6=帰宅警告！「私たち」というか私ね。私寂しいよ。
+item.ankleMonitor.warning7=宵禁警告！もういいでしょ…今すぐ帰ってきて！
 item.smarterWatch.name=スマーターウォッチ
 item.smarterWatch.update=通知！現在の%sは%dです！
