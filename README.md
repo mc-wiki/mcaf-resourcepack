@@ -13,11 +13,12 @@ April Fools' snapshots are not officially localized via Crowdin, but the Minecra
 
 All currently supported languages:
 
-- `ja`: 日本語
-- `lzh`: 文言
-- `zh_cn`: 简体中文（中国大陆）
-- `zh_hk`: 繁體中文（香港特別行政區）
-- `zh_tw`: 繁體中文（台灣）
+- `en_ud`：ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)
+- `ja_jp`：日本語 (日本)
+- `lzh`：文言（華夏）
+- `zh_cn`：简体中文 (中国大陆)
+- `zh_hk`：繁體中文 (香港特別行政區)
+- `zh_tw`：繁體中文 (台灣)
 
 ## How to use
 
@@ -37,18 +38,19 @@ Need help installing? See the [wiki tutorial](https://minecraft.wiki/w/Tutorial:
 Help improve translations on Crowdin:
 [https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/project/mcaf-resourcepack)
 
-[![ja translation progress](https://img.shields.io/badge/dynamic/json?color=blue&label=ja&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
-[![lzh translation progress](https://img.shields.io/badge/dynamic/json?color=blue&label=lzh&style=flat&logo=crowdin&query=%24.progress.1.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
-[![zh-CN translation progress](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-CN&style=flat&logo=crowdin&query=%24.progress.2.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
-[![zh-HK translation progress](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-HK&style=flat&logo=crowdin&query=%24.progress.3.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
-[![zh-TW translation progress](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-TW&style=flat&logo=crowdin&query=%24.progress.4.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
+![en_ud translation progress](https://img.shields.io/badge/dynamic/json?color=blue&label=en_ud&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
+![ja_jp translation progress](https://img.shields.io/badge/dynamic/json?color=blue&label=ja_jp&style=flat&logo=crowdin&query=%24.progress.1.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
+![lzh translation progress](https://img.shields.io/badge/dynamic/json?color=blue&label=lzh&style=flat&logo=crowdin&query=%24.progress.2.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
+![zh_cn translation progress](https://img.shields.io/badge/dynamic/json?color=blue&label=zh_cn&style=flat&logo=crowdin&query=%24.progress.3.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
+![zh_hk translation progress](https://img.shields.io/badge/dynamic/json?color=blue&label=zh_hk&style=flat&logo=crowdin&query=%24.progress.4.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
+![zh_tw translation progress](https://img.shields.io/badge/dynamic/json?color=blue&label=zh_tw&style=flat&logo=crowdin&query=%24.progress.5.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
 
 ## FAQ
 
-**Q: I see untranslated text in-game. What should I do?**
+**Q1: I see untranslated texts in-game. What should I do?**
 
-A: Contribute translations on [Crowdin](#translating). If the text isn't on Crowdin, it's likely hardcoded and can't be fixed by a resource pack.
+A1: Contribute translations on [Crowdin](#translating). If the text isn't on Crowdin, it's likely hardcoded and can't be fixed by a resource pack.
 
-**Q: I see raw translation keys (e.g., `rule.food_restriction.air_block`).**
+**Q2: I see raw translation keys (e.g., `rule.food_restriction.air_block`).**
 
-A: This usually means a missing entry in the language files. Please report it in the [Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues) section.
+A2: This usually means a missing entry in the language files. Please report it in the [Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues) section.

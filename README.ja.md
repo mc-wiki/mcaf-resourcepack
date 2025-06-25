@@ -15,11 +15,12 @@
 
 現在対応している言語：
 
-- `ja`: 日本語
-- `lzh`: 文言
-- `zh_cn`: 简体中文（中国大陆）
-- `zh_hk`: 繁體中文（香港特別行政區）
-- `zh_tw`: 繁體中文（台灣）
+- `en_ud`：ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)
+- `ja_jp`：日本語 (日本)
+- `lzh`：文言（華夏）
+- `zh_cn`：简体中文 (中国大陆)
+- `zh_hk`：繁體中文 (香港特別行政區)
+- `zh_tw`：繁體中文 (台灣)
 
 ## 使用方法
 
@@ -37,20 +38,21 @@
 ### 翻訳
 
 Crowdin から翻訳に参加できます：
-[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/project/mcaf-resourcepack)
+[https://ja.crowdin.com/project/mcaf-resourcepack](https://ja.crowdin.com/project/mcaf-resourcepack)
 
-[![ja 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=ja&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
-[![lzh 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=lzh&style=flat&logo=crowdin&query=%24.progress.1.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
-[![zh-CN 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-CN&style=flat&logo=crowdin&query=%24.progress.2.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
-[![zh-HK 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-HK&style=flat&logo=crowdin&query=%24.progress.3.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
-[![zh-TW 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-TW&style=flat&logo=crowdin&query=%24.progress.4.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
+![en_ud 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=en_ud&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
+![ja_jp 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=ja_jp&style=flat&logo=crowdin&query=%24.progress.1.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
+![lzh 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=lzh&style=flat&logo=crowdin&query=%24.progress.2.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
+![zh_cn 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh_cn&style=flat&logo=crowdin&query=%24.progress.3.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
+![zh_hk 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh_hk&style=flat&logo=crowdin&query=%24.progress.4.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
+![zh_tw 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh_tw&style=flat&logo=crowdin&query=%24.progress.5.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
 
 ## よくある質問
 
-**Q: ゲーム上で未翻訳のテキストが出現します。**
+**Q1：ゲーム上で未翻訳のテキストが出現します。**
 
-A: [Crowdin](#翻訳) から翻訳にご協力ください。Crowdin に文字列が存在しない場合、そのテキストはゲームのコード上で直接定義されていてリソースパックで翻訳できないものです。
+A1：[Crowdin](#翻訳) から翻訳にご協力ください。Crowdin に文字列が存在しない場合、そのテキストはゲームのコード上で直接定義されていてリソースパックで翻訳できないものです。
 
-**Q: 生の翻訳キー（例：`rule.food_restriction.air_block`）が出現します。**
+**Q2：生の翻訳キー（例：`rule.food_restriction.air_block`）が出現します。**
 
-A: 言語ファイルから項目が欠落しています。[Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues) から報告していただけると幸いです。
+A2：言語ファイルから項目が欠落しています。[Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues) から報告していただけると幸いです。
