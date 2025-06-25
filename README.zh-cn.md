@@ -13,11 +13,12 @@
 
 当前支持的语言有：
 
-- `ja`: 日本語
-- `lzh`: 文言
-- `zh_cn`: 简体中文（中国大陆）
-- `zh_hk`: 繁體中文（香港特別行政區）
-- `zh_tw`: 繁體中文（台灣）
+- `en_ud`：ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)
+- `ja_jp`：日本語 (日本)
+- `lzh`：文言（華夏）
+- `zh_cn`：简体中文 (中国大陆)
+- `zh_hk`：繁體中文 (香港特別行政區)
+- `zh_tw`：繁體中文 (台灣)
 
 ## 如何使用
 
@@ -35,23 +36,24 @@
 ### 参与翻译
 
 欢迎在 Crowdin 上完善翻译：
-[https://crowdin.com/project/mcaf-resourcepack](https://crowdin.com/project/mcaf-resourcepack)
+[https://zh.crowdin.com/project/mcaf-resourcepack](https://zh.crowdin.com/project/mcaf-resourcepack)
 
-[![ja 翻译进度](https://img.shields.io/badge/dynamic/json?color=blue&label=ja&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
-[![lzh 翻译进度](https://img.shields.io/badge/dynamic/json?color=blue&label=lzh&style=flat&logo=crowdin&query=%24.progress.1.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
-[![zh-CN 翻译进度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-CN&style=flat&logo=crowdin&query=%24.progress.2.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
-[![zh-HK 翻译进度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-HK&style=flat&logo=crowdin&query=%24.progress.3.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
-[![zh-TW 翻译进度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-TW&style=flat&logo=crowdin&query=%24.progress.4.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)](https://crowdin.com/project/mcaf-resourcepack)
+![en_ud 翻译进度](https://img.shields.io/badge/dynamic/json?color=blue&label=en_ud&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
+![ja_jp 翻译进度](https://img.shields.io/badge/dynamic/json?color=blue&label=ja_jp&style=flat&logo=crowdin&query=%24.progress.1.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
+![lzh 翻译进度](https://img.shields.io/badge/dynamic/json?color=blue&label=lzh&style=flat&logo=crowdin&query=%24.progress.2.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
+![zh_cn 翻译进度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh_cn&style=flat&logo=crowdin&query=%24.progress.3.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
+![zh_hk 翻译进度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh_hk&style=flat&logo=crowdin&query=%24.progress.4.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
+![zh_tw 翻译进度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh_tw&style=flat&logo=crowdin&query=%24.progress.5.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
 
 ## 常见问题
 
-**Q: 游戏内出现未翻译文本怎么办？**
+**Q1：游戏内出现未翻译文本怎么办？**
 
-A: 请到[Crowdin](#参与翻译)参与贡献。如果 Crowdin 上也没有该文本，通常为硬编码，资源包无法修复。
+A1：请到[Crowdin](#参与翻译)参与贡献。如果 Crowdin 上也没有该文本，通常为硬编码，资源包无法修复。
 
-**Q: 游戏内出现本地化键名（如`rule.food_restriction.air_block`）怎么办？**
+**Q2：游戏内出现本地化键名（如`rule.food_restriction.air_block`）怎么办？**
 
-A: 通常是语言文件缺失。请在[Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues)反馈。
+A2：通常是语言文件缺失。请在[Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues)反馈。
 
 <!-- Do not translate the following part -->
 
