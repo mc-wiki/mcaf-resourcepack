@@ -1,6 +1,6 @@
 # Minecraft April Fools' Translation Packs
 
-English | [日本語](README.ja.md) | [简体中文](README.zh-cn.md)
+English | [日本語](README.ja.md) | [简体中文](README.zh-cn.md) | [繁體中文](README.zh-tw.md)
 
 **Play April Fools' snapshots with community-driven translations from the Minecraft Wiki.**
 
