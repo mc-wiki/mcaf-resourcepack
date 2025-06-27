@@ -19,22 +19,15 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Get latest tag
-        id: get_tag
-        run: |
-          latest_tag=$(git describe --tags --abbrev=0)
-          echo "Latest tag: $latest_tag"
-          echo "tag=$latest_tag" >> $GITHUB_OUTPUT
-
-      - name: Check commits since latest tag
+      - name: Check recent commits
         id: check
         run: |
-          commits=$(git rev-list ${{ steps.get_tag.outputs.tag }}..HEAD --count)
-          echo "Commits since tag: $commits"
-          if [ "$commits" -eq "0" ]; then
-            echo "has_commits=false" >> $GITHUB_OUTPUT
-          else
+          recent_log=$(git log --since=1.week.ago --stat --pretty="")
+          echo "Recent log: $recent_log"
+          if [[ $recent_log =~ /lang/ ]]; then
             echo "has_commits=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_commits=false" >> $GITHUB_OUTPUT
           fi
 
       - name: List folders
