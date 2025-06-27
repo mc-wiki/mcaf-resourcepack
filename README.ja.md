@@ -1,6 +1,6 @@
 # Minecraft エイプリルフール翻訳パック
 
-[English](README.md) | 日本語 | [简体中文](README.zh-cn.md)
+[English](README.md) | 日本語 | [简体中文](README.zh-cn.md) | [繁體中文](README.zh-tw.md)
 
 **Minecraft Wiki コミュニティによるエイプリルフールバージョンの翻訳リソースパックです。**
 
