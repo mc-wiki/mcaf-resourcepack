@@ -1,1 +1,18 @@
-{}
+{
+    "advancements.adventure.almost_there.title": "もうすぐそこ",
+    "advancements.adventure.almost_there.description": "10億以上のディメンションを訪れる",
+    "biome.minecraft.between": "狭間の世界",
+    "biome.minecraft.shapes": "図形",
+    "biome.minecraft.busy": "無意味なことをする暇のないプレイヤーのためのバイオーム",
+    "block.minecraft.cursor": "カーソル",
+    "block.minecraft.ant": "アリ",
+    "block.minecraft.zone": "残り物",
+    "block.minecraft.neither_portal": "ファンキーポータル",
+    "block.minecraft.netherite_stairs": "史上最高の階段",
+    "block.minecraft.book_box": "無限の本棚",
+    "item.minecraft.footprint": "足跡",
+    "item.minecraft.fine_item": "極上の品",
+    "stat.minecraft.change_dimension": "ディメンション間を移動した回数",
+    "subtitles.block.end_portal.spawn": "エンドポータルが開いた！",
+    "subtitles.entity.horse.land": "ウマが着地する"
+}
