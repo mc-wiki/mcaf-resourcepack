@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       has_commits: ${{ steps.check.outputs.has_commits }}
+      channel: ${{ steps.check.outputs.channel }}
       folders_json: ${{ steps.list_folders.outputs.folders_json }}
 
     steps:
@@ -24,13 +25,23 @@ jobs:
         run: |
           date=1.week.ago
           day=$(date +%-d)
-          if [[ $(date +%-m) == 4 && $day -gt 2 ]]; then
+          channel=release
+          if [[ $(date +%-m) == 4 ]]; then
             date=5.days.ago
             if [[ $day -lt 13 ]]; then
               date=3.days.ago
             fi
             if [[ $day -lt 8 ]]; then
               date=1.day.ago
+              if [[ $day -lt 7 ]]; then
+                channel=beta
+              fi
+            fi
+            if [[ $day -lt 4 ]]; then
+              if [[ $day == 2 ]]; then
+                date=1.week.ago
+              fi
+              channel=alpha
             fi
           fi
           recent_log=$(git log --since=$date --stat --pretty="")
@@ -40,6 +51,7 @@ jobs:
           else
             echo "has_commits=false" >> $GITHUB_OUTPUT
           fi
+          echo "channel=$channel" >> $GITHUB_OUTPUT
 
       - name: List folders
         id: list_folders
@@ -84,4 +96,4 @@ jobs:
           loaders: minecraft
           game-versions: ${{ matrix.folder == '3D_Shareware_v1.34' && '3D-Shareware-v1.34' || matrix.folder == '22w13oneBlockAtATime' && '22w13oneblockatatime' || matrix.folder }}
           files: '${{ matrix.folder }}.zip'
-          channel: 'release'
+          channel: ${{ needs.sync_and_prepare.outputs.channel }}
