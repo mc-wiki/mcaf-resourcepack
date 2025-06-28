@@ -1,4 +1,4 @@
-# Minecraft 愚人节翻译包
+# 愚人节翻译包
 
 [English](README.md) | [日本語](README.ja.md) | 简体中文 | [繁體中文](README.zh-hant.md)
 

@@ -1,4 +1,4 @@
-# Minecraft April Fools' Translation Packs
+# April Fools' Translation Pack
 
 English | [日本語](README.ja.md) | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
 

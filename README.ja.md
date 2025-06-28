@@ -1,4 +1,4 @@
-# Minecraft エイプリルフール翻訳パック
+# エイプリルフール翻訳パック
 
 [English](README.md) | 日本語 | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
 
