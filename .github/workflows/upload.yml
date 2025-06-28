@@ -22,7 +22,18 @@ jobs:
       - name: Check recent commits
         id: check
         run: |
-          recent_log=$(git log --since=1.week.ago --stat --pretty="")
+          date=1.week.ago
+          day=$(date +%-d)
+          if [[ $(date +%-m) == 4 && $day -gt 2 ]]; then
+            date=5.days.ago
+            if [[ $day -lt 13 ]]; then
+              date=3.days.ago
+            fi
+            if [[ $day -lt 8 ]]; then
+              date=1.day.ago
+            fi
+          fi
+          recent_log=$(git log --since=$date --stat --pretty="")
           echo "Recent log: $recent_log"
           if [[ $recent_log =~ /lang/ ]]; then
             echo "has_commits=true" >> $GITHUB_OUTPUT
@@ -57,7 +68,7 @@ jobs:
           cp sources/${{ matrix.folder }}/* resources/${{ matrix.folder }}/assets/minecraft/lang
           cd resources/${{ matrix.folder }}
           zip -r ../../${{ matrix.folder }}.zip ./*
-          TIME="$(TZ='Asia/Shanghai' date +'%y%m%d-%H%M')"
+          TIME="$(TZ='Asia/Shanghai' date +%y%m%d)" // Changed
           echo "time=$TIME" >> $GITHUB_OUTPUT
 
       - name: Upload to Modrinth
