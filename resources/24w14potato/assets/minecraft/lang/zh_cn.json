@@ -296,6 +296,8 @@
     "key.potato": "马铃薯",
     "lubrication.tooltip.lubricated": "润滑了！",
     "lubrication.tooltip.lubricated_times": "润滑了！×%s",
+    "options.potatoFont": "马铃薯字体",
+    "options.potatoFont.tooltip": "使字体变为马铃薯",
     "painting.minecraft.abstractato.author": "Mr. Potato",
     "painting.minecraft.abstractato.title": "Tasty Shapes",
     "painting.minecraft.burning_potato.author": "Mr. Potato",
