@@ -296,6 +296,8 @@
     "key.potato": "Potato",
     "lubrication.tooltip.lubricated": "Lubricated!",
     "lubrication.tooltip.lubricated_times": "Lubricated! x%s",
+    "options.potatoFont": "Potato Font",
+    "options.potatoFont.tooltip": "Makes the font potato",
     "painting.minecraft.abstractato.author": "Mr. Potato",
     "painting.minecraft.abstractato.title": "Tasty Shapes",
     "painting.minecraft.burning_potato.author": "Mr. Potato",
