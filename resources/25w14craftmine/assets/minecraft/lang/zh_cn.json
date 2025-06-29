@@ -294,7 +294,7 @@
     "sky.panorama": "渺小",
     "sky.tooltip": "天空：%s",
     "subtitles.block.end_portal_frame.fill": "出口之眼：嵌入",
-    "subtitles.block.end_portal.spawn": "传送门声",
+    "subtitles.block.end_portal.spawn": "传送门：发出声响",
     "subtitles.entity.ender_eye.death": "出口之眼：掉落",
     "subtitles.entity.ender_eye.launch": "出口之眼：射出",
     "subtitles.entity.villager.work_traitor": "叛徒：工作",
