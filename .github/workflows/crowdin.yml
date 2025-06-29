@@ -87,7 +87,7 @@ jobs:
       - name: set time
         id: set_time
         run: |
-          TIME="$(TZ='Asia/Shanghai' date +'%y%m%d-%H%M')"
+          TIME="$(date +'%y%m%d-%H%M')"
           echo "TIME=$TIME" >> $GITHUB_ENV
           echo "time=$TIME" >> $GITHUB_OUTPUT
 
@@ -120,12 +120,12 @@ jobs:
         run: |
           cp sources/${{ matrix.folder }}/* resources/${{ matrix.folder }}/assets/minecraft/lang
           cd resources/${{ matrix.folder }}
-          zip -r ../../${{ matrix.folder }}.zip ./*
+          zip -r '../../[AFTP] ${{ matrix.folder }}.zip' ./*
 
       - name: Upload Packaged Release for ${{ matrix.folder }}
         uses: xresloader/upload-to-github-release@v1
         with:
-          file: '${{ matrix.folder }}.zip'
+          file: '[AFTP] ${{ matrix.folder }}.zip'
           release_id: ${{ needs.create_release.outputs.release_id }}
           overwrite: true
 
