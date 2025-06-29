@@ -434,7 +434,7 @@
     "rule.universal_jeb": "通用jeb_体验™",
     "rule.colored_light": "加入%s色光",
     "rule.glowing_glow_squids": "让发光鱿鱼真的发光",
-    "rule.bedrock_shadows": "基岩版风格的实体阴影",
+    "rule.bedrock_shadows": "Minecraft基岩版风格的实体阴影",
     "rule.ray_tracing": "加入光线追踪。注：光线追踪需要额外的内存资源。",
     "rule.vote_result_pass_without_voters": "即使没有玩家投票，投票也会通过",
     "rule.vote_result_pass_without_votes": "也应用未收到投票的选项",

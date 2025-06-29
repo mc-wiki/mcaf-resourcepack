@@ -11,7 +11,7 @@ on:
     branches:
       - main
     paths:
-      - 'en_us/*'
+      - 'sources/*'
       - '.github/workflows/crowdin.yml'
 
 jobs:

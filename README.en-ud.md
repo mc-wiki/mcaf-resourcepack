@@ -4,7 +4,7 @@
 
 **˙(`rule.food_restriction.air_block` '˙ᵷ˙ǝ) sʎǝʞ uoᴉʇɐꞁsuɐɹʇ ʍɐɹ ǝǝs I :ᘔꝹ**
 
-˙ʞɔɐd ǝɔɹnosǝɹ ɐ ʎq pǝxᴉɟ ǝq ʇ,uɐɔ puɐ pǝpoɔpɹɐɥ ʎꞁǝʞᴉꞁ s,ʇᴉ 'uᴉpʍoɹƆ uo ʇ,usᴉ ʇxǝʇ ǝɥʇ ɟI ˙[uᴉpʍoɹƆ](#translating) uo suoᴉʇɐꞁsuɐɹʇ ǝʇnqᴉɹʇuoƆ :⥝Ɐ
+˙ʞɔɐd ǝɔɹnosǝɹ ɐ ʎq pǝxᴉɟ ǝq ʇ,uɐɔ puɐ pǝpoɔpɹɐɥ ʎꞁǝʞᴉꞁ s,ʇᴉ 'uᴉpʍoɹƆ uo ʇ,usᴉ ʇxǝʇ ǝɥʇ ɟI ˙[uᴉpʍoɹƆ](#ᵷuᴉʇɐꞁsuɐɹ) uo suoᴉʇɐꞁsuɐɹʇ ǝʇnqᴉɹʇuoƆ :⥝Ɐ
 
 **¿op I pꞁnoɥs ʇɐɥM ˙ǝɯɐᵷ-uᴉ sʇxǝʇ pǝʇɐꞁsuɐɹʇun ǝǝs I :⥝Ꝺ**
 
@@ -53,4 +53,4 @@
 
 **˙ᴉʞᴉM ʇɟɐɹɔǝuᴉW ǝɥʇ ɯoɹɟ suoᴉʇɐꞁsuɐɹʇ uǝʌᴉɹp-ʎʇᴉunɯɯoɔ ɥʇᴉʍ sʇoɥsdɐus ,sꞁooℲ ꞁᴉɹdⱯ ʎɐꞁԀ**
 
-# sʞɔɐԀ uoᴉʇɐꞁsuɐɹ⟘ ,sꞁooℲ ꞁᴉɹdⱯ ʇɟɐɹɔǝuᴉW
+# ʞɔɐԀ uoᴉʇɐꞁsuɐɹ⟘ ,sꞁooℲ ꞁᴉɹdⱯ
