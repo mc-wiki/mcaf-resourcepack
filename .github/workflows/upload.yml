@@ -80,7 +80,7 @@ jobs:
           cp sources/${{ matrix.folder }}/* resources/${{ matrix.folder }}/assets/minecraft/lang
           cd resources/${{ matrix.folder }}
           zip -r ../../${{ matrix.folder }}.zip ./*
-          TIME="$(TZ='Asia/Shanghai' date +%y%m%d)" // Changed
+          TIME="$(TZ='Asia/Shanghai' date +%y%m%d)" # Changed
           echo "time=$TIME" >> $GITHUB_OUTPUT
 
       - name: Upload to Modrinth
