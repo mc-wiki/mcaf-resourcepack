@@ -1,6 +1,10 @@
 {
+    "advancements.potato.all_potatoed.description": "すべての種類のジャガイモ系バイオームを発見する",
+    "advancements.potato.all_potatoed.title": "八十日間薯界一周",
     "advancements.potato.eat_armor.description": "着用中の青くなったジャガイモのチェストプレートを食べて飢えをしのぐ",
     "advancements.potato.eat_armor.title": "腹が減っては戦ができぬ！",
+    "biome.minecraft.hash": "ハッシュ",
+    "biome.minecraft.wasteland": "荒れ地",
     "item.minecraft.amber_gem": "琥珀",
     "item.minecraft.batato_spawn_egg": "コイモリのスポーンエッグ",
     "item.minecraft.corrupted_potato_peels": "汚染されたジャガイモの皮",
@@ -95,5 +99,21 @@
     "item.resin.quality.8": "神聖な",
     "item.resin.quality.9": "エーテルの",
     "item.resin.quality.10": "天の",
-    "item.resin.quality.comment": "^に関するコメント：これらは素晴らしいが、使い道が見つからない [G]。いいねを押して、コメントを残して、チャンネル登録してね！次回の動画でお会いしましょう、さようなら！"
+    "item.resin.quality.comment": "^に関するコメント：これらは素晴らしいが、使い道が見つからない [G]。いいねを押して、コメントを残して、チャンネル登録してね！次回の動画でお会いしましょう、さようなら！",
+    "painting.minecraft.abstractato.author": "Mr. Potato",
+    "painting.minecraft.abstractato.title": "Tasty Shapes",
+    "painting.minecraft.burning_potato.author": "Mr. Potato",
+    "painting.minecraft.burning_potato.title": "Hot Potato",
+    "painting.minecraft.ceci.author": "Mr. Potato",
+    "painting.minecraft.ceci.title": "This is not a potato",
+    "painting.minecraft.mr_potato.author": "Mr. Potato",
+    "painting.minecraft.mr_potato.title": "Self-portrait",
+    "painting.minecraft.poisonous_potato.author": "Mr. Potato",
+    "painting.minecraft.poisonous_potato.title": "The Treachery of Potatoes",
+    "painting.minecraft.potatoe.author": "Cris B",
+    "painting.minecraft.potatoe.title": "Potato",
+    "painting.minecraft.ubiquitato.author": "Mr. Potato",
+    "painting.minecraft.ubiquitato.title": "In The Spotlight",
+    "paper.thoughts": "このエイプリルフールのスナップショットの感想を書いてくれ",
+    "potato_bane.tooltip.damage_boost": "ジャガイモ系Mobに追加ダメージ+%s"
 }
