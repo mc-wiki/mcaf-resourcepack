@@ -1,7 +1,6 @@
 name: Sync and Release
 
-permissions:
-  contents: write
+permissions: write-all
 
 on:
   workflow_dispatch:
