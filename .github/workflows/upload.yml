@@ -3,8 +3,8 @@ name: Upload Releases
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 16 * 1-3,5-12 0"
-    - cron: "0 16 2-7,9,12,15,20,25,30 4 *"
+    - cron: '0 18 * 1-3,5-12 0'
+    - cron: '0 18 2-7,9,12,15,20,25,30 4 *'
 
 jobs:
   sync_and_prepare:
@@ -79,21 +79,21 @@ jobs:
         run: |
           cp sources/${{ matrix.folder }}/* resources/${{ matrix.folder }}/assets/minecraft/lang
           cd resources/${{ matrix.folder }}
-          zip -r ../../${{ matrix.folder }}.zip ./*
-          TIME="$(TZ='Asia/Shanghai' date +%y%m%d)" // Changed
+          zip -r '../../[AFTP] ${{ matrix.folder }}.zip' ./*
+          TIME="$(date +%y%m%d)" # Changed
           echo "time=$TIME" >> $GITHUB_OUTPUT
 
       - name: Upload to Modrinth
         uses: mc-wiki/modrinth-publish@main
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
-          project: "1NAoXRE0"
-          version: "${{ steps.package.outputs.time }}+${{ matrix.folder }}"
+          project: '1NAoXRE0'
+          version: '${{ steps.package.outputs.time }}+${{ matrix.folder }}'
           changelog: |
             Resource packs built from the latest Crowdin translations.
             - Run ID: ${{ github.run_id }}
             - Commit SHA: ${{ github.sha }}
           loaders: minecraft
           game-versions: ${{ matrix.folder == '3D_Shareware_v1.34' && '3D-Shareware-v1.34' || matrix.folder == '22w13oneBlockAtATime' && '22w13oneblockatatime' || matrix.folder }}
-          files: "${{ matrix.folder }}.zip"
+          files: '["[AFTP] ${{ matrix.folder }}.zip"]'
           channel: ${{ needs.sync_and_prepare.outputs.channel }}

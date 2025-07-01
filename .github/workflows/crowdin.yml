@@ -5,13 +5,13 @@ permissions: write-all
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: '0 */3 * * *'
   push:
     branches:
       - main
     paths:
-      - "sources/*"
-      - ".github/workflows/crowdin.yml"
+      - 'sources/*'
+      - '.github/workflows/crowdin.yml'
 
 jobs:
   sync_and_prepare:
@@ -86,7 +86,7 @@ jobs:
       - name: set time
         id: set_time
         run: |
-          TIME="$(TZ='Asia/Shanghai' date +'%y%m%d-%H%M')"
+          TIME="$(date +'%y%m%d-%H%M')"
           echo "TIME=$TIME" >> $GITHUB_ENV
           echo "time=$TIME" >> $GITHUB_OUTPUT
 
@@ -99,7 +99,7 @@ jobs:
             - Run ID: ${{ github.run_id }}
             - Commit SHA: ${{ github.sha }}
           name: Build ${{ env.TIME }}
-          tag_name: "build-${{ env.TIME }}"
+          tag_name: 'build-${{ env.TIME }}'
 
   release:
     needs: [sync_and_prepare, create_release]
@@ -119,12 +119,12 @@ jobs:
         run: |
           cp sources/${{ matrix.folder }}/* resources/${{ matrix.folder }}/assets/minecraft/lang
           cd resources/${{ matrix.folder }}
-          zip -r ../../${{ matrix.folder }}.zip ./*
+          zip -r '../../[AFTP] ${{ matrix.folder }}.zip' ./*
 
       - name: Upload Packaged Release for ${{ matrix.folder }}
         uses: xresloader/upload-to-github-release@v1
         with:
-          file: "${{ matrix.folder }}.zip"
+          file: '[AFTP] ${{ matrix.folder }}.zip'
           release_id: ${{ needs.create_release.outputs.release_id }}
           overwrite: true
 
