@@ -6,13 +6,13 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: "0 */3 * * *"
   push:
     branches:
       - main
     paths:
-      - 'sources/*'
-      - '.github/workflows/crowdin.yml'
+      - "sources/*"
+      - ".github/workflows/crowdin.yml"
 
 jobs:
   sync_and_prepare:
@@ -23,7 +23,7 @@ jobs:
       folders_json: ${{ steps.list_folders.outputs.folders_json }}
 
     env:
-      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
       CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
@@ -81,13 +81,13 @@ jobs:
       release_id: ${{ steps.create_release.outputs.id }}
       time: ${{ steps.set_time.outputs.time }}
     env:
-      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: set time
         id: set_time
         run: |
-          TIME="$(date +'%y%m%d-%H%M')"
+          TIME="$(TZ='Asia/Shanghai' date +'%y%m%d-%H%M')"
           echo "TIME=$TIME" >> $GITHUB_ENV
           echo "time=$TIME" >> $GITHUB_OUTPUT
 
@@ -100,7 +100,7 @@ jobs:
             - Run ID: ${{ github.run_id }}
             - Commit SHA: ${{ github.sha }}
           name: Build ${{ env.TIME }}
-          tag_name: 'build-${{ env.TIME }}'
+          tag_name: "build-${{ env.TIME }}"
 
   release:
     needs: [sync_and_prepare, create_release]
@@ -110,7 +110,7 @@ jobs:
       matrix:
         folder: ${{ fromJson(needs.sync_and_prepare.outputs.folders_json) }}
     env:
-      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout Repository
@@ -120,19 +120,19 @@ jobs:
         run: |
           cp sources/${{ matrix.folder }}/* resources/${{ matrix.folder }}/assets/minecraft/lang
           cd resources/${{ matrix.folder }}
-          zip -r '../../[AFTP] ${{ matrix.folder }}.zip' ./*
+          zip -r ../../${{ matrix.folder }}.zip ./*
 
       - name: Upload Packaged Release for ${{ matrix.folder }}
         uses: xresloader/upload-to-github-release@v1
         with:
-          file: '[AFTP] ${{ matrix.folder }}.zip'
+          file: "${{ matrix.folder }}.zip"
           release_id: ${{ needs.create_release.outputs.release_id }}
           overwrite: true
 
   clean_up:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: clean old release
@@ -144,5 +144,5 @@ jobs:
       - name: Delete workflow runs
         uses: dmvict/clean-workflow-runs@v1.0.0
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           save_period: 10
