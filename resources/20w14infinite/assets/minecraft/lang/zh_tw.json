@@ -1,9 +1,9 @@
 {
     "advancements.adventure.almost_there.title": "快成功了",
-    "advancements.adventure.almost_there.description": "造訪超過十億個維度",
+    "advancements.adventure.almost_there.description": "探索超過十億個維度",
     "biome.minecraft.between": "船間",
     "biome.minecraft.shapes": "形狀",
-    "biome.minecraft.busy": "玩家無暇胡思亂想",
+    "biome.minecraft.busy": "令玩家無暇胡思亂想的生態域",
     "block.minecraft.cursor": "遊標",
     "block.minecraft.ant": "一隻螞蟻",
     "block.minecraft.zone": "剩餘物",
@@ -14,5 +14,5 @@
     "item.minecraft.fine_item": "一個極妙之物",
     "stat.minecraft.change_dimension": "維度變化次數",
     "subtitles.block.end_portal.spawn": "終界傳送門開啟！",
-    "subtitles.entity.horse.land": "馬落地聲"
+    "subtitles.entity.horse.land": "馬落地"
 }
