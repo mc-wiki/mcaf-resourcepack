@@ -36,7 +36,7 @@
     "block.minecraft.other_portal": "Other Portal",
     "block.minecraft.packed_air": "Packed Air",
     "death.attack.onMoon": "%1$s experienced the dark side of the moon",
-    "death.attack.onMoon.player": "%1$s experienced the dark side of the moon while escaping %2$s",
+    "death.attack.onMoon.player": "%1$s experienced the dark side of the moon while trying to escape %2$s",
     "death.midas.turned_into_gold": "%1$s was turned into gold",
     "effect.minecraft.big": "Big",
     "effect.minecraft.small": "Small",
