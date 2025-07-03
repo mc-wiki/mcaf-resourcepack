@@ -36,6 +36,7 @@
     "block.minecraft.other_portal": "アザーポータル",
     "block.minecraft.packed_air": "空気塊",
     "death.attack.onMoon": "%1$sは月の暗黒面を体験した",
+    "death.attack.onMoon.player": "%1$sは%2$sから逃れようとして月の暗黒面を体験した",
     "death.midas.turned_into_gold": "%1$sは黄金に変えられた",
     "effect.minecraft.big": "巨大化",
     "effect.minecraft.small": "小型化",
