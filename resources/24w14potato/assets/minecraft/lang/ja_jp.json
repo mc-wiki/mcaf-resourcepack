@@ -47,7 +47,7 @@
     "advancements.potato.sweet_potato_talker.title": "イモ伝道師！",
     "advancements.potato.well_done.description": "ジャガイモを何度も過剰に加熱する",
     "advancements.potato.well_done.title": "ウェルダン",
-    "baseColor.tooltip": "色：",
+    "baseColor.tooltip": "色：%s",
     "biome.minecraft.arboretum": "樹木園",
     "biome.minecraft.corruption": "腐敗の地",
     "biome.minecraft.fields": "畑",
