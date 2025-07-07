@@ -453,7 +453,7 @@
     "rule.tie_strategy.pick_none": "投票平局时，移除相同票数选项",
     "rule.tie_strategy.fail": "投票平局时不会通过",
     "rule.silent_vote": "不再显示投票消息",
-    "rule.zombie_apocalypse": "丧尸危机来临！小心蘑菇，以及僵尸。",
+    "rule.zombie_apocalypse": "僵尸末日来临！小心蘑菇，以及僵尸。",
     "rule.french_mode": "法兰西模式",
     "selectWorld.edit.resetVotes": "重置所有投票数据 :(",
     "selectWorld.edit.resetVotes.msg": "继续操作将移除全部投票数据，包括所有正在进行或已经启用的提案。\n建议只在你无法忍受自己的行为带来的后果，或你的世界在某种程度上已经无法恢复的情况下使用。",
