@@ -141,7 +141,7 @@
     "rule.boat_collisions.explode": "船高速碰撞时爆炸",
     "rule.the_joke": "继续无视Mobbo",
     "rule.natural_spawn_disable": "不再自然生成%s",
-    "rule.natural_spawn_replace": "替换%s的自然生成为%s的",
+    "rule.natural_spawn_replace": "自然生成%s时替换为%s",
     "rule.footprint": "将脚印项目的状态由“%s”推进到“%s”",
     "rule.footprint.0": "脚印？什么脚印？",
     "rule.footprint.1": "启动恢复脚印粒子的进程",

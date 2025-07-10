@@ -109,7 +109,7 @@
     "rule.minecart_collisions.explode": "礦車在高速碰撞時爆炸",
     "rule.the_joke": "繼續無視 Mobbo",
     "rule.natural_spawn_disable": "停止自然生成 %s",
-    "rule.natural_spawn_replace": "將 %s 的自然生成規律替換為 %s 的",
+    "rule.natural_spawn_replace": "自然生成 %s 時替換為 %s",
     "rule.footprint.0": "腳印？什麼腳印？",
     "rule.footprint.11": "啟用腳印",
     "rule.invisible_armor": "使盔甲隱形",

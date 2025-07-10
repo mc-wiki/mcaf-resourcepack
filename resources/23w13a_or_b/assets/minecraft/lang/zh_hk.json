@@ -117,7 +117,7 @@
     "rule.boat_collisions.break": "船高速碰撞時損壞",
     "rule.boat_collisions.explode": "船高速碰撞時爆炸",
     "rule.natural_spawn_disable": "停止自然生成 %s",
-    "rule.natural_spawn_replace": "替換 %s 的自然生成為 %s",
+    "rule.natural_spawn_replace": "自然生成 %s 時替換為 %s",
     "rule.footprint.0": "腳印？什麼腳印？",
     "rule.invisible_armor": "使盔甲隱形",
     "rule.obfuscate_player_names": "混淆玩家名稱",
