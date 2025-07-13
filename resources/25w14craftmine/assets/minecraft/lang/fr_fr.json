@@ -1,1 +1,14 @@
-{}
+{
+    "block.minecraft.sky": "Ciel",
+    "item.minecraft.mob_trophy.grade.diamond": "Diamant",
+    "item.minecraft.mob_trophy.grade.gold": "Or",
+    "item.minecraft.mob_trophy.grade.grass": "Herbe",
+    "item.minecraft.mob_trophy.grade.stone": "Roche",
+    "unlocks.unlock.golden_starter_apples.name": "Pommes dorées",
+    "world.effect.bees.name": "Abeilles",
+    "world.effect.cows.name": "Vaches",
+    "world.effect.guardians.name": "Gardiens",
+    "world.effect.magma_cubes.name": "Cubes de magma",
+    "world.effect.rabbits.name": "Lapins",
+    "world.effect.sheep.name": "Mouton"
+}
