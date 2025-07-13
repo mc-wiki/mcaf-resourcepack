@@ -38,13 +38,6 @@
 歡迎在 Crowdin 上完善翻譯：
 [https://zh.crowdin.com/project/mcaf-resourcepack](https://zh.crowdin.com/project/mcaf-resourcepack)
 
-![en_ud 翻譯進度](https://img.shields.io/badge/dynamic/json?color=blue&label=en_ud&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
-![ja_jp 翻譯進度](https://img.shields.io/badge/dynamic/json?color=blue&label=ja_jp&style=flat&logo=crowdin&query=%24.progress.1.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
-![lzh 翻譯進度](https://img.shields.io/badge/dynamic/json?color=blue&label=lzh&style=flat&logo=crowdin&query=%24.progress.2.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
-![zh_cn 翻譯進度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh_cn&style=flat&logo=crowdin&query=%24.progress.3.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
-![zh_hk 翻譯進度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh_hk&style=flat&logo=crowdin&query=%24.progress.4.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
-![zh_tw 翻譯進度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh_tw&style=flat&logo=crowdin&query=%24.progress.5.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
-
 ## 常見問題
 
 **Q1：遊戲內出現未翻譯文字怎麼辦？**

@@ -40,13 +40,6 @@
 Crowdin から翻訳に参加できます：
 [https://ja.crowdin.com/project/mcaf-resourcepack](https://ja.crowdin.com/project/mcaf-resourcepack)
 
-![en_ud 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=en_ud&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
-![ja_jp 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=ja_jp&style=flat&logo=crowdin&query=%24.progress.1.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
-![lzh 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=lzh&style=flat&logo=crowdin&query=%24.progress.2.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
-![zh_cn 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh_cn&style=flat&logo=crowdin&query=%24.progress.3.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
-![zh_hk 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh_hk&style=flat&logo=crowdin&query=%24.progress.4.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
-![zh_tw 翻訳進行度](https://img.shields.io/badge/dynamic/json?color=blue&label=zh_tw&style=flat&logo=crowdin&query=%24.progress.5.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15691355-777584-update.json)
-
 ## よくある質問
 
 **Q1：ゲーム上で未翻訳のテキストが出現します。**
