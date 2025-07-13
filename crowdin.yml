@@ -2,9 +2,18 @@ preserve_hierarchy: true
 
 languages_mapping:
   - locale:
+      fr-FR: fr_fr      
       en-UD: en_ud
+      es-ES: es_es
+      de-DE: de_de
+      it-IT: it_it
       ja-JP: ja_jp
+      ko-KR: ko_kr
       lzh: lzh
+      nl-NL: nl_nl
+      pt-PT: pt_pt
+      ru-RU: ru_ru
+      uk-UA: uk_ua
       zh-CN: zh_cn
       zh-HK: zh_hk
       zh-TW: zh_tw
