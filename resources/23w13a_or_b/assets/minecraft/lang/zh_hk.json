@@ -228,5 +228,6 @@
     "rule.food_restriction.inedible.rabbit": "兔仔 :(",
     "rule.wheels_on_minecarts": "四輪礦車！",
     "rule.fire_sponge": "海綿可以吸去熔岩",
+    "rule.fix_qc": "修復半連接性",
     "stat.minecraft.votes": "投票次數"
 }

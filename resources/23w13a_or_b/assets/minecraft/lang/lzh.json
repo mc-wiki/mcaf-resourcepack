@@ -1,5 +1,5 @@
 {
-    "action.repeal": "廢行\"%s\"",
+    "action.repeal": "廢行「%s」",
     "action.approve": "用「%s」",
     "advancements.adventure.vote_1.title": "吾薦之！",
     "advancements.adventure.vote_1.description": "初薦",
@@ -323,6 +323,7 @@
     "rule.food_restriction.inedible.chorus_fruit": "天外紫果",
     "rule.food_restriction.inedible.cooked_beef": "焚牛",
     "rule.food_restriction.inedible.cooked_chicken": "焚鳥",
+    "rule.food_restriction.inedible.cooked_cod": "殘鱈",
     "rule.food_restriction.inedible.cooked_mutton": "燋羊膻臠",
     "rule.food_restriction.inedible.cooked_porkchop": "燋豕臠",
     "rule.food_restriction.inedible.cooked_rabbit": "叵食兔炙",
@@ -364,6 +365,7 @@
     "rule.dupe_hack_break_chance": "損複製訣之機設爲%s%%",
     "rule.less_interaction_updates": "減塊之更新於戲者交互。實則未然…",
     "rule.dead_bush_renewability": "秧乾則枯，枯木多焉",
+    "rule.fix_qc": "矯虛赭聯",
     "rule.buttons_on_things": "可置鈕（及他物）於眾物之上",
     "rule.push_limit": "鞲鞴移物之極：%s",
     "rule.mini_players": "侏儒",
