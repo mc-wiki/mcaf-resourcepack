@@ -6,7 +6,7 @@ Deutsch | [English](README.md) | [日本語](README.ja.md) | [简体中文](READ
 
 **Spiel die Aprilscherz-Versionen mit den Community-Übersetzungen aus dem Minecraft Wiki.**
 
-Die Aprilscherz-Entwicklungsversionen werden nicht offiziell via Crowdin übersetzt. Allerdings hat die Minecraft Wiki-Gemeinschaft eigene Übersetzungen für die darin enthaltenen Features erstellt. Dieses Projekt macht diese Übersetzungen im Spiel verfügbar, um die Übersetzungen zu etablieren.
+[Aprilscherz-Entwicklungsversionen](https://de.minecraft.wiki/w/Easter_Eggs#Aprilscherze) werden nicht offiziell via Crowdin übersetzt. Allerdings hat die Minecraft Wiki-Gemeinschaft eigene Übersetzungen für die darin enthaltenen Features erstellt. Dieses Projekt macht diese Übersetzungen im Spiel verfügbar, um die Übersetzungen zu etablieren.
 
 ## Features
 
