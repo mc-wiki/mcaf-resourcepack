@@ -6,14 +6,14 @@
 
 **Play April Fools' snapshots with community translations from the Minecraft Wiki.**
 
-April Fools' snapshots are not officially localized via Crowdin, but the Minecraft Wiki community provides translations for their features. This project makes these community translations available inside of the game, in an effort to promote consensus on item names.
+[April Fools' snapshots](https://minecraft.wiki/w/April_Fools'_Day_jokes) are not officially localized via Crowdin, but the Minecraft Wiki community provides translations for their features. This project makes these community translations available inside of the game, in an effort to promote consensus on item names.
 
 ## Features
 
 - Provides accurate and up-to-date localization for April Fools' snapshots.
 - Fixes missing translation keys and major typos (e.g., correcting `shepard_potato.png` to `shepherd_potato.png` in 24w14potato).
 
-Minecraft 2.0 is not included in this project since resource packs were unavailable in that version.
+[Minecraft 2.0](https://minecraft.wiki/w/Java_Edition_2.0) is not included in this project since resource packs were unavailable in that version.
 
 ### Supported languages
 
@@ -51,7 +51,7 @@ Need help installing? See the [wiki tutorial](https://minecraft.wiki/w/Tutorial:
 
 ## Contributing
 
-Translations take place on [Crowdin](https://crowdin.com/project/mcaf-resourcepack); you can contribute to the translations there. They are synced with this repository daily.
+Translations take place on [Crowdin](https://crowdin.com/project/mcaf-resourcepack); you can contribute to the translations there. They are synced with this repository regularly.
 
 ## FAQ
 
