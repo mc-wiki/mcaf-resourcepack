@@ -32,23 +32,23 @@ Translations are provided by the community on [Crowdin](https://crowdin.com/proj
 <!-- START PROGRESS -->
 | Code | Language | Endonym | Progress | Translated | Approved |
 | --- | --- | --- | --- | ---: | ---: |
-| `de_de` | German | Deutsch (Deutschland) | <img src="badges/progress_mockup.png"> | 100% | 0% |
-| `en_ud` | English (Upside Down) | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/progress_mockup.png"> | 100% | 0% |
-| `es_es` | Spanish | Español (España) | <img src="badges/progress_mockup.png"> | 0% | 0% |
-| `fr_fr` | French | Français (France) | <img src="badges/progress_mockup.png"> | 100% | 50% |
-| `it_it` | Italian | Italiano (Italia) | <img src="badges/progress_mockup.png"> | 89% | 25% |
-| `ja_jp` | Japanese | 日本語 (日本) | <img src="badges/progress_mockup.png"> | 0% | 0% |
-| `ko_ko` | Korean | 한국어 (대한민국)| <img src="badges/progress_mockup.png"> | 0% | 0% |
-| `lzh` | Literary Chinese | 文言（華夏）| <img src="badges/progress_mockup.png"> | 0% | 0% |
-| `nl_nl` | Dutch | Nederlands (Nederland) | <img src="badges/progress_mockup.png"> | 0% | 0% |
-| `pt_br` | Portuguese (Brazil) | Português (Brasil) | <img src="badges/progress_mockup.png"> | 0% | 0% |
-| `pt_pt` | Portuguese (Portugal) | Português (Portugal) | <img src="badges/progress_mockup.png"> | 0% | 0% |
-| `ru_ru` | Russian | Русский (Россия) | <img src="badges/progress_mockup.png"> | 0% | 0% |
-| `th_th` | Thai | ไทย (ประเทศไทย) | <img src="badges/progress_mockup.png"> | 0% | 0% |
-| `uk_ua` | Ukrainian | Українська (Україна) | <img src="badges/progress_mockup.png"> | 0% | 0% |
-| `zh_cn` | Chinese (Simplified) | 简体中文 (中国大陆) | <img src="badges/progress_mockup.png"> | 0% | 0% |
-| `zh_hk` | Chinese (Hong Kong) | 繁體中文 (香港特別行政區) | <img src="badges/progress_mockup.png"> | 0% | 0% |
-| `zh_tw` | Chinese (Traditional) | 繁體中文 (台灣) | <img src="badges/progress_mockup.png"> | 0% | 0% |
+| `de_de` | German | Deutsch (Deutschland) | <img src="badges/progress_mockup2.png"> | 100% | 0% |
+| `en_ud` | English (Upside Down) | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/progress_mockup2.png"> | 100% | 0% |
+| `es_es` | Spanish | Español (España) | <img src="badges/progress_mockup2.png"> | 0% | 0% |
+| `fr_fr` | French | Français (France) | <img src="badges/progress_mockup2.png"> | 100% | 50% |
+| `it_it` | Italian | Italiano (Italia) | <img src="badges/progress_mockup2.png"> | 89% | 25% |
+| `ja_jp` | Japanese | 日本語 (日本) | <img src="badges/progress_mockup2.png"> | 0% | 0% |
+| `ko_ko` | Korean | 한국어 (대한민국)| <img src="badges/progress_mockup2.png"> | 0% | 0% |
+| `lzh` | Literary Chinese | 文言（華夏）| <img src="badges/progress_mockup2.png"> | 0% | 0% |
+| `nl_nl` | Dutch | Nederlands (Nederland) | <img src="badges/progress_mockup2.png"> | 0% | 0% |
+| `pt_br` | Portuguese (Brazil) | Português (Brasil) | <img src="badges/progress_mockup2.png"> | 0% | 0% |
+| `pt_pt` | Portuguese (Portugal) | Português (Portugal) | <img src="badges/progress_mockup2.png"> | 0% | 0% |
+| `ru_ru` | Russian | Русский (Россия) | <img src="badges/progress_mockup2.png"> | 0% | 0% |
+| `th_th` | Thai | ไทย (ประเทศไทย) | <img src="badges/progress_mockup2.png"> | 0% | 0% |
+| `uk_ua` | Ukrainian | Українська (Україна) | <img src="badges/progress_mockup2.png"> | 0% | 0% |
+| `zh_cn` | Chinese (Simplified) | 简体中文 (中国大陆) | <img src="badges/progress_mockup2.png"> | 0% | 0% |
+| `zh_hk` | Chinese (Hong Kong) | 繁體中文 (香港特別行政區) | <img src="badges/progress_mockup2.png"> | 0% | 0% |
+| `zh_tw` | Chinese (Traditional) | 繁體中文 (台灣) | <img src="badges/progress_mockup2.png"> | 0% | 0% |
 <!-- END PROGRESS -->
 
 You can request adding a new language [on Crowdin](https://crowdin.com/project/mcaf-resourcepack).
