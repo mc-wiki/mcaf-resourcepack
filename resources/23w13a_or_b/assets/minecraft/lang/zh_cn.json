@@ -179,7 +179,7 @@
     "rule.name_visibility.none": "不再显示实体名称",
     "rule.name_visibility.normal": "隐藏方块后的实体名称",
     "rule.name_visibility.see_through": "始终显示方块后的实体名称",
-    "rule.dinnerbonize": "使%sDinnerbone化",
+    "rule.dinnerbonize": "Dinnerbone化%s",
     "rule.grummize": "使%sGrumm化",
     "rule.rideable_entities": "使所有%s可被骑乘",
     "rule.flip_binary_gamerule": "反转游戏规则“%s”",
