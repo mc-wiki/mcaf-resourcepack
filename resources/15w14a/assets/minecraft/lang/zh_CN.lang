@@ -1,7 +1,7 @@
 menu.singleplayer=进入世界
 selectWorld.cheats=超能力
 createWorld.customize.custom.useLavaLakes=芝士湖
-createWorld.customize.custom.lavaLakeChance=芝士湖密度
+createWorld.customize.custom.lavaLakeChance=芝士湖稀有度
 createWorld.customize.custom.useLavaOceans=芝士海
 gameMode.survival=存在模式
 selectWorld.gameMode.survival=存在

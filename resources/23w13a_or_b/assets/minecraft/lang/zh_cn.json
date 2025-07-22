@@ -36,7 +36,7 @@
     "block.minecraft.other_portal": "异界传送门",
     "block.minecraft.packed_air": "压缩空气",
     "death.attack.onMoon": "%1$s体验到了月球的黑暗面",
-    "death.attack.onMoon.player": "%1$s在试图逃离%2$s时感受到了月球背面的黑暗",
+    "death.attack.onMoon.player": "%1$s在试图逃离%2$s时体验到了月球的黑暗面",
     "death.midas.turned_into_gold": "%1$s变成了金子",
     "effect.minecraft.big": "变大",
     "effect.minecraft.small": "变小",
