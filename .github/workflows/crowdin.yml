@@ -91,7 +91,7 @@ jobs:
           cache: 'pip'
 
       - name: Install Python dependencies
-        run: pip install pypng
+        run: pip install -r requirements.txt
 
       - name: Run update_progress.py
         id: update_progress
