@@ -1,4 +1,4 @@
-[English](README.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
+[Deutsch](README.de.md) | [English](README.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
 
 ˙uoᴉʇɔǝs [sǝnssI](https://github.com/mc-wiki/mcaf-resourcepack/issues) ǝɥʇ uᴉ ʇᴉ ʇɹodǝɹ ǝsɐǝꞁԀ ˙sǝꞁᴉɟ ǝᵷɐnᵷuɐꞁ ǝɥʇ uᴉ ʎɹʇuǝ ᵷuᴉssᴉɯ ɐ suɐǝɯ ʎꞁꞁɐnsn sᴉɥ⟘ :ᘔⱯ
 
@@ -15,7 +15,7 @@
 
 ### ᵷuᴉʇɐꞁsuɐɹ⟘
 
-## ᵷuᴉʇnqᴉɹʇuoƆ 
+## ᵷuᴉʇnqᴉɹʇuoƆ
 
 > [!NOTE]
 > ˙uoᴉsɹǝʌ ʇɐɥʇ uᴉ ǝꞁqɐꞁᴉɐʌɐun ǝɹǝʍ sʞɔɐd ǝɔɹnosǝɹ sɐ ʇɔǝɾoɹd sᴉɥʇ uᴉ pǝpnꞁɔuᴉ ʇou sᴉ 0˙ᘔ ʇɟɐɹɔǝuᴉWzv

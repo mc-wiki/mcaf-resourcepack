@@ -14,14 +14,14 @@
 
 ### Supported versions
 
-* [15w14a](https://minecraft.wiki/w/Java_Edition_15w14a) (2015)
-* [1.RV-Pre1](https://minecraft.wiki/w/Java_Edition_1.RV-Pre1) (2016)
-* [3D Shareware v1.34](https://minecraft.wiki/w/Java_Edition_3D_Shareware_v1.34) (2019)
-* [20w14∞](https://minecraft.wiki/w/Java_Edition_20w14∞) (2020)
-* [22w13oneBlockAtATime](https://minecraft.wiki/w/Java_Edition_22w13oneBlockAtATime) (2022)
-* [23w13a_or_b](https://minecraft.wiki/w/Java_Edition_23w13a_or_b) (2023)
-* [24w14potato](https://minecraft.wiki/w/Java_Edition_24w14potato) (2024)
-* [25w14craftmine](https://minecraft.wiki/w/Java_Edition_24w14craftmine) (2025)
+- [15w14a](https://minecraft.wiki/w/Java_Edition_15w14a) (2015)
+- [1.RV-Pre1](https://minecraft.wiki/w/Java_Edition_1.RV-Pre1) (2016)
+- [3D Shareware v1.34](https://minecraft.wiki/w/Java_Edition_3D_Shareware_v1.34) (2019)
+- [20w14∞](https://minecraft.wiki/w/Java_Edition_20w14∞) (2020)
+- [22w13oneBlockAtATime](https://minecraft.wiki/w/Java_Edition_22w13oneBlockAtATime) (2022)
+- [23w13a_or_b](https://minecraft.wiki/w/Java_Edition_23w13a_or_b) (2023)
+- [24w14potato](https://minecraft.wiki/w/Java_Edition_24w14potato) (2024)
+- [25w14craftmine](https://minecraft.wiki/w/Java_Edition_24w14craftmine) (2025)
 
 [Minecraft 2.0](https://minecraft.wiki/w/Java_Edition_2.0) (2013) is **not** included in this project since resource packs were unavailable in that version.
 
@@ -49,7 +49,7 @@ Translations are provided by the community on [Crowdin](https://crowdin.com/proj
 | `zh_hk` | Chinese (Hong Kong) | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 43% | 19% |
 | `zh_tw` | Chinese (Traditional) | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 64% | 1% |
 
-You can request adding a new language [on Crowdin](https://crowdin.com/project/mcaf-resourcepack).
+You can request adding a new language [by creating an issue on Github](https://github.com/mc-wiki/mcaf-resourcepack/issues).
 
 ## How to use
 

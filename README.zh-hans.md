@@ -1,6 +1,9 @@
 # 愚人节翻译包
 
-[English](README.md) | [日本語](README.ja.md) | 简体中文 | [繁體中文](README.zh-hant.md)
+[![Modrinth](https://img.shields.io/modrinth/dt/april-fools-translation?label=Modrinth&color=darkgreen&labelColor=black&logo=modrinth)](https://modrinth.com/mod/april-fools-translation)
+[![Crowdin](https://badges.crowdin.net/mcaf-resourcepack/localized.svg)](https://crowdin.com/project/mcaf-resourcepack)
+
+[Deutsch](README.de.md) | [English](README.md) | [日本語](README.ja.md) | 简体中文 | [繁體中文](README.zh-hant.md)
 
 **使用来自 Minecraft Wiki 的翻译，畅玩愚人节快照。**
 
@@ -11,14 +14,44 @@
 - 提供准确、及时的愚人节快照本地化支持。
 - 修复缺失的本地化键名和严重错别字（如将 24w14potato 中的`shepard_potato.png`更正为`shepherd_potato.png`）。
 
-当前支持的语言有：
+### 支持版本
 
-- `en_ud`：ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)
-- `ja_jp`：日本語 (日本)
-- `lzh`：文言（華夏）
-- `zh_cn`：简体中文 (中国大陆)
-- `zh_hk`：繁體中文 (香港特別行政區)
-- `zh_tw`：繁體中文 (台灣)
+- [15w14a](https://zh.minecraft.wiki/w/Java_Edition_15w14a)（2015）
+- [1.RV-Pre1](https://zh.minecraft.wiki/w/Java_Edition_1.RV-Pre1)（2016）
+- [3D Shareware v1.34](https://zh.minecraft.wiki/w/Java_Edition_3D_Shareware_v1.34)（2019）
+- [20w14∞](https://zh.minecraft.wiki/w/Java_Edition_20w14∞)（2020）
+- [22w13oneBlockAtATime](https://zh.minecraft.wiki/w/Java_Edition_22w13oneBlockAtATime)（2022）
+- [23w13a_or_b](https://zh.minecraft.wiki/w/Java_Edition_23w13a_or_b)（2023）
+- [24w14potato](https://zh.minecraft.wiki/w/Java_Edition_24w14potato)（2024）
+- [25w14craftmine](https://zh.minecraft.wiki/w/Java_Edition_24w14craftmine)（2025）
+
+因[Minecraft 2.0](https://zh.minecraft.wiki/w/Java_Edition_2.0)（2013）发布时还未支持资源包功能，此版本将**不会**包含在本项目中。
+
+### 支持语言
+
+本项目的翻译工作在[https://zh.crowdin.com/project/mcaf-resourcepack](https://zh.crowdin.com/project/mcaf-resourcepack)上进行。
+
+| 代码 | 语言 | 显示名称 | 进度 | 已翻译 | 已批准 |
+| --- | --- | --- | --- | ---: | ---: |
+| `de_de` | 德语 | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 0% | 0% |
+| `en_ud` | 颠倒英语 | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/en_ud.png"> | 100% | 100% |
+| `es_es` | 西班牙语 | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
+| `fr_fr` | 法语 | Français (France) | <img src="badges/fr_fr.png"> | 0% | 0% |
+| `it_it` | 意大利语 | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
+| `ja_jp` | 日语 | 日本語 (日本) | <img src="badges/ja_jp.png"> | 100% | 4% |
+| `ko_kr` | 韩语 | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 0% | 0% |
+| `lzh` | 汉语（文言文） | 文言（華夏）| <img src="badges/lzh.png"> | 100% | 9% |
+| `nl_nl` | 荷兰语 | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 0% | 0% |
+| `pt_br` | 巴西葡萄牙语 | Português (Brasil) | <img src="badges/pt_br.png"> | 0% | 0% |
+| `pt_pt` | 葡萄牙语 | Português (Portugal) | <img src="badges/pt_pt.png"> | 0% | 0% |
+| `ru_ru` | 俄语 | Русский (Россия) | <img src="badges/ru_ru.png"> | 0% | 0% |
+| `th_th` | 泰语 | ไทย (ประเทศไทย) | <img src="badges/th_th.png"> | 0% | 0% |
+| `uk_ua` | 乌克兰语 | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
+| `zh_cn` | 汉语 | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 85% |
+| `zh_hk` | 汉语 | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 43% | 19% |
+| `zh_tw` | 汉语 | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 64% | 1% |
+
+可以在本仓库中[提交issue](https://github.com/mc-wiki/mcaf-resourcepack/issues)申请新语言。
 
 ## 如何使用
 
@@ -26,14 +59,9 @@
 2. 下载所需语言的资源包。
 3. 安装到你的游戏中。
 
-不会安装？请参阅[wiki 教程](https://minecraft.wiki/w/Tutorial:Loading_a_resource_pack)。
-
-> [!NOTE]
-> Minecraft 2.0 版本因当时不支持资源包，暂不包含在本项目中。
+不会安装？请参阅[wiki 教程](https://zh.minecraft.wiki/w/Tutorial:Loading_a_resource_pack)。
 
 ## 贡献方法
-
-### 参与翻译
 
 欢迎在 Crowdin 上完善翻译：
 [https://zh.crowdin.com/project/mcaf-resourcepack](https://zh.crowdin.com/project/mcaf-resourcepack)
@@ -42,13 +70,13 @@
 
 **Q1：游戏内出现未翻译文本怎么办？**
 
-A1：请到[Crowdin](#参与翻译)参与贡献。如果 Crowdin 上也没有该文本，通常为硬编码，资源包无法修复。
+A1：请到[Crowdin](#贡献方法)参与贡献。如果 Crowdin 上也没有该文本，通常为硬编码，资源包无法修复。
 
 **Q2：游戏内出现本地化键名（如`rule.food_restriction.air_block`）怎么办？**
 
 A2：通常是语言文件缺失。请在[Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues)反馈。
 
-<!-- Do not translate the following part -->
+<!-- The following content is specifically provided for zh_hk and lzh players, and can be omitted.-->
 
 ## 香港繁体和文言
 

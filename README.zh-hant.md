@@ -1,6 +1,9 @@
 # 愚人節翻譯包
 
-[English](README.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md) | 繁體中文
+[![Modrinth](https://img.shields.io/modrinth/dt/april-fools-translation?label=Modrinth&color=darkgreen&labelColor=black&logo=modrinth)](https://modrinth.com/mod/april-fools-translation)
+[![Crowdin](https://badges.crowdin.net/mcaf-resourcepack/localized.svg)](https://crowdin.com/project/mcaf-resourcepack)
+
+[Deutsch](README.de.md) | [English](README.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md) | 繁體中文
 
 **使用來自 Minecraft Wiki 的翻譯，暢玩愚人節快照。**
 
@@ -11,14 +14,44 @@
 - 提供準確、及時的愚人節快照在地化支援。
 - 修復缺失的在地化鍵名和嚴重錯字（如將 24w14potato 中的 `shepard_potato.png` 更正為 `shepherd_potato.png`）。
 
-目前支援的語言有：
+### 支援版本
 
-- `en_ud`：ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)
-- `ja_jp`：日本語 (日本)
-- `lzh`：文言（華夏）
-- `zh_cn`：简体中文 (中国大陆)
-- `zh_hk`：繁體中文 (香港特別行政區)
-- `zh_tw`：繁體中文 (台灣)
+- [15w14a](https://zh.minecraft.wiki/w/Java_Edition_15w14a)（2015）
+- [1.RV-Pre1](https://zh.minecraft.wiki/w/Java_Edition_1.RV-Pre1)（2016）
+- [3D Shareware v1.34](https://zh.minecraft.wiki/w/Java_Edition_3D_Shareware_v1.34)（2019）
+- [20w14∞](https://zh.minecraft.wiki/w/Java_Edition_20w14∞)（2020）
+- [22w13oneBlockAtATime](https://zh.minecraft.wiki/w/Java_Edition_22w13oneBlockAtATime)（2022）
+- [23w13a_or_b](https://zh.minecraft.wiki/w/Java_Edition_23w13a_or_b)（2023）
+- [24w14potato](https://zh.minecraft.wiki/w/Java_Edition_24w14potato)（2024）
+- [25w14craftmine](https://zh.minecraft.wiki/w/Java_Edition_24w14craftmine)（2025）
+
+因[Minecraft 2.0](https://zh.minecraft.wiki/w/Java_Edition_2.0)（2013）發布時還未支援資源包功能，此版本將**不會**包含在本項目中。
+
+### 支援語言
+
+本項目的翻譯工作在[https://zh.crowdin.com/project/mcaf-resourcepack](https://zh.crowdin.com/project/mcaf-resourcepack)上进行。
+
+| 代碼 | 語言 | 顯示名稱 | 進度 | 已翻譯 | 已批准 |
+| --- | --- | --- | --- | ---: | ---: |
+| `de_de` | 德語 | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 0% | 0% |
+| `en_ud` | 顛倒英語 | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/en_ud.png"> | 100% | 100% |
+| `es_es` | 西班牙語 | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
+| `fr_fr` | 法語 | Français (France) | <img src="badges/fr_fr.png"> | 0% | 0% |
+| `it_it` | 意大利語 | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
+| `ja_jp` | 日語 | 日本語 (日本) | <img src="badges/ja_jp.png"> | 100% | 4% |
+| `ko_kr` | 韓語 | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 0% | 0% |
+| `lzh` | 漢語（文言文） | 文言（華夏）| <img src="badges/lzh.png"> | 100% | 9% |
+| `nl_nl` | 荷蘭語 | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 0% | 0% |
+| `pt_br` | 巴西葡萄牙語 | Português (Brasil) | <img src="badges/pt_br.png"> | 0% | 0% |
+| `pt_pt` | 葡萄牙語 | Português (Portugal) | <img src="badges/pt_pt.png"> | 0% | 0% |
+| `ru_ru` | 俄語 | Русский (Россия) | <img src="badges/ru_ru.png"> | 0% | 0% |
+| `th_th` | 泰語 | ไทย (ประเทศไทย) | <img src="badges/th_th.png"> | 0% | 0% |
+| `uk_ua` | 烏克蘭語 | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
+| `zh_cn` | 漢語 | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 85% |
+| `zh_hk` | 漢語 | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 43% | 19% |
+| `zh_tw` | 漢語 | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 64% | 1% |
+
+可以在本倉庫中[提交issue](https://github.com/mc-wiki/mcaf-resourcepack/issues)申請新語言。
 
 ## 如何使用
 
@@ -28,12 +61,7 @@
 
 不會安裝？請參閱 [wiki 教學](https://zh.minecraft.wiki/w/Tutorial:加载资源包)。
 
-> [!NOTE]
-> Minecraft 2.0 版本因當時不支援資源包，暫不包含在本項目中。
-
 ## 貢獻方法
-
-### 參與翻譯
 
 歡迎在 Crowdin 上完善翻譯：
 [https://zh.crowdin.com/project/mcaf-resourcepack](https://zh.crowdin.com/project/mcaf-resourcepack)
@@ -42,13 +70,13 @@
 
 **Q1：遊戲內出現未翻譯文字怎麼辦？**
 
-A1：請到[Crowdin](#參與翻譯)參與貢獻。如果 Crowdin 上也沒有該文字，通常為硬編碼，資源包無法修復。
+A1：請到[Crowdin](#貢獻方法)參與貢獻。如果 Crowdin 上也沒有該文字，通常為硬編碼，資源包無法修復。
 
 **Q2：遊戲內出現在地化鍵名（如 `rule.food_restriction.air_block`）怎麼辦？**
 
 A2：通常是語言檔案缺失。請在 [Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues) 回饋。
 
-<!-- Do not translate the following part -->
+<!-- The following content is specifically provided for zh_hk and lzh players, and can be omitted.-->
 
 ## 香港繁體和文言
 
