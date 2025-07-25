@@ -108,7 +108,7 @@ jobs:
           project: '1NAoXRE0'
           version: '${{ inputs.name || steps.package.outputs.time }}+${{ matrix.folder }}'
           changelog: |
-            ${{ inputs.changes && fromJson(inputs.changes) }}
+            ${{ inputs.changes && fromJson(inputs.changes) || '<!-- Add change notes here -->' }}
 
             Resource packs built from the latest Crowdin translations.
             - Run ID: ${{ github.run_id }}
