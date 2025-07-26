@@ -29,6 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       has_commits: ${{ steps.check.outputs.has_commits }}
+      recent_logs: ${{ steps.check.outputs.recent_logs }}
       channel: ${{ steps.check.outputs.channel }}
       folders_json: ${{ steps.list_folders.outputs.folders_json }}
 
@@ -62,13 +63,14 @@ jobs:
               channel=alpha
             fi
           fi
-          recent_log=$(git log --since=$date --stat --pretty="")
-          echo "Recent log: $recent_log"
-          if [[ $recent_log =~ /lang/ ]]; then
+          recent_logs=$(git log --since=$date --stat --oneline --no-decorate)
+          echo "Recent logs: $recent_logs"
+          if [[ $recent_logs =~ /lang/ ]]; then
             echo "has_commits=true" >> $GITHUB_OUTPUT
           else
             echo "has_commits=false" >> $GITHUB_OUTPUT
           fi
+          echo "recent_logs=$recent_logs" >> $GITHUB_OUTPUT
           echo "channel=$channel" >> $GITHUB_OUTPUT
 
       - name: List folders
@@ -113,6 +115,11 @@ jobs:
             Resource packs built from the latest Crowdin translations.
             - Run ID: ${{ github.run_id }}
             - Commit SHA: ${{ github.sha }}
+
+            <details>
+              <summary>Recent logs</summary>
+              ${{ needs.sync_and_prepare.outputs.recent_logs }}
+            </details>
           loaders: minecraft
           game-versions: ${{ matrix.folder == '3D_Shareware_v1.34' && '3D-Shareware-v1.34' || matrix.folder == '22w13oneBlockAtATime' && '22w13oneblockatatime' || matrix.folder }}
           files: '["[AFTP] ${{ matrix.folder }}.zip"]'
