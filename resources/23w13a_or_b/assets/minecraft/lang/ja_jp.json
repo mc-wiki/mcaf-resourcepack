@@ -109,7 +109,7 @@
     "rule.flammability.very_high": "%sの可燃性を「文字通り枯れ草と同じ」に変更する",
     "rule.pot_gems": "飾り壺が破壊時に宝玉をドロップするようにする",
     "rule.infinite_cakes": "無限のケーキ",
-    "rule.give_effect": "すべてのプレイヤーに、永続の%sを付与する",
+    "rule.give_effect": "すべてのプレイヤーに永続の%sを付与する",
     "rule.spawn_egg_chance": "エンティティが自身のスポーンエッグをドロップする確率を、%s%%に設定する",
     "rule.disable_shield": "盾の防御を無効化する",
     "rule.item_use_speed": "道具の使用速度を現在の%s%%にする",
