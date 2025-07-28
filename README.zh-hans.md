@@ -38,7 +38,7 @@
 | `es_es` | 西班牙语 | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
 | `fr_fr` | 法语 | Français (France) | <img src="badges/fr_fr.png"> | 0% | 0% |
 | `it_it` | 意大利语 | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
-| `ja_jp` | 日语 | 日本語 (日本) | <img src="badges/ja_jp.png"> | 100% | 5% |
+| `ja_jp` | 日语 | 日本語 (日本) | <img src="badges/ja_jp.png"> | 100% | 7% |
 | `ko_kr` | 韩语 | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 0% | 0% |
 | `lzh` | 汉语（文言文） | 文言（華夏）| <img src="badges/lzh.png"> | 100% | 9% |
 | `nl_nl` | 荷兰语 | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 0% | 0% |
