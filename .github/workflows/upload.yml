@@ -63,14 +63,17 @@ jobs:
               channel=alpha
             fi
           fi
-          recent_logs=$(git log --since=$date --stat --oneline --no-decorate)
-          echo "Recent logs: $recent_logs"
+          git log --since=$date --stat --oneline --no-decorate > recent_logs.txt
+          sed -i ':a;N;$!ba;s/\n/<br>\n/g' recent_logs.txt
+          recent_logs=$(sed ':a;N;$!ba;s/\( deletions\?(-)<br>\n\)/\1\n/g' recent_logs.txt)
+          echo "Recent logs: $(cat recent_logs.txt)"
           if [[ $recent_logs =~ /lang/ ]]; then
             echo "has_commits=true" >> $GITHUB_OUTPUT
           else
             echo "has_commits=false" >> $GITHUB_OUTPUT
           fi
-          echo "recent_logs=$recent_logs" >> $GITHUB_OUTPUT
+          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)  # To define the separator
+          echo "recent_logs<<EOF"$'\n'"$recent_logs"$'\n'EOF >> $GITHUB_OUTPUT  # For the multi-line output
           echo "channel=$channel" >> $GITHUB_OUTPUT
 
       - name: List folders
@@ -117,8 +120,9 @@ jobs:
             - Commit SHA: ${{ github.sha }}
 
             <details>
-              <summary>Recent logs</summary>
-              ${{ needs.sync_and_prepare.outputs.recent_logs }}
+            <summary>Recent logs</summary>
+
+            ${{ needs.sync_and_prepare.outputs.recent_logs }}
             </details>
           loaders: minecraft
           game-versions: ${{ matrix.folder == '3D_Shareware_v1.34' && '3D-Shareware-v1.34' || matrix.folder == '22w13oneBlockAtATime' && '22w13oneblockatatime' || matrix.folder }}
