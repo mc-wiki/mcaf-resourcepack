@@ -1,1 +1,17 @@
-{}
+{
+    "advancements.adventure.almost_there.title": "Fast geschafft",
+    "advancements.adventure.almost_there.description": "Über eine Milliarde Dimensionen besucht",
+    "biome.minecraft.between": "Zwischen",
+    "biome.minecraft.shapes": "Formen",
+    "biome.minecraft.busy": "Biome für Spieler mit keiner Zeit für Unsinn",
+    "block.minecraft.cursor": "Mauszeiger",
+    "block.minecraft.ant": "Ameise",
+    "block.minecraft.zone": "Überbleibsel",
+    "block.minecraft.netherite_stairs": "Die tollste Treppe überhaupt",
+    "block.minecraft.book_box": "Schachtel der unendlichen Bücher",
+    "item.minecraft.footprint": "Fußabdruck",
+    "item.minecraft.fine_item": "Ein sehr eleganter Gegenstand",
+    "stat.minecraft.change_dimension": "Dimension ändert sich",
+    "subtitles.block.end_portal.spawn": "Endportal öffnet!",
+    "subtitles.entity.horse.land": "Pferd landet"
+}

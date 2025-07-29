@@ -1,1 +1,5 @@
-{}
+{
+    "advancements.end.ride_dragon.title": "Reite das Ende",
+    "advancements.end.ride_dragon.description": "Extra-Glück",
+    "gamemode.gamemodeNotFound": "Unbekannter Spielmodus: %s"
+}
