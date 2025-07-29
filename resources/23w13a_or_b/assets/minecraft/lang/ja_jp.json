@@ -47,7 +47,7 @@
     "gui.voting.title": "投票",
     "gui.voting.next": "次の投票",
     "gui.voting.prev": "前の投票",
-    "gui.voting.do_it": "投票しよう！",
+    "gui.voting.do_it": "投票！",
     "rule.item.disabled": "無効なアイテムです。投票で有効化しよう！",
     "item.minecraft.air_block": "空気",
     "item.minecraft.bottle_of_void": "「無」入りの瓶",
