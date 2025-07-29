@@ -33,7 +33,7 @@
 
 | 代码 | 语言 | 显示名称 | 进度 | 已翻译 | 已批准 |
 | --- | --- | --- | --- | ---: | ---: |
-| `de_de` | 德语 | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 0% | 0% |
+| `de_de` | 德语 | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 3% | 0% |
 | `en_ud` | 颠倒英语 | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/en_ud.png"> | 100% | 100% |
 | `es_es` | 西班牙语 | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
 | `fr_fr` | 法语 | Français (France) | <img src="badges/fr_fr.png"> | 0% | 0% |
