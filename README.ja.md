@@ -49,7 +49,7 @@
 | `ru_ru` | ロシア語 | Русский (Россия) | <img src="badges/ru_ru.png"> | 0% | 0% |
 | `th_th` | タイ語 | ไทย (ประเทศไทย) | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua` | ウクライナ語 | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
-| `zh_cn` | 簡体字中国語 | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 86% |
+| `zh_cn` | 簡体字中国語 | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 87% |
 | `zh_hk` | 繁体字中国語（香港） | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 43% | 19% |
 | `zh_tw` | 繁体字中国語（台湾） | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 64% | 1% |
 
