@@ -172,7 +172,7 @@
     "rule.nbt_crafting": "启用NBT合成",
     "rule.recipe_flip.normal_only": "有序配方仅接受完全匹配的摆放方式",
     "rule.recipe_flip.flipped_only": "有序配方仅接受镜像的摆放方式",
-    "rule.recipe_flip.both": "有序配方接受所有方向",
+    "rule.recipe_flip.both": "有序配方接受所有方向的摆放方式",
     "rule.change_world_shape": "更改主世界形状",
     "rule.normal_name_visibility": "将普通实体的名称显示为：%s",
     "rule.sneaking_name_visibility": "将潜行实体的名称显示为：%s",
