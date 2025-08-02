@@ -23,7 +23,7 @@
 - [22w13oneBlockAtATime](https://minecraft.wiki/w/Java_Edition_22w13oneBlockAtATime) (2022)
 - [23w13a_or_b](https://minecraft.wiki/w/Java_Edition_23w13a_or_b) (2023)
 - [24w14potato](https://minecraft.wiki/w/Java_Edition_24w14potato) (2024)
-- [25w14craftmine](https://minecraft.wiki/w/Java_Edition_24w14craftmine) (2025)
+- [25w14craftmine](https://minecraft.wiki/w/Java_Edition_25w14craftmine) (2025)
 
 [Minecraft 2.0](https://minecraft.wiki/w/Java_Edition_2.0) (2013) is **not** included in this project since resource packs were unavailable in that version.
 

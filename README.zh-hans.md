@@ -16,16 +16,16 @@
 
 ### 支持版本
 
-- [15w14a](https://zh.minecraft.wiki/w/Java_Edition_15w14a)（2015）
-- [1.RV-Pre1](https://zh.minecraft.wiki/w/Java_Edition_1.RV-Pre1)（2016）
-- [3D Shareware v1.34](https://zh.minecraft.wiki/w/Java_Edition_3D_Shareware_v1.34)（2019）
-- [20w14∞](https://zh.minecraft.wiki/w/Java_Edition_20w14∞)（2020）
-- [22w13oneBlockAtATime](https://zh.minecraft.wiki/w/Java_Edition_22w13oneBlockAtATime)（2022）
-- [23w13a_or_b](https://zh.minecraft.wiki/w/Java_Edition_23w13a_or_b)（2023）
-- [24w14potato](https://zh.minecraft.wiki/w/Java_Edition_24w14potato)（2024）
-- [25w14craftmine](https://zh.minecraft.wiki/w/Java_Edition_24w14craftmine)（2025）
+- [15w14a](https://zh.minecraft.wiki/w/15w14a)（2015）
+- [1.RV-Pre1](https://zh.minecraft.wiki/w/Java版1.RV-Pre1)（2016）
+- [3D Shareware v1.34](https://zh.minecraft.wiki/w/Java版3D_Shareware_v1.34)（2019）
+- [20w14∞](https://zh.minecraft.wiki/w/20w14infinite)（2020）
+- [22w13oneBlockAtATime](https://zh.minecraft.wiki/w/22w13oneBlockAtATime)（2022）
+- [23w13a_or_b](https://zh.minecraft.wiki/w/23w13a_or_b)（2023）
+- [24w14potato](https://zh.minecraft.wiki/w/24w14potato)（2024）
+- [25w14craftmine](https://zh.minecraft.wiki/w/25w14craftmine)（2025）
 
-因[Minecraft 2.0](https://zh.minecraft.wiki/w/Java_Edition_2.0)（2013）发布时还未支持资源包功能，此版本将**不会**包含在本项目中。
+因[Minecraft 2.0](https://zh.minecraft.wiki/w/Java版2.0)（2013）发布时还未支持资源包功能，此版本将**不会**包含在本项目中。
 
 ### 支持语言
 
@@ -59,7 +59,7 @@
 2. 下载所需语言的资源包。
 3. 安装到你的游戏中。
 
-不会安装？请参阅[wiki 教程](https://zh.minecraft.wiki/w/Tutorial:Loading_a_resource_pack)。
+不会安装？请参阅[wiki 教程](https://zh.minecraft.wiki/w/Tutorial:加载资源包)。
 
 ## 贡献方法
 
