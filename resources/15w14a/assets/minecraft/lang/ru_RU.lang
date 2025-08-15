@@ -1,0 +1,11 @@
+menu.singleplayer=Игровой мир
+selectWorld.cheats=Сверхспособности
+createWorld.customize.custom.useLavaLakes=Сырные озера
+createWorld.customize.custom.lavaLakeChance=Сырное озеро Редкость
+createWorld.customize.custom.useLavaOceans=Сырные океаны
+gameMode.survival=Режим существования
+selectWorld.gameMode.survival=Существование
+selectWorld.gameMode.survival.line1=Наслаждайтесь своим существованием и взаимодействуйте
+selectWorld.gameMode.survival.line2=с окружающей средой
+selectWorld.gameMode.creative.line1=Как в режиме "Существование", но с неограниченным количеством
+selectWorld.gameMode.creative.line2=доступ ко всему
