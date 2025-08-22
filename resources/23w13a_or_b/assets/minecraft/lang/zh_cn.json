@@ -376,7 +376,7 @@
     "rule.fog_off": "给游戏中原先有雾的地方除雾，反之亦然。",
     "rule.fast_hoppers": "漏斗变快，但漏斗矿车变慢",
     "rule.less_gravity": "交换重力规则。现在感觉地球跟月亮一样",
-    "rule.air_blocks": "解锁用于在月球上生存的可食用空气方块、压缩空气，以及用于到达那里的可骑乘气球牛",
+    "rule.air_blocks": "解锁用于在月球上生存的可食用空气方块、压缩空气，以及用于到达月球的可骑乘气球牛",
     "rule.bouncy_castle": "超级弹力黏液块",
     "rule.drink_air": "虚空之瓶：饮用空玻璃瓶获取。可能有副作用。",
     "rule.dupe_hack_occurrence_chance": "将复制秘技的出现概率设为%s%%",
