@@ -51,7 +51,7 @@
 | `uk_ua` | ウクライナ語 | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
 | `zh_cn` | 簡体字中国語 | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 87% |
 | `zh_hk` | 繁体字中国語（香港） | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 43% | 19% |
-| `zh_tw` | 繁体字中国語（台湾） | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 64% | 1% |
+| `zh_tw` | 繁体字中国語（台湾） | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 65% | 1% |
 
 <!--You can request adding a new language [by creating an issue on Github](https://github.com/mc-wiki/mcaf-resourcepack/issues).-->
 
