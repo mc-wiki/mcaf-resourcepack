@@ -1,1 +1,5 @@
-{}
+{
+    "advancements.end.ride_dragon.title": "Chevauchez l'End !",
+    "advancements.end.ride_dragon.description": "Bonne chance !!!",
+    "gamemode.gamemodeNotFound": "Mode de jeu inconnu : %s"
+}

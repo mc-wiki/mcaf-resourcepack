@@ -1,1 +1,18 @@
-{}
+{
+    "advancements.adventure.almost_there.title": "On y est presque !",
+    "advancements.adventure.almost_there.description": "Visitez plus d'un milliard de dimension.",
+    "biome.minecraft.between": "Entre",
+    "biome.minecraft.shapes": "Formes",
+    "biome.minecraft.busy": "Biome pour les joueurs qui n'ont pas l'temps d'niaiser",
+    "block.minecraft.cursor": "Curseur",
+    "block.minecraft.ant": "Une fourmi",
+    "block.minecraft.zone": "Restes",
+    "block.minecraft.neither_portal": "Portail cool",
+    "block.minecraft.netherite_stairs": "Escalier le plus stylé de tous les temps",
+    "block.minecraft.book_box": "Boîte de livres infinis",
+    "item.minecraft.footprint": "Empreinte",
+    "item.minecraft.fine_item": "Un objet pas mal du tout",
+    "stat.minecraft.change_dimension": "Changements de dimensions",
+    "subtitles.block.end_portal.spawn": "Portail de l'End ouvert !",
+    "subtitles.entity.horse.land": "Cheval qui atterrit"
+}
