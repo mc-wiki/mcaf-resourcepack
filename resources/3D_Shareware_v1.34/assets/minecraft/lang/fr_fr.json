@@ -1,1 +1,6 @@
-{}
+{
+    "item.minecraft.red_key": "Clé rouge",
+    "item.minecraft.blue_key": "Clé bleue",
+    "item.minecraft.yellow_key": "Clé jaune",
+    "item.minecraft.3d": "3D"
+}
