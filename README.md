@@ -36,7 +36,7 @@ Translations are provided by the community on [Crowdin](https://crowdin.com/proj
 | `de_de` | German | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 8% | 0% |
 | `en_ud` | English (Upside Down) | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/en_ud.png"> | 100% | 100% |
 | `es_es` | Spanish | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
-| `fr_fr` | French | Français (France) | <img src="badges/fr_fr.png"> | 0% | 0% |
+| `fr_fr` | French | Français (France) | <img src="badges/fr_fr.png"> | 1% | 0% |
 | `it_it` | Italian | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
 | `ja_jp` | Japanese | 日本語 (日本) | <img src="badges/ja_jp.png"> | 100% | 29% |
 | `ko_kr` | Korean | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 0% | 0% |
