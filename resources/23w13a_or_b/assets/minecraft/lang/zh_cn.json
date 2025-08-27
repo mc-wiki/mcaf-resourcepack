@@ -236,7 +236,7 @@
     "rule.prevent_floating_trees": "防止树木漂浮",
     "rule.exploding_phantoms": "幻翼触碰时爆炸",
     "rule.undead_players": "玩家是亡灵生物",
-    "rule.unstable_tnt": "所有新放置的TNT都不稳定",
+    "rule.unstable_tnt": "所有新放置的TNT方块都不稳定",
     "rule.decrease_scale": "降低玩家尺寸至%s倍",
     "rule.default_sheep_color": "将生成的绵羊毛色设为%s",
     "rule.biome_color.foliage": "将%s的树叶颜色设为%s",
