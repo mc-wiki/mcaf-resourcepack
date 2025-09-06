@@ -40,6 +40,7 @@
     "gui.voting.prev": "Vorherige Abstimmung",
     "gui.voting.do_it": "Abstimmen!",
     "rule.item.disabled": "Deaktivierter Gegenstand: du hast nicht dafür abgestimmt!",
+    "item.minecraft.air_block": "Luft",
     "rule.nothing": "Nichts Machen",
     "rule.connector": "%s, aber %s",
     "rule.proposal": "Vorschlag Nr. %s",
