@@ -381,7 +381,7 @@
     "rule.drink_air": "虚空之瓶：饮用空玻璃瓶获取。可能有副作用。",
     "rule.dupe_hack_occurrence_chance": "将复制秘技的出现概率设为%s%%",
     "rule.dupe_hack_break_chance": "将复制秘技的损坏概率设为%s%%",
-    "rule.persistent_parrots": "永远的鹦鹉伙伴。它们绝对不会离开你。",
+    "rule.persistent_parrots": "顽强的鹦鹉。它们永远永远不会离开你。",
     "rule.less_interaction_updates": "减少玩家交互产生的方块更新。事实上完全不会有方块更新了……",
     "rule.dead_bush_renewability": "枯萎的灌木现在可再生，但树苗需要多得多的水才不会枯萎",
     "rule.fix_qc": "修复半连接性",
