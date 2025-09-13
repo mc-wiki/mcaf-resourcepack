@@ -445,7 +445,7 @@
     "rule.quorum_percent": "設進舉所需薦者之數爲在綫戲者之%s%%",
     "rule.votes_to_win_percent": "設得舉薦數至低爲%s%%於總",
     "rule.vote_max_results": "得舉之規極數爲%s",
-    "rule.vote_result_reverse_counts": "舉民意低者，而非高者。",
+    "rule.vote_result_reverse_counts": "舉民意低者，而高者不舉。",
     "rule.tie_strategy.pick_low": "平勝則擇序數先者",
     "rule.tie_strategy.pick_high": "平勝則擇序數後者",
     "rule.tie_strategy.pick_random": "平勝則順天數",
