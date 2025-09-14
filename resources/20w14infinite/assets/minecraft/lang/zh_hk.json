@@ -1,10 +1,10 @@
 {
     "advancements.adventure.almost_there.title": "就快得喇",
     "advancements.adventure.almost_there.description": "進入超過十億個維度",
-    "biome.minecraft.between": "Between",
-    "biome.minecraft.shapes": "Shapes",
-    "biome.minecraft.busy": "玩家無暇應對無謂事物的生物羣落",
-    "block.minecraft.cursor": "指標",
+    "biome.minecraft.between": "船間",
+    "biome.minecraft.shapes": "形狀",
+    "biome.minecraft.busy": "無暇應對無謂事物的玩家的生物羣落",
+    "block.minecraft.cursor": "光標",
     "block.minecraft.ant": "一隻螞蟻",
     "block.minecraft.zone": "剩餘物",
     "block.minecraft.neither_portal": "時髦的傳送門",
@@ -12,7 +12,7 @@
     "block.minecraft.book_box": "無限書盒",
     "item.minecraft.footprint": "腳印",
     "item.minecraft.fine_item": "一個極妙之物",
-    "stat.minecraft.change_dimension": "維度變化次數",
+    "stat.minecraft.change_dimension": "維度變更次數",
     "subtitles.block.end_portal.spawn": "終界傳送門開啟！",
     "subtitles.entity.horse.land": "馬落地"
 }
