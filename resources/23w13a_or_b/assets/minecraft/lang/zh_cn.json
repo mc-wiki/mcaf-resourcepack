@@ -109,7 +109,7 @@
     "rule.flammability.very_high": "将%s的可燃性设为“真正的枯草丛”",
     "rule.pot_gems": "饰纹陶罐被破坏后掉落宝石",
     "rule.infinite_cakes": "无限蛋糕",
-    "rule.give_effect": "给予所有玩家无限时长的%s效果",
+    "rule.give_effect": "给予所有玩家无限时长的“%s”效果",
     "rule.spawn_egg_chance": "将实体掉落刷怪蛋的概率设为%s%%",
     "rule.disable_shield": "禁用盾牌格挡",
     "rule.item_use_speed": "将工具使用速度乘以%s%%",
