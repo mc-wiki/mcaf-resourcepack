@@ -156,7 +156,7 @@
     "item.minecraft.mine": "礦境",
     "item.minecraft.mine_ingredient": "礦境原料",
     "item.minecraft.mine_ingredient.desc": "礦境原料：%s",
-    "item.minecraft.mob_trophy.entity": "内容：1 × Minecraft %s",
+    "item.minecraft.mob_trophy.entity": "內容：1 × Minecraft %s",
     "item.minecraft.mob_trophy.grade": "等級：%s",
     "item.minecraft.mob_trophy.grade.diamond": "鑽石",
     "item.minecraft.mob_trophy.grade.gold": "黃金",
