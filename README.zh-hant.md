@@ -48,7 +48,7 @@
 | `th_th` | 泰語 | ไทย (ประเทศไทย) | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua` | 烏克蘭語 | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
 | `zh_cn` | 漢語 | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 88% |
-| `zh_hk` | 漢語 | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 50% | 38% |
+| `zh_hk` | 漢語 | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 50% | 39% |
 | `zh_tw` | 漢語 | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 66% | 1% |
 
 可以在本倉庫中[提交issue](https://github.com/mc-wiki/mcaf-resourcepack/issues)申請新語言。
