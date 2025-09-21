@@ -1,1 +1,25 @@
-{}
+{
+    "advancements.adventure.mine_revisitor_activated.title": "Yoreyearnish",
+    "advancements.adventure.water_cave.title": "The Depths",
+    "advancements.adventure.water_world.title": "No Smoking",
+    "advancements.feats.angry_ghast.description": "Better the Wroth Ghast sunder befalling",
+    "advancements.feats.angry_ghast.title": "The Windballslayer",
+    "advancements.feats.ender_dragon.description": "Better the Ender Worm sunder befalling",
+    "advancements.feats.enderman.description": "Better the Enderman sunder befalling",
+    "advancements.feats.enderman.title": "Endedman",
+    "advancements.feats.kill_skeleton.title": "Feel it in my Bones",
+    "advancements.feats.kuiper_world.description": "Better the Kuiper World sunder befalling",
+    "advancements.feats.raid.description": "Better the Reaving sunder befalling",
+    "advancements.feats.root.title": "Speeds",
+    "advancements.feats.small_but_deadly.description": "Better the Small but Deadly sunder befalling",
+    "advancements.feats.spooky_scary_skeletons.description": "Better the Frightful Fearsome Boneframes sunder befalling",
+    "advancements.feats.warden.description": "Better the Ward sunder befalling",
+    "advancements.feats.warden.title": "Warded",
+    "advancements.feats.wither_skeleton_skull.description": "Fetch a Wither Boneframe Headbone to unlock the Wither sunder befalling",
+    "advancements.feats.wither_skeleton_skull.title": "Withering",
+    "advancements.feats.wither.description": "Better the Wither sunder befalling",
+    "advancements.feats.wither.title": "Withered",
+    "unlocks.unlock.fire_wand.hint": "Better a fiery flying foe",
+    "unlocks.unlock.teleportation_wand.hint": "Better a fearsome farferrying foe",
+    "unlocks.unlock.wind_wand.hint": "Better a springy whithy foe"
+}
