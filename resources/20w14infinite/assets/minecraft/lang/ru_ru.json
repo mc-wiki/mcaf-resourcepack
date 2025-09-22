@@ -1,1 +1,18 @@
-{}
+{
+    "advancements.adventure.almost_there.title": "Почти на месте",
+    "advancements.adventure.almost_there.description": "Посетите более миллиарда измерений",
+    "biome.minecraft.between": "Промежуток",
+    "biome.minecraft.shapes": "Формы",
+    "biome.minecraft.busy": "Биом для тех, у кого нет времени на ерунду",
+    "block.minecraft.cursor": "Курсор",
+    "block.minecraft.ant": "Муравей",
+    "block.minecraft.zone": "Остатки",
+    "block.minecraft.neither_portal": "Прикольный портал",
+    "block.minecraft.netherite_stairs": "Самые крутые ступени",
+    "block.minecraft.book_box": "Коробка с бесконечными книгами",
+    "item.minecraft.footprint": "След",
+    "item.minecraft.fine_item": "Очень классная вещь",
+    "stat.minecraft.change_dimension": "Смена измерения",
+    "subtitles.block.end_portal.spawn": "Открывается Портал в Край!",
+    "subtitles.entity.horse.land": "Лошадиные Земли"
+}

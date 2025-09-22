@@ -1,1 +1,5 @@
-{}
+{
+    "advancements.end.ride_dragon.title": "Прокатитесь по Краю",
+    "advancements.end.ride_dragon.description": "Невероятная удача",
+    "gamemode.gamemodeNotFound": "Неизвестный режим игры: %s"
+}
