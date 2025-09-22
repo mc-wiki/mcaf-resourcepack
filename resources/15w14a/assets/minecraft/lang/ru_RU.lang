@@ -22,6 +22,7 @@ item.swordGold.name=Золотое сердце
 item.bucketLava.name=Ведро сыра
 item.obsidian_boat.name=Обсидиановая лодка
 item.minecartTnt.name=Вагонетка с бомбой любви
+entity.Arrow.name=Сердце
 entity.LavaSlime.name=Кубик сыра
 entity.PrimedTnt.name=Бомба любви
 death.attack.inFire=%1$s перегорел
