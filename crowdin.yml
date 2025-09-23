@@ -4,6 +4,7 @@ languages_mapping:
   - locale:
       fr-FR: fr_fr      
       en-UD: en_ud
+      enp: enp
       es-ES: es_es
       de-DE: de_de
       it-IT: it_it
