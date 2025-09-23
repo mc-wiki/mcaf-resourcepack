@@ -42,44 +42,44 @@ jobs:
       - name: Check recent commits
         id: check
         run: |
-          date=1.week.ago
-          day=$(date +%-d)
-          channel=release
+          DATE=1.week.ago
+          DAY=$(date +%-d)
+          CHANNEL=release
           if [[ $(date +%-m) == 4 ]]; then
-            date=5.days.ago
-            if [[ $day -lt 13 ]]; then
-              date=3.days.ago
+            DATE=5.days.ago
+            if [[ $DAY -lt 13 ]]; then
+              DATE=3.days.ago
             fi
-            if [[ $day -lt 8 ]]; then
-              date=1.day.ago
-              if [[ $day -lt 7 ]]; then
-                channel=beta
+            if [[ $DAY -lt 8 ]]; then
+              DATE=1.day.ago
+              if [[ $DAY -lt 7 ]]; then
+                CHANNEL=beta
               fi
             fi
-            if [[ $day -lt 4 ]]; then
-              if [[ $day == 2 ]]; then
-                date=1.week.ago
+            if [[ $DAY -lt 4 ]]; then
+              if [[ $DAY == 2 ]]; then
+                DATE=1.week.ago
               fi
-              channel=alpha
+              CHANNEL=alpha
             fi
           fi
-          git log --since=$date --stat --oneline --no-decorate > recent_logs.txt
+          git log --since=$DATE --stat --oneline --no-decorate > recent_logs.txt
           sed -i ':a;N;$!ba;s/\n/<br>\n/g' recent_logs.txt
-          recent_logs=$(sed ':a;N;$!ba;s/\( deletions\?(-)<br>\n\)/\1\n/g' recent_logs.txt)
+          RECENT_LOGS=$(sed ':a;N;$!ba;s/\( deletions\?(-)<br>\n\)/\1\n/g' recent_logs.txt)
           echo "Recent logs: $(cat recent_logs.txt)"
-          if [[ $recent_logs =~ /lang/ ]]; then
+          if [[ $RECENT_LOGS =~ /lang/ ]]; then
             echo "has_commits=true" >> $GITHUB_OUTPUT
           else
             echo "has_commits=false" >> $GITHUB_OUTPUT
           fi
           EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)  # To define the separator
-          echo "recent_logs<<EOF"$'\n'"$recent_logs"$'\n'EOF >> $GITHUB_OUTPUT  # For the multi-line output
-          echo "channel=$channel" >> $GITHUB_OUTPUT
+          echo "recent_logs<<EOF"$'\n'"$RECENT_LOGS"$'\n'EOF >> $GITHUB_OUTPUT  # For the multi-line output
+          echo "channel=$CHANNEL" >> $GITHUB_OUTPUT
 
       - name: List folders
         id: list_folders
         run: |
-          FOLDERS=$(find ./resources -maxdepth 1 -type d -not -path './resources' -printf '"%f", ' | sed 's/, $//')
+          FOLDERS=$(find ./resources -maxdepth 1 -type d -not -path './resources' -not -path './resources/3D_Shareware_v1.34' -not -path './resources/1.RV-Pre1' -printf '"%f", ' | sed -e 's/, $//' -e 's/15w14a/\0", "1.RV-Pre1", "3D_Shareware_v1.34/')
           echo "folders_json=[$FOLDERS]" >> $GITHUB_OUTPUT
 
   release:
@@ -88,6 +88,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
+      max-parallel: 1
       matrix:
         folder: ${{ fromJson(needs.sync_and_prepare.outputs.folders_json) }}
     env:
@@ -104,9 +105,15 @@ jobs:
           cd resources/${{ matrix.folder }}
           zip -r '../../[AFTP] ${{ matrix.folder }}.zip' ./*
           TIME="$(date +%y%m%d)" # Changed
+          IS_NEWER=false
+          if [[ '${{ needs.sync_and_prepare.outputs.recent_logs }}' =~ ${{ matrix.folder }} ]]; then
+            IS_NEWER=true
+          fi
           echo "time=$TIME" >> $GITHUB_OUTPUT
+          echo "is_newer=$IS_NEWER" >> $GITHUB_OUTPUT
 
       - name: Upload to Modrinth
+        if: steps.package.outputs.is_newer == 'true'
         uses: mc-wiki/modrinth-publish@main
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
