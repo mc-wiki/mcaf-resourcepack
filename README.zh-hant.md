@@ -34,22 +34,22 @@
 | 代碼 | 語言 | 顯示名稱 | 進度 | 已翻譯 | 已批准 |
 | --- | --- | --- | --- | ---: | ---: |
 | `de_de` | 德語 | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 11% | 0% |
-| `enp` | 純粹英語 | Anglish (Oned Riches) | <img src="badges/enp.png"> | 0% | 0% |
+| `enp` | 純粹英語 | Anglish (Oned Riches) | <img src="badges/enp.png"> | 8% | 8% |
 | `en_ud` | 顛倒英語 | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/en_ud.png"> | 100% | 100% |
 | `es_es` | 西班牙語 | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
 | `fr_fr` | 法語 | Français (France) | <img src="badges/fr_fr.png"> | 1% | 0% |
 | `it_it` | 意大利語 | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
 | `ja_jp` | 日語 | 日本語 (日本) | <img src="badges/ja_jp.png"> | 100% | 29% |
 | `ko_kr` | 韓語 | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 0% | 0% |
-| `lzh` | 漢語（文言文） | 文言（華夏）| <img src="badges/lzh.png"> | 100% | 24% |
+| `lzh` | 漢語（文言文） | 文言（華夏）| <img src="badges/lzh.png"> | 100% | 28% |
 | `nl_nl` | 荷蘭語 | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 0% | 0% |
 | `pt_br` | 巴西葡萄牙語 | Português (Brasil) | <img src="badges/pt_br.png"> | 0% | 0% |
 | `pt_pt` | 葡萄牙語 | Português (Portugal) | <img src="badges/pt_pt.png"> | 0% | 0% |
-| `ru_ru` | 俄語 | Русский (Россия) | <img src="badges/ru_ru.png"> | 0% | 0% |
+| `ru_ru` | 俄語 | Русский (Россия) | <img src="badges/ru_ru.png"> | 3% | 0% |
 | `th_th` | 泰語 | ไทย (ประเทศไทย) | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua` | 烏克蘭語 | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
 | `zh_cn` | 漢語 | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 88% |
-| `zh_hk` | 漢語 | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 51% | 40% |
+| `zh_hk` | 漢語 | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 52% | 43% |
 | `zh_tw` | 漢語 | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 66% | 1% |
 
 可以在本倉庫中[提交issue](https://github.com/mc-wiki/mcaf-resourcepack/issues)申請新語言。
