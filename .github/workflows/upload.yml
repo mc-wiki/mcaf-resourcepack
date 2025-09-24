@@ -79,7 +79,7 @@ jobs:
       - name: List folders
         id: list_folders
         run: |
-          FOLDERS=$(find ./resources -maxdepth 1 -type d -not -path './resources' -not -path './resources/3D_Shareware_v1.34' -not -path './resources/1.RV-Pre1' -printf '"%f", ' | sed -e 's/, $//' -e 's/15w14a/\0", "1.RV-Pre1", "3D_Shareware_v1.34/')
+          FOLDERS=$(ls ./resources | sort | sed '1{h;s/.*/15w14a\n1.RV-Pre1\n3D_Shareware_v1.34/;G}' | awk '!a[$0]++' | sed 's/.*/"&"/' | sed ':a;N;$!ba;s/\n/,/g')
           echo "folders_json=[$FOLDERS]" >> $GITHUB_OUTPUT
 
   release:
