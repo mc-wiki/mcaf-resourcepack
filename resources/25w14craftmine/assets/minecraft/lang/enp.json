@@ -1,4 +1,11 @@
 {
+    "advancements.adventure.enter_a_mine.description": "Go to a Delf",
+    "advancements.adventure.enter_a_mine.title": "Down the Hatch",
+    "advancements.adventure.level_failed.description": "Truck a Delf",
+    "advancements.adventure.level_failed.title": "Oops",
+    "advancements.adventure.level.description": "Do your first Delf",
+    "advancements.adventure.mine_crafter_upgraded.description": "Better the Delf Crafter so you can keep delving and crafting",
+    "advancements.adventure.mine_crafter_upgraded.title": "Further Beyond",
     "advancements.adventure.mine_revisitor_activated.title": "Yoreyearnish",
     "advancements.adventure.water_cave.title": "The Depths",
     "advancements.adventure.water_world.title": "No Smoking",

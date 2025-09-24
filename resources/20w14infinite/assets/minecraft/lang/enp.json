@@ -1,1 +1,18 @@
-{}
+{
+    "advancements.adventure.almost_there.title": "Almost there",
+    "advancements.adventure.almost_there.description": "Go to over 1,000,000,000 farsteads",
+    "biome.minecraft.between": "Between",
+    "biome.minecraft.shapes": "Shapes",
+    "biome.minecraft.busy": "Lifeheap For Player With No Time For Horsefeathers",
+    "block.minecraft.cursor": "Runner",
+    "block.minecraft.ant": "An Ant",
+    "block.minecraft.zone": "Leftover",
+    "block.minecraft.neither_portal": "Cool Ingang",
+    "block.minecraft.netherite_stairs": "Swaggiest stairs ever",
+    "block.minecraft.book_box": "Box of Endless Books",
+    "item.minecraft.footprint": "Footstep",
+    "item.minecraft.fine_item": "An Althersmicker Thing",
+    "stat.minecraft.change_dimension": "Farsteads wends",
+    "subtitles.block.end_portal.spawn": "End Ingang opens!",
+    "subtitles.entity.horse.land": "Horse lands"
+}
