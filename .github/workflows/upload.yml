@@ -47,23 +47,13 @@ jobs:
           CHANNEL=release
           if [[ $(date +%-m) == 4 ]]; then
             DATE=5.days.ago
-            if [[ $DAY -lt 13 ]]; then
-              DATE=3.days.ago
-            fi
-            if [[ $DAY -lt 8 ]]; then
-              DATE=1.day.ago
-              if [[ $DAY -lt 7 ]]; then
-                CHANNEL=beta
-              fi
-            fi
-            if [[ $DAY -lt 4 ]]; then
-              if [[ $DAY == 2 ]]; then
-                DATE=1.week.ago
-              fi
-              CHANNEL=alpha
-            fi
+            [[ $DAY -lt 13 ]] && DATE=3.days.ago
+            [[ $DAY -lt 8 ]] && DATE=1.day.ago
+            [[ $DAY == 2 ]] && DATE=1.week.ago
+            [[ $DAY -lt 7 ]] && CHANNEL=beta
+            [[ $DAY -lt 4 ]] && CHANNEL=alpha
           fi
-          git log --since=$DATE --stat --oneline --no-decorate > recent_logs.txt
+          git log --since=$DATE --stat=200 --oneline --no-decorate > recent_logs.txt
           sed -i ':a;N;$!ba;s/\n/<br>\n/g' recent_logs.txt
           RECENT_LOGS=$(sed ':a;N;$!ba;s/\( deletions\?(-)<br>\n\)/\1\n/g' recent_logs.txt)
           echo "Recent logs: $(cat recent_logs.txt)"
