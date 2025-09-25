@@ -115,6 +115,8 @@
     "entity.minecraft.pet_turtle": "寵物龜",
     "entity.minecraft.pet_wolf": "寵物狼",
     "entity.minecraft.villager.traitor": "叛徒",
+    "gamerule.allBlocksBouncy": "所有方塊皆具彈性",
+    "gamerule.icyLevel": "所有方塊皆具彈性",
     "gui.door": "門",
     "gui.door.field.active_door": "你剛點擊的門",
     "gui.door.field.error": "發生錯誤",
