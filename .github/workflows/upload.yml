@@ -30,7 +30,6 @@ jobs:
     outputs:
       has_commits: ${{ steps.check.outputs.has_commits }}
       recent_logs: ${{ steps.check.outputs.recent_logs }}
-      channel: ${{ steps.check.outputs.channel }}
       folders_json: ${{ steps.list_folders.outputs.folders_json }}
 
     steps:
@@ -44,14 +43,11 @@ jobs:
         run: |
           DATE=1.week.ago
           DAY=$(date +%-d)
-          CHANNEL=release
           if [[ $(date +%-m) == 4 ]]; then
             DATE=5.days.ago
             [[ $DAY -lt 13 ]] && DATE=3.days.ago
             [[ $DAY -lt 8 ]] && DATE=1.day.ago
             [[ $DAY == 2 ]] && DATE=1.week.ago
-            [[ $DAY -lt 7 ]] && CHANNEL=beta
-            [[ $DAY -lt 4 ]] && CHANNEL=alpha
           fi
           git log --since=$DATE --stat=200 --oneline --no-decorate > recent_logs.txt
           sed -i ':a;N;$!ba;s/\n/<br>\n/g' recent_logs.txt
@@ -64,7 +60,6 @@ jobs:
           fi
           EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)  # To define the separator
           echo "recent_logs<<EOF"$'\n'"$RECENT_LOGS"$'\n'EOF >> $GITHUB_OUTPUT  # For the multi-line output
-          echo "channel=$CHANNEL" >> $GITHUB_OUTPUT
 
       - name: List folders
         id: list_folders
@@ -94,12 +89,19 @@ jobs:
           cp sources/${{ matrix.folder }}/* resources/${{ matrix.folder }}/assets/minecraft/lang
           cd resources/${{ matrix.folder }}
           zip -r '../../[AFTP] ${{ matrix.folder }}.zip' ./*
-          TIME="$(date +%y%m%d)" # Changed
+          TIME=$(date +%y%m%d) # Changed
+          DAY=$(date +%-d)
+          CHANNEL=release
+          if [[ $(date +%-m) == 4 && ${{ matrix.folder }} == $(date +%y)* ]]; then
+            [[ $DAY -lt 7 ]] && CHANNEL=beta
+            [[ $DAY -lt 4 ]] && CHANNEL=alpha
+          fi
           IS_NEWER=false
           if [[ '${{ needs.sync_and_prepare.outputs.recent_logs }}' =~ ${{ matrix.folder }} ]]; then
             IS_NEWER=true
           fi
           echo "time=$TIME" >> $GITHUB_OUTPUT
+          echo "channel=$CHANNEL" >> $GITHUB_OUTPUT
           echo "is_newer=$IS_NEWER" >> $GITHUB_OUTPUT
 
       - name: Upload to Modrinth
@@ -124,4 +126,4 @@ jobs:
           loaders: minecraft
           game-versions: ${{ matrix.folder == '3D_Shareware_v1.34' && '3D-Shareware-v1.34' || matrix.folder == '22w13oneBlockAtATime' && '22w13oneblockatatime' || matrix.folder }}
           files: '["[AFTP] ${{ matrix.folder }}.zip"]'
-          channel: ${{ inputs.channel || needs.sync_and_prepare.outputs.channel }}
+          channel: ${{ inputs.channel || steps.package.outputs.channel }}
