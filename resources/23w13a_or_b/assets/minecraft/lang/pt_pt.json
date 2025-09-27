@@ -1,1 +1,6 @@
-{}
+{
+    "effect.minecraft.big": "Grande",
+    "effect.minecraft.small": "Pequeno",
+    "item.minecraft.ruby": "Rubi",
+    "item.minecraft.name": "Nome"
+}
