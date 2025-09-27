@@ -1,1 +1,10 @@
-{}
+{
+    "demo.help.nag3": "all weapons!",
+    "item.minecraft.red_key": "Red Key",
+    "item.minecraft.blue_key": "Blue Key",
+    "item.minecraft.yellow_key": "Yellow Key",
+    "item.key.tooltip": "Opens %s doors",
+    "death.attack.nightmare": "%1$s was too soft for this world",
+    "death.attack.nightmare.player": "%1$s was too soft for this world (%2$s helped)",
+    "feedback.line1": "Thoughts? Bugs? Loaves? Send us a postsheet!"
+}
