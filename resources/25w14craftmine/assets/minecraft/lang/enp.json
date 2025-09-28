@@ -95,6 +95,8 @@
     "item.minecraft.mine": "Delf",
     "item.minecraft.mine_ingredient": "Delf Anwork",
     "item.minecraft.mine_ingredient.desc": "Delf Anwork: %s",
+    "item.minecraft.mob_trophy.entity": "Inholdings: 1 x Minecraft %s",
+    "item.minecraft.mob_trophy.grade.diamond": "Kingstone",
     "item.minecraft.mob_trophy.grade.gold": "Gold",
     "item.minecraft.mob_trophy.grade.grass": "Grass",
     "item.minecraft.mob_trophy.grade.netherite": "Netherite",
