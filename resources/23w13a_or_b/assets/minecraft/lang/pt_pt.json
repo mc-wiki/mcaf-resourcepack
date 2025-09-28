@@ -1,6 +1,12 @@
 {
     "effect.minecraft.big": "Grande",
     "effect.minecraft.small": "Pequeno",
+    "item.minecraft.air_block": "Ar",
     "item.minecraft.ruby": "Rubi",
-    "item.minecraft.name": "Nome"
+    "item.minecraft.name": "Nome",
+    "rule.president.tag": "Presidente %s",
+    "rule.food_restriction.edible": "Comida",
+    "vote.voter": "    %s: %s",
+    "vote.option_display": "%s. %s",
+    "vote.cost_diplay": "%s × %s"
 }

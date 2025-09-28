@@ -1,1 +1,18 @@
-{}
+{
+    "block.minecraft.sky": "Céu",
+    "block.minecraft.trophy": "Troféu",
+    "container.mine_crafter.active": "Vai vai vai!",
+    "gui.door": "Porta",
+    "gui.door.field.new_door": "Porta",
+    "gui.door.open": "Abrir",
+    "item.minecraft.level": "Nível",
+    "item.minecraft.mob_trophy.grade.diamond": "Diamante",
+    "item.minecraft.mob_trophy.grade.stone": "Pedra",
+    "room.minecraft.fountain": "Fonte",
+    "room.minecraft.stairs": "Escadas",
+    "room.minecraft.tree": "Árvore",
+    "room.minecraft.tunnel": "Linha",
+    "unlocks.unlock.combatant.name": "Combate",
+    "unlocks.unlock.more_starter_apples.name": "Mais Maçãs",
+    "unlocks.unlock.pet_bee.description": "Bzzzzzzzzzzz"
+}

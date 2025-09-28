@@ -1,1 +1,9 @@
-{}
+{
+    "baseColor.tooltip": "Cor: %s",
+    "item.resin.impurity.adjective.unknown": "¯\\_(ツ)_/¯",
+    "painting.minecraft.potatoe.title": "Batata",
+    "potato.quest.book.author": "P.P.P.",
+    "potato.quest.dimension.jump.5": "...",
+    "potato.quest.found_colosseum.jump.4": "...",
+    "potato.quest.meta_one.jump.7": "..."
+}
