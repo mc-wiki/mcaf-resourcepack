@@ -1,1 +1,17 @@
-{}
+{
+    "advancements.potato.craft_poisonous_potato_chips.title": "짭짤한 간식",
+    "advancements.potato.craft_poisonous_potato_fries.description": "독이 있는 감자 튀김을 먹으세요",
+    "advancements.potato.craft_poisonous_potato_fries.title": "드디어 패스트푸드다!",
+    "advancements.potato.craft_poisonous_potato_slices.description": "독이 있는 감자칩을 먹으세요",
+    "advancements.potato.craft_poisonous_potato_slices.title": "완벽한 칩",
+    "block.minecraft.potone": "감돌",
+    "block.minecraft.potone_copper_ore": "골 구리 광석",
+    "block.minecraft.potone_diamond_ore": "골 다이아몬드 광석",
+    "block.minecraft.potone_gold_ore": "골 금 광석",
+    "block.minecraft.potone_iron_ore": "골 철 광석",
+    "block.minecraft.potone_lapis_ore": "골 청금석 광석",
+    "block.minecraft.potone_redstone_ore": "골 레드스톤 광석",
+    "block.minecraft.potone_slab": "골 반 블록",
+    "block.minecraft.potone_stairs": "골 계단",
+    "block.minecraft.potone_wall": "골 담장"
+}

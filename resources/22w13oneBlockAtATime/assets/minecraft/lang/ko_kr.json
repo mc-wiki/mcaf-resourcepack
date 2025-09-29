@@ -1,1 +1,5 @@
-{}
+{
+    "advancements.end.ride_dragon.title": "엔드를 타다",
+    "advancements.end.ride_dragon.description": "행운이 가득하길",
+    "gamemode.gamemodeNotFound": "알 수 없는 게임 모드: %s"
+}

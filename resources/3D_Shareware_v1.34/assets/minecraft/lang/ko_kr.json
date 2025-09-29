@@ -1,1 +1,24 @@
-{}
+{
+    "menu.select_episode": "에피소드 선택",
+    "menu.modem_play": "모뎀플레이(TM)",
+    "demo.help.buy": "등록 양식 열기",
+    "demo.help.nag1": "이 게임을 등록해 전체",
+    "demo.help.nag2": "회차와 모든 무기를",
+    "demo.help.nag3": "얻어보세요!",
+    "demo.help.title": "MineCraft 셰어웨어",
+    "key.boss_mode": "보스 모드",
+    "key.increase_view": "화면 크기 증가",
+    "key.decrease_view": "화면 크기 감소",
+    "item.minecraft.red_key": "빨간색 열쇠",
+    "item.minecraft.blue_key": "파란색 열쇠",
+    "item.minecraft.yellow_key": "노란색 열쇠",
+    "item.minecraft.3d": "3D",
+    "item.key.tooltip": "%s 문을 엽니다",
+    "death.attack.nightmare": "%1$s은(는) 이 세계에 있기엔 너무 부드러웠습니다",
+    "death.attack.nightmare.player": "%1$s은(는) 이 세계에 있기엔 너무 부드러웠습니다 (%2$s이(가) 도와줌)",
+    "ui.next_disk.title": "다음 디스크 필요",
+    "ui.next_disk.contents": "드라이브 A에 %s 디스크를 넣고 ENTER를 눌러주세요",
+    "ui.next_disk.wrong_contents": "ENTER를 누르라고요!",
+    "feedback.line1": "아이디어가 있나요? 버그가? 칭찬이? 그렇다면 저희에게 엽서를 보내주세요!",
+    "feedback.line2": "저희 주소: Mojang AB, Söder Mälarstrand 43, 118 25 스톡홀름, 스웨덴"
+}
