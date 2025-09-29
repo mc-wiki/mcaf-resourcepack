@@ -1,5 +1,6 @@
 tile.usbCharger.name=USB 충전기 블록
 item.realityVision.name=리얼리티 비전
+item.ankleMonitor.name=전자 발찌
 item.ankleMonitor.warning=통금 경고! 귀하가 가택 연금을 위반하고 있습니다! %d미터만큼 돌아오십시오!
 item.ankleMonitor.warning2=통금 경고! 귀하가 가택 연금을 위반하고 있습니다! 으음... 어디 계십니까?
 item.ankleMonitor.warning3=통금 경고! 여보쇼, 거기 계십니까?

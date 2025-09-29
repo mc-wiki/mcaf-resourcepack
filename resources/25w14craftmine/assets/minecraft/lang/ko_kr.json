@@ -464,5 +464,6 @@
     "unlocks.unlock.learning_20.description": "각 광산 이후 더 많은 경험치를 얻으세요",
     "unlocks.unlock.learning_20.name": "학습 20",
     "unlocks.unlock.lodestone_exits.description": "나침반이 가장 가까운 출구를 가리킵니다",
-    "unlocks.unlock.lodestone_exits.name": "자석석 출구"
+    "unlocks.unlock.lodestone_exits.name": "자석석 출구",
+    "unlocks.unlock.thorns_plus_plus.name": "가시++"
 }
