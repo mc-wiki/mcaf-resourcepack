@@ -1,7 +1,7 @@
 menu.singleplayer=세계 플레이
 selectWorld.cheats=슈퍼파워
-createWorld.customize.custom.useLavaLakes=치즈 강
-createWorld.customize.custom.lavaLakeChance=치즈 강 희귀도
+createWorld.customize.custom.useLavaLakes=치즈 호수
+createWorld.customize.custom.lavaLakeChance=치즈 호수 희귀도
 createWorld.customize.custom.useLavaOceans=치즈 바다
 gameMode.survival=존재 모드
 selectWorld.gameMode.survival=존재
