@@ -465,5 +465,7 @@
     "unlocks.unlock.learning_20.name": "학습 20",
     "unlocks.unlock.lodestone_exits.description": "나침반이 가장 가까운 출구를 가리킵니다",
     "unlocks.unlock.lodestone_exits.name": "자석석 출구",
-    "unlocks.unlock.thorns_plus_plus.name": "가시++"
+    "unlocks.unlock.thorns_plus_plus.name": "가시++",
+    "world.mine": "%s번 광산",
+    "world.mine.next": "다음 광산"
 }
