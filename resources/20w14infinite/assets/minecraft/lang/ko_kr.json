@@ -1,1 +1,7 @@
-{}
+{
+    "block.minecraft.cursor": "커서",
+    "block.minecraft.ant": "개미",
+    "block.minecraft.netherite_stairs": "세상에서 가장 쩌는 계단",
+    "block.minecraft.book_box": "무한한 책 상자",
+    "item.minecraft.fine_item": "매우 괜찮은 아이템"
+}
