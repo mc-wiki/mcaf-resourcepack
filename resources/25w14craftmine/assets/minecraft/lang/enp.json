@@ -106,6 +106,7 @@
     "item.minecraft.music_disc_and_action.desc": "Tone Deaf Rebellion - And Action!",
     "item.minecraft.shimmering_key": "Shimmering Key",
     "item.minecraft.shimmering_key.room": "Opens \"%s\"",
+    "item.minecraft.sky_box": "Welkin Box",
     "key.unlocks": "Unlocks",
     "mine.angry_ghast_boss.name": "Wroth Ghast",
     "multiplayer.enteringMap.0": "Going to Delf...",
@@ -138,9 +139,16 @@
     "subtitles.entity.villager.work_traitor": "Backstabber works",
     "unlocks.unlock.fire_wand.hint": "Better a fiery flying foe",
     "unlocks.unlock.pathfinder.description": "Stop striking yourself (when brooking Eye of Outgang)",
+    "unlocks.unlock.pet_mooshroom.name": "Homedeer Mooshroom",
     "unlocks.unlock.teleportation_wand.hint": "Better a fearsome farferrying foe",
     "unlocks.unlock.wind_wand.hint": "Better a springy whithy foe",
     "world.effect.bouncy.description": "Leese your inner slime",
     "world.effect.bouncy.hint": "Find and kill some Slime",
-    "world.effect.bouncy.name": "Springy Clots"
+    "world.effect.bouncy.name": "Springy Clots",
+    "world.effect.mooshrooms.description": "These swambs moo",
+    "world.effect.mooshrooms.hint": "Go pick swambs",
+    "world.effect.mooshrooms.name": "Swambs",
+    "world.effect.mushroom_fields.description": "Swamb islands, but not only islands",
+    "world.effect.mushroom_fields.hint": "Gather swambs and you might get lucky",
+    "world.effect.mushroom_fields.name": "Swamb Fields Lifeheap"
 }
