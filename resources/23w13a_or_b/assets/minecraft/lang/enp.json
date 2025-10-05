@@ -101,6 +101,13 @@
     "rule.name_visibility.none": "Never show ansen names",
     "rule.dinnerbonize": "Dinnerbonen %s",
     "rule.grummize": "Grummen %s",
+    "rule.flip_binary_gamerule": "Flip game wield '%s'",
+    "rule.change_integer_gamerule": "Wend worth of game wield '%s' to %s",
+    "rule.beds_on_banners": "Beds on Streamers",
+    "rule.phantom_phantom": "Shinely Shinelocks",
+    "rule.codepoint_replace": "Swap out '%s' with '%s'",
+    "rule.president": "%s for foresitter",
+    "rule.president.tag": "Foresitter %s",
     "rule.food_restriction.mushroom_stew": "Swambs! Only Swambs!",
     "rule.food_restriction.inedible.mushroom_stew": "Lime mid Swambs",
     "rule.zombie_apocalypse": "It's the lich endtime! Watch out for swambs. And liches."
