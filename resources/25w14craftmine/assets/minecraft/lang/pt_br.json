@@ -1,3 +1,20 @@
 {
-    "advancements.adventure.deluge.description": "Complete uma Mina com os efeitos Mundo Aquático e Chuva Eterna ativados."
+    "advancements.adventure.deluge.description": "Complete uma Mina com os efeitos Mundo Aquático e Chuva Eterna ativados.",
+    "advancements.adventure.enter_a_mine.description": "Entre na Mina",
+    "advancements.adventure.level_failed.description": "Falhe na Mina",
+    "advancements.adventure.level_failed.title": "Oops",
+    "advancements.adventure.level.description": "Complete sua primeira mina",
+    "advancements.adventure.level.title": "Isso Começa",
+    "advancements.adventure.mine_revisitor_activated.title": "Nostalgia",
+    "advancements.adventure.water_cave.title": "As Profundezas",
+    "advancements.adventure.water_world.title": "Pare de fumar",
+    "advancements.feats.angry_ghast.description": "Derrote o Ghast Furioso do evento especial",
+    "advancements.feats.crystal.title": "Cristalino",
+    "advancements.feats.eat_your_veggies.description": "Coma 100 batatas envenenadas",
+    "advancements.feats.end_world.title": "O Começo do Fim",
+    "advancements.feats.ender_dragon.description": "Derrote o Dragão do fim do evento especial",
+    "advancements.feats.enderman.description": "Derrote o Enderman do evento especial",
+    "advancements.feats.enderman.title": "",
+    "advancements.feats.kuiper_world.title": "Espaaaaço!",
+    "advancements.feats.warden.description": "Derrote o Defensor no evento especial"
 }
