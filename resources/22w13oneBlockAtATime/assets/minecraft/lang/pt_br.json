@@ -1,1 +1,5 @@
-{}
+{
+    "advancements.end.ride_dragon.title": "Domine o Fim",
+    "advancements.end.ride_dragon.description": "Ainda mais sorte",
+    "gamemode.gamemodeNotFound": "Modo de jogo inválido: %s"
+}

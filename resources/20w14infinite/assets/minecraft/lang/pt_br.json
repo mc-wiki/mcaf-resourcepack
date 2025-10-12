@@ -1,6 +1,18 @@
 {
     "advancements.adventure.almost_there.title": "Quase lá",
+    "advancements.adventure.almost_there.description": "Explorou mais de um bilhão de dimensões",
     "biome.minecraft.between": "Entre",
     "biome.minecraft.shapes": "Formas",
-    "block.minecraft.ant": "Uma Formiga"
+    "biome.minecraft.busy": "O Bioma Dos Impacientes",
+    "block.minecraft.cursor": "Cursor",
+    "block.minecraft.ant": "Uma Formiga",
+    "block.minecraft.zone": "Resquício",
+    "block.minecraft.neither_portal": "Portal Maluco",
+    "block.minecraft.netherite_stairs": "As escadas mais estilosas de todas",
+    "block.minecraft.book_box": "Estante de Livros Infinitos",
+    "item.minecraft.footprint": "Pegadas",
+    "item.minecraft.fine_item": "Um Belo Item",
+    "stat.minecraft.change_dimension": "Viagens dimensionais",
+    "subtitles.block.end_portal.spawn": "Portal do Fim abre!",
+    "subtitles.entity.horse.land": "Cavalo aterrissa"
 }
