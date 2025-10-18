@@ -81,6 +81,8 @@
     "rule.optimize_light_engine.loadshedding": "Set up loadshedding to better light sare speed",
     "rule.optimize_light_engine.always_light": "Lay on light everywhere to better light sare speed",
     "rule.infinite_cakes": "Endless kitches",
+    "rule.give_effect": "Yeave every player endless %s",
+    "rule.other_portal.oops": "Dwale 404 Landship Not Found",
     "rule.anonymize_skins": "Namelessen player hides",
     "rule.weather.rain.default": "Stock rain wields",
     "rule.weather.rain.always": "Always rain",
