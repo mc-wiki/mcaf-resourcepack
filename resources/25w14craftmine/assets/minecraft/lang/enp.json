@@ -129,6 +129,8 @@
     "mine.enderman_boss.name": "The Enderman",
     "mine.enter.started": "Going to Delf...",
     "mine.leave.started": "Leaving Delf...",
+    "mine.warden_boss.name": "Ward",
+    "mine.wither_boss.name": "Wither",
     "minecraftlike.pack_name": "Layer %s",
     "multiplayer.enteringMap.0": "Going to Delf...",
     "multiplayer.enteringMap.3": "Hiding things...",
