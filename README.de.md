@@ -34,7 +34,7 @@ Die Übersetzung wird von der Community auf [Crowdin](https://crowdin.com/projec
 | `nl_nl` | Niederländisch | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 0% | 0% |
 | `pt_br` | Brasilianisches Portugiesisch | Português (Brasil) | <img src="badges/pt_br.png"> | 1% | 0% |
 | `pt_pt` | Portugiesisch | Português (Portugal) | <img src="badges/pt_pt.png"> | 0% | 0% |
-| `ru_ru` | Russisch | Русский (Россия) | <img src="badges/ru_ru.png"> | 3% | 0% |
+| `ru_ru` | Russisch | Русский (Россия) | <img src="badges/ru_ru.png"> | 6% | 0% |
 | `th_th` | Thailändisch | ไทย (ประเทศไทย) | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua` | Ukrainisch | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
 | `zh_cn` | Chinesisch (vereinfacht) | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 88% |
