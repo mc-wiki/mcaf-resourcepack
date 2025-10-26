@@ -34,11 +34,11 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      - name: Check recent commits
+      - name: Check Recent Commits
         id: check
         run: |
           DATE=1.week.ago
@@ -69,19 +69,17 @@ jobs:
 
   release:
     needs: [sync_and_prepare]
-    if: needs.sync_and_prepare.outputs.has_commits == 'true'
+    if: needs.sync_and_prepare.outputs.has_commits == true
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       max-parallel: 1
       matrix:
         folder: ${{ fromJson(needs.sync_and_prepare.outputs.folders_json) }}
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Package Resources for ${{ matrix.folder }}
         id: package
@@ -89,7 +87,7 @@ jobs:
           cp sources/${{ matrix.folder }}/* resources/${{ matrix.folder }}/assets/minecraft/lang
           cd resources/${{ matrix.folder }}
           zip -r '../../[AFTP] ${{ matrix.folder }}.zip' ./*
-          TIME=$(date +%y%m%d) # Changed
+          TIME=$(date +%y%m%d)
           DAY=$(date +%-d)
           CHANNEL=release
           if [[ $(date +%-m) == 4 && ${{ matrix.folder }} == $(date +%y)* ]]; then
@@ -105,12 +103,12 @@ jobs:
           echo "is_newer=$IS_NEWER" >> $GITHUB_OUTPUT
 
       - name: Upload to Modrinth
-        if: steps.package.outputs.is_newer == 'true'
-        uses: mc-wiki/modrinth-publish@main
+        if: steps.package.outputs.is_newer == true
+        uses: cloudnode-pro/modrinth-publish@v2
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
           project: '1NAoXRE0'
-          version: '${{ inputs.name || steps.package.outputs.time }}+${{ matrix.folder }}'
+          version: ${{ inputs.name || steps.package.outputs.time }}+${{ matrix.folder }}
           changelog: |
             ${{ inputs.changes && fromJson(inputs.changes) || '<!-- Add change notes here -->' }}
 
