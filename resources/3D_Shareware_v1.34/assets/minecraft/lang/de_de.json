@@ -1,1 +1,26 @@
-{}
+{
+    "menu.select_episode": "Episode auswählen",
+    "menu.modem_play": "ModemPlay(TM)",
+    "menu.modem_played1": "Blip blop",
+    "menu.modem_played2": "Nej!",
+    "demo.help.buy": "Registrierungsformular öffnen",
+    "demo.help.nag1": "Bitte erwäge, dieses Spiel zu registrieren,",
+    "demo.help.nag2": "um Zugriff auf vollständige Episoden und",
+    "demo.help.nag3": "alle Waffen zu erhalten!",
+    "demo.help.title": "MineCraft Shareware",
+    "key.boss_mode": "Bossmodus",
+    "key.increase_view": "Bildschirmgröße erhöhen",
+    "key.decrease_view": "Bildschirmgröße verringern",
+    "item.minecraft.red_key": "Roter Schlüssel",
+    "item.minecraft.blue_key": "Blauer Schlüssel",
+    "item.minecraft.yellow_key": "Gelber Schlüssel",
+    "item.minecraft.3d": "3D",
+    "item.key.tooltip": "Öffnet %s Türen",
+    "death.attack.nightmare": "%1$s war zu weich für diese Welt",
+    "death.attack.nightmare.player": "%1$s war zu weich für diese Welt (%2$s hat dabei geholfen)",
+    "ui.next_disk.title": "Nächste Diskette benötigt",
+    "ui.next_disk.contents": "Lege Diskette %s in Laufwerk A ein und drücke ENTER",
+    "ui.next_disk.wrong_contents": "Ich sagte ENTER!",
+    "feedback.line1": "Ideen? Fehlermeldungen? Lobpreisungen? Sende uns eine Postkarte!",
+    "feedback.line2": "Unsere Adresse: Mojang AB, Söder Mälarstrand 43, 118 25 Stockholm, Sweden"
+}
