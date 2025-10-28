@@ -69,7 +69,7 @@ jobs:
 
   release:
     needs: [sync_and_prepare]
-    if: needs.sync_and_prepare.outputs.has_commits == true
+    if: needs.sync_and_prepare.outputs.has_commits == 'true'
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -103,7 +103,7 @@ jobs:
           echo "is_newer=$IS_NEWER" >> $GITHUB_OUTPUT
 
       - name: Upload to Modrinth
-        if: steps.package.outputs.is_newer == true
+        if: steps.package.outputs.is_newer == 'true'
         uses: cloudnode-pro/modrinth-publish@v2
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
