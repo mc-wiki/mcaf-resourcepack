@@ -33,7 +33,7 @@
 
 | 代碼 | 語言 | 顯示名稱 | 進度 | 已翻譯 | 已批准 |
 | --- | --- | --- | --- | ---: | ---: |
-| `de_de` | 德語 | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 12% | 0% |
+| `de_de` | 德語 | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 17% | 0% |
 | `en_ud` | 顛倒英語 | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/en_ud.png"> | 100% | 100% |
 | `enp` | 純粹英語 | Anglish (Oned Riches) | <img src="badges/enp.png"> | 31% | 31% |
 | `es_es` | 西班牙語 | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |

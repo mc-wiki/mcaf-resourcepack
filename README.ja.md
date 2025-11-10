@@ -35,7 +35,7 @@
 
 | ロケールコード | 言語 | 表示名称 | 進歩 | 翻訳済み | 承認済み |
 | --- | --- | --- | --- | ---: | ---: |
-| `de_de` | ドイツ語 | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 12% | 0% |
+| `de_de` | ドイツ語 | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 17% | 0% |
 | `en_ud` | 上下逆さま英語 | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/en_ud.png"> | 100% | 100% |
 | `enp` | アングリッシュ | Anglish (Oned Riches) | <img src="badges/enp.png"> | 31% | 31% |
 | `es_es` | ヨーロッパスペイン語 | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |

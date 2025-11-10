@@ -33,7 +33,7 @@ Translations are provided by the community on [Crowdin](https://crowdin.com/proj
 
 | Code | Language | Endonym | Progress | Translated | Approved |
 | --- | --- | --- | --- | ---: | ---: |
-| `de_de` | German | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 12% | 0% |
+| `de_de` | German | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 17% | 0% |
 | `en_ud` | English (Upside Down) | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/en_ud.png"> | 100% | 100% |
 | `enp` | Anglish | Anglish (Oned Riches) | <img src="badges/enp.png"> | 31% | 31% |
 | `es_es` | Spanish | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
