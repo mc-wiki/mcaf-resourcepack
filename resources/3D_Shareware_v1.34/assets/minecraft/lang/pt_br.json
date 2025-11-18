@@ -1,1 +1,26 @@
-{}
+{
+    "menu.select_episode": "Selecionar episódio",
+    "menu.modem_play": "ModemPlay(TM)",
+    "menu.modem_played1": "Blip blop",
+    "menu.modem_played2": "Nej!",
+    "demo.help.buy": "Abrir formulário de inscrição",
+    "demo.help.nag1": "Considere registrar este jogo",
+    "demo.help.nag2": "para obter acesso a todos os episódios",
+    "demo.help.nag3": "e a todas as armas!",
+    "demo.help.title": "MineCraft Shareware",
+    "key.boss_mode": "Modo Chefe",
+    "key.increase_view": "Aumentar o tamanho da tela",
+    "key.decrease_view": "Diminuir o tamanho da tela",
+    "item.minecraft.red_key": "Chave Vermelha",
+    "item.minecraft.blue_key": "Chave Azul",
+    "item.minecraft.yellow_key": "Chave Amarela",
+    "item.minecraft.3d": "3D",
+    "item.key.tooltip": "Abre portas %s",
+    "death.attack.nightmare": "%1$s era muito sensível para este mundo",
+    "death.attack.nightmare.player": "%1$s era muito sensível para este mundo (%2$s ajudou)",
+    "ui.next_disk.title": "Próximo disco necessário",
+    "ui.next_disk.contents": "Insira o disco %s na unidade A e pressione ENTER",
+    "ui.next_disk.wrong_contents": "Eu disse ENTER!",
+    "feedback.line1": "Ideias? Erros? Elogios? Envie-nos um cartão postal!",
+    "feedback.line2": "Nosso endereço: Mojang AB, Söder Mälarstrand 43, 118 25 Estocolmo, Suíça"
+}
