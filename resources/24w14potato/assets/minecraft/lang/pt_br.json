@@ -1,4 +1,7 @@
 {
+    "advancements.potato.all_potatoed.title": "A volta à batata em 80 dias",
+    "advancements.potato.sweet_potato_talker.description": "Diga \"batata\" mais de 99 vezes",
+    "baseColor.tooltip": "Cor: %s",
     "item.minecraft.enchanted_golden_poisonous_potato": "Batata Venenosa Dourada Encantada",
     "item.minecraft.golden_poisonous_potato": "Batata Venenosa Dourada"
 }

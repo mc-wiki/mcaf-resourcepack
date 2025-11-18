@@ -1,18 +1,18 @@
 {
     "advancements.adventure.almost_there.title": "Quase lá",
-    "advancements.adventure.almost_there.description": "Explorou mais de um bilhão de dimensões",
+    "advancements.adventure.almost_there.description": "Visitou mais de um bilhão de dimensões",
     "biome.minecraft.between": "Entre",
     "biome.minecraft.shapes": "Formas",
-    "biome.minecraft.busy": "O Bioma Dos Impacientes",
+    "biome.minecraft.busy": "Bioma para jogador sem tempo para bobagens",
     "block.minecraft.cursor": "Cursor",
     "block.minecraft.ant": "Uma Formiga",
-    "block.minecraft.zone": "Resquício",
-    "block.minecraft.neither_portal": "Portal Maluco",
-    "block.minecraft.netherite_stairs": "As escadas mais estilosas de todas",
-    "block.minecraft.book_box": "Estante de Livros Infinitos",
+    "block.minecraft.zone": "Restos",
+    "block.minecraft.neither_portal": "Portal Funky",
+    "block.minecraft.netherite_stairs": "Escadas mais estilosas de todos os tempos",
+    "block.minecraft.book_box": "Caixa de Livros Infinitos",
     "item.minecraft.footprint": "Pegadas",
     "item.minecraft.fine_item": "Um Belo Item",
     "stat.minecraft.change_dimension": "Viagens dimensionais",
-    "subtitles.block.end_portal.spawn": "Portal do Fim abre!",
-    "subtitles.entity.horse.land": "Cavalo aterrissa"
+    "subtitles.block.end_portal.spawn": "Portal do End aberto!",
+    "subtitles.entity.horse.land": "Cavalo pousa"
 }
