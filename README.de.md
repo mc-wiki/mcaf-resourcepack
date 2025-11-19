@@ -32,7 +32,7 @@ Die Übersetzung wird von der Community auf [Crowdin](https://crowdin.com/projec
 | `ko_kr` | Koreanisch | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 34% | 0% |
 | `lzh` | Klassisches Chinesisch | 文言 (華夏)| <img src="badges/lzh.png"> | 100% | 34% |
 | `nl_nl` | Niederländisch | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 0% | 0% |
-| `pt_br` | Brasilianisches Portugiesisch | Português (Brasil) | <img src="badges/pt_br.png"> | 1% | 0% |
+| `pt_br` | Brasilianisches Portugiesisch | Português (Brasil) | <img src="badges/pt_br.png"> | 2% | 1% |
 | `pt_pt` | Portugiesisch | Português (Portugal) | <img src="badges/pt_pt.png"> | 0% | 0% |
 | `ru_ru` | Russisch | Русский (Россия) | <img src="badges/ru_ru.png"> | 9% | 0% |
 | `th_th` | Thailändisch | ไทย (ประเทศไทย) | <img src="badges/th_th.png"> | 0% | 0% |
