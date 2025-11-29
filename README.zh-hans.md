@@ -35,13 +35,13 @@
 | --- | --- | --- | --- | ---: | ---: |
 | `de_de` | 德语 | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 17% | 0% |
 | `en_ud` | 颠倒英语 | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/en_ud.png"> | 100% | 100% |
-| `enp` | 纯粹英语 | Anglish (Oned Riches) | <img src="badges/enp.png"> | 32% | 32% |
+| `enp` | 纯粹英语 | Anglish (Oned Riches) | <img src="badges/enp.png"> | 35% | 35% |
 | `es_es` | 西班牙语 | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
 | `fr_fr` | 法语 | Français (France) | <img src="badges/fr_fr.png"> | 1% | 0% |
 | `it_it` | 意大利语 | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
 | `ja_jp` | 日语 | 日本語 (日本) | <img src="badges/ja_jp.png"> | 100% | 29% |
 | `ko_kr` | 韩语 | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 34% | 0% |
-| `lzh` | 汉语（文言文） | 文言 (華夏)| <img src="badges/lzh.png"> | 100% | 34% |
+| `lzh` | 汉语（文言文） | 文言 (華夏)| <img src="badges/lzh.png"> | 100% | 37% |
 | `nl_nl` | 荷兰语 | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 0% | 0% |
 | `pt_br` | 巴西葡萄牙语 | Português (Brasil) | <img src="badges/pt_br.png"> | 3% | 3% |
 | `pt_pt` | 葡萄牙语 | Português (Portugal) | <img src="badges/pt_pt.png"> | 0% | 0% |
