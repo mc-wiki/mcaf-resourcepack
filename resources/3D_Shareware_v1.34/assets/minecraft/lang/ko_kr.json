@@ -19,7 +19,7 @@
     "death.attack.nightmare.player": "%1$s은(는) 이 세계에 있기엔 너무 부드러웠습니다 (%2$s이(가) 도와줌)",
     "ui.next_disk.title": "다음 디스크 필요",
     "ui.next_disk.contents": "드라이브 A에 %s 디스크를 넣고 ENTER를 눌러주세요",
-    "ui.next_disk.wrong_contents": "ENTER를 누르라고요!",
-    "feedback.line1": "아이디어가 있나요? 버그가? 칭찬이? 그렇다면 저희에게 엽서를 보내주세요!",
+    "ui.next_disk.wrong_contents": "ENTER를 누르라고!",
+    "feedback.line1": "아이디어가 있나요? 아님 버그? 아니면 혹시 칭찬? 그렇다면 저희에게 엽서를 보내주세요!",
     "feedback.line2": "저희 주소: Mojang AB, Söder Mälarstrand 43, 118 25 스톡홀름, 스웨덴"
 }
