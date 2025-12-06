@@ -2,11 +2,11 @@ preserve_hierarchy: true
 
 languages_mapping:
   - locale:
-      fr-FR: fr_fr      
+      de-DE: de_de
       en-UD: en_ud
       enp: enp
       es-ES: es_es
-      de-DE: de_de
+      fr-FR: fr_fr
       it-IT: it_it
       ja-JP: ja_jp
       ko-KR: ko_kr
@@ -20,37 +20,36 @@ languages_mapping:
       zh-CN: zh_cn
       zh-HK: zh_hk
       zh-TW: zh_tw
-      
 
 files:
-  - source: "sources/15w14a/en_US.lang"
-    dest: "15w14a.lang"
+  - source: sources/15w14a/en_US.lang
+    dest: 15w14a.lang
     translation: /resources/15w14a/assets/minecraft/lang/%locale_with_underscore%.lang
 
-  - source: "sources/1.RV-Pre1/en_us.lang"
-    dest: "1.RV-Pre1.lang"
+  - source: sources/1.RV-Pre1/en_us.lang
+    dest: 1.RV-Pre1.lang
     translation: /resources/1.RV-Pre1/assets/minecraft/lang/%locale%.lang
 
-  - source: "sources/3D_Shareware_v1.34/en_us.json"
-    dest: "3D_Shareware_v1.34.json"
+  - source: sources/3D_Shareware_v1.34/en_us.json
+    dest: 3D_Shareware_v1.34.json
     translation: /resources/3D_Shareware_v1.34/assets/minecraft/lang/%locale%.json
 
-  - source: "sources/20w14infinite/en_us.json"
-    dest: "20w14infinite.json"
+  - source: sources/20w14infinite/en_us.json
+    dest: 20w14infinite.json
     translation: /resources/20w14infinite/assets/minecraft/lang/%locale%.json
 
-  - source: "sources/22w13oneBlockAtATime/en_us.json"
-    dest: "22w13oneBlockAtATime.json"
+  - source: sources/22w13oneBlockAtATime/en_us.json
+    dest: 22w13oneBlockAtATime.json
     translation: /resources/22w13oneBlockAtATime/assets/minecraft/lang/%locale%.json
 
-  - source: "sources/23w13a_or_b/en_us.json"
-    dest: "23w13a_or_b.json"
+  - source: sources/23w13a_or_b/en_us.json
+    dest: 23w13a_or_b.json
     translation: /resources/23w13a_or_b/assets/minecraft/lang/%locale%.json
 
-  - source: "sources/24w14potato/en_us.json"
-    dest: "24w14potato.json"
+  - source: sources/24w14potato/en_us.json
+    dest: 24w14potato.json
     translation: /resources/24w14potato/assets/minecraft/lang/%locale%.json
 
-  - source: "sources/25w14craftmine/en_us.json"
-    dest: "25w14craftmine.json"
+  - source: sources/25w14craftmine/en_us.json
+    dest: 25w14craftmine.json
     translation: /resources/25w14craftmine/assets/minecraft/lang/%locale%.json

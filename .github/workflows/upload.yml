@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       channel:
-        description: 'Release channel'
+        description: Release channel
         required: true
         type: choice
         default: beta
@@ -13,19 +13,19 @@ on:
           - beta
           - alpha
       name:
-        description: 'Version name'
+        description: Version name
         required: false
         type: string
       changes:
-        description: 'Change notes (JSON string)'
+        description: Change notes (JSON string)
         required: false
         type: string
   schedule:
-    - cron: '0 18 * 1-3,5-12 0'
-    - cron: '0 18 2-7,9,12,15,20,25,30 4 *'
+    - cron: 0 18 * 1-3,5-12 0
+    - cron: 0 18 2-7,9,12,15,20,25,30 4 *
 
 jobs:
-  sync_and_prepare:
+  prepare:
     runs-on: ubuntu-latest
     outputs:
       has_commits: ${{ steps.check.outputs.has_commits }}
@@ -34,7 +34,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -67,19 +67,19 @@ jobs:
           FOLDERS=$(ls ./resources | sort | sed '1{h;s/.*/15w14a\n1.RV-Pre1\n3D_Shareware_v1.34/;G}' | awk '!a[$0]++' | sed 's/.*/"&"/' | sed ':a;N;$!ba;s/\n/,/g')
           echo "folders_json=[$FOLDERS]" >> $GITHUB_OUTPUT
 
-  release:
-    needs: [sync_and_prepare]
-    if: needs.sync_and_prepare.outputs.has_commits == 'true'
+  upload:
+    needs: prepare
+    if: needs.prepare.outputs.has_commits == 'true'
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       max-parallel: 1
       matrix:
-        folder: ${{ fromJson(needs.sync_and_prepare.outputs.folders_json) }}
+        folder: ${{ fromJson(needs.prepare.outputs.folders_json) }}
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v5
+      - name: Checkout
+        uses: actions/checkout@v6
 
       - name: Package Resources for ${{ matrix.folder }}
         id: package
@@ -95,7 +95,7 @@ jobs:
             [[ $DAY -lt 4 ]] && CHANNEL=alpha
           fi
           IS_NEWER=false
-          if [[ '${{ needs.sync_and_prepare.outputs.recent_logs }}' =~ ${{ matrix.folder }} ]]; then
+          if [[ '${{ needs.prepare.outputs.recent_logs }}' =~ ${{ matrix.folder }} ]]; then
             IS_NEWER=true
           fi
           echo "time=$TIME" >> $GITHUB_OUTPUT
@@ -107,7 +107,7 @@ jobs:
         uses: cloudnode-pro/modrinth-publish@v2
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
-          project: '1NAoXRE0'
+          project: 1NAoXRE0
           version: ${{ inputs.name || steps.package.outputs.time }}+${{ matrix.folder }}
           changelog: |
             ${{ inputs.changes && fromJson(inputs.changes) || '<!-- Add change notes here -->' }}
@@ -119,7 +119,7 @@ jobs:
             <details>
             <summary>Recent logs</summary>
 
-            ${{ needs.sync_and_prepare.outputs.recent_logs }}
+            ${{ needs.prepare.outputs.recent_logs }}
             </details>
           loaders: minecraft
           game-versions: ${{ matrix.folder == '3D_Shareware_v1.34' && '3D-Shareware-v1.34' || matrix.folder == '22w13oneBlockAtATime' && '22w13oneblockatatime' || matrix.folder }}
