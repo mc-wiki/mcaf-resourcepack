@@ -115,6 +115,7 @@ jobs:
 
       - name: Package Resources for ${{ matrix.folder }}
         run: |
+          mkdir -p resources/${{ matrix.folder }}/assets/minecraft/lang
           cp sources/${{ matrix.folder }}/* resources/${{ matrix.folder }}/assets/minecraft/lang
           cd resources/${{ matrix.folder }}
           zip -r '../../[AFTP] ${{ matrix.folder }}.zip' ./*
