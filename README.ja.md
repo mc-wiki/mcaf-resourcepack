@@ -31,7 +31,7 @@
 
 ### 対応言語
 
-<!--Translations are provided by the community on [Crowdin](https://crowdin.com/project/mcaf-resourcepack); suggest new translations there.-->
+<!--Translations are provided by the community on [Crowdin](https://ja.crowdin.com/project/mcaf-resourcepack); suggest new translations there.-->
 
 | ロケールコード | 言語 | 表示名称 | 進歩 | 翻訳済み | 承認済み |
 | --- | --- | --- | --- | ---: | ---: |
@@ -54,7 +54,7 @@
 | `zh_hk` | 繁体字中国語（香港） | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 52% | 43% |
 | `zh_tw` | 繁体字中国語（台湾） | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 66% | 1% |
 
-<!--You can request adding a new language [by creating an issue on Github](https://github.com/mc-wiki/mcaf-resourcepack/issues).-->
+<!--You can request adding a new language [by creating an issue on GitHub](https://github.com/mc-wiki/mcaf-resourcepack/issues).-->
 
 ## 使用方法
 

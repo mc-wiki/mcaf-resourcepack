@@ -29,7 +29,7 @@
 
 ### 支持语言
 
-本项目的翻译工作在[https://zh.crowdin.com/project/mcaf-resourcepack](https://zh.crowdin.com/project/mcaf-resourcepack)上进行。
+本项目的翻译工作在[Crowdin](https://zh.crowdin.com/project/mcaf-resourcepack)上进行。
 
 | 代码 | 语言 | 显示名称 | 进度 | 已翻译 | 已批准 |
 | --- | --- | --- | --- | ---: | ---: |
@@ -77,7 +77,7 @@ A1：请到[Crowdin](#贡献方法)参与贡献。如果 Crowdin 上也没有该
 
 A2：通常是语言文件缺失。请在[Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues)反馈。
 
-<!-- The following content is specifically provided for zh_hk and lzh players, and can be omitted.-->
+<!-- The following content is specifically provided for zh_hk and lzh players, and can be omitted. -->
 
 ## 香港繁体和文言
 

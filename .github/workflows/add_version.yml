@@ -1,0 +1,46 @@
+name: Add Version
+
+permissions: write-all
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Version ID to add (defaults to latest snapshot)
+        type: string
+        required: false
+  schedule:
+    - cron: 0 1 2 4 *
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: 3.13
+
+      - name: Add New Version
+        id: add
+        env:
+          MINECRAFT_VERSION: ${{ github.event.inputs.version }}
+        run: |
+          pip install -r requirements.txt
+          python add_version.py
+
+      - name: Upload Sources
+        uses: crowdin/github-action@v2
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+      - name: Commit and Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Add support for ${{ steps.add.outputs.version }}" && git push || true

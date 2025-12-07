@@ -7,7 +7,7 @@
 
 **Play April Fools' snapshots with community translations from the Minecraft Wiki.**
 
-[April Fools' snapshots](https://minecraft.wiki/w/April_Fools'_Day_jokes) are not officially localized via Crowdin, but the Minecraft Wiki community provides translations for their features. This project makes these community translations available inside of the game, in an effort to promote consensus on item names.
+[April Fools' snapshots](https://minecraft.wiki/w/April_Fools'_Day_jokes) are not officially localized via Crowdin, but the Minecraft Wiki community provides translations for their features. This project makes these community translations available in game, in an effort to promote consensus on item names.
 
 ## Features
 
@@ -52,7 +52,7 @@ Translations are provided by the community on [Crowdin](https://crowdin.com/proj
 | `zh_hk` | Chinese (Hong Kong) | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 52% | 43% |
 | `zh_tw` | Chinese (Traditional) | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 66% | 1% |
 
-You can request adding a new language [by creating an issue on Github](https://github.com/mc-wiki/mcaf-resourcepack/issues).
+You can request adding a new language [by creating an issue on GitHub](https://github.com/mc-wiki/mcaf-resourcepack/issues).
 
 ## How to use
 

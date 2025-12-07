@@ -17,12 +17,13 @@ jobs:
   sync:
     if: "!(contains(github.event.head_commit.message, '[skip ci]') && github.event_name == 'push')"
     runs-on: ubuntu-latest
-    outputs:
-      has_commits: ${{ steps.check.outputs.has_commits }}
-      folders_json: ${{ steps.list_folders.outputs.folders_json }}
     env:
       CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
       CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+    outputs:
+      has_commits: ${{ steps.check.outputs.has_commits }}
+      folders_json: ${{ steps.list_folders.outputs.folders_json }}
 
     steps:
       - name: Checkout
@@ -35,17 +36,12 @@ jobs:
         with:
           python-version: 3.13
 
-      - name: Crowdin Action
+      - name: Download Translations
         uses: crowdin/github-action@v2
         with:
-          upload_sources: true
-          upload_translations: false
-          push_translations: false
-
-          # Export options
           download_translations: true
           skip_untranslated_strings: true
-          export_only_approved: false
+          push_translations: false
 
       - name: Check Commits since Latest Tag
         id: check
@@ -72,7 +68,7 @@ jobs:
           pip install -r requirements.txt
           python update_progress.py
 
-      - name: Commit
+      - name: Commit and Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
