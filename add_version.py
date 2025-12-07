@@ -202,7 +202,7 @@ def main() -> None:
         readme_file.write_text(
             readme_file.read_text(encoding="utf-8").replace(
                 "\n[Minecraft 2.0",
-                f"- [{version}](https://minecraft.wiki/w/Java_Edition_{version}) ({build_year})\n\n[Minecraft 2.0",
+                f"- [{version}](https://minecraft.wiki/w/Java_Edition_{version.replace(' ', '_')}) ({build_year})\n\n[Minecraft 2.0",
             ),
             encoding="utf-8",
         )
