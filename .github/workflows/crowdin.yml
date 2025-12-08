@@ -36,7 +36,7 @@ jobs:
         with:
           python-version: 3.13
 
-      - name: Download Translations
+      - name: Download Translations and Upload Sources
         uses: crowdin/github-action@v2
         with:
           download_translations: true

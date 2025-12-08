@@ -61,6 +61,7 @@ def get_file(
         file_name (str): File name
         file_path (Path): File save path
         sha1 (str): Expected SHA1 checksum
+        max_retries (int): Maximum number of retries
     """
     success = False
     for _ in range(max_retries):
@@ -88,10 +89,11 @@ def main() -> None:
     script_dir = Path(__file__).parent
     crowdin_file = script_dir / "crowdin.yml"
     readme_file = script_dir / "README.md"
+    is_github_actions = os.getenv("GITHUB_ACTIONS")
     max_retries = 5
 
     version = os.getenv("MINECRAFT_VERSION")
-    if not os.getenv("GITHUB_ACTIONS"):
+    if not is_github_actions:
         version = input("Enter a version ID to add (defaults to latest snapshot): ")
     print('\nRetrieving content of version manifest "version_manifest_v2.json"...')
     version_manifest_resp = get_response(
@@ -202,18 +204,18 @@ def main() -> None:
         readme_file.write_text(
             readme_file.read_text(encoding="utf-8").replace(
                 "\n[Minecraft 2.0",
-                f"- [{version}](https://minecraft.wiki/w/Java_Edition_{version}) ({build_year})\n\n[Minecraft 2.0",
+                f"- [{version}](https://minecraft.wiki/w/Java_Edition_{version.replace(' ', '_')}) ({build_year})\n\n[Minecraft 2.0",
             ),
             encoding="utf-8",
         )
 
+    if is_github_actions:
+        with open(os.getenv("GITHUB_OUTPUT"), "a") as f:
+            f.write(f"version={version}\n")
+
     print("=" * 60)
     print(f"New version added: {version}")
     print(f"  Resource version: {resource_version}")
-    github_output = os.getenv("GITHUB_OUTPUT")
-    if github_output:
-        with open(github_output, "a") as f:
-            f.write(f"version={version}\n")
 
 
 if __name__ == "__main__":
