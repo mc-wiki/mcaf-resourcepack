@@ -150,11 +150,8 @@ def main() -> None:
             if filepath.startswith("assets/minecraft/lang/"):
                 lang_source = output_path
             with client.open(filepath) as content:
-                with open(output, "wb") as f:
-                    print(
-                        f"Extracting /{filepath} to ./{output_path} from client.jar..."
-                    )
-                    f.write(content.read())
+                print(f"Extracting /{filepath} to ./{output_path} from client.jar...")
+                output.write_bytes(content.read())
 
     version_file = source_dir / "version.json"
     mcmeta_file = resource_dir / "pack.mcmeta"
