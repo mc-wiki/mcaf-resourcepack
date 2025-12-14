@@ -436,6 +436,17 @@
     "world.effect.spooky_scary_skeletons_boss_fight.hint": "Hidden among the wonly Boneframes",
     "world.effect.spooky_scary_skeletons_boss_fight.name": "Frightful Fearsome Boneframes",
     "world.effect.unlock": "Bring this thing to the Delf outgang to unlock as a Delf anwork",
+    "world.effect.witches.name": "Witches",
     "world.effect.zoglins.description": "So wroth",
-    "world.event.angry_ghast": "Wroth Ghast Beyets"
+    "world.event.angry_ghast": "Wroth Ghast Beyets",
+    "world.event.enderman": "The Enderman Beyets",
+    "world.event.next_wave": "Next Wave",
+    "world.event.remaining": "Wights Left",
+    "world.event.warden": "Ward Beyets",
+    "world.event.wither": "Wither Beyets",
+    "world.mine": "Delf %s",
+    "world.mine.base": "Delf %s Ground",
+    "world.mine.next": "Next Delf",
+    "world.mine.revisit.lost": "Going back to old Delf that sadly was lost",
+    "world.mine.revisit.won": "Going back to old Delf that was won"
 }
