@@ -15,7 +15,7 @@
     "item.minecraft.blue_key": "藍色鑰匙",
     "item.minecraft.yellow_key": "黃色鑰匙",
     "item.minecraft.3d": "3D",
-    "item.key.tooltip": "開啟 %s 的門",
+    "item.key.tooltip": "可開啟 %s 的門",
     "death.attack.nightmare": "%1$s 對於這個世界來說太弱小了",
     "death.attack.nightmare.player": "%1$s 對於這個世界來說太弱小了（%2$s 也做了）",
     "ui.next_disk.title": "插入下一張磁碟",
