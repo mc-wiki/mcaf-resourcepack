@@ -48,7 +48,7 @@ Translations are provided by the community on [Crowdin](https://crowdin.com/proj
 | `ru_ru` | Russian | Русский (Россия) | <img src="badges/ru_ru.png"> | 9% | 0% |
 | `th_th` | Thai | ไทย (ประเทศไทย) | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua` | Ukrainian | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
-| `zh_cn` | Chinese (Simplified) | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 95% |
+| `zh_cn` | Chinese (Simplified) | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 96% |
 | `zh_hk` | Chinese (Hong Kong) | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 52% | 43% |
 | `zh_tw` | Chinese (Traditional) | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 66% | 1% |
 
