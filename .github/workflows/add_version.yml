@@ -9,8 +9,6 @@ on:
         description: Version ID to add (defaults to latest snapshot)
         type: string
         required: false
-  schedule:
-    - cron: 0 1 2 4 *
 
 jobs:
   add:
