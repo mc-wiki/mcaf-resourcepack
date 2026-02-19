@@ -203,6 +203,7 @@
     "rule.biome_color.fog": "Set misthue in %s to %s",
     "rule.biome_color.water_fog": "Set watermisthue in %s to %s",
     "rule.evil_eye": "Get evil eyes",
+    "rule.transform_entity": "Make every player into a %s",
     "rule.autojump.off": "Self-leap off",
     "rule.autoJump.yes": "Self-leap? Yes",
     "rule.autoJump.on": "Self-leap on",
