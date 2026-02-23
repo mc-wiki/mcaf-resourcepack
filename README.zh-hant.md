@@ -35,7 +35,7 @@
 | --- | --- | --- | --- | ---: | ---: |
 | `de_de` | 德語 | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 17% | 0% |
 | `en_ud` | 顛倒英語 | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/en_ud.png"> | 100% | 100% |
-| `enp` | 純粹英語 | Anglish (Oned Riches) | <img src="badges/enp.png"> | 51% | 51% |
+| `enp` | 純粹英語 | Anglish (Oned Riches) | <img src="badges/enp.png"> | 52% | 52% |
 | `es_es` | 西班牙語 | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
 | `fr_fr` | 法語 | Français (France) | <img src="badges/fr_fr.png"> | 1% | 0% |
 | `it_it` | 意大利語 | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
