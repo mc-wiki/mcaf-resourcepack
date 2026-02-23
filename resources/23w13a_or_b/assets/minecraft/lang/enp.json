@@ -7,7 +7,7 @@
     "advancements.adventure.vote_256.description": "Waled 256 times",
     "attribute.name.generic.scale": "Ansen Meter",
     "biome.minecraft.the_moon": "The Moon",
-    "block.minecraft.pickaxe_block": "Pike Clot",
+    "block.minecraft.pickaxe_block": "Mattock Clot",
     "block.minecraft.place_block": "Lay Block",
     "block.minecraft.banner.m.black": "Black New Thing",
     "block.minecraft.banner.m.blue": "Bloe New Thing",
@@ -235,5 +235,6 @@
     "rule.food_restriction.inedible.honey_bottle": "Too Much Sweetdust",
     "rule.food_restriction.inedible.mushroom_stew": "Lime mid Swambs",
     "rule.moon.0": "Only the wonly Moon",
+    "rule.pickaxe_block": "Eke Mattock Clot",
     "rule.zombie_apocalypse": "It's the lich endtime! Watch out for swambs. And liches."
 }
