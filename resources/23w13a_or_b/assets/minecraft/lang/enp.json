@@ -214,6 +214,8 @@
     "rule.autoJump.of_course": "Self-leap? Alright",
     "rule.autoJump.also_default_vanilla_to_true": "Self-leap on. Also set stock worth of self-leap in raw to true",
     "rule.uncontrolable_lave": "Unwieldenly moltenstone",
+    "rule.replace_loot_drop": "Swap out meeds drop %s with %s",
+    "rule.loot_double_or_half": "Manifold meeds drops of %s by %s",
     "rule.food_restriction.mushroom_stew": "Swambs! Only Swambs!",
     "rule.food_restriction.rabbit_stew": "A Self-Leap Meal",
     "rule.food_restriction.rotten_flesh": "A Rotten Meal",
