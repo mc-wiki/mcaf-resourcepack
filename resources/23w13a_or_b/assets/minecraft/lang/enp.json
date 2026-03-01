@@ -205,6 +205,7 @@
     "rule.biome_color.water": "Set waterhue in %s to %s",
     "rule.biome_color.fog": "Set misthue in %s to %s",
     "rule.biome_color.water_fog": "Set watermisthue in %s to %s",
+    "rule.morrowind_power_player_movement": "Shrithe like a Morrowind mightgamer",
     "rule.evil_eye": "Get evil eyes",
     "rule.transform_entity": "Make every player into a %s",
     "rule.autojump.off": "Self-leap off",
