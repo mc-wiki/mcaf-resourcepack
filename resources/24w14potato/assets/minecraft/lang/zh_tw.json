@@ -1,5 +1,5 @@
 {
-    "advancements.potato.all_potatoed.description": "造訪所有馬鈴薯生態域",
+    "advancements.potato.all_potatoed.description": "探索所有馬鈴薯生態域",
     "advancements.potato.all_potatoed.title": "八十天環遊薯界",
     "advancements.potato.bring_home_the_corruption.description": "看見腐敗物後就會想：嘿，我的花園裡很需要它！",
     "advancements.potato.bring_home_the_corruption.title": "帶泥回家",
@@ -296,6 +296,8 @@
     "key.potato": "馬鈴薯",
     "lubrication.tooltip.lubricated": "潤滑了！",
     "lubrication.tooltip.lubricated_times": "潤滑了！×%s",
+    "options.potatoFont": "馬鈴薯字型",
+    "options.potatoFont.tooltip": "把字型變成馬鈴薯",
     "painting.minecraft.abstractato.author": "Mr. Potato",
     "painting.minecraft.abstractato.title": "Tasty Shapes",
     "painting.minecraft.burning_potato.author": "Mr. Potato",
