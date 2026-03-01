@@ -94,6 +94,8 @@
     "rule.connector": "%s，但 %s",
     "rule.proposal": "提案 #%s",
     "rule.optimize.set": "已將最佳化等級設為 %s",
+    "rule.optimize.change": "將光照等級由 %s 變更為 %s",
+    "rule.optimize_light_engine.none": "停用最佳化光照引擎",
     "rule.infinite_cakes": "無限蛋糕",
     "rule.give_effect": "給予所有玩家無限長 %s 效果",
     "rule.disable_shield": "停用盾牌格擋",
