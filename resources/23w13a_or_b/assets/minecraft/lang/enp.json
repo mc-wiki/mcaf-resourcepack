@@ -98,6 +98,7 @@
     "rule.optimize_light_engine.none": "Unbesten light sare",
     "rule.optimize_light_engine.loadshedding": "Set up loadshedding to better light sare speed",
     "rule.optimize_light_engine.always_light": "Lay on light everywhere to better light sare speed",
+    "rule.optimize_light_engine.never_light": "Lay off light everywhere to better light sare speed",
     "rule.explosion_power.set": "Set spare blast might to %s",
     "rule.explosion_power.change": "Wend spare blast might from %s to %s",
     "rule.swap_skies": "Swap overworld and The End sky",
