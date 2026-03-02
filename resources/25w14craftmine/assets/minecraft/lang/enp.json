@@ -259,7 +259,7 @@
     "unlocks.screen.active": "On | Unlocked",
     "unlocks.screen.hint": "Hint: %s",
     "unlocks.screen.inactive": "Off | Unlocked",
-    "unlocks.screen.locked": "Worth: %s",
+    "unlocks.screen.locked": "Loave: %s",
     "unlocks.screen.points": "Layers: %s",
     "unlocks.screen.unlocked": "Unlocked",
     "unlocks.unlock.alchemy.description": "A brewing stand for all your brewing needs",

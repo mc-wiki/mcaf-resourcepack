@@ -14,9 +14,9 @@
     "advancements.potato.enter_the_potato.description": "Go to the Earthapple Farstead",
     "advancements.potato.enter_the_potato.title": "Nothing Further Beyond",
     "advancements.potato.get_oily.description": "Withdraw Eal from an Earthapple",
-    "advancements.potato.get_oily.title": "Be Ealy!",
-    "advancements.potato.get_peeled.description": "Be rinded by another player with an Earthapple Rinder while wearing an Attery Earthapple Breastbor",
-    "advancements.potato.get_peeled.title": "Be Rinded!",
+    "advancements.potato.get_oily.title": "Get Ealy!",
+    "advancements.potato.get_peeled.description": "Get rinded by another player with an Earthapple Rinder while wearing an Attery Earthapple Breastbor",
+    "advancements.potato.get_peeled.title": "Get Rinded!",
     "advancements.potato.good_plant.description": "Do as the A.E.W. lists",
     "advancements.potato.good_plant.title": "Good Wort",
     "advancements.potato.lubricate_boots.description": "...sliding. And that's the only thing hie do!",
@@ -379,6 +379,6 @@
     "subtitles.entity.zombie_potato.infect": "Earthapple Lich smits",
     "subtitles.entity.zombie_potato.step": "Earthapple Lich steps",
     "subtitles.item.potato.chips": "Crispy crunch!",
-    "subtitles.item.potato.peel": "Earthapple rinded",
+    "subtitles.item.potato.peel": "Earthapple gets rinded",
     "trim_material.minecraft.amber": "Elksand Anwork"
 }

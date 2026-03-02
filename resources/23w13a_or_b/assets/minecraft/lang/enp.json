@@ -40,6 +40,7 @@
     "death.midas.turned_into_gold": "%1$s became gold",
     "effect.minecraft.big": "Big",
     "effect.minecraft.small": "Small",
+    "entity.minecraft.stencil_display": "Forebisen Showing",
     "entity.minecraft.moon_cow": "Moon Cow",
     "entity.minecraft.ray_tracing": "Beam Following",
     "gui.pending_votes.title": "Ongoing Wales",
@@ -47,6 +48,7 @@
     "gui.voting.next": "Next Wale",
     "gui.voting.prev": "Former Wale",
     "gui.voting.do_it": "Wale!",
+    "rule.item.disabled": "Laid-off thing: you haven't waled for this!",
     "item.minecraft.air_block": "Lift",
     "item.minecraft.bottle_of_void": "Flash of Emptiness",
     "item.minecraft.bottle_of_entity": "Flash of Ansen",
@@ -242,5 +244,9 @@
     "rule.food_restriction.inedible.mushroom_stew": "Lime mid Swambs",
     "rule.moon.0": "Only the wonly Moon",
     "rule.pickaxe_block": "Eke Mattock Clot",
-    "rule.zombie_apocalypse": "It's the lich endtime! Watch out for swambs. And liches."
+    "rule.zombie_apocalypse": "It's the lich endtime! Watch out for swambs. And liches.",
+    "vote.cost_diplay": "%s × %s",
+    "vote.cost": "Loave:",
+    "vote.cost.xp": "Golder Ords",
+    "vote.cost.health": "Health"
 }

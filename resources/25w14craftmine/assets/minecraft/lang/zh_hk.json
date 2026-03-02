@@ -196,6 +196,7 @@
     "sky.atlas": "餿主意",
     "sky.missing": "缺少紋理",
     "unlocks.screen.hint": "貼士：%s",
+    "unlocks.screen.locked": "花費：%s",
     "unlocks.unlock.alchemy.description": "一個釀造台，滿足你各種釀造需求",
     "unlocks.unlock.alchemy.name": "煉金術",
     "unlocks.unlock.allez_cuisine.description": "為釀造增加些少風味",
