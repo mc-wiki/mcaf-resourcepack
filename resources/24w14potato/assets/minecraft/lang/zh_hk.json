@@ -179,7 +179,7 @@
     "entity.minecraft.toxifin": "毒鰭半磚",
     "entity.minecraft.vine_projectile": "藤蔓",
     "gamerule.floataterSizeLimit": "飄浮薯仔推進器大小限制",
-    "gamerule.floataterSizeLimit.description": "飄浮薯仔推進器最大允許 N×N×N 大小的方塊。",
+    "gamerule.floataterSizeLimit.description": "飄浮薯仔推進器結構的大小上限為 N×N×N 個方塊。",
     "gamerule.neverEatArmor": "永遠不會於饑餓時吃掉盔甲。無論看似有多美味。",
     "item.minecraft.amber_gem": "琥珀寶石",
     "item.minecraft.batato_spawn_egg": "薯蝠生成蛋",
