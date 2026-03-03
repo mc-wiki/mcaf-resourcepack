@@ -139,6 +139,8 @@
     "rule.natural_spawn_disable": "Never kindly beget %s",
     "rule.natural_spawn_replace": "Swap out kindful begets of %s with %s",
     "rule.footprint.0": "Footspoors? What footspoors?",
+    "rule.footprint.2": "Edaught footspoor lodestars",
+    "rule.footprint.3": "Forearead footspoor timeline",
     "rule.footprint.9": "A&A footspoor path",
     "rule.footprint.10": "Go-no go meeting",
     "rule.footprint.11": "Lay on footspoors",

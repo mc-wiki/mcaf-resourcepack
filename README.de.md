@@ -30,7 +30,7 @@ Die Übersetzung wird von der Community auf [Crowdin](https://crowdin.com/projec
 | `it_it` | Italienisch | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
 | `ja_jp` | Japanisch | 日本語 (日本) | <img src="badges/ja_jp.png"> | 100% | 29% |
 | `ko_kr` | Koreanisch | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 82% | 1% |
-| `lzh` | Klassisches Chinesisch | 文言 (華夏)| <img src="badges/lzh.png"> | 100% | 43% |
+| `lzh` | Klassisches Chinesisch | 文言 (華夏)| <img src="badges/lzh.png"> | 100% | 45% |
 | `nl_nl` | Niederländisch | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 2% | 0% |
 | `pt_br` | Brasilianisches Portugiesisch | Português (Brasil) | <img src="badges/pt_br.png"> | 8% | 5% |
 | `pt_pt` | Portugiesisch | Português (Portugal) | <img src="badges/pt_pt.png"> | 0% | 0% |
@@ -38,7 +38,7 @@ Die Übersetzung wird von der Community auf [Crowdin](https://crowdin.com/projec
 | `th_th` | Thailändisch | ไทย (ประเทศไทย) | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua` | Ukrainisch | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
 | `zh_cn` | Chinesisch (vereinfacht) | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 96% |
-| `zh_hk` | Chinesisch (Hong Kong) | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 59% | 59% |
+| `zh_hk` | Chinesisch (Hong Kong) | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 60% | 60% |
 | `zh_tw` | Chinesisch (traditionell) | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 66% | 1% |
 
 Wenn du eine neue Sprache hinzufügen möchtest, [erstelle einen neuen Issue auf GitHub](https://github.com/mc-wiki/mcaf-resourcepack/issues).
