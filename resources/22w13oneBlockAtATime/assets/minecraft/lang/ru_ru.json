@@ -1,5 +1,6 @@
 {
     "advancements.end.ride_dragon.title": "Прокатитесь по Краю",
     "advancements.end.ride_dragon.description": "Невероятная удача",
+    "item.generic_item_block.name": "Как мы сюда попали?"
     "gamemode.gamemodeNotFound": "Неизвестный режим игры: %s"
 }

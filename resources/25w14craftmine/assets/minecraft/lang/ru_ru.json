@@ -1,5 +1,5 @@
 {
-    "advancements.adventure.deluge.description": "Завершите Шахта, пока действуют эффекты \"Водный мир\" и \"Вечный дождь\"",
+    "advancements.adventure.deluge.description": "Завершите Шахту, пока действуют эффекты \"Водный мир\" и \"Вечный дождь\"",
     "advancements.adventure.deluge.title": "Может, подождем, пока морось утихнет?",
     "advancements.adventure.enter_a_mine.description": "Введите шахту",
     "advancements.adventure.enter_a_mine.title": "Спуск в люк",
@@ -17,4 +17,5 @@
     "advancements.unlocks.all_gatherer.title": "Шахтёр",
     "advancements.unlocks.free_sticks.title": "Бесплатные палки",
     "advancements.unlocks.in_it_together.title": "Влипли вместе"
+    "item.mine_crafter.name": "Создатель шахт"
 }
