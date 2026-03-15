@@ -51,7 +51,7 @@
     "rule.item.disabled": "無効なアイテムです。投票で有効化しよう！",
     "item.minecraft.air_block": "空気",
     "item.minecraft.bottle_of_void": "「無」入りの瓶",
-    "item.minecraft.bottle_of_entity": "エンティティ入りの瓶",
+    "item.minecraft.bottle_of_entity": "エンティティ入り瓶",
     "item.minecraft.bottle_of_entity.specific": "%s入りの瓶",
     "item.minecraft.splash_bottle_of_entity": "エンティティ入りのスプラッシュ瓶",
     "item.minecraft.splash_bottle_of_entity.specific": "%s入りのスプラッシュ瓶",
