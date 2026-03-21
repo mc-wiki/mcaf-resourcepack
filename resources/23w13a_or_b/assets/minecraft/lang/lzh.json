@@ -168,7 +168,7 @@
     "rule.new_vote_max_repeal_vote_count": "廢案之極設爲%s",
     "rule.new_vote_cost": "設舉薦所耗、所限爲：%s",
     "rule.obfuscate_player_names": "紊戲者之名",
-    "rule.beta_entity_ids": "咸顯ID於實體之上",
+    "rule.beta_entity_ids": "咸顯棨信於實體之上",
     "rule.nbt_crafting": "許製於NBT",
     "rule.recipe_flip.normal_only": "有條之方，惟容其同",
     "rule.recipe_flip.flipped_only": "有條之方，惟容其反",
