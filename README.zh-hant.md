@@ -39,13 +39,13 @@
 | `es_es` | 西班牙語 | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
 | `fr_fr` | 法語 | Français (France) | <img src="badges/fr_fr.png"> | 1% | 0% |
 | `it_it` | 意大利語 | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
-| `ja_jp` | 日語 | 日本語 (日本) | <img src="badges/ja_jp.png"> | 99% | 30% |
+| `ja_jp` | 日語 | 日本語 (日本) | <img src="badges/ja_jp.png"> | 100% | 30% |
 | `ko_kr` | 韓語 | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 82% | 1% |
 | `lzh` | 漢語（文言文） | 文言 (華夏)| <img src="badges/lzh.png"> | 99% | 53% |
 | `nl_nl` | 荷蘭語 | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 2% | 0% |
 | `pt_br` | 巴西葡萄牙語 | Português (Brasil) | <img src="badges/pt_br.png"> | 8% | 5% |
 | `pt_pt` | 葡萄牙語 | Português (Portugal) | <img src="badges/pt_pt.png"> | 0% | 0% |
-| `ru_ru` | 俄語 | Русский (Россия) | <img src="badges/ru_ru.png"> | 10% | 0% |
+| `ru_ru` | 俄語 | Русский (Россия) | <img src="badges/ru_ru.png"> | 12% | 0% |
 | `th_th` | 泰語 | ไทย (ประเทศไทย) | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua` | 烏克蘭語 | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
 | `zh_cn` | 漢語 | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 96% |
