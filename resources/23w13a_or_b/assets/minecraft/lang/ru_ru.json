@@ -86,5 +86,16 @@
     "rule.optimize_light_engine.always_light": "Включить везде свет для повышения производительности светового движка",
     "rule.optimize_light_engine.never_light": "Выключить везде свет для повышения производительности светового движка",
     "rule.explosion_power.set": "Установить дополнительную мощность взрыва на %s",
-    "rule.explosion_power.change": "Изменить дополнительную мощность взрыва с %s на %s"
+    "rule.explosion_power.change": "Изменить дополнительную мощность взрыва с %s на %s",
+    "rule.disable_item_tooltips": "Отключите подсказки элементов",
+    "rule.pot_gems": "Украшенные горшки бросают драгоценные камни при поломке",
+    "rule.infinite_cakes": "Бесконечные торты",
+    "rule.other_portal": "Включить другой портал",
+    "rule.other_portal.oops": "Ошибка 404 Местность Не Найдена",
+    "rule.anonymize_skins": "Анонимизировать скины игроков",
+    "rule.replace_item_model": "Замените модель элемента для %s на %s",
+    "rule.replace_block_model": "Замените блочную модель для %s на %s",
+    "rule.weather.rain.default": "Правила дождя по умолчанию",
+    "rule.footprint.4": "Исследуйте существующие решения по площади в конкурирующих продуктах",
+    "rule.footprint.5": "Получить поддержку от сторон, имеющих отношение к инициативе следа"
 }
