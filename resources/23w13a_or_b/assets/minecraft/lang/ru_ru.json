@@ -40,8 +40,10 @@
     "death.midas.turned_into_gold": "%1$s Превратился(лась) в золото",
     "effect.minecraft.big": "Гигант",
     "effect.minecraft.small": "Кроха",
+    "entity.minecraft.stencil_display": "\"Трафаретный дисплей\"",
     "entity.minecraft.moon_cow": "Лунная корова",
     "entity.minecraft.ray_tracing": "Ray Tracing",
+    "gui.pending_votes.title": "\"Ожидание голосования\"",
     "gui.voting.title": "Голосование",
     "gui.voting.next": "След. голосование",
     "gui.voting.prev": "Пред. голосование",
@@ -68,6 +70,7 @@
     "item.minecraft.tipped_arrow.effect.big": "Стрела гиганта",
     "item.minecraft.tipped_arrow.effect.small": "Стрела крошечности",
     "item.minecraft.dupe_hack": "minecraft:dupe_hack",
+    "item.minecraft.name": "\"Имя\"",
     "item.minecraft.syntax_error": "Сccинтаксическая ошибка",
     "item.minecraft.bit": "Бит",
     "item.minecraft.le_tricolore": "Ле Триколоре",
@@ -82,5 +85,6 @@
     "rule.optimize_light_engine.loadshedding": "Реализовать функцию loadshedding для повышения производительности светового движка",
     "rule.optimize_light_engine.always_light": "Включить везде свет для повышения производительности светового движка",
     "rule.optimize_light_engine.never_light": "Выключить везде свет для повышения производительности светового движка",
-    "rule.explosion_power.set": "Установить дополнительную мощность взрыва на %s"
+    "rule.explosion_power.set": "Установить дополнительную мощность взрыва на %s",
+    "rule.explosion_power.change": "Изменить дополнительную мощность взрыва с %s на %s"
 }

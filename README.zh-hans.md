@@ -34,13 +34,13 @@
 | 代码 | 语言 | 显示名称 | 进度 | 已翻译 | 已批准 |
 | --- | --- | --- | --- | ---: | ---: |
 | `de_de` | 德语 | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 17% | 0% |
-| `en_ud` | 颠倒英语 | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/en_ud.png"> | 99% | 99% |
+| `en_ud` | 颠倒英语 | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/en_ud.png"> | 100% | 100% |
 | `enp` | 纯粹英语 | Anglish (Oned Riches) | <img src="badges/enp.png"> | 54% | 54% |
 | `es_es` | 西班牙语 | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
 | `fr_fr` | 法语 | Français (France) | <img src="badges/fr_fr.png"> | 1% | 0% |
 | `it_it` | 意大利语 | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
 | `ja_jp` | 日语 | 日本語 (日本) | <img src="badges/ja_jp.png"> | 99% | 29% |
-| `ko_kr` | 韩语 | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 81% | 1% |
+| `ko_kr` | 韩语 | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 82% | 1% |
 | `lzh` | 汉语（文言文） | 文言 (華夏)| <img src="badges/lzh.png"> | 99% | 53% |
 | `nl_nl` | 荷兰语 | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 2% | 0% |
 | `pt_br` | 巴西葡萄牙语 | Português (Brasil) | <img src="badges/pt_br.png"> | 8% | 5% |
@@ -48,7 +48,7 @@
 | `ru_ru` | 俄语 | Русский (Россия) | <img src="badges/ru_ru.png"> | 9% | 0% |
 | `th_th` | 泰语 | ไทย (ประเทศไทย) | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua` | 乌克兰语 | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
-| `zh_cn` | 汉语 | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 99% | 95% |
+| `zh_cn` | 汉语 | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 96% |
 | `zh_hk` | 汉语 | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 74% | 74% |
 | `zh_tw` | 汉语 | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 67% | 1% |
 
