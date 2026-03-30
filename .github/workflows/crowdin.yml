@@ -60,7 +60,7 @@ jobs:
       - name: List Folders
         id: list_folders
         run: |
-          FOLDERS=$(ls ./resources | sort | sed '1{h;s/.*/15w14a\n1.RV-Pre1\n3D_Shareware_v1.34/;G}' | awk '!a[$0]++' | sed 's/.*/"&"/' | sed ':a;N;$!ba;s/\n/,/g')
+          FOLDERS=$(ls ./resources | sort | sed '1{h;s/.*/15w14a\n1.RV-Pre1\n3D Shareware v1.34/;G}' | awk '!a[$0]++' | sed 's/.*/"&"/' | sed ':a;N;$!ba;s/\n/,/g')
           echo "folders_json=[$FOLDERS]" >> $GITHUB_OUTPUT
 
       - name: Update Progress
@@ -115,10 +115,9 @@ jobs:
 
       - name: Package Resources for ${{ matrix.folder }}
         run: |
-          mkdir -p resources/${{ matrix.folder }}/assets/minecraft/lang
-          cp sources/${{ matrix.folder }}/* resources/${{ matrix.folder }}/assets/minecraft/lang
-          cd resources/${{ matrix.folder }}
-          zip -r '../../[AFTP] ${{ matrix.folder }}.zip' ./*
+          mkdir -p 'resources/${{ matrix.folder }}/assets/minecraft/lang'
+          cp 'sources/${{ matrix.folder }}'/* 'resources/${{ matrix.folder }}/assets/minecraft/lang'
+          zip -r '[AFTP] ${{ matrix.folder }}.zip' 'resources/${{ matrix.folder }}'/*
 
       - name: Upload Packaged Release for ${{ matrix.folder }}
         uses: xresloader/upload-to-github-release@v1

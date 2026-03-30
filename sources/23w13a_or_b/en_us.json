@@ -489,7 +489,7 @@
     "vote.cost.xp": "Enchantment Points",
     "vote.cost.health": "Health",
     "vote.tie": "Voting tie, using strategy '%s'",
-    "vote.voted": "\u2BEA I Voted! \u2BEB",
+    "vote.voted": "⯪ I Voted! ⯫",
     "vote.show_current_rules": "Show applied proposals",
     "vote.current_rules": "All approved rules (so far)",
     "tooltip.too_long": "Tooltip too long, press ctrl-click to show all",

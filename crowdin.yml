@@ -7,6 +7,7 @@ languages_mapping:
       enp: enp
       es-ES: es_es
       fr-FR: fr_fr
+      he-IL: he_il
       it-IT: it_it
       ja-JP: ja_jp
       ko-KR: ko_kr
@@ -30,17 +31,17 @@ files:
     dest: 1.RV-Pre1.lang
     translation: /resources/1.RV-Pre1/assets/minecraft/lang/%locale%.lang
 
-  - source: sources/3D_Shareware_v1.34/en_us.json
-    dest: 3D_Shareware_v1.34.json
-    translation: /resources/3D_Shareware_v1.34/assets/minecraft/lang/%locale%.json
+  - source: sources/3D Shareware v1.34/en_us.json
+    dest: 3D Shareware v1.34.json
+    translation: /resources/3D Shareware v1.34/assets/minecraft/lang/%locale%.json
 
   - source: sources/20w14infinite/en_us.json
     dest: 20w14infinite.json
     translation: /resources/20w14infinite/assets/minecraft/lang/%locale%.json
 
-  - source: sources/22w13oneBlockAtATime/en_us.json
-    dest: 22w13oneBlockAtATime.json
-    translation: /resources/22w13oneBlockAtATime/assets/minecraft/lang/%locale%.json
+  - source: sources/22w13oneblockatatime/en_us.json
+    dest: 22w13oneblockatatime.json
+    translation: /resources/22w13oneblockatatime/assets/minecraft/lang/%locale%.json
 
   - source: sources/23w13a_or_b/en_us.json
     dest: 23w13a_or_b.json

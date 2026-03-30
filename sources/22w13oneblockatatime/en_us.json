@@ -1,0 +1,23 @@
+{
+    "createWorld.customize.preset.classic_flat": "Classic Flat",
+    "createWorld.customize.preset.tunnelers_dream": "Tunnelers' Dream",
+    "createWorld.customize.preset.water_world": "Water World",
+    "createWorld.customize.preset.overworld": "Overworld",
+    "createWorld.customize.preset.snowy_kingdom": "Snowy Kingdom",
+    "createWorld.customize.preset.bottomless_pit": "Bottomless Pit",
+    "createWorld.customize.preset.desert": "Desert",
+    "createWorld.customize.preset.redstone_ready": "Redstone Ready",
+    "createWorld.customize.preset.the_void": "The Void",
+    "generator.default": "Default",
+    "generator.flat": "Superflat",
+    "generator.large_biomes": "Large Biomes",
+    "generator.amplified": "AMPLIFIED",
+    "generator.debug_all_block_states": "Debug Mode",
+    "generator.amplified.info": "Notice: Just for fun! Requires a beefy computer.",
+    "generator.single_biome_surface": "Single Biome",
+    "debug.cycle_renderdistance.help": "F3 + F = Cycle render distance (shift to invert)",
+    "debug.cycle_renderdistance.message": "Render Distance: %s",
+    "advancements.end.ride_dragon.title": "Ride the End",
+    "advancements.end.ride_dragon.description": "Extra Good luck",
+    "gamemode.gamemodeNotFound": "Unknown gamemode: %s"
+}

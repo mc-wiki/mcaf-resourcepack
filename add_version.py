@@ -9,16 +9,16 @@ import time
 from pathlib import Path
 from zipfile import ZipFile
 
+import mclang
 import requests
 from requests.exceptions import ReadTimeout, RequestException, SSLError
 
 
-def get_response(url: str, max_retries: int) -> requests.Response | None:
+def get_response(url: str) -> requests.Response | None:
     """Get HTTP response and handle exceptions and retry logic.
 
     Args:
         url (str): URL to request
-        max_retries (int): Maximum number of retries
 
     Returns:
         requests.Response | None: Response object, or None if request fails
@@ -51,9 +51,7 @@ def get_response(url: str, max_retries: int) -> requests.Response | None:
         retries += 1
 
 
-def get_file(
-    url: str, file_name: str, file_path: Path, sha1: str, max_retries: int
-) -> None:
+def get_file(url: str, file_name: str, file_path: Path, sha1: str) -> None:
     """Download file and verify SHA1 value.
 
     Args:
@@ -61,11 +59,10 @@ def get_file(
         file_name (str): File name
         file_path (Path): File save path
         sha1 (str): Expected SHA1 checksum
-        max_retries (int): Maximum number of retries
     """
     success = False
     for _ in range(max_retries):
-        resp = get_response(url, max_retries)
+        resp = get_response(url)
         if resp is None:
             print(f"Failed to download {file_name}: No response received.")
             continue
@@ -84,21 +81,46 @@ def get_file(
         print(f'Unable to download file "{file_name}".')
 
 
+def get_client(info: dict) -> Path:
+    """Get client.jar file.
+
+    Args:
+        info (dict): Version info
+
+    Returns:
+        Path: Path to client.jar
+    """
+    client_manifest_url = info["url"]
+    print(
+        f'Fetching client manifest file "{Path(client_manifest_url).name.replace("%20", " ")}"...'
+    )
+    client_manifest_resp = get_response(client_manifest_url)
+    if client_manifest_resp is None:
+        print("Failed to retrieve client manifest.")
+        sys.exit(1)
+    client_manifest = client_manifest_resp.json()
+
+    client_url = client_manifest["downloads"]["client"]["url"]
+    client_sha1 = client_manifest["downloads"]["client"]["sha1"]
+    client_path = base_dir / f"Java_Edition_{info['id']}.jar"
+    print(f'Downloading "{client_path.name}" ({client_sha1})...')
+    get_file(client_url, client_path.name, client_path, client_sha1)
+    print()
+    return client_path
+
+
 def main() -> None:
     """Main entry point."""
-    script_dir = Path(__file__).parent
-    crowdin_file = script_dir / "crowdin.yml"
-    readme_file = script_dir / "README.md"
-    is_github_actions = os.getenv("GITHUB_ACTIONS")
-    max_retries = 5
+    crowdin_file = base_dir / "crowdin.yml"
+    readme_file = base_dir / "README.md"
+    is_github_action = bool(os.getenv("GITHUB_ACTIONS"))
 
     version = os.getenv("MINECRAFT_VERSION")
-    if not is_github_actions:
+    if not is_github_action:
         version = input("Enter a version ID to add (defaults to latest snapshot): ")
     print('\nRetrieving content of version manifest "version_manifest_v2.json"...')
     version_manifest_resp = get_response(
-        "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json",
-        max_retries,
+        "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json"
     )
     if version_manifest_resp is None:
         print("Failed to retrieve version manifest.")
@@ -107,8 +129,8 @@ def main() -> None:
     versions = version_manifest_json["versions"]
     version = version or version_manifest_json["latest"]["snapshot"]
 
-    source_dir = script_dir / "sources" / version
-    resource_dir = script_dir / "resources" / version
+    source_dir = base_dir / "sources" / version
+    resource_dir = base_dir / "resources" / version
     extract_files = [
         "assets/minecraft/lang/en_US.lang",
         "assets/minecraft/lang/en_us.json",
@@ -124,51 +146,64 @@ def main() -> None:
 
     source_dir.mkdir(parents=True, exist_ok=True)
     resource_dir.mkdir(parents=True, exist_ok=True)
-    client_manifest_url = version_info["url"]
-    print(
-        f'Fetching client manifest file "{client_manifest_url.rsplit("/", 1)[-1]}"...'
-    )
-    client_manifest_resp = get_response(client_manifest_url, max_retries)
-    if client_manifest_resp is None:
-        print("Failed to retrieve client manifest.")
-        sys.exit(1)
-    client_manifest = client_manifest_resp.json()
 
-    client_url = client_manifest["downloads"]["client"]["url"]
-    client_sha1 = client_manifest["downloads"]["client"]["sha1"]
-    client_path = script_dir / f"Java_Edition_{version}.jar"
-    print(f'Downloading "client.jar" ({client_sha1})...')
-    get_file(client_url, client_path.name, client_path, client_sha1, max_retries)
-    print()
     lang_source = None
-    with ZipFile(client_path) as client:
+    collection = {}
+    with ZipFile(get_client(version_info)) as client:
         for filepath in extract_files:
             if filepath not in client.namelist():
                 continue
-            output = source_dir / filepath.rsplit("/", 1)[-1]
-            output_path = f"sources/{source_dir.name}/{filepath.rsplit("/", 1)[-1]}"
+            output = source_dir / Path(filepath).name
+            output_path = f"sources/{source_dir.name}/{Path(filepath).name}"
             if filepath.startswith("assets/minecraft/lang/"):
-                lang_source = output_path
+                lang_source = Path(output_path)
             with client.open(filepath) as content:
                 print(f"Extracting /{filepath} to ./{output_path} from client.jar...")
                 output.write_bytes(content.read())
+    lang_module = json if lang_source.suffix == ".json" else mclang
+    collection["current"] = lang_module.loads(
+        base_dir.joinpath(lang_source).read_text(encoding="utf-8")
+    )
+
+    previous_version_info = versions[versions.index(version_info) + 1]
+    with ZipFile(get_client(previous_version_info)) as client:
+        filepath = f"assets/minecraft/lang/{lang_source.name}"
+        with client.open(filepath) as content:
+            collection["previous"] = lang_module.loads(content.read().decode("utf-8"))
+    collection["result"] = {
+        key: value
+        for key, value in collection["current"].items()
+        if key not in collection["previous"] or collection["previous"][key] != value
+    }
+    base_dir.joinpath(lang_source).write_text(
+        lang_module.dumps(collection["result"], ensure_ascii=False, indent=4),
+        encoding="utf-8",
+    )
 
     version_file = source_dir / "version.json"
     mcmeta_file = resource_dir / "pack.mcmeta"
-    resource_version = 0
+    resource_mapping = {"15w14a": 1, "1.RV-Pre1": 2}
+    resource_version = resource_mapping.get(version)
     mcmeta = {
         "pack": {
             "description": f"Translations for {version}\nfrom Minecraft Wiki",
         }
     }
     if version_file.exists():
-        v = json.loads(version_file.read_text())
+        v = json.loads(version_file.read_text(encoding="utf-8"))
         build_year = int(v["build_time"].split("-")[0])
         pack_version = v["pack_version"]
-        resource_version = pack_version.get(
-            "resource", [pack_version["resource_major"], pack_version["resource_minor"]]
+        resource_version = (
+            pack_version
+            if isinstance(pack_version, int)
+            else pack_version.get("resource")
         )
-    if type(resource_version) == list:
+        if resource_version is None:
+            resource_version = [
+                pack_version["resource_major"],
+                pack_version["resource_minor"],
+            ]
+    if isinstance(resource_version, list):
         if not resource_version[1]:
             resource_version = resource_version[0]
         mcmeta["pack"]["min_format"] = resource_version
@@ -176,19 +211,26 @@ def main() -> None:
     else:
         mcmeta["pack"]["pack_format"] = resource_version
     print('Deleting file "version.json"...')
-    os.unlink(version_file)
-    shutil.copy(resource_dir.parent / "15w14a" / "pack.png", resource_dir / "pack.png")
-    (resource_dir / "assets" / "minecraft" / "lang").mkdir(parents=True, exist_ok=True)
-    mcmeta_file.write_text(json.dumps(mcmeta, ensure_ascii=False, indent=4))
-    crowdin = crowdin_file.read_text()
+    version_file.unlink(missing_ok=True)
+    if resource_dir.name != "15w14a":
+        shutil.copy(
+            resource_dir.parent / "15w14a" / "pack.png", resource_dir / "pack.png"
+        )
+    resource_dir.joinpath("assets", "minecraft", "lang").mkdir(
+        parents=True, exist_ok=True
+    )
+    mcmeta_file.write_text(
+        json.dumps(mcmeta, ensure_ascii=False, indent=4), encoding="utf-8"
+    )
+    crowdin = crowdin_file.read_text(encoding="utf-8")
     if lang_source and crowdin.find(version) == -1:
-        lang_dest = f"{version}.{lang_source.rsplit('.', 1)[-1]}"
+        lang_dest = f"{version}.{lang_source.suffix}"
         lang_translation = f"/resources/{version}/assets/minecraft/lang/"
-        if lang_source.endswith("en_US.lang"):
+        if lang_source.name == "en_US.lang":
             lang_translation += "%locale_with_underscore%.lang"
-        if lang_source.endswith("en_us.json"):
+        if lang_source.name == "en_us.json":
             lang_translation += "%locale%.json"
-        if lang_source.endswith("en_us.lang"):
+        if lang_source.name == "en_us.lang":
             lang_translation += "%locale%.lang"
         crowdin_file.write_text(
             crowdin
@@ -196,7 +238,8 @@ def main() -> None:
   - source: {lang_source}
     dest: {lang_dest}
     translation: {lang_translation}
-"""
+""",
+            encoding="utf-8",
         )
         readme_file.write_text(
             readme_file.read_text(encoding="utf-8").replace(
@@ -206,7 +249,7 @@ def main() -> None:
             encoding="utf-8",
         )
 
-    if is_github_actions:
+    if is_github_action:
         with open(os.getenv("GITHUB_OUTPUT"), "a") as f:
             f.write(f"version={version}\n")
 
@@ -216,4 +259,6 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    base_dir = Path(__file__).parent
+    max_retries = 5
     main()
