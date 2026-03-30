@@ -292,8 +292,10 @@
     "vote.voters": "Walers:",
     "vote.voter": "    %s: %s",
     "vote.option_display": "%s. %s",
+    "vote.no_more_votes": "No more wales",
     "vote.cost_diplay": "%s × %s",
     "vote.cost": "Loave:",
     "vote.cost.xp": "Golder Ords",
-    "vote.cost.health": "Health"
+    "vote.cost.health": "Health",
+    "vote.voted": "⯪ I Waled! ⯫"
 }

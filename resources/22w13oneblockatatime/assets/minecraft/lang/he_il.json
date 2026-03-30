@@ -1,1 +1,23 @@
-{}
+{
+    "createWorld.customize.preset.classic_flat": "שטוח קלאסי",
+    "createWorld.customize.preset.tunnelers_dream": "חלומם של חוצבים",
+    "createWorld.customize.preset.water_world": "עולם מים",
+    "createWorld.customize.preset.overworld": "העולם העליון",
+    "createWorld.customize.preset.snowy_kingdom": "ממלכה מושלגת",
+    "createWorld.customize.preset.bottomless_pit": "בור ללא תחתית",
+    "createWorld.customize.preset.desert": "מדבר",
+    "createWorld.customize.preset.redstone_ready": "עולם רדסטון",
+    "createWorld.customize.preset.the_void": "הריק",
+    "generator.default": "ברירת מחדל",
+    "generator.flat": "שטוח לחלוטין",
+    "generator.large_biomes": "סביבות ענק",
+    "generator.amplified": "מוגבר",
+    "generator.debug_all_block_states": "מצב איתור באגים",
+    "generator.amplified.info": "לתשומת לבך: רק בשביל הכיף! דורש מחשב חזק.",
+    "generator.single_biome_surface": "סביבה יחידה",
+    "debug.cycle_renderdistance.help": "F3 + F = מרחק רינדור מחזורי (מעבר להיפוך)",
+    "debug.cycle_renderdistance.message": "מרחק ראיה: %s",
+    "advancements.end.ride_dragon.title": "לרכוב על האנד",
+    "advancements.end.ride_dragon.description": "אקסטרה בהצלחה",
+    "gamemode.gamemodeNotFound": "מצב משחק לא ידוע: %s"
+}

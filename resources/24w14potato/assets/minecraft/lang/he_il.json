@@ -1,1 +1,20 @@
-{}
+{
+    "entity.minecraft.vine_projectile": "גפן",
+    "item.minecraft.dent": "דנט",
+    "item.resin.clarity.adjective.d": "משעמם",
+    "item.resin.clarity.adjective.h": "מעורפל",
+    "item.resin.impurity.adjective.b": "באגים",
+    "item.resin.impurity.adjective.j": "ג'ין",
+    "item.resin.quality.4": "טהור",
+    "potato.quest.book.page.2": "• אחת מאותן ביצי שוקולד שתמצאו במערה, אבל אי אפשר להרים אותה, עליכם לפתוח את נייר האלומיניום שלה שם על הקרקע, ולאכול אותה מיד, ולהשאיר את האשפה מאחור\n• עוד דברים עשויים מאבן\n• ריי מאחד באפריל של שנה שעברה",
+    "potato.quest.dimension.jump.5": "...",
+    "potato.quest.found_colosseum.jump.4": "...",
+    "potato.quest.got_paper.jump.2": "",
+    "potato.quest.got_sword.jump.13": "",
+    "potato.quest.inside_colosseum.jump.3": "",
+    "potato.quest.meta_one.jump.7": "...",
+    "potato.quest.meta_one.jump.13": "",
+    "potato.quest.slept_in_bed.jump.3": "",
+    "potato.quest.thrown_eye.jump.13": "",
+    "potato.quest.took_bed.jump.1": ""
+}

@@ -1,1 +1,18 @@
-{}
+{
+    "advancements.adventure.almost_there.title": "כמעט שם",
+    "advancements.adventure.almost_there.description": "ביקר ביותר ממיליארד ממדים",
+    "biome.minecraft.between": "הבין לבין",
+    "biome.minecraft.shapes": "צורות",
+    "biome.minecraft.busy": "ביומה לשחקנים שאין להם זמן לשטויות",
+    "block.minecraft.cursor": "סמן",
+    "block.minecraft.ant": "נמלה",
+    "block.minecraft.zone": "שאריות",
+    "block.minecraft.neither_portal": "פורטל פאנקי",
+    "block.minecraft.netherite_stairs": "המדרגות הכי מפוארות אי פעם",
+    "block.minecraft.book_box": "קופסת האינסופיים ספרים",
+    "item.minecraft.footprint": "טביעת רגל",
+    "item.minecraft.fine_item": "פריט משובח מאוד",
+    "stat.minecraft.change_dimension": "שינויי מידות",
+    "subtitles.block.end_portal.spawn": "פורטל האנד נפתח!",
+    "subtitles.entity.horse.land": "סוס נוחת"
+}

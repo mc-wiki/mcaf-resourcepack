@@ -1,1 +1,26 @@
-{}
+{
+    "menu.select_episode": "בחר פרק",
+    "menu.modem_play": "ModemPlay(TM)",
+    "menu.modem_played1": "בליפ בלופ",
+    "menu.modem_played2": "Nej! (לא!)",
+    "demo.help.nag1": "אנא שקלו לקנות את המשחק הזה",
+    "demo.help.nag2": "כדי לקבל גישה לפרקים מלאים ו-",
+    "demo.help.nag3": "כל הנשקים!",
+    "demo.help.title": "MineCraft Shareware",
+    "demo.help.buy": "טופס הרשמה פתוח",
+    "key.boss_mode": "מצב בוס",
+    "key.increase_view": "הגדלת גודל המסך",
+    "key.decrease_view": "הקטנת גודל המסך",
+    "item.minecraft.red_key": "מפתח אדום",
+    "item.minecraft.blue_key": "מפתח כחול",
+    "item.minecraft.yellow_key": "מפתח צהוב",
+    "item.minecraft.3d": "תלת-ממד",
+    "item.key.tooltip": "פותח %s דלתות",
+    "death.attack.nightmare": "%1$s היה רך מדי לעולם הזה",
+    "death.attack.nightmare.player": "%1$s היה רך מדי לעולם הזה (%2$s עזר)",
+    "ui.next_disk.title": "נדרש הדיסק הבא",
+    "ui.next_disk.contents": "הכנס את הדיסק %s לכונן A ולחץ על ENTER",
+    "ui.next_disk.wrong_contents": "אמרתי ENTER!",
+    "feedback.line1": "רעיונות? באגים? שבחים? שלחו לנו גלויה!",
+    "feedback.line2": "הכתובת שלנו: Mojang AB, Söder Mälarstrand 43, 118 25 Stockholm, Sweden"
+}
