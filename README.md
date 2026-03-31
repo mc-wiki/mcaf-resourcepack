@@ -38,6 +38,7 @@ Translations are provided by the community on [Crowdin](https://crowdin.com/proj
 | `enp` | Anglish | Anglish (Oned Riches) | <img src="badges/enp.png"> | 54% | 54% |
 | `es_es` | Spanish | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
 | `fr_fr` | French | Français (France) | <img src="badges/fr_fr.png"> | 1% | 0% |
+| `he_il` | Hebrew | עברית (ישראל) | <img src="badges/he_il.png"> | 0% | 0% |
 | `it_it` | Italian | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
 | `ja_jp` | Japanese | 日本語 (日本) | <img src="badges/ja_jp.png"> | 100% | 30% |
 | `ko_kr` | Korean | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 82% | 1% |
