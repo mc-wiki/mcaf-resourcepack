@@ -224,7 +224,7 @@ def main() -> None:
     )
     crowdin = crowdin_file.read_text(encoding="utf-8")
     if lang_source and crowdin.find(version) == -1:
-        lang_dest = f"{version}.{lang_source.suffix}"
+        lang_dest = f"{version}{lang_source.suffix}"
         lang_translation = f"/resources/{version}/assets/minecraft/lang/"
         if lang_source.name == "en_US.lang":
             lang_translation += "%locale_with_underscore%.lang"
