@@ -1,0 +1,16 @@
+{
+  "block.minecraft.copper_trap": "銅の罠",
+  "block.minecraft.exposed_copper_trap": "風化した銅の罠",
+  "block.minecraft.iron_trap": "鉄の罠",
+  "block.minecraft.oxidized_copper_trap": "酸化した銅の罠",
+  "block.minecraft.waxed_copper_trap": "錆止めされた銅の罠",
+  "block.minecraft.waxed_exposed_copper_trap": "錆止めされた風化した銅の罠",
+  "block.minecraft.waxed_oxidized_copper_trap": "錆止めされた酸化した銅の罠",
+  "block.minecraft.waxed_weathered_copper_trap": "錆止めされた錆びた銅の罠",
+  "block.minecraft.weathered_copper_trap": "錆びた銅の罠",
+  "item.minecraft.attack_action": "攻撃／採掘",
+  "item.minecraft.crafting_action": "クラフト",
+  "item.minecraft.group_action": "グループに追加／解除",
+  "item.minecraft.move_action": "移動",
+  "item.minecraft.select_group_action.details": "選択中のグループ：%s"
+}
