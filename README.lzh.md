@@ -78,35 +78,35 @@
 
 答三：可於[<u>群力</u>](https://crowdin.com/project/mcaf-resourcepack)請之。
 
-<!-- The following content is specifically provided for zh_hk and lzh players, and can be omitted. -->
+<!-- The following content is specifically provided for zh_hk and lzh players, 和 can be omitted. -->
 <!-- needs to translate: ---
 
-## 香港繁体和文言
+## 香港繁體與文言
 
-香港繁体和文言的加入，向前覆盖至 2019 年 8 月 22 日发布的快照 19w34a。其晚于 2019 年愚人节快照 3D Shareware v1.34 的发布时间。
+香港繁體與文言之增修，溯及己亥七月廿二日所佈之十九周三四甲測版。是日晚於己亥二月廿六日躍然享件一點三四測版之時。
 
-因此，自 15w14a 至 3D Shareware v1.34：
+故自一五周一四甲至躍然享件一點三四：
 
-- Crowdin 项目和自动打包的资源包中仍会包含相关语言文件，方便 Wiki 编写时参考。
-- 上述两种语言不会出现在语言列表，正常游戏内不可用。
-- 若有使用需求，请自行修改压缩包中的`pack.mcmeta`，格式如下（需去除注释）。
+* 群力之事與自就之資囊中，猶存斯二語之檔，以利修撰大典時參攷。
+* 斯二語弗見於言語之目，尋常戲中不可用也。
+* 若欲用之，請自易縮囊中之`pack.mcmeta`，其式如下（須去註釋）。
 
 ```jsonc
 {
-  "pack": {
-    // 无需修改此段内容
-  },
-  "language": {
-    "zh_hk": {
-      // 15w14a时改为"zh_HK"
-      "name": "繁體中文",
-      "region": "香港特別行政區"
-    },
-    "lzh": {
-      "name": "文言",
-      "region": "華夏"
-    }
-  }
+  "pack": {
+    // 此段毋庸更易
+  },
+  "language": {
+    "zh_hk": {
+      // 15w14a之時易作"zh_HK"
+      "name": "繁體中文",
+      "region": "香港特別行政區"
+    },
+    "lzh": {
+      "name": "文言",
+      "region": "華夏"
+    }
+  }
 }
 ```
 -->
