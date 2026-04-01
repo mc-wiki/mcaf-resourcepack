@@ -54,3 +54,7 @@ files:
   - source: sources/25w14craftmine/en_us.json
     dest: 25w14craftmine.json
     translation: /resources/25w14craftmine/assets/minecraft/lang/%locale%.json
+
+  - source: sources/26w14a/en_us.json
+    dest: 26w14a..json
+    translation: /resources/26w14a/assets/minecraft/lang/%locale%.json
