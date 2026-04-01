@@ -68,6 +68,15 @@ jobs:
           pip install -r requirements.txt
           python update_progress.py
 
+      - name: Generate Crowdin Contributors
+        uses: andrii-bodnar/action-crowdin-contributors@v3
+        with:
+          contributors_per_line: 9
+          image_size: 64
+          min_words_contributed: 100
+          crowdin_project_link: ''
+          svg: true
+
       - name: Commit and Push
         run: |
           git config user.name github-actions
