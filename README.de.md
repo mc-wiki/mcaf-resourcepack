@@ -24,7 +24,7 @@ Die Übersetzung wird von der Community auf [Crowdin](https://crowdin.com/projec
 | --- | --- | --- | --- | ---: | ---: |
 | `de_de` | Deutsch | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 17% | 0% |
 | `en_ud` | Englisch (kopfüber) | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/en_ud.png"> | 100% | 100% |
-| `enp` | Puristisches Englisch | Anglish (Oned Riches) | <img src="badges/enp.png"> | 54% | 54% |
+| `enp` | Puristisches Englisch | Anglish (Oned Riches) | <img src="badges/enp.png"> | 55% | 55% |
 | `es_es` | Spanish | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
 | `fr_fr` | Französisch | Français (France) | <img src="badges/fr_fr.png"> | 1% | 0% |
 | `he_il` | Hebräisch | עברית (ישראל) | <img src="badges/he_il.png"> | 18% | 6% |
