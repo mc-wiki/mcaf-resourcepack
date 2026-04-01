@@ -3,7 +3,7 @@
 [![Modrinth](https://img.shields.io/modrinth/dt/april-fools-translation?label=Modrinth&color=darkgreen&labelColor=black&logo=modrinth)](https://modrinth.com/mod/april-fools-translation)
 [![Crowdin](https://badges.crowdin.net/mcaf-resourcepack/localized.svg)](https://crowdin.com/project/mcaf-resourcepack)
 
-[Deutsch](README.de.md) | [English](README.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md) | 繁體中文| [文言](README.lzh.md)
+[Deutsch](README.de.md) | [English](README.md) | [日本語](README.ja.md) | [文言](README.lzh.md) | [简体中文](README.zh-hans.md) | 繁體中文
 
 **使用來自 Minecraft Wiki 的翻譯，暢玩愚人節快照。**
 

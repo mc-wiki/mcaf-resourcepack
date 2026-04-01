@@ -1,6 +1,6 @@
 # 萬愚譯囊
 
-[Deutsch](README.de.md) | [English](README.md)  | [日本語](README.ja.md) | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)| 文言
+[Deutsch](README.de.md) | [English](README.md) | [日本語](README.ja.md) | 文言 | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
 
 **用<span style="text-decoration: underline wavy;">礦藝大典</span>之坊間譯文，戲萬愚日之試版。**
 
@@ -77,3 +77,36 @@
 **問三：欲增新語文之援，當如何？**
 
 答三：可於[<u>群力</u>](https://crowdin.com/project/mcaf-resourcepack)請之。
+
+<!-- The following content is specifically provided for zh_hk and lzh players, and can be omitted. -->
+<!-- needs to translate: ---
+
+## 香港繁体和文言
+
+香港繁体和文言的加入，向前覆盖至 2019 年 8 月 22 日发布的快照 19w34a。其晚于 2019 年愚人节快照 3D Shareware v1.34 的发布时间。
+
+因此，自 15w14a 至 3D Shareware v1.34：
+
+- Crowdin 项目和自动打包的资源包中仍会包含相关语言文件，方便 Wiki 编写时参考。
+- 上述两种语言不会出现在语言列表，正常游戏内不可用。
+- 若有使用需求，请自行修改压缩包中的`pack.mcmeta`，格式如下（需去除注释）。
+
+```jsonc
+{
+  "pack": {
+    // 无需修改此段内容
+  },
+  "language": {
+    "zh_hk": {
+      // 15w14a时改为"zh_HK"
+      "name": "繁體中文",
+      "region": "香港特別行政區"
+    },
+    "lzh": {
+      "name": "文言",
+      "region": "華夏"
+    }
+  }
+}
+```
+-->
