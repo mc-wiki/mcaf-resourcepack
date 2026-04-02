@@ -36,7 +36,7 @@ Translations are provided by the community on [Crowdin](https://crowdin.com/proj
 | --- | --- | --- | --- | ---: | ---: |
 | `de_de` | German | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 17% | 0% |
 | `en_ud` | English (Upside Down) | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/en_ud.png"> | 96% | 96% |
-| `enp` | Anglish | Anglish (Oned Riches) | <img src="badges/enp.png"> | 53% | 53% |
+| `enp` | Anglish | Anglish (Oned Riches) | <img src="badges/enp.png"> | 55% | 55% |
 | `es_es` | Spanish | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
 | `fr_fr` | French | Français (France) | <img src="badges/fr_fr.png"> | 1% | 0% |
 | `he_il` | Hebrew | עברית (ישראל) | <img src="badges/he_il.png"> | 19% | 6% |
@@ -50,7 +50,7 @@ Translations are provided by the community on [Crowdin](https://crowdin.com/proj
 | `ru_ru` | Russian | Русский (Россия) | <img src="badges/ru_ru.png"> | 11% | 0% |
 | `th_th` | Thai | ไทย (ประเทศไทย) | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua` | Ukrainian | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
-| `zh_cn` | Chinese (Simplified) | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 99% | 93% |
+| `zh_cn` | Chinese (Simplified) | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 93% |
 | `zh_hk` | Chinese (Hong Kong) | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 73% | 73% |
 | `zh_tw` | Chinese (Traditional) | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 65% | 1% |
 
