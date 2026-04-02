@@ -138,7 +138,7 @@
     "entity.minecraft.pet_wolf": "宠物狼",
     "entity.minecraft.villager.traitor": "叛徒",
     "gamerule.allBlocksBouncy": "所有方块都具有弹性",
-    "gamerule.icyLevel": "所有方块都十分Q弹",
+    "gamerule.icyLevel": "所有方块都具有弹性",
     "gui.door": "门",
     "gui.door.field.active_door": "你刚刚点击的门",
     "gui.door.field.error": "出错了",
