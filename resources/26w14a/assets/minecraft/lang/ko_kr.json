@@ -72,7 +72,7 @@
   "item.minecraft.select_action": "선택",
   "item.minecraft.select_group_action.details": "선택한 그룹: %s",
   "living_blocks.group.all": "전체",
-  "living_blocks.group.aqua": "물색",
+  "living_blocks.group.aqua": "하늘색",
   "living_blocks.group.blue": "파란색",
   "living_blocks.group.lime": "연두색",
   "living_blocks.group.none": "없음",
