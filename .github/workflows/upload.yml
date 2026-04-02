@@ -109,7 +109,7 @@ jobs:
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
           project: 1NAoXRE0
-          version: ${{ inputs.name || steps.package.outputs.time }}+${{ matrix.folder }}
+          version: ${{ inputs.name || steps.package.outputs.time }}+${{ matrix.folder == '3D Shareware v1.34' && '3D-Shareware-v1.34' }}
           changelog: |
             ${{ inputs.changes && fromJson(inputs.changes) || '<!-- Add change notes here -->' }}
 
