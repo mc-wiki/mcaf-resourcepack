@@ -9,7 +9,6 @@ import time
 from pathlib import Path
 from zipfile import ZipFile
 
-import mclang
 import requests
 from requests.exceptions import ReadTimeout, RequestException, SSLError
 
@@ -226,10 +225,12 @@ def main() -> None:
     if lang_source and crowdin.find(version) == -1:
         lang_dest = f"{version}{lang_source.suffix}"
         lang_translation = f"/resources/{version}/assets/minecraft/lang/"
+        filetype = "auto"
         if lang_source.name == "en_US.lang":
             lang_translation += "%locale_with_underscore%.lang"
         if lang_source.name == "en_us.json":
             lang_translation += "%locale%.json"
+            filetype = "json"
         if lang_source.name == "en_us.lang":
             lang_translation += "%locale%.lang"
         crowdin_file.write_text(
@@ -237,8 +238,9 @@ def main() -> None:
             + f"""
   - source: {lang_source}
     dest: {lang_dest}
-    translation: {lang_translation}
-""",
+    translation: {lang_translation}""" + f"""
+    type: {filetype}
+""" if filetype != "auto" else "",
             encoding="utf-8",
         )
         readme_file.write_text(

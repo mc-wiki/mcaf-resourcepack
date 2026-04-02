@@ -34,27 +34,34 @@ files:
   - source: sources/3D Shareware v1.34/en_us.json
     dest: 3D Shareware v1.34.json
     translation: /resources/3D Shareware v1.34/assets/minecraft/lang/%locale%.json
+    type: json
 
   - source: sources/20w14infinite/en_us.json
     dest: 20w14infinite.json
     translation: /resources/20w14infinite/assets/minecraft/lang/%locale%.json
+    type: json
 
   - source: sources/22w13oneblockatatime/en_us.json
     dest: 22w13oneblockatatime.json
     translation: /resources/22w13oneblockatatime/assets/minecraft/lang/%locale%.json
+    type: json
 
   - source: sources/23w13a_or_b/en_us.json
     dest: 23w13a_or_b.json
     translation: /resources/23w13a_or_b/assets/minecraft/lang/%locale%.json
+    type: json
 
   - source: sources/24w14potato/en_us.json
     dest: 24w14potato.json
     translation: /resources/24w14potato/assets/minecraft/lang/%locale%.json
+    type: json
 
   - source: sources/25w14craftmine/en_us.json
     dest: 25w14craftmine.json
     translation: /resources/25w14craftmine/assets/minecraft/lang/%locale%.json
+    type: json
 
   - source: sources/26w14a/en_us.json
     dest: 26w14a.json
     translation: /resources/26w14a/assets/minecraft/lang/%locale%.json
+    type: json
