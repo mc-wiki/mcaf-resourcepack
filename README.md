@@ -39,7 +39,7 @@ Translations are provided by the community on [Crowdin](https://crowdin.com/proj
 | `enp` | Anglish | Anglish (Oned Riches) | <img src="badges/enp.png"> | 55% | 55% |
 | `es_es` | Spanish | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
 | `fr_fr` | French | Français (France) | <img src="badges/fr_fr.png"> | 1% | 0% |
-| `he_il` | Hebrew | עברית (ישראל) | <img src="badges/he_il.png"> | 19% | 6% |
+| `he_il` | Hebrew | עברית (ישראל) | <img src="badges/he_il.png"> | 20% | 6% |
 | `it_it` | Italian | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
 | `ja_jp` | Japanese | 日本語 (日本) | <img src="badges/ja_jp.png"> | 100% | 29% |
 | `ko_kr` | Korean | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 82% | 4% |
@@ -52,7 +52,7 @@ Translations are provided by the community on [Crowdin](https://crowdin.com/proj
 | `uk_ua` | Ukrainian | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
 | `zh_cn` | Chinese (Simplified) | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 93% |
 | `zh_hk` | Chinese (Hong Kong) | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 73% | 73% |
-| `zh_tw` | Chinese (Traditional) | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 65% | 1% |
+| `zh_tw` | Chinese (Traditional) | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 66% | 1% |
 
 You can request adding a new language [by creating an issue on GitHub](https://github.com/mc-wiki/mcaf-resourcepack/issues).
 
