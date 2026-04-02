@@ -78,8 +78,7 @@
 
 答三：可於[<u>群力</u>](https://crowdin.com/project/mcaf-resourcepack)請之。
 
-<!-- The following content is specifically provided for zh_hk and lzh players, 和 can be omitted. -->
-<!-- needs to translate: ---
+<!-- The following content is specifically provided for zh_hk and lzh players, and can be omitted. -->
 
 ## 香港繁體與文言
 
@@ -93,20 +92,19 @@
 
 ```jsonc
 {
-  "pack": {
-    // 此段毋庸更易
-  },
-  "language": {
-    "zh_hk": {
-      // 15w14a之時易作"zh_HK"
-      "name": "繁體中文",
-      "region": "香港特別行政區"
-    },
-    "lzh": {
-      "name": "文言",
-      "region": "華夏"
-    }
-  }
+  "pack": {
+    // 此段毋庸更易
+  },
+  "language": {
+    "zh_hk": {
+      // 15w14a之時易作"zh_HK"
+      "name": "繁體中文",
+      "region": "香港特別行政區"
+    },
+    "lzh": {
+      "name": "文言",
+      "region": "華夏"
+    }
+  }
 }
 ```
--->
