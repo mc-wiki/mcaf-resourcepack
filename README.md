@@ -43,14 +43,14 @@ Translations are provided by the community on [Crowdin](https://crowdin.com/proj
 | `it_it` | Italian | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
 | `ja_jp` | Japanese | 日本語 (日本) | <img src="badges/ja_jp.png"> | 100% | 29% |
 | `ko_kr` | Korean | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 82% | 4% |
-| `lzh` | Literary Chinese | 文言 (華夏)| <img src="badges/lzh.png"> | 99% | 51% |
+| `lzh` | Literary Chinese | 文言 (華夏)| <img src="badges/lzh.png"> | 99% | 52% |
 | `nl_nl` | Dutch | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 2% | 0% |
 | `pt_br` | Portuguese (Brazil) | Português (Brasil) | <img src="badges/pt_br.png"> | 8% | 5% |
 | `pt_pt` | Portuguese (Portugal) | Português (Portugal) | <img src="badges/pt_pt.png"> | 0% | 0% |
 | `ru_ru` | Russian | Русский (Россия) | <img src="badges/ru_ru.png"> | 11% | 0% |
 | `th_th` | Thai | ไทย (ประเทศไทย) | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua` | Ukrainian | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
-| `zh_cn` | Chinese (Simplified) | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 93% |
+| `zh_cn` | Chinese (Simplified) | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 99% | 93% |
 | `zh_hk` | Chinese (Hong Kong) | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 73% | 73% |
 | `zh_tw` | Chinese (Traditional) | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 65% | 1% |
 

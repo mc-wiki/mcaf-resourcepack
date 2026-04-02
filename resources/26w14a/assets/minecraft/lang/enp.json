@@ -1,0 +1,18 @@
+{
+  "advancements.adventure.build_trap.title": "You Played Yourself",
+  "advancements.adventure.craft_sword.description": "Craft a Sword",
+  "advancements.adventure.craft_sword.title": "Time to Fight!",
+  "advancements.adventure.door.description": "Craft a Door",
+  "advancements.adventure.door.title": "Seek Shelter",
+  "advancements.adventure.end_portal.title": "End of Line",
+  "advancements.adventure.furnace.title": "You're Cookin'",
+  "advancements.adventure.iron_ingot.description": "Make your way to the iron eld",
+  "advancements.adventure.iron_ingot.title": "Inwidful Iron",
+  "advancements.adventure.ol_betsy.description": "Get a Crossbow",
+  "advancements.adventure.root.title": "HerdCraft",
+  "block.minecraft.copper_trap": "Copper Trap",
+  "block.minecraft.exposed_copper_trap": "Unwried Copper Trap",
+  "block.minecraft.iron_trap": "Iron Trap",
+  "block.minecraft.oxidized_copper_trap": "Sourshafted Copper Trap",
+  "block.minecraft.waxed_copper_trap": "Waxed Copper Trap"
+}
