@@ -44,7 +44,7 @@
 | `nl_nl` | 卑蘭語              | Nederlands (Nederland)    | <img src="badges/nl_nl.png"> | 2% | 0% |
 | `pt_br` | <u>枋林</u>埠吐噶語 | Português (Brasil)        | <img src="badges/pt_br.png"> | 8% | 5% |
 | `pt_pt` | 埠吐噶語            | Português (Portugal)      | <img src="badges/pt_pt.png"> | 0% | 0% |
-| `ru_ru` | 羅剎語              | Русский (Россия)          | <img src="badges/ru_ru.png"> | 11% | 0% |
+| `ru_ru` | 羅剎語              | Русский (Россия)          | <img src="badges/ru_ru.png"> | 15% | 0% |
 | `th_th` | 暹羅語              | ไทย (ประเทศไทย)           | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua` | 渥蓮語              | Українська (Україна)      | <img src="badges/uk_ua.png"> | 0% | 0% |
 | `zh_cn` | <u>華夏</u>通語     | 简体中文 (中国大陆)       | <img src="badges/zh_cn.png"> | 100% | 98% |
