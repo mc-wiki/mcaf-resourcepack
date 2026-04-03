@@ -39,7 +39,7 @@
 | `enp` | 纯粹英语 | Anglish (Oned Riches) | <img src="badges/enp.png"> | 55% | 55% |
 | `es_es` | 西班牙语 | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
 | `fr_fr` | 法语 | Français (France) | <img src="badges/fr_fr.png"> | 1% | 0% |
-| `he_il` | 希伯来语 | עברית (ישראל) | <img src="badges/he_il.png"> | 26% | 8% |
+| `he_il` | 希伯来语 | עברית (ישראל) | <img src="badges/he_il.png"> | 27% | 8% |
 | `it_it` | 意大利语 | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
 | `ja_jp` | 日语 | 日本語 (日本) | <img src="badges/ja_jp.png"> | 100% | 29% |
 | `ko_kr` | 韩语 | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 82% | 4% |
@@ -51,7 +51,7 @@
 | `th_th` | 泰语 | ไทย (ประเทศไทย) | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua` | 乌克兰语 | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
 | `zh_cn` | 汉语 | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 97% |
-| `zh_hk` | 汉语 | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 74% | 74% |
+| `zh_hk` | 汉语 | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 77% | 77% |
 | `zh_tw` | 汉语 | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 66% | 1% |
 
 可以在本仓库中[提交issue](https://github.com/mc-wiki/mcaf-resourcepack/issues)申请新语言。
