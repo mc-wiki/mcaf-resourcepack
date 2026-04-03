@@ -9,7 +9,6 @@ import time
 from pathlib import Path
 from zipfile import ZipFile
 
-import mclang
 import requests
 from requests.exceptions import ReadTimeout, RequestException, SSLError
 
