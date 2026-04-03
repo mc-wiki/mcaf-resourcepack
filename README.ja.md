@@ -26,6 +26,7 @@
 - [23w13a_or_b](https://ja.minecraft.wiki/w/Java_Edition_23w13a_or_b) (2023)
 - [24w14potato](https://ja.minecraft.wiki/w/Java_Edition_24w14potato) (2024)
 - [25w14craftmine](https://ja.minecraft.wiki/w/Java_Edition_25w14craftmine) (2025)
+- [26w14a](https://ja.minecraft.wiki/w/Java_Edition_26w14a) (2026)
 
 [Minecraft 2.0](https://ja.minecraft.wiki/w/Java_Edition_2.0) はこのバージョン自体がリソースパックに対応していないため、本プロジェクトには含まれてい**ません**。
 
@@ -79,3 +80,7 @@ A1：[Crowdin](#貢献) から翻訳にご協力ください。Crowdin に文字
 **Q2：生の翻訳キー（例：`rule.food_restriction.air_block`）が出現します。**
 
 A2：言語ファイルから項目が欠落しています。[Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues) から報告していただけると幸いです。
+
+## 翻訳者
+
+![](badges/translators.svg)

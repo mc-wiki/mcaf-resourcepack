@@ -69,3 +69,7 @@ Das ist wahrscheinlich wegen einem fehlenden Eintrag in den Sprachdateien. Bitte
 **Wie kann ich eine weitere Sprache hinzufügen?**
 
 Bitte erstelle einen neuen [Issue](https://github.com/mc-wiki/mcaf-resourcepack/issues) auf GitHub.
+
+## Übersetzer
+
+![](badges/translators.svg)

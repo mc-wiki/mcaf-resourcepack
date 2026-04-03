@@ -80,3 +80,7 @@ A2: This usually means a missing entry in the language files. Please report it i
 **Q3: How can I add support for a new language?**
 
 A3: You can request adding a new language [on Crowdin](https://crowdin.com/project/mcaf-resourcepack).
+
+## Translators
+
+![](badges/translators.svg)

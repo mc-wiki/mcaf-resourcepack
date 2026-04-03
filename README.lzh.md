@@ -13,16 +13,17 @@
 
 ### 適用版
 
-- [一五週一四甲](https://lzh.minecraft.wiki/w/%E4%B8%80%E4%BA%94%E9%80%B1%E4%B8%80%E5%9B%9B%E7%94%B2) （乙未年）
-- [一點真視之預一](https://lzh.minecraft.wiki/w/%E7%88%AA%E5%93%87%E7%89%88%E4%B8%80%E9%BB%9E%E7%9C%9F%E8%A6%96%E4%B9%8B%E9%A0%90%E4%B8%80) （丙申年）
-- [躍然享件一點三四](https://lzh.minecraft.wiki/w/%E7%88%AA%E5%93%87%E7%89%88%E8%BA%8D%E7%84%B6%E4%BA%AB%E4%BB%B6%E4%B8%80%E9%BB%9E%E4%B8%89%E5%9B%9B) （己亥年）
-- [二〇週一四無極](https://lzh.minecraft.wiki/w/%E7%88%AA%E5%93%87%E7%89%88%E4%BA%8C%E3%80%87%E9%80%B1%E4%B8%80%E5%9B%9B%E7%84%A1%E6%A5%B5) （庚子年）
-- [二二週十三逐塊而作](https://lzh.minecraft.wiki/w/%E7%88%AA%E5%93%87%E7%89%88%E4%BA%8C%E4%BA%8C%E9%80%B1%E5%8D%81%E4%B8%89%E9%80%90%E5%A1%8A%E8%80%8C%E4%BD%9C) （壬寅年）
-- [二三週一三暨](https://lzh.minecraft.wiki/w/%E4%BA%8C%E4%B8%89%E9%80%B1%E4%B8%80%E4%B8%89%E6%9A%A8) （癸卯年）
-- [二四週一四芋](https://lzh.minecraft.wiki/w/%E4%BA%8C%E5%9B%9B%E9%80%B1%E4%B8%80%E5%9B%9B%E8%8A%8B) （甲辰年）
-- [二五週一四藝礦](https://lzh.minecraft.wiki/w/%E4%BA%8C%E4%BA%94%E9%80%B1%E4%B8%80%E5%9B%9B%E8%97%9D%E7%A4%A6) （乙巳年）
+- [一五週一四甲](https://lzh.minecraft.wiki/w/一五週一四甲) （乙未年）
+- [一點真視之預一](https://lzh.minecraft.wiki/w/爪哇版一點真視之預一) （丙申年）
+- [躍然享件一點三四](https://lzh.minecraft.wiki/w/爪哇版躍然享件一點三四) （己亥年）
+- [二〇週一四宇](https://lzh.minecraft.wiki/w/爪哇版二〇週一四宇) （庚子年）
+- [二二週一三典](https://lzh.minecraft.wiki/w/二二週一三典) （壬寅年）
+- [二三週一三暨](https://lzh.minecraft.wiki/w/二三週一三暨) （癸卯年）
+- [二四週一四芋](https://lzh.minecraft.wiki/w/二四週一四芋) （甲辰年）
+- [二五週一四藝礦](https://lzh.minecraft.wiki/w/二五週一四藝礦) （乙巳年）
+- [二六週一四甲牧藝](https://lzh.minecraft.wiki/w/二六週一四甲牧藝) （丙午年）
 
-[礦藝二點〇](https://lzh.minecraft.wiki/w/%E7%88%AA%E5%93%87%E7%89%88%E4%BA%8C%E9%BB%9E%E3%80%87)（癸巳年）**不**列此役，蓋其時尚無資囊之制。
+[礦藝二點〇](https://lzh.minecraft.wiki/w/爪哇版二點〇)（癸巳年）**不**列此役，蓋其時尚無資囊之制。
 
 ### 文
 
@@ -108,3 +109,7 @@
   }
 }
 ```
+
+## 譯者
+
+![](badges/translators.svg)
