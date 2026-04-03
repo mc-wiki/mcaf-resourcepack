@@ -47,28 +47,28 @@ def get_response(url: str) -> requests.Response | None:
         except RequestException as ex:
             print(f"Request error occurred: {ex}")
             break
-        retries += 1
+        retries = retries + 1
 
 
-def get_file(url: str, file_name: str, file_path: Path, sha1: str) -> None:
+def get_file(url: str, filename: str, filepath: Path, sha1: str) -> None:
     """Download file and verify SHA1 value.
 
     Args:
         url (str): File download URL
-        file_name (str): File name
-        file_path (Path): File save path
+        filename (str): File name
+        filepath (Path): File save path
         sha1 (str): Expected SHA1 checksum
     """
     success = False
     for _ in range(max_retries):
         resp = get_response(url)
         if resp is None:
-            print(f"Failed to download {file_name}: No response received.")
+            print(f"Failed to download {filename}: No response received.")
             continue
         try:
-            with open(file_path, "wb") as f:
+            with open(filepath, "wb") as f:
                 f.write(resp.content)
-            with file_path.open("rb") as f:
+            with filepath.open("rb") as f:
                 if hashlib.file_digest(f, "sha1").hexdigest() == sha1:
                     success = True
                     break
@@ -77,7 +77,7 @@ def get_file(url: str, file_name: str, file_path: Path, sha1: str) -> None:
             print(f"Request error: {e}")
             sys.exit(1)
     if not success:
-        print(f'Unable to download file "{file_name}".')
+        print(f'Unable to download file "{filename}".')
 
 
 def get_client(info: dict) -> Path:
@@ -224,15 +224,15 @@ def main() -> None:
     crowdin = crowdin_file.read_text(encoding="utf-8")
     if lang_source and crowdin.find(version) == -1:
         lang_dest = f"{version}{lang_source.suffix}"
-        lang_translation = f"/resources/{version}/assets/minecraft/lang/"
+        filename = "%locale%.json"
         filetype = "auto"
         if lang_source.name == "en_US.lang":
-            lang_translation += "%locale_with_underscore%.lang"
+            filename = "%locale_with_underscore%.lang"
         if lang_source.name == "en_us.json":
-            lang_translation += "%locale%.json"
             filetype = "json"
         if lang_source.name == "en_us.lang":
-            lang_translation += "%locale%.lang"
+            filename = "%locale%.lang"
+        lang_translation = f"/resources/{version}/assets/minecraft/lang/{filename}"
         crowdin_file.write_text(
             crowdin
             + f"""

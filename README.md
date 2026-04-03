@@ -3,7 +3,7 @@
 [![Modrinth](https://img.shields.io/modrinth/dt/april-fools-translation?label=Modrinth&color=darkgreen&labelColor=black&logo=modrinth)](https://modrinth.com/mod/april-fools-translation)
 [![Crowdin](https://badges.crowdin.net/mcaf-resourcepack/localized.svg)](https://crowdin.com/project/mcaf-resourcepack)
 
-[Deutsch](README.de.md) | English | [日本語](README.ja.md) | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
+[Deutsch](README.de.md) | English | [日本語](README.ja.md) | [文言](README.lzh.md) | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
 
 **Play April Fools' snapshots with community translations from the Minecraft Wiki.**
 
@@ -81,3 +81,7 @@ A2: This usually means a missing entry in the language files. Please report it i
 **Q3: How can I add support for a new language?**
 
 A3: You can request adding a new language [on Crowdin](https://crowdin.com/project/mcaf-resourcepack).
+
+## Translators
+
+![](badges/translators.svg)

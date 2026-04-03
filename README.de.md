@@ -3,7 +3,7 @@
 [![Modrinth](https://img.shields.io/modrinth/dt/april-fools-translation?label=Modrinth&color=darkgreen&labelColor=black&logo=modrinth)](https://modrinth.com/mod/april-fools-translation)
 [![Crowdin](https://badges.crowdin.net/mcaf-resourcepack/localized.svg)](https://crowdin.com/project/mcaf-resourcepack)
 
-Deutsch | [English](README.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
+Deutsch | [English](README.md) | [日本語](README.ja.md) | [文言](README.lzh.md) | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
 
 **Spiel die Aprilscherz-Versionen mit den Community-Übersetzungen aus dem Minecraft Wiki.**
 
@@ -69,3 +69,7 @@ Das ist wahrscheinlich wegen einem fehlenden Eintrag in den Sprachdateien. Bitte
 **Wie kann ich eine weitere Sprache hinzufügen?**
 
 Bitte erstelle einen neuen [Issue](https://github.com/mc-wiki/mcaf-resourcepack/issues) auf GitHub.
+
+## Übersetzer
+
+![](badges/translators.svg)

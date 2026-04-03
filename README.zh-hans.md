@@ -3,7 +3,7 @@
 [![Modrinth](https://img.shields.io/modrinth/dt/april-fools-translation?label=Modrinth&color=darkgreen&labelColor=black&logo=modrinth)](https://modrinth.com/mod/april-fools-translation)
 [![Crowdin](https://badges.crowdin.net/mcaf-resourcepack/localized.svg)](https://crowdin.com/project/mcaf-resourcepack)
 
-[Deutsch](README.de.md) | [English](README.md) | [日本語](README.ja.md) | 简体中文 | [繁體中文](README.zh-hant.md)
+[Deutsch](README.de.md) | [English](README.md) | [日本語](README.ja.md) | [文言](README.lzh.md) | 简体中文 | [繁體中文](README.zh-hant.md)
 
 **使用来自 Minecraft Wiki 的翻译，畅玩愚人节快照。**
 
@@ -16,14 +16,15 @@
 
 ### 支持版本
 
-- [15w14a](https://zh.minecraft.wiki/w/15w14a)（2015）
+- [15w14a](https://zh.minecraft.wiki/w/Java版15w14a)（2015）
 - [1.RV-Pre1](https://zh.minecraft.wiki/w/Java版1.RV-Pre1)（2016）
 - [3D Shareware v1.34](https://zh.minecraft.wiki/w/Java版3D_Shareware_v1.34)（2019）
-- [20w14∞](https://zh.minecraft.wiki/w/20w14infinite)（2020）
-- [22w13oneBlockAtATime](https://zh.minecraft.wiki/w/22w13oneBlockAtATime)（2022）
-- [23w13a_or_b](https://zh.minecraft.wiki/w/23w13a_or_b)（2023）
-- [24w14potato](https://zh.minecraft.wiki/w/24w14potato)（2024）
-- [25w14craftmine](https://zh.minecraft.wiki/w/25w14craftmine)（2025）
+- [20w14∞](https://zh.minecraft.wiki/w/Java版20w14∞)（2020）
+- [22w13oneBlockAtATime](https://zh.minecraft.wiki/w/Java版22w13oneBlockAtATime)（2022）
+- [23w13a_or_b](https://zh.minecraft.wiki/w/Java版23w13a_or_b)（2023）
+- [24w14potato](https://zh.minecraft.wiki/w/Java版24w14potato)（2024）
+- [25w14craftmine](https://zh.minecraft.wiki/w/Java版25w14craftmine)（2025）
+- [26w14a](https://zh.minecraft.wiki/w/Java版26w14a)（2026）
 
 因[Minecraft 2.0](https://zh.minecraft.wiki/w/Java版2.0)（2013）发布时还未支持资源包功能，此版本将**不会**包含在本项目中。
 
@@ -108,3 +109,7 @@ A2：通常是语言文件缺失。请在[Issues](https://github.com/mc-wiki/mca
   }
 }
 ```
+
+## 翻译者
+
+![](badges/translators.svg)
