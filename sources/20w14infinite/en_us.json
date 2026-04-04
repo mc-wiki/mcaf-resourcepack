@@ -14,5 +14,9 @@
     "item.minecraft.fine_item": "A Very Fine Item",
     "stat.minecraft.change_dimension": "Dimensions changes",
     "subtitles.block.end_portal.spawn": "End Portal opens!",
-    "subtitles.entity.horse.land": "Horse lands"
+    "subtitles.entity.horse.land": "Horse lands",
+    "advancements.adventure.bullseye.description": "Hit the bullseye of a Target block with an arrow",
+    "commands.spawnpoint.success.single": "Set spawn point to %s, %s, %s in %s for %s",
+    "commands.spawnpoint.success.multiple": "Set spawn point to %s, %s, %s in %s for %s players",
+    "commands.setworldspawn.success": "Set the world spawn point to %s, %s, %s"
 }

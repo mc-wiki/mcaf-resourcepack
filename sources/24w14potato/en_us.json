@@ -1,5 +1,4 @@
 {
-    "advancements.adventure.under_lock_and_key.description": "Use a Trial Key on a Vault",
     "advancements.adventure.who_needs_rockets.description": "Use a Wind Charge to launch yourself upward 7 blocks",
     "advancements.potato.all_potatoed.description": "Visit all the Potato Biomes",
     "advancements.potato.all_potatoed.title": "Around the Potato in 80 Days",
@@ -298,6 +297,7 @@
     "item.resin.quality.comment": "Comment on ^: These are nice, but I can't find a use for them [G]. Leave a like, leave a comment, and subscribe!, and see you in the next one, bye!",
     "itemGroup.potatoes": "Potatoes",
     "key.potato": "Potato",
+    "key.spectatorOutlines": "Highlight Players (Spectators)",
     "lubrication.tooltip.lubricated": "Lubricated!",
     "lubrication.tooltip.lubricated_times": "Lubricated! x%s",
     "options.potatoFont": "Potato Font",

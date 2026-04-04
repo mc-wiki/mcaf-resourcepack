@@ -180,6 +180,7 @@
     "item.minecraft.wind_wand": "Wind Wand",
     "item.minecraft.wind_wand.lore": "'Kaunan Wunjo Perth Thurisaz'",
     "jukebox_song.minecraft.and_action": "Tone Deaf Rebellion - And Action!",
+    "key.spectatorOutlines": "Highlight Players (Spectators)",
     "key.unlocks": "Unlocks",
     "level.gained": "You've levelled up to level %s!",
     "level.unlock_hint": "Press %s to spend levels on unlocks",

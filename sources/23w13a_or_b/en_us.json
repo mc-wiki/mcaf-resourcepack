@@ -89,6 +89,7 @@
     "item.minecraft.bit": "Bit",
     "item.minecraft.le_tricolore": "Le Tricolore",
     "item.minecraft.la_baguette": "La Baguette",
+    "key.spectatorOutlines": "Highlight Players (Spectators)",
     "key.voting": "Voting",
     "rule.nothing": "Do Nothing",
     "rule.connector": "%s, but %s",

@@ -9,6 +9,7 @@ import time
 from pathlib import Path
 from zipfile import ZipFile
 
+import mclang
 import requests
 from requests.exceptions import ReadTimeout, RequestException, SSLError
 
@@ -102,6 +103,8 @@ def get_client(info: dict) -> Path:
     client_url = client_manifest["downloads"]["client"]["url"]
     client_sha1 = client_manifest["downloads"]["client"]["sha1"]
     client_path = base_dir / f"Java_Edition_{info['id']}.jar"
+    if client_path.exists():
+        return client_path
     print(f'Downloading "{client_path.name}" ({client_sha1})...')
     get_file(client_url, client_path.name, client_path, client_sha1)
     print()
@@ -178,6 +181,16 @@ def main() -> None:
         lang_module.dumps(collection["result"], ensure_ascii=False, indent=4),
         encoding="utf-8",
     )
+    # # Diff
+    # collection["diff"] = {
+    #     key: [collection["current"][key], collection["previous"][key]]
+    #     for key, value in collection["current"].items()
+    #     if collection["previous"].get(key, value).lower() != value.lower()
+    # }
+    # base_dir.joinpath(lang_source.with_stem("diff")).write_text(
+    #     lang_module.dumps(collection["diff"], ensure_ascii=False, indent=4),
+    #     encoding="utf-8",
+    # )
 
     version_file = source_dir / "version.json"
     mcmeta_file = resource_dir / "pack.mcmeta"
@@ -233,16 +246,16 @@ def main() -> None:
         if lang_source.name == "en_us.lang":
             filename = "%locale%.lang"
         lang_translation = f"/resources/{version}/assets/minecraft/lang/{filename}"
-        crowdin_file.write_text(
+        crowdin = (
             crowdin
             + f"""
   - source: {lang_source}
     dest: {lang_dest}
-    translation: {lang_translation}""" + f"""
-    type: {filetype}
-""" if filetype != "auto" else "",
-            encoding="utf-8",
+    translation: {lang_translation}"""
         )
+        if filetype != "auto":
+            crowdin = crowdin + f"\n    type: {filetype}"
+        crowdin_file.write_text(crowdin, encoding="utf-8")
         readme_file.write_text(
             readme_file.read_text(encoding="utf-8").replace(
                 "\n[Minecraft 2.0",
