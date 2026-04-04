@@ -59,5 +59,7 @@ potion.invisibility.postfix=愉悦药水
 potion.poison.postfix=关爱药水
 achievement.mineWood.desc=敲击树木直到一块木头弹出来
 achievement.killEnemy.desc=爱上一只怪物
+commands.scoreboard.players.usage=/scoreboard players <set|add|remove|reset|list|enable|test|operation> ...
+commands.scoreboard.teams.option.usage=/scoreboard teams option <玩家> <friendlyfire|color|seeFriendlyInvisibles|nametagVisibility|deathMessageVisibility> <值>
 itemGroup.inventory=存在模式物品栏
 attribute.name.generic.attackDamage=爱的力量

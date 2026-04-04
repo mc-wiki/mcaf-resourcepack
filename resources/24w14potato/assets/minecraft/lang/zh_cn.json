@@ -297,6 +297,7 @@
     "item.resin.quality.comment": "^备注：这些词语挺不错的，但它们最终都没用上[G]。请各位观众老爷们点赞评论分享，我们下次再见，拜拜！",
     "itemGroup.potatoes": "马铃薯",
     "key.potato": "马铃薯",
+    "key.spectatorOutlines": "高亮玩家（旁观者）",
     "lubrication.tooltip.lubricated": "已润滑！",
     "lubrication.tooltip.lubricated_times": "已润滑！×%s",
     "options.potatoFont": "马铃薯字体",

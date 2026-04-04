@@ -89,6 +89,7 @@
     "item.minecraft.bit": "比特",
     "item.minecraft.le_tricolore": "三色旗",
     "item.minecraft.la_baguette": "法棍",
+    "key.spectatorOutlines": "高亮玩家（旁观者）",
     "key.voting": "投票",
     "rule.nothing": "保持原状",
     "rule.connector": "%s，但是%s",
