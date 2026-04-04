@@ -14,5 +14,8 @@
     "item.minecraft.fine_item": "甚妙之物",
     "stat.minecraft.change_dimension": "轉界數",
     "subtitles.block.end_portal.spawn": "終界結界門開！",
-    "subtitles.entity.horse.land": "馬落"
+    "subtitles.entity.horse.land": "馬落",
+    "commands.spawnpoint.success.single": "已設%5$s%4$s之生處於%1$s, %2$s, %3$s",
+    "commands.spawnpoint.success.multiple": "已設%5$s戲者%4$s之生處於%1$s, %2$s, %3$s",
+    "commands.setworldspawn.success": "生界之生處既爲%s, %s, %s"
 }

@@ -14,5 +14,9 @@
     "item.minecraft.fine_item": "ɯǝʇI ǝuᴉℲ ʎɹǝɅ Ɐ",
     "stat.minecraft.change_dimension": "sǝᵷuɐɥɔ suoᴉsuǝɯᴉᗡ",
     "subtitles.block.end_portal.spawn": "¡suǝdo ꞁɐʇɹoԀ puƎ",
-    "subtitles.entity.horse.land": "spuɐꞁ ǝsɹoH"
+    "subtitles.entity.horse.land": "spuɐꞁ ǝsɹoH",
+    "advancements.adventure.bullseye.description": "ʍoɹɹɐ uɐ ɥʇᴉʍ ʞɔoꞁq ʇǝᵷɹɐ⟘ ɐ ɟo ǝʎǝsꞁꞁnq ǝɥʇ ʇᴉH",
+    "commands.spawnpoint.success.single": "%5$s ɹoɟ %4$s uᴉ %3$s '%2$s '%1$s oʇ ʇuᴉod uʍɐds ʇǝS",
+    "commands.spawnpoint.success.multiple": "sɹǝʎɐꞁd %5$s ɹoɟ %4$s uᴉ %3$s '%2$s '%1$s oʇ ʇuᴉod uʍɐds ʇǝS",
+    "commands.setworldspawn.success": "%3$s '%2$s '%1$s oʇ ʇuᴉod uʍɐds pꞁɹoʍ ǝɥʇ ʇǝS"
 }
