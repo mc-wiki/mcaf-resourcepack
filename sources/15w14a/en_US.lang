@@ -59,7 +59,5 @@ potion.invisibility.postfix=Potion of Fun
 potion.poison.postfix=Potion of Caring
 achievement.mineWood.desc=Punch a tree until a block of wood pops out
 achievement.killEnemy.desc=Love a monster
-commands.scoreboard.players.usage=/scoreboard players <set|add|remove|reset|list|enable|test|operation> ...
-commands.scoreboard.teams.option.usage=/scoreboard teams option <team> <friendlyfire|color|seeFriendlyInvisibles|nametagVisibility|deathMessageVisibility> <value>
 itemGroup.inventory=Existence Inventory
 attribute.name.generic.attackDamage=Love Power
