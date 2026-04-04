@@ -110,6 +110,8 @@ A2：通常是語言檔案缺失。請在 [Issues](https://github.com/mc-wiki/mc
 }
 ```
 
+<!-- OMIT END -->
+
 ## 翻譯者
 
 ![](badges/translators.svg)

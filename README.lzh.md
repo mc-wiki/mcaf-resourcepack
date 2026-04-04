@@ -110,6 +110,8 @@
 }
 ```
 
+<!-- OMIT END -->
+
 ## 譯者
 
 ![](badges/translators.svg)

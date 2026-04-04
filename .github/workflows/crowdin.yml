@@ -68,14 +68,15 @@ jobs:
           pip install -r requirements.txt
           python update_progress.py
 
-#      - name: Generate Crowdin Contributors
-#        uses: andrii-bodnar/action-crowdin-contributors@v3
-#        with:
-#          contributors_per_line: 9
-#          image_size: 64
-#          min_words_contributed: 100
-#          svg: true
-#          svg_output_path: badges/translators.svg
+      - name: Generate Crowdin Translators
+        uses: andrii-bodnar/action-crowdin-contributors@v3
+        with:
+          contributors_per_line: 8
+          max_contributors: 10000
+          image_size: 64
+          min_words_contributed: 1
+          svg: true
+          svg_output_path: badges/translators.svg
 
       - name: Commit and Push
         run: |
