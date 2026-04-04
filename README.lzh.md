@@ -32,24 +32,24 @@
 | **碼**  | **語文**            | **本名**                  | **進度**                     | **既譯** | **既核** |
 | ------- | ------------------- | ------------------------- | ---------------------------- | -------- | -------- |
 | `de_de` | 隤䲭語              | Deutsch (Deutschland)     | <img src="badges/de_de.png"> | 17% | 0% |
-| `en_ud` | 倒置英吉利語        | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)     | <img src="badges/en_ud.png"> | 100% | 100% |
+| `en_ud` | 倒置英吉利語        | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)     | <img src="badges/en_ud.png"> | 99% | 99% |
 | `enp`   | 精粹英吉利語        | Anglish (Oned Riches)     | <img src="badges/enp.png"> | 55% | 55% |
 | `es_es` | 佛朗機語            | Español (España)          | <img src="badges/es_es.png"> | 0% | 0% |
 | `fr_fr` | 方司語              | Français (France)         | <img src="badges/fr_fr.png"> | 1% | 0% |
-| `he_il` | 協婁語              | עברית (ישראל)             | <img src="badges/he_il.png"> | 27% | 8% |
+| `he_il` | 協婁語              | עברית (ישראל)             | <img src="badges/he_il.png"> | 26% | 8% |
 | `it_it` | 有犢語              | Italiano (Italia)         | <img src="badges/it_it.png"> | 0% | 0% |
-| `ja_jp` | 日本語              | 日本語 (日本)             | <img src="badges/ja_jp.png"> | 100% | 29% |
+| `ja_jp` | 日本語              | 日本語 (日本)             | <img src="badges/ja_jp.png"> | 99% | 28% |
 | `ko_kr` | 朝鮮語              | 한국어 (대한민국)         | <img src="badges/ko_kr.png"> | 82% | 4% |
-| `lzh`   | 文言                | 文言 (華夏)               | <img src="badges/lzh.png"> | 100% | 54% |
+| `lzh`   | 文言                | 文言 (華夏)               | <img src="badges/lzh.png"> | 99% | 54% |
 | `nl_nl` | 卑蘭語              | Nederlands (Nederland)    | <img src="badges/nl_nl.png"> | 2% | 0% |
 | `pt_br` | <u>枋林</u>埠吐噶語 | Português (Brasil)        | <img src="badges/pt_br.png"> | 8% | 5% |
 | `pt_pt` | 埠吐噶語            | Português (Portugal)      | <img src="badges/pt_pt.png"> | 0% | 0% |
 | `ru_ru` | 羅剎語              | Русский (Россия)          | <img src="badges/ru_ru.png"> | 15% | 0% |
 | `th_th` | 暹羅語              | ไทย (ประเทศไทย)           | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua` | 渥蓮語              | Українська (Україна)      | <img src="badges/uk_ua.png"> | 0% | 0% |
-| `zh_cn` | <u>華夏</u>通語     | 简体中文 (中国大陆)       | <img src="badges/zh_cn.png"> | 100% | 98% |
-| `zh_hk` | <u>香港</u>通語     | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 77% | 77% |
-| `zh_tw` | <u>流求</u>通語     | 繁體中文 (台灣)           | <img src="badges/zh_tw.png"> | 67% | 1% |
+| `zh_cn` | <u>華夏</u>通語     | 简体中文 (中国大陆)       | <img src="badges/zh_cn.png"> | 99% | 97% |
+| `zh_hk` | <u>香港</u>通語     | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 76% | 76% |
+| `zh_tw` | <u>流求</u>通語     | 繁體中文 (台灣)           | <img src="badges/zh_tw.png"> | 66% | 1% |
 
 若欲增新語，可[立案GitHub](https://github.com/mc-wiki/mcaf-resourcepack/issues)。
 
