@@ -14,5 +14,9 @@
     "item.minecraft.fine_item": "Очень классная вещь",
     "stat.minecraft.change_dimension": "Смена измерения",
     "subtitles.block.end_portal.spawn": "Открывается Портал в Край!",
-    "subtitles.entity.horse.land": "Лошадиные Земли"
+    "subtitles.entity.horse.land": "Лошадиные Земли",
+    "advancements.adventure.bullseye.description": "Попади стрелой в яблочко блока Target",
+    "commands.spawnpoint.success.single": "Установлена точка возрождения на %s, %s, %s в %s для %s",
+    "commands.spawnpoint.success.multiple": "Установлена точка возрождения на %s, %s, %s в %s для %s игроков",
+    "commands.setworldspawn.success": "Установлена точка спавна мира на %s, %s, %s"
 }

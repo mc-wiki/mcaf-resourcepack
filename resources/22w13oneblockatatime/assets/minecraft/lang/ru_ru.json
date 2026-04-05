@@ -5,6 +5,7 @@
     "createWorld.customize.preset.overworld": "\"Над миром\"",
     "createWorld.customize.preset.snowy_kingdom": "\"Снежное Королевство\"",
     "createWorld.customize.preset.bottomless_pit": "\"Бездонная яма\"",
+    "createWorld.customize.preset.desert": "Пустыня",
     "createWorld.customize.preset.redstone_ready": "\"Редстоун готов\"",
     "createWorld.customize.preset.the_void": "\"Пустота\"",
     "generator.default": "\"Значение по умолчанию\"",
@@ -14,6 +15,8 @@
     "generator.debug_all_block_states": "\"Режим отладки\"",
     "generator.amplified.info": "\"Примечание: Просто для развлечения! Требуется мощный компьютер.\"",
     "generator.single_biome_surface": "\"Одиночный Биом\"",
+    "debug.cycle_renderdistance.help": "F3 + F = Переключить дальность прорисовки (Shift — в обратном порядке)",
+    "debug.cycle_renderdistance.message": "Дальность прорисовки: %s",
     "advancements.end.ride_dragon.title": "Прокатитесь по Краю",
     "advancements.end.ride_dragon.description": "Невероятная удача",
     "gamemode.gamemodeNotFound": "Неизвестный режим игры: %s"
