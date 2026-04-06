@@ -60,7 +60,7 @@
   "entity.minecraft.living_block": "活化方块",
   "entity.minecraft.living_block_command": "活化方块命令",
   "entity.minecraft.punch_action": "击打",
-  "inventory.place_grid": "使用“合成”动作放置一个合成方格",
+  "inventory.place_grid": "使用“合成”动作放置合成方格",
   "item.minecraft.attack_action": "攻击/挖掘",
   "item.minecraft.build_action": "建造",
   "item.minecraft.crafting_action": "合成",
