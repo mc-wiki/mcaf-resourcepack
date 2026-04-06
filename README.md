@@ -13,6 +13,7 @@
 
 - Provides accurate and up-to-date localization for April Fools' snapshots.
 - Fixes missing translation keys and major typos (e.g., correcting `shepard_potato.png` to `shepherd_potato.png` in 24w14potato).
+<!-- TODO: List translations that has been overridden or does not present, missing keys and typos. -->
 
 ### Supported versions
 

@@ -86,8 +86,8 @@ jobs:
         run: |
           mkdir -p 'resources/${{ matrix.folder }}/assets/minecraft/lang'
           cp 'sources/${{ matrix.folder }}'/* 'resources/${{ matrix.folder }}/assets/minecraft/lang'
-          cd 'resources/${{ matrix.folder }}'
-          zip -r '../../[AFTP] ${{ matrix.folder }}.zip' .
+          cp LICENSE 'resources/${{ matrix.folder }}/LICENSE.md'
+          cd 'resources/${{ matrix.folder }}' && zip -r '../../[AFTP] ${{ matrix.folder }}.zip' .
           TIME=$(date +%y%m%d)
           DAY=$(date +%-d)
           CHANNEL=release
