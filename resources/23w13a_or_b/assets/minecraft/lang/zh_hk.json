@@ -382,7 +382,7 @@
     "rule.dupe_hack_occurrence_chance": "將複製祕技的出現概率設為 %s%%",
     "rule.dupe_hack_break_chance": "將複製祕技的損壞概率設為 %s%%",
     "rule.persistent_parrots": "頑強的鸚鵡。牠們永遠不會離開你。",
-    "rule.less_interaction_updates": "減少玩家互動產生的方塊更新。事實上並無此事⋯⋯",
+    "rule.less_interaction_updates": "減少玩家互動產生的方塊更新。其實是完全停止更新⋯⋯",
     "rule.dead_bush_renewability": "死灌木現時可再生，惟樹苗須更加多水才不會枯萎",
     "rule.fix_qc": "修復半連接性",
     "rule.buttons_on_things": "你可將按鈕（以及更加多東西）放置於更加多東西上",
