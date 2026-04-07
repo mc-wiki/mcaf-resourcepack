@@ -31,7 +31,7 @@
 
 | **碼**  | **語文**            | **本名**                  | **進度**                     | **既譯** | **既核** |
 | ------- | ------------------- | ------------------------- | ---------------------------- | -------- | -------- |
-| `de_de` | 隤䲭語              | Deutsch (Deutschland)     | <img src="badges/de_de.png"> | 17% | 0% |
+| `de_de` | 隤䲭語              | Deutsch (Deutschland)     | <img src="badges/de_de.png"> | 18% | 0% |
 | `en_ud` | 倒置英吉利語        | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)     | <img src="badges/en_ud.png"> | 100% | 100% |
 | `enp`   | 精粹英吉利語        | Anglish (Oned Riches)     | <img src="badges/enp.png"> | 55% | 55% |
 | `es_es` | 佛朗機語            | Español (España)          | <img src="badges/es_es.png"> | 0% | 0% |
