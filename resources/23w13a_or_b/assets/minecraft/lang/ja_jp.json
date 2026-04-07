@@ -89,6 +89,7 @@
     "item.minecraft.bit": "ビット",
     "item.minecraft.le_tricolore": "三色旗",
     "item.minecraft.la_baguette": "バゲット",
+    "key.spectatorOutlines": "プレイヤーの強調表示（スペクテイター）",
     "key.voting": "投票",
     "rule.nothing": "何もしない",
     "rule.connector": "%s\n＋\n%s",

@@ -14,5 +14,9 @@
     "item.minecraft.fine_item": "極上の品",
     "stat.minecraft.change_dimension": "ディメンション間を移動した回数",
     "subtitles.block.end_portal.spawn": "エンドポータルが開いた！",
-    "subtitles.entity.horse.land": "ウマが着地する"
+    "subtitles.entity.horse.land": "ウマが着地する",
+    "advancements.adventure.bullseye.description": "矢で的の中心を射抜く",
+    "commands.spawnpoint.success.single": "%5$sの%4$sでのスポーン地点を%1$s, %2$s, %3$sに設定しました",
+    "commands.spawnpoint.success.multiple": "%5$s人のプレイヤーの%4$sでのスポーン地点を%1$s, %2$s, %3$sに設定しました",
+    "commands.setworldspawn.success": "%s, %s, %sをワールドのスポーン地点に設定しました"
 }

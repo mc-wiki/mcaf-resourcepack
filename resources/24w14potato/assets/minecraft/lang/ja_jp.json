@@ -297,6 +297,7 @@
     "item.resin.quality.comment": "↑に関するコメント：これらは素晴らしいが、使い道が見つからない[G]。いいねとコメント、チャンネル登録をお願いします！また次回の動画でお会いしましょう、ばいば～い！",
     "itemGroup.potatoes": "ジャガイモ系アイテム",
     "key.potato": "ジャガイモを送る",
+    "key.spectatorOutlines": "プレイヤーの強調表示（スペクテイター）",
     "lubrication.tooltip.lubricated": "潤滑化済！",
     "lubrication.tooltip.lubricated_times": "潤滑化済！×%s",
     "options.potatoFont": "ジャガイモフォント",
