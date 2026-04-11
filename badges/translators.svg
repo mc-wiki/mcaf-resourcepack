@@ -789,36 +789,14 @@
     </g>
     <g class="contributor">
       <defs>
-        <clipPath id="clip-16159958">
-          <circle cx="260" cy="748" r="32"/>
-        </clipPath>
-      </defs>
-      <a xlink:href="https://crowdin.com/profile/computerb" target="_blank">
-        <title>computerb</title>
-        <image 
-          x="228" 
-          y="716" 
-          width="64" 
-          height="64" 
-          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAESElEQVR4nO3bW08TaRzH8d8wLQfRKoon1CWyxBSDhtXVoIiKlIBmyWo8cOOVL8AX4Ivw1ksTb4y6rm6WBU8oKqLBxUONgruoLIiKIFotYI/jhWGgGA200/09U/+fu2eSPvzDlz4MMGh7Dh4yIGjS2AN87yQAmQQgkwBkEoBMApBJADIJQCYByCQAmQQgkwBkEoBMApBJADIJQCYByCQAmQQgkwBkEoBMApBJADIJQCYByCQAmQQgkwBkEoDMwR5gsqWLFiBvQW5S9r7X8S+CoVBS9o6XcgF+LnajpnxDUvY+dPgIhnxqBZAjiEy5d4BhAIaR+P+MaJo2aV/Dkn2tplyA1rtePH72X0J7ZM/Iwv7aGmRlZpjXbj/ogM8/nOh4llMuwMDQOwwMvYv79ZqmoW67J+aT7/swjNMXriAajVoxoqVS7nuAuyAfZWtWm+toNIozl5rh++AnTvV1KRUgMyMd+7ZXwukcf2Pff9yF295HxKm+LWUCaJqGX7aWYfH88Z8hfP5hnD5/GREFj54xKROgYFketq5fa64NAH80XcPgWx9vqClIiQCfjx4PHA7dvNbR9Qy37j0gTjU1KRGgZlMp8vMWmWv/yCiO/3UR0ah69/2T2T5AwbIlqCidcPQYBv680oKBobfEqabO1gEcuo66HR5kpKeb1zqfdqP1jpc41fTYOkBV2fqYo2f0YwAnGpoQCoeJU02PbQP8kLcQ1eWl5towDNQ3t+DV4BviVNNnywDpTif2Vlcic8LR09XzHFfb7hKnio8tA2xeV4LC/KXmejQQwMnGJoQjEeJU8bFdgMXzc1FbsSnm182N126i92U/car42SqA0+H44q7n89FzhzhVYmwVYONPq+AuyDfX4UgEJxouIRBU68+M02GbAAtz56J2W3nMtfPXb9n26BljiwC6rmNfTSVmzsgyr3X3vcSFG23EqaxhiwAbSopR9ONycx0IhvDbucsIBIPEqayhfIAc1yzsqtqCtLTxu57mtnY86e0jTmUdpQPouo66HVXIzho/evr6B9BwtVXJJxzioXSAdcVFWO0uNNehcNj2dz2TKRsgZ7YLv3o2I23CD1zX/76Pf7p7iFNZT9kAe6u3Icc1y1y/eD2I+uYW4kTJoWSAtcVulBStMNfhSASnzjVhZPQjcarkUC6Aa2Y2dldVxNz13Gj3ovNpYk/LqUqpJ+M0TcNOzxbMneMyr4VCYXT19GJl4fJvvHJqfO/9eN7/OuF9rKRUgHlzXFizckXMNafTgQO7ay3Zv837CEd/r7dkL6soFUDTtC+eah67bs0HsGYbKyn3PeB7o9Q74L1/BMfONkLXk/N1oeJTckoFCASDaH/YyR7jfyVHEJkEIJMAZBKATAKQSQAyCUAmAcgkAJkEIJMAZBKATAKQSQAyCUAmAcgkAJkEIJMAZBKATAKQSQAyCUAmAcgkAJkEIJMAZBKATAKQfQK8Dg7C+f0COAAAAABJRU5ErkJggg=="
-          clip-path="url(#clip-16159958)"
-          preserveAspectRatio="xMidYMid slice"
-        />
-        <text x="260" y="810" class="name">computerb</text>
-        <text x="260" y="830" class="username"></text>
-        <text x="260" y="850" class="words">195 words</text>
-      </a>
-    </g>
-    <g class="contributor">
-      <defs>
         <clipPath id="clip-15977135">
-          <circle cx="364" cy="748" r="32"/>
+          <circle cx="260" cy="748" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/Shimamura-Tako" target="_blank">
         <title>Shimamura-Tako</title>
         <image 
-          x="332" 
+          x="228" 
           y="716" 
           width="64" 
           height="64" 
@@ -826,9 +804,31 @@
           clip-path="url(#clip-15977135)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="364" y="810" class="name">Shimamura-Tako</text>
+        <text x="260" y="810" class="name">Shimamura-Tako</text>
+        <text x="260" y="830" class="username"></text>
+        <text x="260" y="850" class="words">214 words</text>
+      </a>
+    </g>
+    <g class="contributor">
+      <defs>
+        <clipPath id="clip-16159958">
+          <circle cx="364" cy="748" r="32"/>
+        </clipPath>
+      </defs>
+      <a xlink:href="https://crowdin.com/profile/computerb" target="_blank">
+        <title>computerb</title>
+        <image 
+          x="332" 
+          y="716" 
+          width="64" 
+          height="64" 
+          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAESElEQVR4nO3bW08TaRzH8d8wLQfRKoon1CWyxBSDhtXVoIiKlIBmyWo8cOOVL8AX4Ivw1ksTb4y6rm6WBU8oKqLBxUONgruoLIiKIFotYI/jhWGgGA200/09U/+fu2eSPvzDlz4MMGh7Dh4yIGjS2AN87yQAmQQgkwBkEoBMApBJADIJQCYByCQAmQQgkwBkEoBMApBJADIJQCYByCQAmQQgkwBkEoBMApBJADIJQCYByCQAmQQgkwBkEoDMwR5gsqWLFiBvQW5S9r7X8S+CoVBS9o6XcgF+LnajpnxDUvY+dPgIhnxqBZAjiEy5d4BhAIaR+P+MaJo2aV/Dkn2tplyA1rtePH72X0J7ZM/Iwv7aGmRlZpjXbj/ogM8/nOh4llMuwMDQOwwMvYv79ZqmoW67J+aT7/swjNMXriAajVoxoqVS7nuAuyAfZWtWm+toNIozl5rh++AnTvV1KRUgMyMd+7ZXwukcf2Pff9yF295HxKm+LWUCaJqGX7aWYfH88Z8hfP5hnD5/GREFj54xKROgYFketq5fa64NAH80XcPgWx9vqClIiQCfjx4PHA7dvNbR9Qy37j0gTjU1KRGgZlMp8vMWmWv/yCiO/3UR0ah69/2T2T5AwbIlqCidcPQYBv680oKBobfEqabO1gEcuo66HR5kpKeb1zqfdqP1jpc41fTYOkBV2fqYo2f0YwAnGpoQCoeJU02PbQP8kLcQ1eWl5towDNQ3t+DV4BviVNNnywDpTif2Vlcic8LR09XzHFfb7hKnio8tA2xeV4LC/KXmejQQwMnGJoQjEeJU8bFdgMXzc1FbsSnm182N126i92U/car42SqA0+H44q7n89FzhzhVYmwVYONPq+AuyDfX4UgEJxouIRBU68+M02GbAAtz56J2W3nMtfPXb9n26BljiwC6rmNfTSVmzsgyr3X3vcSFG23EqaxhiwAbSopR9ONycx0IhvDbucsIBIPEqayhfIAc1yzsqtqCtLTxu57mtnY86e0jTmUdpQPouo66HVXIzho/evr6B9BwtVXJJxzioXSAdcVFWO0uNNehcNj2dz2TKRsgZ7YLv3o2I23CD1zX/76Pf7p7iFNZT9kAe6u3Icc1y1y/eD2I+uYW4kTJoWSAtcVulBStMNfhSASnzjVhZPQjcarkUC6Aa2Y2dldVxNz13Gj3ovNpYk/LqUqpJ+M0TcNOzxbMneMyr4VCYXT19GJl4fJvvHJqfO/9eN7/OuF9rKRUgHlzXFizckXMNafTgQO7ay3Zv837CEd/r7dkL6soFUDTtC+eah67bs0HsGYbKyn3PeB7o9Q74L1/BMfONkLXk/N1oeJTckoFCASDaH/YyR7jfyVHEJkEIJMAZBKATAKQSQAyCUAmAcgkAJkEIJMAZBKATAKQSQAyCUAmAcgkAJkEIJMAZBKATAKQSQAyCUAmAcgkAJkEIJMAZBKATAKQfQK8Dg7C+f0COAAAAABJRU5ErkJggg=="
+          clip-path="url(#clip-16159958)"
+          preserveAspectRatio="xMidYMid slice"
+        />
+        <text x="364" y="810" class="name">computerb</text>
         <text x="364" y="830" class="username"></text>
-        <text x="364" y="850" class="words">185 words</text>
+        <text x="364" y="850" class="words">195 words</text>
       </a>
     </g>
     <g class="contributor">
