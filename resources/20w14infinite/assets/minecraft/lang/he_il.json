@@ -14,5 +14,9 @@
     "item.minecraft.fine_item": "פריט משובח מאוד",
     "stat.minecraft.change_dimension": "שינויי מידות",
     "subtitles.block.end_portal.spawn": "פורטל האנד נפתח!",
-    "subtitles.entity.horse.land": "סוס נוחת"
+    "subtitles.entity.horse.land": "סוס נוחת",
+    "advancements.adventure.bullseye.description": "פגע בעין השור של בלוק טארגט עם חץ",
+    "commands.spawnpoint.success.single": "הגדר את נקודת ההשרצה ל- %s, %s, %s ב- %s עבור %s",
+    "commands.spawnpoint.success.multiple": "הגדר את נקודת ההשרצה ל- %s, %s, %s ב- %s עבור %s שחקנים",
+    "commands.setworldspawn.success": "הגדר את נקודת ההשרצה של העולם ל- %s, %s, %s"
 }

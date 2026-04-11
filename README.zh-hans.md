@@ -39,7 +39,7 @@
 | `enp` | 纯粹英语 | Anglish (Oned Riches) | <img src="badges/enp.png"> | 55% | 55% |
 | `es_es` | 西班牙语 | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
 | `fr_fr` | 法语 | Français (France) | <img src="badges/fr_fr.png"> | 1% | 0% |
-| `he_il` | 希伯来语 | עברית (ישראל) | <img src="badges/he_il.png"> | 26% | 8% |
+| `he_il` | 希伯来语 | עברית (ישראל) | <img src="badges/he_il.png"> | 29% | 9% |
 | `it_it` | 意大利语 | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
 | `ja_jp` | 日语 | 日本語 (日本) | <img src="badges/ja_jp.png"> | 100% | 29% |
 | `ko_kr` | 韩语 | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 82% | 4% |
