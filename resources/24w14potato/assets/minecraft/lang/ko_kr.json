@@ -246,6 +246,7 @@
     "item.resin.quality.comment": "^에서의 댓글: 좋긴 한데 어디다 써야 할지 모르겠네요 [G]. 좋아요, 댓글, 구독 부탁드리고요! 다음 시간에 만나요, 안녕!",
     "itemGroup.potatoes": "감자",
     "key.potato": "감자",
+    "key.spectatorOutlines": "플레이어 강조 (관전자)",
     "lubrication.tooltip.lubricated": "기름 발라짐!",
     "lubrication.tooltip.lubricated_times": "기름 발라짐! x%s",
     "options.potatoFont": "감자 글꼴",

@@ -89,6 +89,7 @@
     "item.minecraft.bit": "Bit",
     "item.minecraft.le_tricolore": "Le Tricolore",
     "item.minecraft.la_baguette": "La Baguette",
+    "key.spectatorOutlines": "플레이어 강조 (관전자)",
     "key.voting": "투표",
     "rule.nothing": "아무것도 하지 않기",
     "rule.connector": "%s, 그러나 %s",
