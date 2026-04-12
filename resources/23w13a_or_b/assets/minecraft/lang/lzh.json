@@ -248,7 +248,7 @@
     "rule.biome_color.water_fog": "易水霧之色%s爲%s",
     "rule.haunted_world": "怪力亂神",
     "rule.increase_scale": "闊戲者%s倍",
-    "rule.morrowind_power_player_movement": "躍高，墜劇，游缓，奔疾，飛速",
+    "rule.morrowind_power_player_movement": "躍高，墜險，游缓，奔遠，飛疾",
     "rule.evil_eye": "得魔眼",
     "rule.reset_entity_transform": "盡除化身",
     "rule.reset_scale": "重設戲者尺寸",
@@ -383,7 +383,7 @@
     "rule.dupe_hack_occurrence_chance": "見複製訣之機設爲%s%%",
     "rule.dupe_hack_break_chance": "損複製訣之機設爲%s%%",
     "rule.persistent_parrots": "鸚鵡不辭別，流水十年間。",
-    "rule.less_interaction_updates": "減塊之更新於戲者交互。實則不復更新也⋯",
+    "rule.less_interaction_updates": "戲者交互，塊乃自新，而今減之。實則滅之⋯",
     "rule.dead_bush_renewability": "秧乾則枯，枯木不竭",
     "rule.fix_qc": "矯虛赭聯",
     "rule.buttons_on_things": "可置鈕（及他物）於眾物之上",
@@ -492,7 +492,7 @@
     "vote.tie": "平勝，決以「%s」",
     "vote.voted": "⯪余既薦之！！⯫",
     "vote.show_current_rules": "示得舉之案",
-    "vote.current_rules": "（現今）已用之規",
+    "vote.current_rules": "既用之規",
     "tooltip.too_long": "詳註長甚，撳Ctrl而左擊以咸示之",
     "tooltip.more_like_cooltip": "長囊註"
 }
