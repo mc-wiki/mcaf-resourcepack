@@ -219,7 +219,7 @@
     "rule.text_style.green": "'%s' 렌더를 항상 초록색으로 변경",
     "rule.text_style.aqua": "'%s' 렌더를 항상 청록색으로 변경",
     "rule.text_style.red": "'%s' 렌더를 항상 빨간색으로 변경",
-    "rule.text_style.light_purple": "'%s' 렌더를 항상 연보라색으로 변경",
+    "rule.text_style.light_purple": "'%s' 렌더를 항상 연한 보라색으로 변경",
     "rule.text_style.yellow": "'%s' 렌더를 항상 노란색으로 변경",
     "rule.text_style.white": "'%s' 렌더를 항상 하얀색으로 변경",
     "rule.text_style.obfuscated": "'%s' 픽셀을 엉망으로 변경",
