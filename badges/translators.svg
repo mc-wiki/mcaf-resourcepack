@@ -767,36 +767,14 @@
     </g>
     <g class="contributor">
       <defs>
-        <clipPath id="clip-15887387">
-          <circle cx="156" cy="748" r="32"/>
-        </clipPath>
-      </defs>
-      <a xlink:href="https://crowdin.com/profile/the_non_useful" target="_blank">
-        <title>the_non_useful</title>
-        <image 
-          x="124" 
-          y="716" 
-          width="64" 
-          height="64" 
-          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADyElEQVR42u3bSU8TcRzG8WdmSqHIUkBCVIKKCyAuYHBHBKuIEZcoHLj6AnwBvhCPHk3UNG6JgAoYwNCoVQmICFoxgETFWorBdrZ60WlHTTzATCt5vifmFzKZ9AP/TubfCi0XLsbAkpbIl4AABGAEIAAjAAEYAQjACEAARgACMAIQgBGAAIwABGAEIAAjAAEYAQjACEAARgACsKXJkSoXku/OwcaSYtNsbGISofD8os+d7kzDjvJNxvFsMITA1AcCJFZavBrnz500zUbevMOlK16omraoc2dlZprOPfBiKGUAUnoJKi9dh33V2/gekLSLEwWc9tQhLyebAMkqK9OF1uMeSKJIgGRVVbEZOyvLCGBXuq7jxaux+EUKAs4cOQT3MlyKUhJAFEXc7u7H14Rb0AJ3Ls546ghgV7Ki4Ma9h9Bj8S9x7tq+xXQ/TwALy0h3wj/yGoOj48ZMEkW0HGvACpeLAJYDOJ3QNA3XO7qwEIka88L8PJyo3w9BEAhgZU5nGgAgGArj5oOHiCUsRXU11Shfv5YAVpbmiD8lefRsCKOB98axwyGhpekwXBnpBLAqh0MyftY0Dd7OHix8jxizNUWFOFa7lwCWXZhgvrSpj5/Q0e8zzY7u34WSVUUEsAbgzzfZHp8fbyen43dFkoS25kakO50EWPL+cpOjqCqutXdBVhRjtr54NRr27CSAXb2fnkG3z2+aNdbuwZqiQgLYVUffACZnPhrHmRkZaDtxFJIkEcCOIlEZ1zu7oaiqMdtQUoy6mioC2NX4xCT6/YPxtwxBQHPDARTmuwlgR7FYDLe6ejH7dc6YrXC50NrkgeO3pSiVH1v819tMkaiMq3fvmzbtt23egN3bK02/p+s6AaxqeDyAJ0Mjpr/2U56DyM/NMWaL/VQFAf65FPUhOBc2Zu7sLJxtrMevlUdWVAJYWSg8D29nj+mJac3WClRXlP38D1ChpegytGw+avD81RieJ+wjA8DZxnrkZmcBMUCWFQJYma7r8Hb24NvCgjFbmedGc0MtACCqEMDyvoTmcPNBr2kp2le1FZWbShGNygSwI9/gMF6+eWccOyQJrU2HTfsLBLAwVf1z82ZlnhsF7lwC2NXM51m09w7wUUQy6/Y9RSBh84YANqfpOq61dyESjRIgWU38ZfMm1UqZb8gEpj7gsvdO/HiJlo+OPh+mP302fbx9NhgiwO8FQ2E8Do0s+XllRYF/eJRLECMAARgBCMAIQABGAAIwAhCAEYAABGAEIAAjAAEYAQjACEAARgACMAIQgBGAAIwAy70fNG0o9NDmjhkAAAAASUVORK5CYII="
-          clip-path="url(#clip-15887387)"
-          preserveAspectRatio="xMidYMid slice"
-        />
-        <text x="156" y="810" class="name">the_non_useful</text>
-        <text x="156" y="830" class="username"></text>
-        <text x="156" y="850" class="words">215 words</text>
-      </a>
-    </g>
-    <g class="contributor">
-      <defs>
         <clipPath id="clip-15977135">
-          <circle cx="260" cy="748" r="32"/>
+          <circle cx="156" cy="748" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/Shimamura-Tako" target="_blank">
         <title>Shimamura-Tako</title>
         <image 
-          x="228" 
+          x="124" 
           y="716" 
           width="64" 
           height="64" 
@@ -804,9 +782,31 @@
           clip-path="url(#clip-15977135)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="260" y="810" class="name">Shimamura-Tako</text>
+        <text x="156" y="810" class="name">Shimamura-Tako</text>
+        <text x="156" y="830" class="username"></text>
+        <text x="156" y="850" class="words">216 words</text>
+      </a>
+    </g>
+    <g class="contributor">
+      <defs>
+        <clipPath id="clip-15887387">
+          <circle cx="260" cy="748" r="32"/>
+        </clipPath>
+      </defs>
+      <a xlink:href="https://crowdin.com/profile/the_non_useful" target="_blank">
+        <title>the_non_useful</title>
+        <image 
+          x="228" 
+          y="716" 
+          width="64" 
+          height="64" 
+          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADyElEQVR42u3bSU8TcRzG8WdmSqHIUkBCVIKKCyAuYHBHBKuIEZcoHLj6AnwBvhCPHk3UNG6JgAoYwNCoVQmICFoxgETFWorBdrZ60WlHTTzATCt5vifmFzKZ9AP/TubfCi0XLsbAkpbIl4AABGAEIAAjAAEYAQjACEAARgACMAIQgBGAAIwABGAEIAAjAAEYAQjACEAARgACsKXJkSoXku/OwcaSYtNsbGISofD8os+d7kzDjvJNxvFsMITA1AcCJFZavBrnz500zUbevMOlK16omraoc2dlZprOPfBiKGUAUnoJKi9dh33V2/gekLSLEwWc9tQhLyebAMkqK9OF1uMeSKJIgGRVVbEZOyvLCGBXuq7jxaux+EUKAs4cOQT3MlyKUhJAFEXc7u7H14Rb0AJ3Ls546ghgV7Ki4Ma9h9Bj8S9x7tq+xXQ/TwALy0h3wj/yGoOj48ZMEkW0HGvACpeLAJYDOJ3QNA3XO7qwEIka88L8PJyo3w9BEAhgZU5nGgAgGArj5oOHiCUsRXU11Shfv5YAVpbmiD8lefRsCKOB98axwyGhpekwXBnpBLAqh0MyftY0Dd7OHix8jxizNUWFOFa7lwCWXZhgvrSpj5/Q0e8zzY7u34WSVUUEsAbgzzfZHp8fbyen43dFkoS25kakO50EWPL+cpOjqCqutXdBVhRjtr54NRr27CSAXb2fnkG3z2+aNdbuwZqiQgLYVUffACZnPhrHmRkZaDtxFJIkEcCOIlEZ1zu7oaiqMdtQUoy6mioC2NX4xCT6/YPxtwxBQHPDARTmuwlgR7FYDLe6ejH7dc6YrXC50NrkgeO3pSiVH1v819tMkaiMq3fvmzbtt23egN3bK02/p+s6AaxqeDyAJ0Mjpr/2U56DyM/NMWaL/VQFAf65FPUhOBc2Zu7sLJxtrMevlUdWVAJYWSg8D29nj+mJac3WClRXlP38D1ChpegytGw+avD81RieJ+wjA8DZxnrkZmcBMUCWFQJYma7r8Hb24NvCgjFbmedGc0MtACCqEMDyvoTmcPNBr2kp2le1FZWbShGNygSwI9/gMF6+eWccOyQJrU2HTfsLBLAwVf1z82ZlnhsF7lwC2NXM51m09w7wUUQy6/Y9RSBh84YANqfpOq61dyESjRIgWU38ZfMm1UqZb8gEpj7gsvdO/HiJlo+OPh+mP302fbx9NhgiwO8FQ2E8Do0s+XllRYF/eJRLECMAARgBCMAIQABGAAIwAhCAEYAABGAEIAAjAAEYAQjACEAARgACMAIQgBGAAIwAy70fNG0o9NDmjhkAAAAASUVORK5CYII="
+          clip-path="url(#clip-15887387)"
+          preserveAspectRatio="xMidYMid slice"
+        />
+        <text x="260" y="810" class="name">the_non_useful</text>
         <text x="260" y="830" class="username"></text>
-        <text x="260" y="850" class="words">214 words</text>
+        <text x="260" y="850" class="words">215 words</text>
       </a>
     </g>
     <g class="contributor">
