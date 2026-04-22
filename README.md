@@ -67,7 +67,7 @@ Need help installing? See the [wiki tutorial](https://minecraft.wiki/w/Tutorial:
 
 ## Contributing
 
-Translations take place on [Crowdin](https://crowdin.com/project/mcaf-resourcepack); you can contribute to the translations there. They are synced with this repository regularly.
+Translations take place on [Crowdin](https://crowdin.com/project/mcaf-resourcepack); you can contribute to the translations there with other [translators](#translators). They are synced with this repository regularly.
 
 ## FAQ
 
