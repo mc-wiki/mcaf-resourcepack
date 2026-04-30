@@ -53,7 +53,7 @@ Translations are provided by the community on [Crowdin](https://crowdin.com/proj
 | `uk_ua` | Ukrainian | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
 | `zh_cn` | Chinese (Simplified) | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 98% |
 | `zh_hk` | Chinese (Hong Kong) | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 76% | 76% |
-| `zh_tw` | Chinese (Traditional) | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 67% | 1% |
+| `zh_tw` | Chinese (Traditional) | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 68% | 3% |
 
 You can request adding a new language [by creating an issue on GitHub](https://github.com/mc-wiki/mcaf-resourcepack/issues).
 

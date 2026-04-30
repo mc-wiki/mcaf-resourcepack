@@ -49,7 +49,7 @@
 | `uk_ua` | 渥蓮語              | Українська (Україна)      | <img src="badges/uk_ua.png"> | 0% | 0% |
 | `zh_cn` | <u>華夏</u>通語     | 简体中文 (中国大陆)       | <img src="badges/zh_cn.png"> | 100% | 98% |
 | `zh_hk` | <u>香港</u>通語     | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 76% | 76% |
-| `zh_tw` | <u>流求</u>通語     | 繁體中文 (台灣)           | <img src="badges/zh_tw.png"> | 67% | 1% |
+| `zh_tw` | <u>流求</u>通語     | 繁體中文 (台灣)           | <img src="badges/zh_tw.png"> | 68% | 3% |
 
 若欲增新語，可[立案GitHub](https://github.com/mc-wiki/mcaf-resourcepack/issues)。
 
