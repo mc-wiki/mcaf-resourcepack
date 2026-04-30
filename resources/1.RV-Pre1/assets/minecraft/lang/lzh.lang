@@ -1,7 +1,7 @@
 tile.usbCharger.name=注源塊
 item.realityVision.name=靉靆冠
 item.ankleMonitor.name=鐐
-item.ankleMonitor.warning=金吾誡曰：汝破戒矣！其回%s方！
+item.ankleMonitor.warning=金吾誡曰：汝破戒矣！其回%d方！
 item.ankleMonitor.warning2=金吾誡曰：汝破戒矣！夫⋯今安在哉？
 item.ankleMonitor.warning3=金吾誡曰：君在否？
 item.ankleMonitor.warning4=金吾誡曰：縱有要務，速歸毋遲！
