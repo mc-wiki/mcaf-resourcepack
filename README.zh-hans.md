@@ -32,27 +32,28 @@
 
 本项目的翻译工作在[Crowdin](https://zh.crowdin.com/project/mcaf-resourcepack)上进行。
 
-| 代码 | 语言 | 显示名称 | 进度 | 已翻译 | 已批准 |
-| --- | --- | --- | --- | ---: | ---: |
-| `de_de` | 德语 | Deutsch (Deutschland) | <img src="badges/de_de.png"> | 18% | 0% |
-| `en_ud` | 颠倒英语 | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩) | <img src="badges/en_ud.png"> | 100% | 100% |
-| `enp` | 纯粹英语 | Anglish (Oned Riches) | <img src="badges/enp.png"> | 55% | 55% |
-| `es_es` | 西班牙语 | Español (España) | <img src="badges/es_es.png"> | 0% | 0% |
-| `fr_fr` | 法语 | Français (France) | <img src="badges/fr_fr.png"> | 1% | 0% |
-| `he_il` | 希伯来语 | עברית (ישראל) | <img src="badges/he_il.png"> | 43% | 9% |
-| `it_it` | 意大利语 | Italiano (Italia) | <img src="badges/it_it.png"> | 0% | 0% |
-| `ja_jp` | 日语 | 日本語 (日本) | <img src="badges/ja_jp.png"> | 100% | 29% |
-| `ko_kr` | 韩语 | 한국어 (대한민국)| <img src="badges/ko_kr.png"> | 82% | 4% |
-| `lzh` | 汉语（文言文） | 文言 (華夏)| <img src="badges/lzh.png"> | 100% | 61% |
-| `nl_nl` | 荷兰语 | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 2% | 0% |
-| `pt_br` | 巴西葡萄牙语 | Português (Brasil) | <img src="badges/pt_br.png"> | 8% | 5% |
-| `pt_pt` | 葡萄牙语 | Português (Portugal) | <img src="badges/pt_pt.png"> | 0% | 0% |
-| `ru_ru` | 俄语 | Русский (Россия) | <img src="badges/ru_ru.png"> | 15% | 0% |
-| `th_th` | 泰语 | ไทย (ประเทศไทย) | <img src="badges/th_th.png"> | 0% | 0% |
-| `uk_ua` | 乌克兰语 | Українська (Україна) | <img src="badges/uk_ua.png"> | 0% | 0% |
-| `zh_cn` | 汉语 | 简体中文 (中国大陆) | <img src="badges/zh_cn.png"> | 100% | 98% |
-| `zh_hk` | 汉语 | 繁體中文 (香港特別行政區) | <img src="badges/zh_hk.png"> | 76% | 76% |
-| `zh_tw` | 汉语 | 繁體中文 (台灣) | <img src="badges/zh_tw.png"> | 68% | 3% |
+| 代码       | 语言      | 显示名称                   | 进度                            |  已翻译 |  已批准 |
+|----------|---------|------------------------|-------------------------------|-----:|-----:|
+| `de_de`  | 德语      | Deutsch (Deutschland)  | <img src="badges/de_de.png">  |  18% |   0% |
+| `en_ud`  | 颠倒英语    | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png">  | 100% | 100% |
+| `enp`    | 纯粹英语    | Anglish (Oned Riches)  | <img src="badges/enp.png">    |  55% |  55% |
+| `es_es`  | 西班牙语    | Español (España)       | <img src="badges/es_es.png">  |   0% |   0% |
+| `fil_ph` | 菲律宾语    | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> |   0% |   0% |
+| `fr_fr`  | 法语      | Français (France)      | <img src="badges/fr_fr.png">  |   1% |   0% |
+| `he_il`  | 希伯来语    | עברית (ישראל)          | <img src="badges/he_il.png">  |  43% |   9% |
+| `it_it`  | 意大利语    | Italiano (Italia)      | <img src="badges/it_it.png">  |   0% |   0% |
+| `ja_jp`  | 日语      | 日本語 (日本)               | <img src="badges/ja_jp.png">  | 100% |  29% |
+| `ko_kr`  | 韩语      | 한국어 (대한민국)             | <img src="badges/ko_kr.png">  |  82% |   4% |
+| `lzh`    | 汉语（文言文） | 文言 (華夏)                | <img src="badges/lzh.png">    | 100% |  61% |
+| `nl_nl`  | 荷兰语     | Nederlands (Nederland) | <img src="badges/nl_nl.png">  |   2% |   0% |
+| `pt_br`  | 巴西葡萄牙语  | Português (Brasil)     | <img src="badges/pt_br.png">  |   8% |   5% |
+| `pt_pt`  | 葡萄牙语    | Português (Portugal)   | <img src="badges/pt_pt.png">  |   0% |   0% |
+| `ru_ru`  | 俄语      | Русский (Россия)       | <img src="badges/ru_ru.png">  |  15% |   0% |
+| `th_th`  | 泰语      | ไทย (ประเทศไทย)        | <img src="badges/th_th.png">  |   0% |   0% |
+| `uk_ua`  | 乌克兰语    | Українська (Україна)   | <img src="badges/uk_ua.png">  |   0% |   0% |
+| `zh_cn`  | 汉语      | 简体中文 (中国大陆)            | <img src="badges/zh_cn.png">  | 100% |  98% |
+| `zh_hk`  | 汉语      | 繁體中文 (香港特別行政區)         | <img src="badges/zh_hk.png">  |  76% |  76% |
+| `zh_tw`  | 汉语      | 繁體中文 (台灣)              | <img src="badges/zh_tw.png">  |  68% |   3% |
 
 可以在本仓库中[提交issue](https://github.com/mc-wiki/mcaf-resourcepack/issues)申请新语言。
 

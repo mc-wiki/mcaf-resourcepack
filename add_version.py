@@ -91,6 +91,9 @@ def get_client(info: dict) -> Path:
         Path: Path to client.jar
     """
     client_manifest_url = info["url"]
+    client_path = base_dir / f"Java_Edition_{info['id']}.jar"
+    if client_path.exists():
+        return client_path
     print(
         f'Fetching client manifest file "{Path(client_manifest_url).name.replace("%20", " ")}"...'
     )
@@ -102,9 +105,6 @@ def get_client(info: dict) -> Path:
 
     client_url = client_manifest["downloads"]["client"]["url"]
     client_sha1 = client_manifest["downloads"]["client"]["sha1"]
-    client_path = base_dir / f"Java_Edition_{info['id']}.jar"
-    if client_path.exists():
-        return client_path
     print(f'Downloading "{client_path.name}" ({client_sha1})...')
     get_file(client_url, client_path.name, client_path, client_sha1)
     print()
