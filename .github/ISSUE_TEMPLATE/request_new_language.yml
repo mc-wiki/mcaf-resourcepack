@@ -1,0 +1,48 @@
+name: Request New Language
+description: Suggest a new language for our Crowdin and resource packs.
+title: "Language: <name>"
+labels: language
+type: Feature
+body:
+  - type: checkboxes
+    id: pre
+    attributes:
+      label: How is everything?
+      description: Please check the options, they all must be selected.
+      options:
+        - label: Could you or someone else add basic translation to this language? ([our Crowdin](https://crowdin.com/project/mcaf-resourcepack))
+          required: true
+        - label: I agree to release the translation pack under the [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) license.
+          required: true
+  - type: input
+    id: code
+    attributes:
+      label: Language Code
+      description: The language locale code using in-game. You can find it in `client.jar/assets/minecraft/lang/`.
+      placeholder: e.g. en_us
+    validations:
+      required: true
+  - type: textarea
+    id: crowdin
+    attributes:
+      label: Crowdin Nomination
+      description: Please provide 1-3 Crowdin translator usernames to grant advanced permissions, one per line. Self-nominations are accepted.
+      placeholder: e.g. Don-Trueno
+    validations:
+      required: true
+  - type: textarea
+    id: readme
+    attributes:
+      label: Readme
+      description: By the way, you can translate the [README.md](https://github.com/mc-wiki/mcaf-resourcepack/blob/main/README.md) into this language.
+      placeholder: Leave blank to ignore.
+    validations:
+      required: false
+  - type: textarea
+    id: note
+    attributes:
+      label: Notes
+      description: For example, some regions like Russia may be blocked when visiting Crowdin websites. Please leave notes; we'll help you.
+      placeholder: Leave blank to ignore.
+    validations:
+      required: false
