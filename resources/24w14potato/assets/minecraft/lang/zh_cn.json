@@ -181,7 +181,7 @@
     "entity.minecraft.vine_projectile": "藤蔓",
     "gamerule.floataterSizeLimit": "悬浮马铃薯推进器大小限制",
     "gamerule.floataterSizeLimit.description": "悬浮马铃薯推进器结构的大小上限为N×N×N个方块。",
-    "gamerule.neverEatArmor": "永远不会在饥饿时吃掉盔甲，即便看起来很美味。",
+    "gamerule.neverEatArmor": "不在饥饿时吃掉盔甲，即便看起来很美味。",
     "item.minecraft.amber_gem": "琥珀宝石",
     "item.minecraft.batato_spawn_egg": "蝙薯刷怪蛋",
     "item.minecraft.corrupted_potato_peels": "腐败的马铃薯皮",
