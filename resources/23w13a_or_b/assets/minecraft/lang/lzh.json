@@ -37,7 +37,7 @@
     "block.minecraft.packed_air": "集氣",
     "death.attack.onMoon": "%1$s見月翳",
     "death.attack.onMoon.player": "%1$s去%2$s之時見月翳",
-    "death.midas.turned_into_gold": "化%1$s爲金",
+    "death.midas.turned_into_gold": "%1$s化金而亡",
     "effect.minecraft.big": "展",
     "effect.minecraft.small": "蜷",
     "entity.minecraft.stencil_display": "模示",
