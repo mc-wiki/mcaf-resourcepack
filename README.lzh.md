@@ -34,7 +34,7 @@
 | `de_de`  | 隤䲭語           | Deutsch (Deutschland)  | <img src="badges/de_de.png"> | 18% | 0% |
 | `en_ud`  | 倒置英吉利語        | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png"> | 100% | 100% |
 | `enp`    | 精粹英吉利語        | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 55% | 55% |
-| `es_es`  | 佛朗機語          | Español (España)       | <img src="badges/es_es.png"> | 0% | 0% |
+| `es_es`  | 佛朗機語          | Español (España)       | <img src="badges/es_es.png"> | 1% | 0% |
 | `fil_ph` | 呂宋語           | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0% | 0% |
 | `fr_fr`  | 方司語           | Français (France)      | <img src="badges/fr_fr.png"> | 1% | 0% |
 | `he_il`  | 協婁語           | עברית (ישראל)          | <img src="badges/he_il.png"> | 43% | 9% |
