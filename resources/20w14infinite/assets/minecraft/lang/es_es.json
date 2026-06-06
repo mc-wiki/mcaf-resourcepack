@@ -1,1 +1,19 @@
-{}
+{
+    "advancements.adventure.almost_there.title": "Casi listo",
+    "advancements.adventure.almost_there.description": "Visita más de un mil millones de dimensiones",
+    "biome.minecraft.between": "Entre",
+    "biome.minecraft.shapes": "Formas",
+    "biome.minecraft.busy": "Bioma para jugador sin tiempo para tonterías",
+    "block.minecraft.cursor": "Cursor",
+    "block.minecraft.ant": "Una hormiga",
+    "block.minecraft.zone": "Sobrante",
+    "block.minecraft.neither_portal": "Portal extraño",
+    "block.minecraft.netherite_stairs": "Escaleras con el más swag del mundo",
+    "block.minecraft.book_box": "Caja de libros infinitos",
+    "item.minecraft.footprint": "Pisada",
+    "item.minecraft.fine_item": "Un ítem muy fino",
+    "stat.minecraft.change_dimension": "Dimensiones conocidos",
+    "subtitles.block.end_portal.spawn": "¡Portal del End abierto!",
+    "subtitles.entity.horse.land": "Caballo aterrizado",
+    "advancements.adventure.bullseye.description": "Dale al centro de una diana con una flecha"
+}
