@@ -1669,14 +1669,36 @@
     </g>
     <g class="contributor">
       <defs>
-        <clipPath id="clip-17018832">
+        <clipPath id="clip-16257960">
           <circle cx="260" cy="1618" r="32"/>
+        </clipPath>
+      </defs>
+      <a xlink:href="https://crowdin.com/profile/Ryoya" target="_blank">
+        <title>Ryoya</title>
+        <image 
+          x="228" 
+          y="1586" 
+          width="64" 
+          height="64" 
+          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAE6ElEQVR4nO3bzVMbdRzH8c/mCZIQEcJTykPBgkWwTOlMoSpKcQrM6NShtAfHiw8nTx48+kd4cjx4oCd1nCmtiA/jAxRjlbYDiFRa2iItUx6S0NBAIEB2k/VQSdmBJqQDfH9Zv6+ZHH6bJfNl3iG72QTpzAcfqWBkDNQD/N9xAGIcgBgHIMYBiHEAYhyAGAcgxgGIcQBiHIAYByDGAYhxAGIcgBgHIMYBiHEAYhyAGAcgxgGIcQBiHIAYByDGAYhxAGIcgBgHIMYBiJmoB9jIYbfhuQOlCfdTVRWKEkFodQ0LwSX4AwHISmT3B9wFQgXIc2bjvdMnt72/qgKACiUSwbR3Dn/fnsDg6Bg8c36oamp8616oAMmSJACQYDaZUFroQmmhC80vHsXQ6E109bgRCC5Rj5iQ8MeAaDS65e1xz/A0iwUv1B7Ch+++hfyc7D2eNnlC/wVMeXw4e/7bTdsNkgSLxQyH3Y59uTmoKC1G+f4imE2Pfp08Zxbef7MdH5/9AsHl0F6OnRShA4RlBdPeubj7DN+4BcMlA/KcWTjT2oTq8gP/vTQBrlwnWhrq0fnjxT2Y9skI/xK0HdFoFJ45Pz776muMjk9o7qs7VAWH3UY0WWK6CLAuLCu48HMf1sLh2LZMRwbKivYRThWfrgIAwIzvPu7N+jTbSlz5RNMkprsAqqpi2qsN8PRTDqJpEtNdAABYXlnVrC1mcc81dBnAaDRq1rKiEE2SmC4D5GRlatb+wCLRJInpLkB6mgUlroLYWlVVTE7PEk4Un+4CHK6s0PwFzC8s4s7UDOFE8ekqQLErH6dbX4W0/lYYQN+VIYRW1winik/c04NtkgDYbVYcqa7EyaYGzbvesYlJuAeG6YbbBqEDOOxWHDv8/KbtEgCz2YxMRwaK8nNRWuhCpiNDs8/k9Cw6Ors174pFJHSA3OwsvHPq9aR+JizLuDTwF7p63VgLy7s02c4ROkAyZFnB1ZFR9F4Zwoxvjj8R2wmq+vDjxq1IkGA0GbF+uJUVBd+7++EPLOzdgDtA6AD3Zr349MvzW95nNBjwdttreLasBABgs6bjVHMjOs51I5oiz35A8NNQJRJFYDG45c0fWEDnTxcRiURj+x+prkRVeRnhxMkTOkAikzMe9A9fi60NkoS2E42wpacTTpWclA4AAN/1/Y7FpeXYuqggD8fragknSk7KB3iwGMQP7n7NtuaGerhynUQTJSflAwDAH39ew90NF9ysaWloO9GouSQhKl0EWAuH0dXj1pz71xysQM3BcsKptkcXAYCH130GR8dia0kC2luOw24V+4CsmwCqquKbnt8QWn30cWS+MxstL9UTTpWYbgIAgG/+AXovD2q2vXK0FsUFeUQTJaarAADQe3kA3vvzsbU1PQ3tLU3CHpB1FyC0srrpgFz5zH7U1VQRTvV4ugsAACM3x3F9/E5sLUkS3mh6WcivKOoygBKJ4MIvvyKy4UqqMysTrQ3HCKfamlBXQ33+eXR0dsfWS8srT/xYUx4fPvn8nOZZH5YVmExGKAL9O5NQAYLLIVwdub5jj3fjn7s79li7RZcvQamEAxDjAMQ4ADEOQIwDEOMAxDgAMQ5AjAMQ4wDEOAAxDkCMAxDjAMQ4ADEOQIwDEOMAxDgAMQ5AjAMQ4wDEOAAxDkCMAxDjAMQ4ADEOQOxfDSFsKVQCRggAAAAASUVORK5CYII="
+          clip-path="url(#clip-16257960)"
+          preserveAspectRatio="xMidYMid slice"
+        />
+        <text x="260" y="1680" class="name">Ryoya</text>
+        <text x="260" y="1700" class="username"></text>
+        <text x="260" y="1720" class="words">5 words</text>
+      </a>
+    </g>
+    <g class="contributor">
+      <defs>
+        <clipPath id="clip-17018832">
+          <circle cx="364" cy="1618" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/panjinxi" target="_blank">
         <title>panjinxi</title>
         <image 
-          x="228" 
+          x="332" 
           y="1586" 
           width="64" 
           height="64" 
@@ -1684,21 +1706,21 @@
           clip-path="url(#clip-17018832)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="260" y="1680" class="name">panjinxi</text>
-        <text x="260" y="1700" class="username"></text>
-        <text x="260" y="1720" class="words">4 words</text>
+        <text x="364" y="1680" class="name">panjinxi</text>
+        <text x="364" y="1700" class="username"></text>
+        <text x="364" y="1720" class="words">4 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-16609301">
-          <circle cx="364" cy="1618" r="32"/>
+          <circle cx="468" cy="1618" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/Villager-bloc-h" target="_blank">
         <title>Villager-bloc-h</title>
         <image 
-          x="332" 
+          x="436" 
           y="1586" 
           width="64" 
           height="64" 
@@ -1706,21 +1728,21 @@
           clip-path="url(#clip-16609301)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="364" y="1680" class="name">Villager-bloc-h</text>
-        <text x="364" y="1700" class="username"></text>
-        <text x="364" y="1720" class="words">3 words</text>
+        <text x="468" y="1680" class="name">Villager-bloc-h</text>
+        <text x="468" y="1700" class="username"></text>
+        <text x="468" y="1720" class="words">3 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-15068691">
-          <circle cx="468" cy="1618" r="32"/>
+          <circle cx="572" cy="1618" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/Tetzaton" target="_blank">
         <title>Tetzaton</title>
         <image 
-          x="436" 
+          x="540" 
           y="1586" 
           width="64" 
           height="64" 
@@ -1728,21 +1750,21 @@
           clip-path="url(#clip-15068691)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="468" y="1680" class="name">Tetzaton</text>
-        <text x="468" y="1700" class="username"></text>
-        <text x="468" y="1720" class="words">2 words</text>
+        <text x="572" y="1680" class="name">Tetzaton</text>
+        <text x="572" y="1700" class="username"></text>
+        <text x="572" y="1720" class="words">2 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-17371328">
-          <circle cx="572" cy="1618" r="32"/>
+          <circle cx="676" cy="1618" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/Pitozavr" target="_blank">
         <title>Pitozavr</title>
         <image 
-          x="540" 
+          x="644" 
           y="1586" 
           width="64" 
           height="64" 
@@ -1750,21 +1772,21 @@
           clip-path="url(#clip-17371328)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="572" y="1680" class="name">Pitozavr</text>
-        <text x="572" y="1700" class="username"></text>
-        <text x="572" y="1720" class="words">2 words</text>
+        <text x="676" y="1680" class="name">Pitozavr</text>
+        <text x="676" y="1700" class="username"></text>
+        <text x="676" y="1720" class="words">2 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-16290122">
-          <circle cx="676" cy="1618" r="32"/>
+          <circle cx="780" cy="1618" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/paran_yeonpil" target="_blank">
         <title>BluPen 블루펜 (paran_yeonpil)</title>
         <image 
-          x="644" 
+          x="748" 
           y="1586" 
           width="64" 
           height="64" 
@@ -1772,9 +1794,9 @@
           clip-path="url(#clip-16290122)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="676" y="1680" class="name">BluPen 블루펜</text>
-        <text x="676" y="1700" class="username">(paran_yeonpil)</text>
-        <text x="676" y="1720" class="words">1 words</text>
+        <text x="780" y="1680" class="name">BluPen 블루펜</text>
+        <text x="780" y="1700" class="username">(paran_yeonpil)</text>
+        <text x="780" y="1720" class="words">1 words</text>
       </a>
     </g>
 </svg>
