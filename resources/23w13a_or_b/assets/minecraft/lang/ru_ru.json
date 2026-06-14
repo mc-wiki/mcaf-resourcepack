@@ -123,5 +123,8 @@
     "rule.recipe_flip.flipped_only": "Формованные рецепты принимают только зеркальные рецепты",
     "rule.recipe_flip.both": "Формовочные рецепты принимают все ориентации",
     "rule.normal_name_visibility": "Установите нормальное отображаемое имя объекта на: %s",
-    "rule.name_visibility.see_through": "Всегда показывать имена сущностей из-за блоков"
+    "rule.name_visibility.see_through": "Всегда показывать имена сущностей из-за блоков",
+    "vote.voter": "    %s: %s",
+    "vote.option_display": "%s. %s",
+    "vote.voted": "⯪ Я Проголосовал! ⯫"
 }

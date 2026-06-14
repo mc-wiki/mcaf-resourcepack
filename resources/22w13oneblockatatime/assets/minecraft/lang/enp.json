@@ -1,4 +1,8 @@
 {
+    "createWorld.customize.preset.desert": "Weasten",
+    "createWorld.customize.preset.the_void": "The Emptiness",
+    "generator.default": "Stock",
+    "generator.flat": "Sinflat",
     "generator.debug_all_block_states": "Unbugwise",
     "advancements.end.ride_dragon.title": "Ride the End",
     "advancements.end.ride_dragon.description": "More Good luck",
