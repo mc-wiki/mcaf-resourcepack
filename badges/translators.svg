@@ -618,7 +618,7 @@
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/10MpingNM" target="_blank">
-        <title>channel (10MpingNM)</title>
+        <title>10MpingNM</title>
         <image 
           x="228" 
           y="542" 
@@ -628,8 +628,8 @@
           clip-path="url(#clip-17091384)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="260" y="636" class="name">channel</text>
-        <text x="260" y="656" class="username">(10MpingNM)</text>
+        <text x="260" y="636" class="name">10MpingNM</text>
+        <text x="260" y="656" class="username"></text>
         <text x="260" y="676" class="words">291 words</text>
       </a>
     </g>
