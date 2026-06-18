@@ -36,7 +36,7 @@
 |----------|---------|------------------------|-------------------------------|-----:|-----:|
 | `de_de`  | 德语      | Deutsch (Deutschland)  | <img src="badges/de_de.png"> | 18% | 0% |
 | `en_ud`  | 颠倒英语    | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png"> | 100% | 100% |
-| `enp`    | 纯粹英语    | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 55% | 55% |
+| `enp`    | 纯粹英语    | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 56% | 55% |
 | `es_es`  | 西班牙语    | Español (España)       | <img src="badges/es_es.png"> | 2% | 0% |
 | `fil_ph` | 菲律宾语    | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0% | 0% |
 | `fr_fr`  | 法语      | Français (France)      | <img src="badges/fr_fr.png"> | 1% | 0% |

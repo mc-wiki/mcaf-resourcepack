@@ -9,5 +9,6 @@
     "item.key.tooltip": "Opens %s doors",
     "death.attack.nightmare": "%1$s was too soft for this world",
     "death.attack.nightmare.player": "%1$s was too soft for this world (%2$s helped)",
+    "ui.next_disk.wrong_contents": "I said INCOME!",
     "feedback.line1": "Thoughts? Bugs? Loaves? Send us a postsheet!"
 }
