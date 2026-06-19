@@ -14,5 +14,6 @@
     "item.minecraft.fine_item": "An Althersmicker Thing",
     "stat.minecraft.change_dimension": "Farsteads wends",
     "subtitles.block.end_portal.spawn": "End Ingang opens!",
-    "subtitles.entity.horse.land": "Horse lands"
+    "subtitles.entity.horse.land": "Horse lands",
+    "advancements.adventure.bullseye.description": "Hit the bullseye of a Markle with an arrow"
 }
