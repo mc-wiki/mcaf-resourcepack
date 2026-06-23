@@ -14,6 +14,7 @@
     "generator.debug_all_block_states": "Unbugwise",
     "generator.amplified.info": "Heads up: Only for fun! Needs a fleshy reckoner.",
     "generator.single_biome_surface": "Onefold Lifeheap",
+    "debug.cycle_renderdistance.help": "F3 + F = Loop through draw farness (shift to flip)",
     "debug.cycle_renderdistance.message": "Draw Farness: %s",
     "advancements.end.ride_dragon.title": "Ride the End",
     "advancements.end.ride_dragon.description": "More Good luck",
