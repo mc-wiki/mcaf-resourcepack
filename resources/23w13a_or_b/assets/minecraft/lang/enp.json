@@ -298,6 +298,8 @@
     "rule.day_length.set": "Set day length %s",
     "rule.day_length.change": "Wend day length from %s to %s",
     "rule.dream_mode": "Life's a Dream",
+    "rule.replace_items": "Swap out all %s with %s in player inholdings",
+    "rule.only_mending_trades": "Thorpsmen only trade Fettling",
     "rule.bed_pvp": "Bed PAP",
     "rule.bed_pvp.tooltip": "Highly blasty!",
     "rule.zombie_apocalypse": "It's the lich endtime! Watch out for swambs. And liches.",
