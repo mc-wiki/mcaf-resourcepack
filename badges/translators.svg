@@ -1075,36 +1075,58 @@
     </g>
     <g class="contributor">
       <defs>
-        <clipPath id="clip-17372112">
+        <clipPath id="clip-17189952">
           <circle cx="780" cy="922" r="32"/>
+        </clipPath>
+      </defs>
+      <a xlink:href="https://crowdin.com/profile/Saltapton" target="_blank">
+        <title>Mongaillard Maxime (Saltapton)</title>
+        <image 
+          x="748" 
+          y="890" 
+          width="64" 
+          height="64" 
+          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAIkklEQVR42u1dvW/USBR//tzv3YjiQpSATkIoCAkUQDrEHwBCNHQ09z9cREeXCioqdEKioEG64voTojwqQnlIVwSQCIEQJQqErDfrtdf2XIGW87z3EptkvyDvSZHYYTy252f/fvPevBkDiImJiY3MjGGfcGlpyQaAOQBwx6gflmdnZz+M4sT2CM5ZBYA/AeD4GAFwEwB+PywA9M5rjxEA5qE7sZgAMBY2dBrwPG9fx7muC9Vqdc86URSB53mglBIAdrMwDPf3qpommGb2CxsEgVCQmAAgFLSbFQoFUtZqteDTp09a2dTUFDiO8/V3+t970RRuf3NzE9rt9tfflmXB9PT04UVcKTWhlHqrUvbgwQMFANrf0tJSuopqt9tqeXl5z7+1tTWF7caNG1q7x48fV4z9JhQkGiAmAIgIj4/dvn0bJiYmvv4+ceIEXL9+/cDtbm1twfz8vACQZY8ePdJ+X758uS8AeJ4H9+7dEwoSEwAOJwVFUcQ6Z5OTk3se12g08vgYEEURGMb/E331ep20zQXrNjY2RgLA0KckX79+PQEA/0BqRiwMQ+h0Onse5zgO1Gq1vW/GMLTO73F+OkCnlOICgvOXLl26dyjegDiOSZnrulAul/vhZZOnu1KpQKVSyQJANEBEWOzw+gFBEECr1RqO6BkGFItFAQAD8Pnz56Gcy7IsOHr0qFCQmAAgAIiNiQbUajUt8gkA8PTpU9jZ2Tlw2+fOnYOpqSniLQsAaGSCU06SJGGdtn295qm2xy1nSChIABANGLkppQjdTE5O5oqAZlmxWOwblf2wACRJAkmSaGUnT57sW/vjJLpCQQKA2L4o6OLFiyauH0URoQ6cnRwEgVa2uLjoXrhwwUxPnBiGAZZlkaEppqksKjFNE2zbJvqSpTdhGNozMzNuup1KpaJdg2VZpG3XJcvckufPn0cDAQAAfgaAP+CAi+sWFhbsM2fO/JTO9Zybm4OrV69q9WZnZ7U8z2fPnsHCwoJWp1AoaGP8U6dOwZ07dzQw379/D81m8+vvZrNJsiJWV1dvAsCvfXig/wKAhUEBUIYvqxsPFMuN4xhWVla0TpqeniZPt+u6GgBhGMKrV6/ICCfdTqPRANd1yZOafuKDIIDl5WXt/1ut1gwAzPQBgBeiASLCYgOhICyKXBk3Kb5bWVq8Pc+DlZUVogFpfu92u5ntxHEMYRhqZRsbG/Dhw/9rsLe3t8nAIUkSrW38+1v6ZGAAYF7t3TDXKfjm0hxsGAZEUaR17tu3b+HJkyfacWfPntWO29nZIaOXbrertRMEATSbTU0XFhcX4cWLF5qWYL2J41hr2zTNXA+SZVkHBmFsQhFZQOZtJ6tcoqFiAsB3KcLcGl2cCqiUIpyI1/cahgGdTkert7m5STzotbU1TSybzSbxPB3HIZMt6+vrmga8efMGXr58qfG97/tEA9LtmKZJ7o1Le+zVG5tR0G4Xg8vjONbKOp0O4Wbf97V8USy4HLi9ttIAtFotzRPmQhH4wcnbqRwoQkGiAWIDoaC8wzeOlrLKOCpZXV3VKGh9fZ29hnQ7vThPmoJ83yc6keca81BRP4a0uQHA3uNeN5PF07Zta/UKhYKWQg4AcPfuXc1hiuOYCHWhUNA6+927d3Dr1i2tzsTEhNZ2kiREhHFH9rI0skQ4SRLRANEAMQHgUIjwbiKFHTHM95ZlkZ1OsAZEUUTS08vlMgm0cfGitE5YlgWNRkNru9vtkvVnOLBoGIbWNqcBnNPVDz+gr8G43UY8nAOFAcACW61WtY4yDIMVz/TgwLIsKJVKxDFLA7DbAo10O7376Ee4WShINEBsaBT0LbSEx9iYl/FEDo4fcbrExXm4VJU815M3zjVST5jjd5zfwx2HZ5Jc1yWRzo8fP2oCa5omEXOcl9TbtjJtlUoF6vW6dj3dbpe0g2fJOBHmIsIH9YaH8gbs5y3Bs2R5bzQrXJHnmoYhvqIBIsJiA6GgPH4A1gmOX+v1OuscpQ2nmJimSbY3LpVKmghzFIXT47lzjVyEv6XDcedy0cYsgcvaGQXgy2xXWlBN0ySbfriuqwHOjZSiKCJl+wlPCwWJBogJAD+qCG9vb5OyOI7JTBl2aPKs9+UipseOHdPKOGGMokjbfMm2bRKM8zxPq6OUIs4at9AEXw+nU3n2s5Y3QChITAD4ETSAS083TZNwZ549HxzHIQvgMJ/iWSrOicJ5/NyMXKlU0gJ93JrkMAxJgA7P2nEzYlyfDAwATnC4tHLc2dz6gEqlonUUtwIRdySe/dqtDB+HVztyqSTtdptMW3IPBDezJxQkGiA2FAriNlbl1lJhCsLLf/oVU8m7qiZPHdu2yUQ91qk8yQUDBeD+/fukLAxDrXOVUmSXq06no2UzBEEADx8+1FLGOVDwHtBc53W7XRKMw4E+7hrxA3HlyhU4f/681k6tVtM63HEc8oGgYrFIrvH06dODAYD78hBe8MZ5mb7vawD4vk/C0Xmf1KyFc1yuKhZq7s2pVqvaBt+maZL8okKhQAAolUqSGyoiLDYcDeC2l8frhJVSYFmWVuY4Dkkv4ZyhPKnfnODj1MQwDEnWXRYFWZalOWu9wBt3TbhPhibC3NbCtm0TPuccKpxiiLeeybMAkDO8FY5Sijwo3GJy3JH4S62GYZBRUE/009aP/a6FgkQDBACx70GEOeO83DzWbrc1/uTyN/FnRpIkYTk4fX7HcYh427ZNFunhWTucGs+lL44lAPvNi8TAcQ4U3p4mSRICCk4nMQyD7TicloIByOP0CQWJBoiNmoJaAPA3HHDXxDiObdu2fymXy8U0RXD+A94NixvPp+s4jkOyIvDGftxnrHzffwkA7/vQn/9+6wFD/5DbtWvXyIfcbNsmM1Ce52mdGwQBbG1t7dm267pw5MgRraxcLmttc84aAMw/fvx4JB9y+w9x4x+lvzB4+wAAAABJRU5ErkJggg=="
+          clip-path="url(#clip-17189952)"
+          preserveAspectRatio="xMidYMid slice"
+        />
+        <text x="780" y="984" class="name">Mongaillard Maxime</text>
+        <text x="780" y="1004" class="username">(Saltapton)</text>
+        <text x="780" y="1024" class="words">64 words</text>
+      </a>
+    </g>
+    <g class="contributor">
+      <defs>
+        <clipPath id="clip-17372112">
+          <circle cx="52" cy="1096" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/Cosmicz" target="_blank">
         <title>Iago Rodrigues da Silva (Cosmicz)</title>
         <image 
-          x="748" 
-          y="890" 
+          x="20" 
+          y="1064" 
           width="64" 
           height="64" 
           xlink:href="data:image/jpeg;base64,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"
           clip-path="url(#clip-17372112)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="780" y="984" class="name">Iago Rodrigues da Si...</text>
-        <text x="780" y="1004" class="username">(Cosmicz)</text>
-        <text x="780" y="1024" class="words">55 words</text>
+        <text x="52" y="1158" class="name">Iago Rodrigues da Si...</text>
+        <text x="52" y="1178" class="username">(Cosmicz)</text>
+        <text x="52" y="1198" class="words">55 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-15137726">
-          <circle cx="52" cy="1096" r="32"/>
+          <circle cx="156" cy="1096" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/DX_Xinnado" target="_blank">
         <title>Dianel Xinnado de Xyloland (DX_Xinnado)</title>
         <image 
-          x="20" 
+          x="124" 
           y="1064" 
           width="64" 
           height="64" 
@@ -1112,31 +1134,9 @@
           clip-path="url(#clip-15137726)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="52" y="1158" class="name">Dianel Xinnado de Xy...</text>
-        <text x="52" y="1178" class="username">(DX_Xinnado)</text>
-        <text x="52" y="1198" class="words">51 words</text>
-      </a>
-    </g>
-    <g class="contributor">
-      <defs>
-        <clipPath id="clip-17189952">
-          <circle cx="156" cy="1096" r="32"/>
-        </clipPath>
-      </defs>
-      <a xlink:href="https://crowdin.com/profile/Saltapton" target="_blank">
-        <title>Mongaillard Maxime (Saltapton)</title>
-        <image 
-          x="124" 
-          y="1064" 
-          width="64" 
-          height="64" 
-          xlink:href="data:image/png;base64,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"
-          clip-path="url(#clip-17189952)"
-          preserveAspectRatio="xMidYMid slice"
-        />
-        <text x="156" y="1158" class="name">Mongaillard Maxime</text>
-        <text x="156" y="1178" class="username">(Saltapton)</text>
-        <text x="156" y="1198" class="words">50 words</text>
+        <text x="156" y="1158" class="name">Dianel Xinnado de Xy...</text>
+        <text x="156" y="1178" class="username">(DX_Xinnado)</text>
+        <text x="156" y="1198" class="words">51 words</text>
       </a>
     </g>
     <g class="contributor">

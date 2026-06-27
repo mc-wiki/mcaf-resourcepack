@@ -18,3 +18,5 @@ entity.Arrow.name=Cœur
 death.attack.lightningBolt=%1$s a reçu un coup de foudre
 death.attack.inFire=%1$s est tombé amoureux
 death.attack.inFire.player=%1$s a marché dans le feu en suivant %2$s
+death.attack.onFire=%1$s a eu un chagrin d'amour
+death.attack.onFire.player=%1$s a été carbonisé en suivant %2$s

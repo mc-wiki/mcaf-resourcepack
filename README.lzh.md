@@ -36,7 +36,7 @@
 | `enp`    | 精粹英吉利語        | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 56% | 55% |
 | `es_es`  | 佛朗機語          | Español (España)       | <img src="badges/es_es.png"> | 2% | 0% |
 | `fil_ph` | 呂宋語           | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0% | 0% |
-| `fr_fr`  | 方司語           | Français (France)      | <img src="badges/fr_fr.png"> | 1% | 0% |
+| `fr_fr`  | 方司語           | Français (France)      | <img src="badges/fr_fr.png"> | 2% | 0% |
 | `he_il`  | 協婁語           | עברית (ישראל)          | <img src="badges/he_il.png"> | 43% | 9% |
 | `it_it`  | 有犢語           | Italiano (Italia)      | <img src="badges/it_it.png"> | 0% | 0% |
 | `ja_jp`  | 日本語           | 日本語 (日本)               | <img src="badges/ja_jp.png"> | 100% | 29% |

@@ -41,7 +41,7 @@
 | `enp`    | アングリッシュ     | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 56% | 55% |
 | `es_es`  | ヨーロッパスペイン語  | Español (España)       | <img src="badges/es_es.png"> | 2% | 0% |
 | `fil_ph` | フィリピン語      | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0% | 0% |
-| `fr_fr`  | ヨーロッパフランス語  | Français (France)      | <img src="badges/fr_fr.png"> | 1% | 0% |
+| `fr_fr`  | ヨーロッパフランス語  | Français (France)      | <img src="badges/fr_fr.png"> | 2% | 0% |
 | `he_il`  | ヘブライ語       | עברית (ישראל)          | <img src="badges/he_il.png"> | 43% | 9% |
 | `it_it`  | イタリア語       | Italiano (Italia)      | <img src="badges/it_it.png"> | 0% | 0% |
 | `ja_jp`  | 日本語         | 日本語 (日本)               | <img src="badges/ja_jp.png"> | 100% | 29% |

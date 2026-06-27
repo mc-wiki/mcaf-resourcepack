@@ -27,7 +27,7 @@ Die Übersetzung wird von der Community auf [Crowdin](https://crowdin.com/projec
 | `enp`    | Puristisches Englisch         | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 56% | 55% |
 | `es_es`  | Spanish                       | Español (España)       | <img src="badges/es_es.png"> | 2% | 0% |
 | `fil_ph` | Filipino                      | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0% | 0% |
-| `fr_fr`  | Französisch                   | Français (France)      | <img src="badges/fr_fr.png"> | 1% | 0% |
+| `fr_fr`  | Französisch                   | Français (France)      | <img src="badges/fr_fr.png"> | 2% | 0% |
 | `he_il`  | Hebräisch                     | עברית (ישראל)          | <img src="badges/he_il.png"> | 43% | 9% |
 | `it_it`  | Italienisch                   | Italiano (Italia)      | <img src="badges/it_it.png"> | 0% | 0% |
 | `ja_jp`  | Japanisch                     | 日本語 (日本)               | <img src="badges/ja_jp.png"> | 100% | 29% |
