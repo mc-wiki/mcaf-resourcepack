@@ -1,1 +1,7 @@
-{}
+{
+    "item.minecraft.red_key": "Červený kľúč",
+    "item.minecraft.blue_key": "Modrý kľúč",
+    "item.minecraft.yellow_key": "Žltý kľúč",
+    "item.minecraft.3d": "3D",
+    "ui.next_disk.wrong_contents": "Povedal som ENTER!"
+}

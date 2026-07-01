@@ -1,1 +1,8 @@
-{}
+{
+    "block.minecraft.sky": "Obloha",
+    "block.minecraft.trophy": "Trofej",
+    "entity.minecraft.villager.traitor": "Zradca",
+    "multiplayer.enteringMap.23": "Teraz v 4D!",
+    "multiplayer.enteringMap.37": "Šírenie klebiet...",
+    "room.minecraft.fountain": "Fontána"
+}

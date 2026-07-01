@@ -1,1 +1,15 @@
-{}
+{
+    "block.minecraft.cheese": "Syr",
+    "block.minecraft.packed_air": "Stlačený vzduch",
+    "death.midas.turned_into_gold": "Hráč %1$s sa premenil na číre zlato",
+    "entity.minecraft.moon_cow": "Mesačná krava",
+    "item.minecraft.air_block": "Vzduch",
+    "item.minecraft.ruby": "Rubín",
+    "item.minecraft.m_banner_pattern.desc": "Nová vec",
+    "item.minecraft.moon_cow_spawn_egg": "Vajíčko s mesačnou kravou",
+    "item.minecraft.le_tricolore": "Le Tricolore",
+    "item.minecraft.la_baguette": "La Baguette",
+    "rule.transparent_players": "Režim duchov",
+    "rule.beeloons": "Povoliť včelóny",
+    "rule.french_mode": "Francúzsky režim"
+}

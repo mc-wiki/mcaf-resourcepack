@@ -1,1 +1,27 @@
-{}
+{
+    "advancements.potato.all_potatoed.description": "Navštív všetky zemiakové biómy",
+    "advancements.potato.all_potatoed.title": "Cesto okolo zemiaku za 80 dní",
+    "biome.minecraft.fields": "Polia",
+    "biome.minecraft.hash": "Placka",
+    "block.minecraft.potato_button": "Zemiakové tlačidlo",
+    "block.minecraft.potato_door": "Zemiakové dvere",
+    "block.minecraft.potato_fence": "Zemiakový plot",
+    "block.minecraft.potato_fence_gate": "Zemiaková bránka",
+    "block.minecraft.potato_leaves": "Zemiakové listy",
+    "block.minecraft.potato_planks": "Zemiakové dosky",
+    "block.minecraft.potato_slab": "Zemiakový stupienok",
+    "block.minecraft.potato_stem": "Zemiaková stonka",
+    "block.minecraft.potato_trapdoor": "Zemiakový poklop",
+    "death.attack.potato_heat": "Hráč %1$s držal horúci zemiak príliš dlho",
+    "effect.minecraft.sticky": "Lepkavosť",
+    "item.minecraft.dent": "Zub",
+    "item.minecraft.hash_browns": "Zemiakové placky",
+    "item.minecraft.hot_potato": "Horúci zemiak",
+    "item.minecraft.snektato": "Zemiak",
+    "itemGroup.potatoes": "Zemiaky",
+    "key.potato": "Zemiak",
+    "painting.minecraft.abstractato.title": "Chutnučké tvary",
+    "painting.minecraft.mr_potato.title": "Autoportrét",
+    "painting.minecraft.potatoe.title": "Zemiak",
+    "potato.quest.meta_one.jump.4": "Zemiaky!"
+}

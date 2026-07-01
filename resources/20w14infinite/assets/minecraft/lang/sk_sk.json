@@ -1,1 +1,5 @@
-{}
+{
+    "biome.minecraft.shapes": "Tvary",
+    "biome.minecraft.busy": "Bióm pre hráča bez času na nezmysly",
+    "block.minecraft.cursor": "Kurzor"
+}
