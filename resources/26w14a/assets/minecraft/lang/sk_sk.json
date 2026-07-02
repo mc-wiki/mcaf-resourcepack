@@ -1,4 +1,27 @@
 {
+  "advancements.adventure.craft_sword.description": "Vyrob si meč",
+  "advancements.adventure.crafting_table.description": "Vyrob pracovný stôl",
+  "advancements.adventure.door.description": "Vyrob dvere",
   "block.minecraft.copper_trap": "Medená pasca",
-  "block.minecraft.iron_trap": "Železná pasca"
+  "block.minecraft.exposed_copper_trap": "Zájdená medená pasca",
+  "block.minecraft.iron_trap": "Železná pasca",
+  "block.minecraft.oxidized_copper_trap": "Skorodovaná medená pasca",
+  "block.minecraft.waxed_copper_trap": "Navoskovaná medená pasca",
+  "block.minecraft.waxed_exposed_copper_trap": "Navoskovaná zájdená medená pasca",
+  "block.minecraft.waxed_oxidized_copper_trap": "Navoskovaná skorodovaná medená pasca",
+  "block.minecraft.waxed_weathered_copper_trap": "Navoskovaná zelenkavá medená pasca",
+  "block.minecraft.weathered_copper_trap": "Zelenkavá medená pasca",
+  "entity.minecraft.living_block": "Živá kocka",
+  "item.minecraft.crafting_action": "Vyrobiť",
+  "item.minecraft.follow_action": "Nasleduj ma",
+  "item.minecraft.highlight_action": "Zvýrazniť",
+  "item.minecraft.select_action": "Vybrať",
+  "item.minecraft.select_group_action.details": "Vybraná skupina: %s",
+  "living_blocks.group.all": "Všetky",
+  "living_blocks.group.blue": "Modrá",
+  "living_blocks.group.lime": "Svetlozelená",
+  "living_blocks.group.none": "Žiadna",
+  "living_blocks.group.purple": "Fialová",
+  "living_blocks.group.red": "Červená",
+  "living_blocks.group.yellow": "Žltá"
 }
