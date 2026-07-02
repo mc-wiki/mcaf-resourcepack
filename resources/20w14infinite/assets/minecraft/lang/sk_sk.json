@@ -1,5 +1,10 @@
 {
     "biome.minecraft.shapes": "Tvary",
     "biome.minecraft.busy": "Bióm pre hráča bez času na nezmysly",
-    "block.minecraft.cursor": "Kurzor"
+    "block.minecraft.cursor": "Kurzor",
+    "item.minecraft.footprint": "Stopa",
+    "stat.minecraft.change_dimension": "Zmenených dimenzií",
+    "subtitles.block.end_portal.spawn": "Otvorenie portálu do Endu!",
+    "subtitles.entity.horse.land": "Dopadnutie koňa",
+    "advancements.adventure.bullseye.description": "Zasiahni stred terča pomocou šípu"
 }
