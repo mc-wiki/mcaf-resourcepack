@@ -349,36 +349,14 @@
     </g>
     <g class="contributor">
       <defs>
-        <clipPath id="clip-15169954">
-          <circle cx="676" cy="226" r="32"/>
-        </clipPath>
-      </defs>
-      <a xlink:href="https://crowdin.com/profile/magiczocker" target="_blank">
-        <title>Jan (magiczocker)</title>
-        <image 
-          x="644" 
-          y="194" 
-          width="64" 
-          height="64" 
-          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB+klEQVR42u3dP08TYQDH8d9z12t7tlpqyoAhBFJtHGwawkZ8AU6ddGN09gX4PnwJsrA6GQYWHJrYQU2aQAjlT4BAQW17LaV/zoEB6uDUFJ76/W53ueGe++R5Ljc8OfP63ftQdGc5PAIAACAAACAAACAAACAAACAAACAAACAAACAAACAAACAAACAAAKDRFpmEQaQeJvX2TVER15UkBe1Lffi4pjAEYCx5EVfzT2bkedfDqTcDSUbS/RdgCQIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAgPuT+ftECMDYBmEcOc7NUPr9gRXbkyYGIJnw5d4CaAQBS9A4y87NDh0f184BGFd+LKblxfzQue3qgTX3b/UuyYQf10rxlWamM7eWn5a+b+0AMMoKz5/p5VJBx2c1NYKWHGOUeZzWi6cLSqceDV27USrrd6MJwCiLR6PK57LK57L/vK6yU9X6l5JVs3giNmoPwlBff1S0+umzOlddAEbd6cVP7R2dKJOekh+Lyhijq25X9WZLu4dH2ix/03Z1X4PQvv8RGVv+ohRxXSUf+Ip6nmSMer2e2pcdtTsdq2evNUtQr9/XL4terv/VhxgABAAABAAABAAABAAABAAABAAABAAABAAABAAABAAABAAANNQfXl1pzg2D8bMAAAAASUVORK5CYII="
-          clip-path="url(#clip-15169954)"
-          preserveAspectRatio="xMidYMid slice"
-        />
-        <text x="676" y="288" class="name">Jan</text>
-        <text x="676" y="308" class="username">(magiczocker)</text>
-        <text x="676" y="328" class="words">847 words</text>
-      </a>
-    </g>
-    <g class="contributor">
-      <defs>
         <clipPath id="clip-16434773">
-          <circle cx="780" cy="226" r="32"/>
+          <circle cx="676" cy="226" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/cbacab515" target="_blank">
         <title>Cba Cab (cbacab515)</title>
         <image 
-          x="748" 
+          x="644" 
           y="194" 
           width="64" 
           height="64" 
@@ -386,9 +364,31 @@
           clip-path="url(#clip-16434773)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="780" y="288" class="name">Cba Cab</text>
-        <text x="780" y="308" class="username">(cbacab515)</text>
-        <text x="780" y="328" class="words">775 words</text>
+        <text x="676" y="288" class="name">Cba Cab</text>
+        <text x="676" y="308" class="username">(cbacab515)</text>
+        <text x="676" y="328" class="words">868 words</text>
+      </a>
+    </g>
+    <g class="contributor">
+      <defs>
+        <clipPath id="clip-15169954">
+          <circle cx="780" cy="226" r="32"/>
+        </clipPath>
+      </defs>
+      <a xlink:href="https://crowdin.com/profile/magiczocker" target="_blank">
+        <title>Jan (magiczocker)</title>
+        <image 
+          x="748" 
+          y="194" 
+          width="64" 
+          height="64" 
+          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB+klEQVR42u3dP08TYQDH8d9z12t7tlpqyoAhBFJtHGwawkZ8AU6ddGN09gX4PnwJsrA6GQYWHJrYQU2aQAjlT4BAQW17LaV/zoEB6uDUFJ76/W53ueGe++R5Ljc8OfP63ftQdGc5PAIAACAAACAAACAAACAAACAAACAAACAAACAAACAAACAAACAAAKDRFpmEQaQeJvX2TVER15UkBe1Lffi4pjAEYCx5EVfzT2bkedfDqTcDSUbS/RdgCQIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAgPuT+ftECMDYBmEcOc7NUPr9gRXbkyYGIJnw5d4CaAQBS9A4y87NDh0f184BGFd+LKblxfzQue3qgTX3b/UuyYQf10rxlWamM7eWn5a+b+0AMMoKz5/p5VJBx2c1NYKWHGOUeZzWi6cLSqceDV27USrrd6MJwCiLR6PK57LK57L/vK6yU9X6l5JVs3giNmoPwlBff1S0+umzOlddAEbd6cVP7R2dKJOekh+Lyhijq25X9WZLu4dH2ix/03Z1X4PQvv8RGVv+ohRxXSUf+Ip6nmSMer2e2pcdtTsdq2evNUtQr9/XL4terv/VhxgABAAABAAABAAABAAABAAABAAABAAABAAABAAABAAABAAANNQfXl1pzg2D8bMAAAAASUVORK5CYII="
+          clip-path="url(#clip-15169954)"
+          preserveAspectRatio="xMidYMid slice"
+        />
+        <text x="780" y="288" class="name">Jan</text>
+        <text x="780" y="308" class="username">(magiczocker)</text>
+        <text x="780" y="328" class="words">847 words</text>
       </a>
     </g>
     <g class="contributor">

@@ -15,6 +15,7 @@
   "item.minecraft.crafting_action": "Vyrobiť",
   "item.minecraft.follow_action": "Nasleduj ma",
   "item.minecraft.highlight_action": "Zvýrazniť",
+  "item.minecraft.move_action": "Presunúť",
   "item.minecraft.select_action": "Vybrať",
   "item.minecraft.select_group_action.details": "Vybraná skupina: %s",
   "living_blocks.group.all": "Všetky",
