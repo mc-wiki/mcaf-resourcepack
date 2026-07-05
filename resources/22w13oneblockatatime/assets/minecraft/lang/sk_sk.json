@@ -1,3 +1,20 @@
 {
+    "createWorld.customize.preset.classic_flat": "Klasický plochý",
+    "createWorld.customize.preset.tunnelers_dream": "Tunelárov sen",
+    "createWorld.customize.preset.water_world": "Vodný svet",
+    "createWorld.customize.preset.overworld": "Obyčajný svet",
+    "createWorld.customize.preset.snowy_kingdom": "Zasnežené kráľovstvo",
+    "createWorld.customize.preset.bottomless_pit": "Bezodná jama",
+    "createWorld.customize.preset.desert": "Púšť",
+    "createWorld.customize.preset.redstone_ready": "Pripravené na redstone",
+    "createWorld.customize.preset.the_void": "Prázdno",
+    "generator.default": "Normálny",
+    "generator.flat": "Superplochý",
+    "generator.large_biomes": "Veľké biómy",
+    "generator.amplified": "Zosilnený",
+    "generator.debug_all_block_states": "Režim ladenia",
+    "generator.amplified.info": "Upozornenie: Iba pre zábavu, vyžaduje výkonný počítač.",
+    "generator.single_biome_surface": "Jediný bióm",
+    "debug.cycle_renderdistance.message": "Dohľadnosť: %s",
     "advancements.end.ride_dragon.description": "Veľmi veľa šťastia"
 }
