@@ -40,7 +40,7 @@
 | `he_il`  | 協婁語           | עברית (ישראל)          | <img src="badges/he_il.png"> | 43% | 9% |
 | `it_it`  | 有犢語           | Italiano (Italia)      | <img src="badges/it_it.png"> | 0% | 0% |
 | `ja_jp`  | 日本語           | 日本語 (日本)               | <img src="badges/ja_jp.png"> | 100% | 29% |
-| `ko_kr`  | 朝鮮語           | 한국어 (대한민국)             | <img src="badges/ko_kr.png"> | 83% | 10% |
+| `ko_kr`  | 朝鮮語           | 한국어 (대한민국)             | <img src="badges/ko_kr.png"> | 83% | 11% |
 | `lzh`    | 文言            | 文言 (華夏)                | <img src="badges/lzh.png"> | 100% | 62% |
 | `nl_nl`  | 卑蘭語           | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 2% | 0% |
 | `pt_br`  | <u>枋林</u>埠吐噶語 | Português (Brasil)     | <img src="badges/pt_br.png"> | 8% | 5% |
