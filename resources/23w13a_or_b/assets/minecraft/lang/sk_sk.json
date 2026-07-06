@@ -1,6 +1,8 @@
 {
     "attribute.name.generic.scale": "Mierka entity",
     "biome.minecraft.the_moon": "Mesiac",
+    "block.minecraft.place_block": "Pokladacia kocka",
+    "block.minecraft.bed.no_sleep_v2": "Spať môžeš iba cez deň alebo počas búrok",
     "block.minecraft.cheese": "Syr",
     "block.minecraft.chest.lab": "Vybavenie mesačného laboratória",
     "block.minecraft.packed_air": "Stlačený vzduch",
@@ -25,6 +27,7 @@
     "rule.natural_spawn_disable": "%s sa nikdy nezrodí",
     "rule.invisible_armor": "Urobiť brnenie neviditeľným",
     "rule.change_world_shape": "Zmeniť tvar sveta",
+    "rule.codepoint_replace": "Nahradiť znak '%s' za '%s'",
     "rule.replace_sound": "Nahradiť zvuk %s za %s",
     "rule.text_style.obfuscated": "Zmeniť znak '%s' na zhluk pixelov",
     "rule.text_style.strikethrough": "Prečiarknuť znak '%s'",
@@ -32,7 +35,11 @@
     "rule.text_style.italic": "Zošikmiť znak '%s'",
     "rule.text_style.sga": "Zmeniť znak '%s' na niečo čarovné",
     "rule.endermen_block_update": "Naučiť endermanov k slušnému pokladaniu kociek",
+    "rule.replace_loot_drop": "Nahradiť tabuľku obsahu %s za %s",
     "rule.transparent_players": "Režim duchov",
+    "rule.fire_sponge": "Špongie môžu byť použité na odstránenie lávy",
+    "rule.drink_air": "Fľaša prázdnoty: získaná vypitím prázdnej fľaše. Môže mať vedľajšie účinky.",
+    "rule.dead_bush_renewability": "Suché kríky sú teraz obnoviteľné, ale sadenice budú potrebovať viac vody, aby nevyschli",
     "rule.day_beds": "Postele preskočia deň namiesto noci",
     "rule.rubies": "Nahradiť smaragdy za rubíny (a to je všetko - sme príliš lenivý na to, aby sme to spravili poriadne)",
     "rule.ultra_realistic_mode": "Ultra realistický režim",
@@ -45,5 +52,6 @@
     "rule.french_mode": "Francúzsky režim",
     "vote.no_change": "Žiadna zmena",
     "vote.voter": "    %s: %s",
-    "vote.cost.health": "Zdravie"
+    "vote.cost.health": "Zdravie",
+    "vote.show_current_rules": "Zobraziť schválené návrhy"
 }
