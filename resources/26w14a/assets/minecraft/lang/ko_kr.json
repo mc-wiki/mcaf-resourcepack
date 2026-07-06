@@ -52,7 +52,7 @@
   "block.minecraft.waxed_oxidized_copper_trap": "밀랍칠한 산화된 구리 덫",
   "block.minecraft.waxed_weathered_copper_trap": "밀랍칠한 녹슨 구리 덫",
   "block.minecraft.weathered_copper_trap": "녹슨 구리 덫",
-  "crafting.table.unable_to_place": "제작 그리드는 2x2 블록 너비의 표면이 필요합니다",
+  "crafting.table.unable_to_place": "제작 그리드는 2x2 블록 너비의 평면이 필요합니다",
   "entity.minecraft.crafting_action": "제작",
   "entity.minecraft.crafting_grid": "제작 그리드",
   "entity.minecraft.follow_action": "따라와",
