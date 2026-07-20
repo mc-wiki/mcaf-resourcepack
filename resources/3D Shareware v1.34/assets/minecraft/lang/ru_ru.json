@@ -1,11 +1,11 @@
 {
     "menu.select_episode": "Выберите эпизод",
-    "menu.modem_play": "Играть по модему",
+    "menu.modem_play": "ИграПоМодему™",
     "menu.modem_played1": "Бип боп",
     "menu.modem_played2": "Nej!",
-    "demo.help.nag1": "Пожалуйста, войдите в игру,",
+    "demo.help.nag1": "Пожалуйста, зарегистрируйте эту игру,",
     "demo.help.nag2": "чтобы получить доступ ко всем эпизодам",
-    "demo.help.nag3": "и оружиям!",
+    "demo.help.nag3": "и всему оружию!",
     "demo.help.title": "MineCraft Shareware",
     "demo.help.buy": "Открыть форму регистрации",
     "key.boss_mode": "Режим босса",
@@ -15,12 +15,12 @@
     "item.minecraft.blue_key": "Синий ключ",
     "item.minecraft.yellow_key": "Жёлтый ключ",
     "item.minecraft.3d": "3D",
-    "item.key.tooltip": "Открывает %s дверь",
+    "item.key.tooltip": "Открывает %s(-е) двери",
     "death.attack.nightmare": "%1$s был слишком нежным для этого мира",
     "death.attack.nightmare.player": "%1$s был слишком нежным для этого мира (%2$s помог)",
     "ui.next_disk.title": "Требуется следующий диск",
-    "ui.next_disk.contents": "Вставьте диск %s в дисковод А и нажмите ВВОД",
-    "ui.next_disk.wrong_contents": "Я сказал ЗАХОДИ!",
+    "ui.next_disk.contents": "Вставьте диск %s в дисковод A и нажмите ВВОД",
+    "ui.next_disk.wrong_contents": "Я сказал ВВОД!",
     "feedback.line1": "Предложения? Баги? Похвала? Пришлите нам весточку!",
-    "feedback.line2": "Наш адрес: Mojang AB, Söder Mälarstrand 43, 118 25 Стокгольм, Швеция"
+    "feedback.line2": "Наш адрес: Mojang AB, Сёдер Маларстранд 43, 118 25 Стокгольм, Швеция"
 }

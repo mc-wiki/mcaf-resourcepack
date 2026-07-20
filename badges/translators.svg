@@ -289,14 +289,36 @@
     </g>
     <g class="contributor">
       <defs>
-        <clipPath id="clip-15045357">
+        <clipPath id="clip-15967079">
           <circle cx="364" cy="226" r="32"/>
+        </clipPath>
+      </defs>
+      <a xlink:href="https://crowdin.com/profile/igrobzik" target="_blank">
+        <title>Igrobzik (igrobzik)</title>
+        <image 
+          x="332" 
+          y="194" 
+          width="64" 
+          height="64" 
+          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABG0lEQVR4nO3doQoCQRhG0d3BR9NgFS1m0ey7y1bNYrMcVu+Jf/rgMnnm3fnynMIMPeDfFQArAFYArABYAbACYAXACoAVACsAVgCsAFgBsAJgBcAKgBUAKwBWAKwAWAGwAmAFwAqAFQArAFYArADYRg/4xmG/na7n09vtsSzT8XZHi763ygBjHtMY4+O2Rutc/UMKgBUAKwBWAKwAWAGwAmAFwAqAFQArAFYArABYAbACYAXACoAVACsAVgCsAFgBsAJgBcAKgBUAKwBWAKwAWAGwAmAFwAqAFQCb+8LE6gVgBcAKgBUAKwBWAKwAWAGwAmAFwAqAFQArAFYArABYAbACYAXACoAVACsAVgCsAFgBsAJgBcAKgBUAewGzGwrXxl6PvQAAAABJRU5ErkJggg=="
+          clip-path="url(#clip-15967079)"
+          preserveAspectRatio="xMidYMid slice"
+        />
+        <text x="364" y="288" class="name">Igrobzik</text>
+        <text x="364" y="308" class="username">(igrobzik)</text>
+        <text x="364" y="328" class="words">1,836 words</text>
+      </a>
+    </g>
+    <g class="contributor">
+      <defs>
+        <clipPath id="clip-15045357">
+          <circle cx="468" cy="226" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/Nervie" target="_blank">
         <title>Nervie</title>
         <image 
-          x="332" 
+          x="436" 
           y="194" 
           width="64" 
           height="64" 
@@ -304,21 +326,21 @@
           clip-path="url(#clip-15045357)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="364" y="288" class="name">Nervie</text>
-        <text x="364" y="308" class="username"></text>
-        <text x="364" y="328" class="words">1,618 words</text>
+        <text x="468" y="288" class="name">Nervie</text>
+        <text x="468" y="308" class="username"></text>
+        <text x="468" y="328" class="words">1,618 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-15434450">
-          <circle cx="468" cy="226" r="32"/>
+          <circle cx="572" cy="226" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/notlin4" target="_blank">
         <title>notlin4</title>
         <image 
-          x="436" 
+          x="540" 
           y="194" 
           width="64" 
           height="64" 
@@ -326,21 +348,21 @@
           clip-path="url(#clip-15434450)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="468" y="288" class="name">notlin4</text>
-        <text x="468" y="308" class="username"></text>
-        <text x="468" y="328" class="words">1,602 words</text>
+        <text x="572" y="288" class="name">notlin4</text>
+        <text x="572" y="308" class="username"></text>
+        <text x="572" y="328" class="words">1,602 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-16434773">
-          <circle cx="572" cy="226" r="32"/>
+          <circle cx="676" cy="226" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/cbacab515" target="_blank">
         <title>Cba Cab (cbacab515)</title>
         <image 
-          x="540" 
+          x="644" 
           y="194" 
           width="64" 
           height="64" 
@@ -348,21 +370,21 @@
           clip-path="url(#clip-16434773)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="572" y="288" class="name">Cba Cab</text>
-        <text x="572" y="308" class="username">(cbacab515)</text>
-        <text x="572" y="328" class="words">1,132 words</text>
+        <text x="676" y="288" class="name">Cba Cab</text>
+        <text x="676" y="308" class="username">(cbacab515)</text>
+        <text x="676" y="328" class="words">1,132 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-16530311">
-          <circle cx="676" cy="226" r="32"/>
+          <circle cx="780" cy="226" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/BoredYukolin" target="_blank">
         <title>BoredYukolin</title>
         <image 
-          x="644" 
+          x="748" 
           y="194" 
           width="64" 
           height="64" 
@@ -370,43 +392,43 @@
           clip-path="url(#clip-16530311)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="676" y="288" class="name">BoredYukolin</text>
-        <text x="676" y="308" class="username"></text>
-        <text x="676" y="328" class="words">1,131 words</text>
+        <text x="780" y="288" class="name">BoredYukolin</text>
+        <text x="780" y="308" class="username"></text>
+        <text x="780" y="328" class="words">1,131 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-15169954">
-          <circle cx="780" cy="226" r="32"/>
+          <circle cx="52" cy="400" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/magiczocker" target="_blank">
         <title>Jan (magiczocker)</title>
         <image 
-          x="748" 
-          y="194" 
+          x="20" 
+          y="368" 
           width="64" 
           height="64" 
           xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB+klEQVR42u3dP08TYQDH8d9z12t7tlpqyoAhBFJtHGwawkZ8AU6ddGN09gX4PnwJsrA6GQYWHJrYQU2aQAjlT4BAQW17LaV/zoEB6uDUFJ76/W53ueGe++R5Ljc8OfP63ftQdGc5PAIAACAAACAAACAAACAAACAAACAAACAAACAAACAAACAAACAAAKDRFpmEQaQeJvX2TVER15UkBe1Lffi4pjAEYCx5EVfzT2bkedfDqTcDSUbS/RdgCQIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAgPuT+ftECMDYBmEcOc7NUPr9gRXbkyYGIJnw5d4CaAQBS9A4y87NDh0f184BGFd+LKblxfzQue3qgTX3b/UuyYQf10rxlWamM7eWn5a+b+0AMMoKz5/p5VJBx2c1NYKWHGOUeZzWi6cLSqceDV27USrrd6MJwCiLR6PK57LK57L/vK6yU9X6l5JVs3giNmoPwlBff1S0+umzOlddAEbd6cVP7R2dKJOekh+Lyhijq25X9WZLu4dH2ix/03Z1X4PQvv8RGVv+ohRxXSUf+Ip6nmSMer2e2pcdtTsdq2evNUtQr9/XL4terv/VhxgABAAABAAABAAABAAABAAABAAABAAABAAABAAABAAABAAANNQfXl1pzg2D8bMAAAAASUVORK5CYII="
           clip-path="url(#clip-15169954)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="780" y="288" class="name">Jan</text>
-        <text x="780" y="308" class="username">(magiczocker)</text>
-        <text x="780" y="328" class="words">847 words</text>
+        <text x="52" y="462" class="name">Jan</text>
+        <text x="52" y="482" class="username">(magiczocker)</text>
+        <text x="52" y="502" class="words">847 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-15939191">
-          <circle cx="52" cy="400" r="32"/>
+          <circle cx="156" cy="400" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/Wourning_Mood" target="_blank">
         <title>Wourning_Mood</title>
         <image 
-          x="20" 
+          x="124" 
           y="368" 
           width="64" 
           height="64" 
@@ -414,21 +436,21 @@
           clip-path="url(#clip-15939191)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="52" y="462" class="name">Wourning_Mood</text>
-        <text x="52" y="482" class="username"></text>
-        <text x="52" y="502" class="words">768 words</text>
+        <text x="156" y="462" class="name">Wourning_Mood</text>
+        <text x="156" y="482" class="username"></text>
+        <text x="156" y="502" class="words">768 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-16351730">
-          <circle cx="156" cy="400" r="32"/>
+          <circle cx="260" cy="400" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/BIrDIS" target="_blank">
         <title>BIrDIS</title>
         <image 
-          x="124" 
+          x="228" 
           y="368" 
           width="64" 
           height="64" 
@@ -436,21 +458,21 @@
           clip-path="url(#clip-16351730)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="156" y="462" class="name">BIrDIS</text>
-        <text x="156" y="482" class="username"></text>
-        <text x="156" y="502" class="words">714 words</text>
+        <text x="260" y="462" class="name">BIrDIS</text>
+        <text x="260" y="482" class="username"></text>
+        <text x="260" y="502" class="words">714 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-13727205">
-          <circle cx="260" cy="400" r="32"/>
+          <circle cx="364" cy="400" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/delycache" target="_blank">
         <title>Yannik Dumon (delycache)</title>
         <image 
-          x="228" 
+          x="332" 
           y="368" 
           width="64" 
           height="64" 
@@ -458,21 +480,21 @@
           clip-path="url(#clip-13727205)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="260" y="462" class="name">Yannik Dumon</text>
-        <text x="260" y="482" class="username">(delycache)</text>
-        <text x="260" y="502" class="words">641 words</text>
+        <text x="364" y="462" class="name">Yannik Dumon</text>
+        <text x="364" y="482" class="username">(delycache)</text>
+        <text x="364" y="502" class="words">641 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-17364318">
-          <circle cx="364" cy="400" r="32"/>
+          <circle cx="468" cy="400" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/Dieguinho_Fox" target="_blank">
         <title>Dieguinho_Fox</title>
         <image 
-          x="332" 
+          x="436" 
           y="368" 
           width="64" 
           height="64" 
@@ -480,21 +502,21 @@
           clip-path="url(#clip-17364318)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="364" y="462" class="name">Dieguinho_Fox</text>
-        <text x="364" y="482" class="username"></text>
-        <text x="364" y="502" class="words">438 words</text>
+        <text x="468" y="462" class="name">Dieguinho_Fox</text>
+        <text x="468" y="482" class="username"></text>
+        <text x="468" y="502" class="words">438 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-15867715">
-          <circle cx="468" cy="400" r="32"/>
+          <circle cx="572" cy="400" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/LiteraDev" target="_blank">
         <title>LiteraDev</title>
         <image 
-          x="436" 
+          x="540" 
           y="368" 
           width="64" 
           height="64" 
@@ -502,21 +524,21 @@
           clip-path="url(#clip-15867715)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="468" y="462" class="name">LiteraDev</text>
-        <text x="468" y="482" class="username"></text>
-        <text x="468" y="502" class="words">882 words</text>
+        <text x="572" y="462" class="name">LiteraDev</text>
+        <text x="572" y="482" class="username"></text>
+        <text x="572" y="502" class="words">882 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-16372750">
-          <circle cx="572" cy="400" r="32"/>
+          <circle cx="676" cy="400" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/PrimCargo693208" target="_blank">
         <title>PrimCargo693208</title>
         <image 
-          x="540" 
+          x="644" 
           y="368" 
           width="64" 
           height="64" 
@@ -524,31 +546,9 @@
           clip-path="url(#clip-16372750)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="572" y="462" class="name">PrimCargo693208</text>
-        <text x="572" y="482" class="username"></text>
-        <text x="572" y="502" class="words">367 words</text>
-      </a>
-    </g>
-    <g class="contributor">
-      <defs>
-        <clipPath id="clip-15967079">
-          <circle cx="676" cy="400" r="32"/>
-        </clipPath>
-      </defs>
-      <a xlink:href="https://crowdin.com/profile/igrobzik" target="_blank">
-        <title>Igrobzik (igrobzik)</title>
-        <image 
-          x="644" 
-          y="368" 
-          width="64" 
-          height="64" 
-          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABG0lEQVR4nO3doQoCQRhG0d3BR9NgFS1m0ey7y1bNYrMcVu+Jf/rgMnnm3fnynMIMPeDfFQArAFYArABYAbACYAXACoAVACsAVgCsAFgBsAJgBcAKgBUAKwBWAKwAWAGwAmAFwAqAFQArAFYArADYRg/4xmG/na7n09vtsSzT8XZHi763ygBjHtMY4+O2Rutc/UMKgBUAKwBWAKwAWAGwAmAFwAqAFQArAFYArABYAbACYAXACoAVACsAVgCsAFgBsAJgBcAKgBUAKwBWAKwAWAGwAmAFwAqAFQCb+8LE6gVgBcAKgBUAKwBWAKwAWAGwAmAFwAqAFQArAFYArABYAbACYAXACoAVACsAVgCsAFgBsAJgBcAKgBUAewGzGwrXxl6PvQAAAABJRU5ErkJggg=="
-          clip-path="url(#clip-15967079)"
-          preserveAspectRatio="xMidYMid slice"
-        />
-        <text x="676" y="462" class="name">Igrobzik</text>
-        <text x="676" y="482" class="username">(igrobzik)</text>
-        <text x="676" y="502" class="words">362 words</text>
+        <text x="676" y="462" class="name">PrimCargo693208</text>
+        <text x="676" y="482" class="username"></text>
+        <text x="676" y="502" class="words">367 words</text>
       </a>
     </g>
     <g class="contributor">
