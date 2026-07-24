@@ -21,6 +21,9 @@
     "item.minecraft.m_banner_pattern.desc": "Nová vec",
     "item.minecraft.moon_cow_spawn_egg": "Vajíčko s mesačnou kravou",
     "item.minecraft.dupe_hack": "minecraft:dupe_hack",
+    "item.minecraft.tag": "Tag",
+    "item.minecraft.compound_tag": "Compound",
+    "item.minecraft.bit": "Bit",
     "item.minecraft.le_tricolore": "Le Tricolore",
     "item.minecraft.la_baguette": "La Baguette",
     "rule.nothing": "Neurobiť nič",
@@ -34,6 +37,8 @@
     "rule.footprint.0": "Stopy? Aké stopy?",
     "rule.invisible_armor": "Urobiť brnenie neviditeľným",
     "rule.change_world_shape": "Zmeniť tvar sveta",
+    "rule.dinnerbonize": "Dinnerbonizovať entitu %s",
+    "rule.grummize": "Grummizovať entitu %s",
     "rule.codepoint_replace": "Nahradiť znak '%s' za '%s'",
     "rule.keep_friends_close": "Buď bližšie k svojim priateľom",
     "rule.replace_sound": "Nahradiť zvuk %s za %s",
@@ -62,5 +67,6 @@
     "vote.no_change": "Žiadna zmena",
     "vote.voter": "    %s: %s",
     "vote.cost.health": "Zdravie",
-    "vote.show_current_rules": "Zobraziť schválené návrhy"
+    "vote.show_current_rules": "Zobraziť schválené návrhy",
+    "tooltip.more_like_cooltip": "Obrazovka dlhého popisu"
 }
