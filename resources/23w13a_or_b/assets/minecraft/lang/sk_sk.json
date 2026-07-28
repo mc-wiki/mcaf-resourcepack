@@ -49,6 +49,7 @@
     "rule.text_style.sga": "Zmeniť znak '%s' na niečo čarovné",
     "rule.endermen_block_update": "Naučiť endermanov k slušnému pokladaniu kociek",
     "rule.replace_loot_drop": "Nahradiť tabuľku obsahu %s za %s",
+    "rule.food_restriction.inedible.cake": "Lož",
     "rule.transparent_players": "Režim duchov",
     "rule.fire_sponge": "Špongie môžu byť použité na odstránenie lávy",
     "rule.drink_air": "Fľaša prázdnoty: získaná vypitím prázdnej fľaše. Môže mať vedľajšie účinky.",
