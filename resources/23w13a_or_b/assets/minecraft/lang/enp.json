@@ -206,6 +206,7 @@
     "rule.text_style.illager": "Send '%s' to dungs",
     "rule.give_items": "Give every online player %s of %s",
     "rule.tnt_tennis": "Fired Blastle can be knocked back",
+    "rule.random_tnt_fuse": "Blastle match timer is hapsome",
     "rule.prevent_floating_trees": "Forestall floating trees",
     "rule.exploding_phantoms": "Shinelocks blast when rined",
     "rule.undead_players": "Players are Undead",
