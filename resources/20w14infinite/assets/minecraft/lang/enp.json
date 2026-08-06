@@ -7,13 +7,16 @@
     "block.minecraft.cursor": "Runner",
     "block.minecraft.ant": "An Ant",
     "block.minecraft.zone": "Leftover",
-    "block.minecraft.neither_portal": "Cool Ingang",
+    "block.minecraft.neither_portal": "Cool Gateway",
     "block.minecraft.netherite_stairs": "Swaggiest stairs ever",
     "block.minecraft.book_box": "Box of Endless Books",
     "item.minecraft.footprint": "Footspoor",
     "item.minecraft.fine_item": "An Althersmicker Thing",
     "stat.minecraft.change_dimension": "Farsteads wends",
-    "subtitles.block.end_portal.spawn": "End Ingang opens!",
+    "subtitles.block.end_portal.spawn": "End Gateway opens!",
     "subtitles.entity.horse.land": "Horse lands",
-    "advancements.adventure.bullseye.description": "Hit the bullseye of a Markle with an arrow"
+    "advancements.adventure.bullseye.description": "Hit the bullseye of a Markle with an arrow",
+    "commands.spawnpoint.success.single": "Set starting ord to %s, %s, %s in %s for %s",
+    "commands.spawnpoint.success.multiple": "Set starting ord to %s, %s, %s in %s for %s players",
+    "commands.setworldspawn.success": "Set the world starting ord to %s, %s, %s"
 }

@@ -10,6 +10,7 @@
     "createWorld.customize.preset.the_void": "The Emptiness",
     "generator.default": "Stock",
     "generator.flat": "Altherflat",
+    "generator.large_biomes": "Great Lifeheaps",
     "generator.amplified": "OVERDONE",
     "generator.debug_all_block_states": "Unbugwise",
     "generator.amplified.info": "Heads up: Only for fun! Needs a fleshy reckoner.",
