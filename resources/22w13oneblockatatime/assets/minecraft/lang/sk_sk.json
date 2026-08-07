@@ -16,5 +16,6 @@
     "generator.amplified.info": "Upozornenie: Iba pre zábavu, vyžaduje výkonný počítač.",
     "generator.single_biome_surface": "Jediný bióm",
     "debug.cycle_renderdistance.message": "Dohľadnosť: %s",
-    "advancements.end.ride_dragon.description": "Veľmi veľa šťastia"
+    "advancements.end.ride_dragon.description": "Veľmi veľa šťastia",
+    "gamemode.gamemodeNotFound": "Neznámy herný režim: %s"
 }
