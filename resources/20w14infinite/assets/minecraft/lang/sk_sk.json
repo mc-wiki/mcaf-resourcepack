@@ -1,7 +1,9 @@
 {
+    "biome.minecraft.between": "Medzi",
     "biome.minecraft.shapes": "Tvary",
     "biome.minecraft.busy": "Bióm pre hráča bez času na nezmysly",
     "block.minecraft.cursor": "Kurzor",
+    "block.minecraft.ant": "Mravec",
     "item.minecraft.footprint": "Stopa",
     "stat.minecraft.change_dimension": "Zmenených dimenzií",
     "subtitles.block.end_portal.spawn": "Otvorenie portálu do Endu!",
