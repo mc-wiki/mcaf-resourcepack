@@ -210,7 +210,7 @@
     "vote.option_won.no_effect": "選項 #%s 「%s」勝出，但無效果",
     "vote.option_display": "%s. %s",
     "vote.cost_diplay": "%2$s 个 %1$s",
-    "vote.count_per_option.no_limit": "%s 人為此選項投票",
+    "vote.count_per_option.no_limit": "有 %s 票投給此選項",
     "vote.cost": "花費：",
     "vote.cost.health": "生命值",
     "vote.voted": "⯪ 我投票了！ ⯫",
