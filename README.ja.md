@@ -38,7 +38,7 @@
 |----------|-------------|------------------------|-------------------------------|-----:|-----:|
 | `de_de`  | ドイツ語        | Deutsch (Deutschland)  | <img src="badges/de_de.png"> | 18% | 0% |
 | `en_ud`  | 上下逆さま英語     | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png"> | 100% | 100% |
-| `enp`    | アングリッシュ     | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 67% | 67% |
+| `enp`    | アングリッシュ     | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 68% | 68% |
 | `es_es`  | ヨーロッパスペイン語  | Español (España)       | <img src="badges/es_es.png"> | 2% | 0% |
 | `fil_ph` | フィリピン語      | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0% | 0% |
 | `fr_fr`  | ヨーロッパフランス語  | Français (France)      | <img src="badges/fr_fr.png"> | 2% | 0% |
@@ -54,7 +54,7 @@
 | `th_th`  | タイ語         | ไทย (ประเทศไทย)        | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua`  | ウクライナ語      | Українська (Україна)   | <img src="badges/uk_ua.png"> | 0% | 0% |
 | `zh_cn`  | 簡体字中国語      | 简体中文 (中国大陆)            | <img src="badges/zh_cn.png"> | 100% | 99% |
-| `zh_hk`  | 繁体字中国語（香港）  | 繁體中文 (香港特別行政區)         | <img src="badges/zh_hk.png"> | 78% | 77% |
+| `zh_hk`  | 繁体字中国語（香港）  | 繁體中文 (香港特別行政區)         | <img src="badges/zh_hk.png"> | 78% | 78% |
 | `zh_tw`  | 繁体字中国語（台湾）  | 繁體中文 (台灣)              | <img src="badges/zh_tw.png"> | 68% | 3% |
 
 <!--You can request adding a new language [by creating an issue on GitHub](https://github.com/mc-wiki/mcaf-resourcepack/issues).-->
