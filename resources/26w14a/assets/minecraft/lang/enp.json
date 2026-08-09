@@ -1,6 +1,6 @@
 {
-  "advancements.adventure.build_house.description": "Watch 23 clots and a door bind into a small house",
-  "advancements.adventure.build_house.title": "Small House, Sam!",
+  "advancements.adventure.build_house.description": "Watch 23 clots and a door bind into a tiny house",
+  "advancements.adventure.build_house.title": "Tiny House, Sam!",
   "advancements.adventure.build_trap.description": "Watch out for 8 iron (or copper) rods, they're baneful together. When you least foredeem it!",
   "advancements.adventure.build_trap.title": "You Played Yourself",
   "advancements.adventure.craft_chest.description": "Craft a Chest to steer your clots",
@@ -48,6 +48,7 @@
   "block.minecraft.waxed_oxidized_copper_trap": "Waxed Sourshafted Copper Trap",
   "block.minecraft.waxed_weathered_copper_trap": "Waxed Weathered Copper Trap",
   "block.minecraft.weathered_copper_trap": "Weathered Copper Trap",
+  "crafting.table.unable_to_place": "The crafting layout needs a 2x2 clot wide layer bred",
   "entity.minecraft.crafting_action": "Craft",
   "entity.minecraft.crafting_grid": "Crafting Layout",
   "entity.minecraft.follow_action": "Follow Me",

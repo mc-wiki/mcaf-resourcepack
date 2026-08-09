@@ -1,5 +1,16 @@
 item.realityVision.name=Sooth Sight
 item.ankleMonitor.name=Ankle Beholder
+item.ankleMonitor.warning=STAY-AT-HOME WARNING! You are going against your househent! Get back by %d clots!
+item.ankleMonitor.warning2=STAY-AT-HOME WARNING! You are going against your househent! Uuuh... where are you anyway?
+item.ankleMonitor.warning3=STAY-AT-HOME WARNING! Hail, are you there?
+item.ankleMonitor.warning4=STAY-AT-HOME WARNING! I'm wiss you have worthy things to do, but you need to go back!
+item.ankleMonitor.warning5=STAY-AT-HOME WARNING! We're lonely back home!
+item.ankleMonitor.warning6=STAY-AT-HOME WARNING! By "we" I mean I. I'm lonely.
+item.ankleMonitor.warning7=STAY-AT-HOME WARNING! Alright enough games... GET BACK RIGHT NOW!
+item.ankleMonitor.warning8=STAY-AT-HOME WARNING! LAST WARNING!
+item.ankleMonitor.warning9=STAY-AT-HOME WARNING! LASTEST WARNING (truly now)
+item.ankleMonitor.warning10=STAY-AT-HOME WARNING! ...
+item.ankleMonitor.warning12=STAY-AT-HOME WARNING! Having a good day?
 item.smarterWatch.name=Smarter Watch
 item.smarterWatch.update=Hark! %s is now %d!
 item.smarterWatch.damage=Hark! You took %d health ords of harm lately!
