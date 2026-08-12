@@ -1,4 +1,9 @@
 tile.usbCharger.name=Kocka USB nabíjačky
 item.ankleMonitor.warning=UPOZORNENIE! ZÁKAZ VYCHÁDZANIA! Porušujete domáce väzenie! Vráťte sa o %d metrov!
+item.ankleMonitor.warning5=UPOZORNENIE! ZÁKAZ VYCHÁDZANIA! Sme tu doma osamelí!
+item.ankleMonitor.warning8=UPOZORNENIE! ZÁKAZ VYCHÁDZANIA! POSLEDNÉ VAROVANIE!
+item.ankleMonitor.warning9=UPOZORNENIE! ZÁKAZ VYCHÁDZANIA! NAJPOSLEDNEJŠIE VAROVANIE (teraz naozaj)
+item.ankleMonitor.warning10=UPOZORNENIE! ZÁKAZ VYCHÁDZANIA! ...
+item.ankleMonitor.warning19=UPOZORNENIE! ZÁKAZ VYCHÁDZANIA! Bum!
 item.smarterWatch.name=Inteligentnejšie hodinky
 item.smarterWatch.damage=Oznámenie! Nedávno ste utrpeli poškodenie %d polovíc srdiečok!

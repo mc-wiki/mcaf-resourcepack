@@ -1,4 +1,6 @@
 {
+    "action.repeal": "Zrušiť „%s“",
+    "action.approve": "Schváliť „%s“",
     "attribute.name.generic.scale": "Mierka entity",
     "biome.minecraft.the_moon": "Mesiac",
     "block.minecraft.place_block": "Pokladacia kocka",
