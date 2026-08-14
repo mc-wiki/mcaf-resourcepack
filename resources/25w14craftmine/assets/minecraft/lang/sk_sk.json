@@ -3,6 +3,7 @@
     "advancements.adventure.mine_revisitor_activated.title": "Nostalgia",
     "advancements.feats.angry_ghast.title": "Odstreľovač balónov",
     "advancements.feats.eat_your_veggies.description": "Zjedz 100 jedovatých zemiakov",
+    "advancements.mine.cash_in.title": "Zlatá baňa",
     "advancements.story.follow_exit_eye.description": "Vyrob oko úteku",
     "advancements.story.follow_exit_eye.title": "Nevidím, vidím, čo nevidím?",
     "advancements.unlocks.all_exploration.title": "Čas na dobrodružstvo",
@@ -25,7 +26,10 @@
     "gui.door.field.new_room": "Miestnosť",
     "gui.door.field.new_wall": "Stena",
     "item.minecraft.exit_eye": "Oko úteku",
+    "item.minecraft.mob_trophy.grade": "Trieda: %s",
     "item.minecraft.music_disc_and_action": "Hudobná platňa",
+    "item.minecraft.music_disc_and_action.desc": "Tone Deaf Rebellion - And Action!",
+    "jukebox_song.minecraft.and_action": "Tone Deaf Rebellion - And Action!",
     "mine.angry_ghast_boss.name": "Nahnevaný ghast",
     "mine.ender_dragon_boss.name": "Ender drak",
     "mine.raid.description": "Ochráň dedinu!",
@@ -86,6 +90,7 @@
     "world.effect.desert.name": "Bióm púšte",
     "world.effect.fish_out_of_water.hint": "Rybárči!",
     "world.effect.fish_out_of_water.name": "Ryba na suchu",
+    "world.effect.floating_islands_world.hint": "Vyhraj baňu",
     "world.effect.floating_islands_world.name": "Vznášajúce sa ostrovy",
     "world.effect.forests.name": "Lesné biómy",
     "world.effect.foxes.hint": "Bobule",
@@ -112,5 +117,6 @@
     "world.effect.water_world.name": "Vodný svet",
     "world.effect.witches.name": "Bosorky",
     "world.effect.wither_skeletons.name": "Wither kostlivci",
-    "world.effect.zombies.name": "Zombíci"
+    "world.effect.zombies.name": "Zombíci",
+    "world.mine.next": "Ďalšia baňa"
 }
