@@ -61,6 +61,8 @@
     "rule.autoJump.of_course": "Automatické skákanie? Samozrejme",
     "rule.replace_loot_drop": "Nahradiť tabuľku obsahu %s za %s",
     "rule.food_restriction.inedible.cake": "Lož",
+    "rule.food_restriction.edible": "Jedlo",
+    "rule.food_restriction.maybe_edible": "Jedlo (Môže mať vedľajšie účinky)",
     "rule.transparent_players": "Režim duchov",
     "rule.fire_sponge": "Špongie môžu byť použité na odstránenie lávy",
     "rule.drink_air": "Fľaša prázdnoty: získaná vypitím prázdnej fľaše. Môže mať vedľajšie účinky.",
