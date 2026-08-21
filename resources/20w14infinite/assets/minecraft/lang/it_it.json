@@ -1,7 +1,22 @@
 {
     "advancements.adventure.almost_there.title": "Ci siamo quasi",
+    "advancements.adventure.almost_there.description": "Visita più di un MILIARDO di dimensioni",
     "biome.minecraft.between": "Tra",
+    "biome.minecraft.shapes": "Forme",
+    "biome.minecraft.busy": "Bioma Per Il Giocatore Che Non Ha Tempo Per Nessun Motivo",
     "block.minecraft.cursor": "Cursore",
     "block.minecraft.ant": "Una formica",
-    "item.minecraft.fine_item": "Un oggetto molto bello"
+    "block.minecraft.zone": "Rimasto",
+    "block.minecraft.neither_portal": "Portale Funky",
+    "block.minecraft.netherite_stairs": "Le scale più fighe di sempre",
+    "block.minecraft.book_box": "La Scatola dei Libri Infiniti",
+    "item.minecraft.footprint": "Impronta",
+    "item.minecraft.fine_item": "Un oggetto molto bello",
+    "stat.minecraft.change_dimension": "Cambi di dimensioni",
+    "subtitles.block.end_portal.spawn": "Portale dell'End aperto!",
+    "subtitles.entity.horse.land": "Terre dei Cavalli",
+    "advancements.adventure.bullseye.description": "Colpisci il centro di un bersaglio da almeno 30 metri di distanza",
+    "commands.spawnpoint.success.single": "Imposta il punto di spawn su %s, %s, %s in %s per %s",
+    "commands.spawnpoint.success.multiple": "Imposta il punto di spawn su %s, %s, %s in %s per %s giocatori",
+    "commands.setworldspawn.success": "Imposta il punto di spawn del mondo su %s, %s, %s"
 }
