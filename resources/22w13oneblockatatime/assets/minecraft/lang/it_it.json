@@ -1,1 +1,23 @@
-{}
+{
+    "createWorld.customize.preset.classic_flat": "Classico",
+    "createWorld.customize.preset.tunnelers_dream": "Sogno dei minatori",
+    "createWorld.customize.preset.water_world": "Mondo marino",
+    "createWorld.customize.preset.overworld": "Overworld",
+    "createWorld.customize.preset.snowy_kingdom": "Regno nevoso",
+    "createWorld.customize.preset.bottomless_pit": "Pozzo senza fondo",
+    "createWorld.customize.preset.desert": "Deserto",
+    "createWorld.customize.preset.redstone_ready": "Predisposto alla redstone",
+    "createWorld.customize.preset.the_void": "Il vuoto",
+    "generator.default": "Normale",
+    "generator.flat": "Piatto",
+    "generator.large_biomes": "Biomi vasti",
+    "generator.amplified": "AMPLIFICATO",
+    "generator.debug_all_block_states": "Debug",
+    "generator.amplified.info": "Nota bene: solo per divertimento! Richiede un computer potente.",
+    "generator.single_biome_surface": "Bioma Singolo",
+    "debug.cycle_renderdistance.help": "F3 + F = Incrementa la distanza di rendering (+ Maiusc per decrementarla)",
+    "debug.cycle_renderdistance.message": "Visibilità",
+    "advancements.end.ride_dragon.title": "L'End cavalcato",
+    "advancements.end.ride_dragon.description": "Altrettanta fortuna",
+    "gamemode.gamemodeNotFound": "Modalità di gioco sconosciuta"
+}

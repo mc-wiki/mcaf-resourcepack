@@ -1,1 +1,26 @@
-{}
+{
+    "menu.select_episode": "Seleziona episodio",
+    "menu.modem_play": "ModemPlay(TM)",
+    "menu.modem_played1": "Blip blop",
+    "menu.modem_played2": "NO!",
+    "demo.help.nag1": "Ti invitiamo a prendere in considerazione la registrazione di questo gioco",
+    "demo.help.nag2": "per accedere agli episodi completi e",
+    "demo.help.nag3": "alle armi!",
+    "demo.help.title": "MineCraft Shareware",
+    "demo.help.buy": "Apri il modulo di registrazione",
+    "key.boss_mode": "Modalità boss",
+    "key.increase_view": "Aumenta le dimensioni dello schermo",
+    "key.decrease_view": "Diminuisci le dimensioni dello schermo",
+    "item.minecraft.red_key": "Chiave rossa",
+    "item.minecraft.blue_key": "Chiave blu",
+    "item.minecraft.yellow_key": "Chiave gialla",
+    "item.minecraft.3d": "3D",
+    "item.key.tooltip": "Apri %s porta/e",
+    "death.attack.nightmare": "%1$s era troppo fragile per questo mondo.",
+    "death.attack.nightmare.player": "%1$s era troppo fragile per questo mondo. (Ti ringrazio dopo, %2$s)",
+    "ui.next_disk.title": "Il prossimo disco è richiesto",
+    "ui.next_disk.contents": "Inserire il disco %s nell'unità A e premere INVIO",
+    "ui.next_disk.wrong_contents": "Ho detto INVIO!",
+    "feedback.line1": "Idea? Bug? Preghiere? Mandaci una cartolina!",
+    "feedback.line2": "Nostro indirizzo: Mojang AB, Söder Mälarstrand 43, 118 25 Stoccolma, Svezia"
+}

@@ -41,7 +41,7 @@
 | `fil_ph` | 菲律賓語    | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0% | 0% |
 | `fr_fr`  | 法語      | Français (France)      | <img src="badges/fr_fr.png"> | 2% | 0% |
 | `he_il`  | 希伯來語    | עברית (ישראל)          | <img src="badges/he_il.png"> | 43% | 9% |
-| `it_it`  | 意大利語    | Italiano (Italia)      | <img src="badges/it_it.png"> | 0% | 0% |
+| `it_it`  | 意大利語    | Italiano (Italia)      | <img src="badges/it_it.png"> | 5% | 0% |
 | `ja_jp`  | 日語      | 日本語 (日本)               | <img src="badges/ja_jp.png"> | 100% | 29% |
 | `ko_kr`  | 韓語      | 한국어 (대한민국)             | <img src="badges/ko_kr.png"> | 83% | 11% |
 | `lzh`    | 漢語（文言文） | 文言 (華夏)                | <img src="badges/lzh.png"> | 100% | 63% |

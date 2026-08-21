@@ -1,2 +1,14 @@
+menu.singleplayer=Gioca al Mondo
+selectWorld.cheats=Superpoteri
+createWorld.customize.custom.useLavaLakes=Laghi di formaggio
 tile.lava.name=Formaggio
 potion.confusion=Divertimento
+potion.moveSlowdown.postfix=Pozione del 'Volerti bene'
+potion.weakness.postfix=Pozione della Condivisione
+potion.harm.postfix=Pozione dell'Amore
+potion.jump.postfix=Pozione della Felicità
+potion.confusion.postfix=Pozione del Divertimento
+potion.invisibility.postfix=Pozione del Divertimento
+potion.poison.postfix=Pozione del 'Volerti bene'
+achievement.killEnemy.desc=Ama un mostro <3
+attribute.name.generic.attackDamage=Forza dell'Amore
