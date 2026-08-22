@@ -1,6 +1,6 @@
 menu.singleplayer=Gioca al Mondo
-selectWorld.cheats=Superpoteri
-createWorld.customize.custom.useLavaLakes=Laghi di formaggio
+selectWorld.cheats=Super poteri
+createWorld.customize.custom.useLavaLakes=Laghi di Formaggio
 createWorld.customize.custom.lavaLakeChance=Frequenza dei Laghi di Formaggio
 createWorld.customize.custom.useLavaOceans=Oceani di Formaggio
 gameMode.survival=Modalità Esistenza
@@ -56,7 +56,7 @@ potion.harm.postfix=Pozione dell'Amore
 potion.jump.postfix=Pozione della Felicità
 potion.confusion.postfix=Pozione del Divertimento
 potion.invisibility.postfix=Pozione del Divertimento
-potion.poison.postfix=Pozione del 'Volerti bene'
+potion.poison.postfix=Pozione del Volersi bene
 achievement.mineWood.desc=Colpisci un albero affinché un tronco di legna esca da quell'albero
 achievement.killEnemy.desc=Ama un mostro <3
 itemGroup.inventory=Inventario dell'Esistenza
