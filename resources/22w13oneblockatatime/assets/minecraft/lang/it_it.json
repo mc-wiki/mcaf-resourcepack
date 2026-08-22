@@ -12,12 +12,12 @@
     "generator.flat": "Piatto",
     "generator.large_biomes": "Biomi vasti",
     "generator.amplified": "AMPLIFICATO",
-    "generator.debug_all_block_states": "Debug",
+    "generator.debug_all_block_states": "Modalità Debug",
     "generator.amplified.info": "Nota bene: solo per divertimento! Richiede un computer potente.",
     "generator.single_biome_surface": "Bioma Singolo",
     "debug.cycle_renderdistance.help": "F3 + F = Incrementa la distanza di rendering (+ Maiusc per decrementarla)",
-    "debug.cycle_renderdistance.message": "Visibilità",
+    "debug.cycle_renderdistance.message": "Visibilità: %s",
     "advancements.end.ride_dragon.title": "L'End cavalcato",
     "advancements.end.ride_dragon.description": "Altrettanta fortuna",
-    "gamemode.gamemodeNotFound": "Modalità di gioco sconosciuta"
+    "gamemode.gamemodeNotFound": "Modalità di gioco sconosciuta: %s"
 }
