@@ -50,6 +50,7 @@
   "entity.minecraft.follow_action": "Seguir",
   "entity.minecraft.hovering_item": "Itens Fabricados",
   "entity.minecraft.living_block": "Bloco Vivo",
+  "entity.minecraft.living_block_command": "Bloco Vivo sob Comando",
   "entity.minecraft.punch_action": "Socar",
   "inventory.place_grid": "Use a ação Fabricar para colocar uma grade de fabricação",
   "item.minecraft.attack_action": "Atacar / Minerar",
