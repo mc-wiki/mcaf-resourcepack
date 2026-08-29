@@ -48,7 +48,7 @@
 | `ko_kr`  | 韓国語         | 한국어 (대한민국)             | <img src="badges/ko_kr.png"> | 83% | 11% |
 | `lzh`    | 漢文          | 文言 (華夏)                | <img src="badges/lzh.png"> | 100% | 63% |
 | `nl_nl`  | オランダ語       | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 2% | 0% |
-| `pt_br`  | ブラジルポルトガル語  | Português (Brasil)     | <img src="badges/pt_br.png"> | 40% | 30% |
+| `pt_br`  | ブラジルポルトガル語  | Português (Brasil)     | <img src="badges/pt_br.png"> | 41% | 36% |
 | `pt_pt`  | ヨーロッパポルトガル語 | Português (Portugal)   | <img src="badges/pt_pt.png"> | 0% | 0% |
 | `ru_ru`  | ロシア語        | Русский (Россия)       | <img src="badges/ru_ru.png"> | 100% | 0% |
 | `th_th`  | タイ語         | ไทย (ประเทศไทย)        | <img src="badges/th_th.png"> | 0% | 0% |
