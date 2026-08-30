@@ -43,7 +43,7 @@
 | `ko_kr`  | 朝鮮語           | 한국어 (대한민국)             | <img src="badges/ko_kr.png"> | 83% | 11% |
 | `lzh`    | 文言            | 文言 (華夏)                | <img src="badges/lzh.png"> | 100% | 63% |
 | `nl_nl`  | 卑蘭語           | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 2% | 0% |
-| `pt_br`  | <u>枋林</u>埠吐噶語 | Português (Brasil)     | <img src="badges/pt_br.png"> | 43% | 37% |
+| `pt_br`  | <u>枋林</u>埠吐噶語 | Português (Brasil)     | <img src="badges/pt_br.png"> | 44% | 40% |
 | `pt_pt`  | 埠吐噶語          | Português (Portugal)   | <img src="badges/pt_pt.png"> | 0% | 0% |
 | `ru_ru`  | 羅剎語           | Русский (Россия)       | <img src="badges/ru_ru.png"> | 100% | 0% |
 | `th_th`  | 暹羅語           | ไทย (ประเทศไทย)        | <img src="badges/th_th.png"> | 0% | 0% |
