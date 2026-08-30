@@ -33,7 +33,7 @@
 |----------|---------------|------------------------|-------------------------------|--------|--------|
 | `de_de`  | 隤䲭語           | Deutsch (Deutschland)  | <img src="badges/de_de.png"> | 18% | 0% |
 | `en_ud`  | 倒置英吉利語        | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png"> | 100% | 100% |
-| `enp`    | 精粹英吉利語        | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 70% | 70% |
+| `enp`    | 精粹英吉利語        | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 71% | 71% |
 | `es_es`  | 佛朗機語          | Español (España)       | <img src="badges/es_es.png"> | 2% | 0% |
 | `fil_ph` | 呂宋語           | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0% | 0% |
 | `fr_fr`  | 方司語           | Français (France)      | <img src="badges/fr_fr.png"> | 2% | 0% |
@@ -43,7 +43,7 @@
 | `ko_kr`  | 朝鮮語           | 한국어 (대한민국)             | <img src="badges/ko_kr.png"> | 83% | 11% |
 | `lzh`    | 文言            | 文言 (華夏)                | <img src="badges/lzh.png"> | 100% | 63% |
 | `nl_nl`  | 卑蘭語           | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 2% | 0% |
-| `pt_br`  | <u>枋林</u>埠吐噶語 | Português (Brasil)     | <img src="badges/pt_br.png"> | 45% | 43% |
+| `pt_br`  | <u>枋林</u>埠吐噶語 | Português (Brasil)     | <img src="badges/pt_br.png"> | 51% | 46% |
 | `pt_pt`  | 埠吐噶語          | Português (Portugal)   | <img src="badges/pt_pt.png"> | 0% | 0% |
 | `ru_ru`  | 羅剎語           | Русский (Россия)       | <img src="badges/ru_ru.png"> | 100% | 0% |
 | `th_th`  | 暹羅語           | ไทย (ประเทศไทย)        | <img src="badges/th_th.png"> | 0% | 0% |

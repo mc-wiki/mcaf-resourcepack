@@ -36,7 +36,7 @@
 |----------|---------|------------------------|-------------------------------|-----:|-----:|
 | `de_de`  | 德語      | Deutsch (Deutschland)  | <img src="badges/de_de.png"> | 18% | 0% |
 | `en_ud`  | 顛倒英語    | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png"> | 100% | 100% |
-| `enp`    | 純粹英語    | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 70% | 70% |
+| `enp`    | 純粹英語    | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 71% | 71% |
 | `es_es`  | 西班牙語    | Español (España)       | <img src="badges/es_es.png"> | 2% | 0% |
 | `fil_ph` | 菲律賓語    | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0% | 0% |
 | `fr_fr`  | 法語      | Français (France)      | <img src="badges/fr_fr.png"> | 2% | 0% |
@@ -46,7 +46,7 @@
 | `ko_kr`  | 韓語      | 한국어 (대한민국)             | <img src="badges/ko_kr.png"> | 83% | 11% |
 | `lzh`    | 漢語（文言文） | 文言 (華夏)                | <img src="badges/lzh.png"> | 100% | 63% |
 | `nl_nl`  | 荷蘭語     | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 2% | 0% |
-| `pt_br`  | 巴西葡萄牙語  | Português (Brasil)     | <img src="badges/pt_br.png"> | 45% | 43% |
+| `pt_br`  | 巴西葡萄牙語  | Português (Brasil)     | <img src="badges/pt_br.png"> | 51% | 46% |
 | `pt_pt`  | 葡萄牙語    | Português (Portugal)   | <img src="badges/pt_pt.png"> | 0% | 0% |
 | `ru_ru`  | 俄語      | Русский (Россия)       | <img src="badges/ru_ru.png"> | 100% | 0% |
 | `th_th`  | 泰語      | ไทย (ประเทศไทย)        | <img src="badges/th_th.png"> | 0% | 0% |

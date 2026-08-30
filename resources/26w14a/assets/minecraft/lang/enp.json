@@ -1,4 +1,6 @@
 {
+  "advancements.adventure.barrel_roll.description": "Make a hogshead trendle",
+  "advancements.adventure.barrel_roll.title": "Do a Hogshead Trendle!",
   "advancements.adventure.build_house.description": "Watch 23 clots and a door bind into a tiny house",
   "advancements.adventure.build_house.title": "Tiny House, Sam!",
   "advancements.adventure.build_trap.description": "Watch out for 8 iron (or copper) rods, they're baneful together. When you least foredeem it!",
@@ -35,8 +37,10 @@
   "advancements.adventure.root.title": "HerdCraft",
   "advancements.adventure.wooden_pickaxe.description": "Craft a tool that can delve for you",
   "advancements.adventure.wooden_pickaxe.title": "Craft a Delver",
+  "advancements.end.barrel_roll.description": "Trend a hogshead to the ends of the all",
   "advancements.end.barrel_roll.title": "Never Give Up! Trust Your Gut!",
   "advancements.nether.barrel_roll.description": "Do it! Do it now!",
+  "advancements.nether.barrel_roll.title": "Do a Hogshead Trendle! Do it! Do it! Do it in the Nether!",
   "advancements.story.enter_the_end.description": "Gather enough Eyes of Ender, find some End Gateway Frames and go into the End",
   "advancements.story.enter_the_nether.description": "Gather enough Ravenflint and a Flint and Steel, then go into the Nether",
   "block.minecraft.copper_trap": "Copper Trap",

@@ -24,7 +24,7 @@ Die Übersetzung wird von der Community auf [Crowdin](https://crowdin.com/projec
 |----------|-------------------------------|------------------------|-------------------------------|----------:|----------:|
 | `de_de`  | Deutsch                       | Deutsch (Deutschland)  | <img src="badges/de_de.png"> | 18% | 0% |
 | `en_ud`  | Englisch (kopfüber)           | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png"> | 100% | 100% |
-| `enp`    | Puristisches Englisch         | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 70% | 70% |
+| `enp`    | Puristisches Englisch         | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 71% | 71% |
 | `es_es`  | Spanish                       | Español (España)       | <img src="badges/es_es.png"> | 2% | 0% |
 | `fil_ph` | Filipino                      | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0% | 0% |
 | `fr_fr`  | Französisch                   | Français (France)      | <img src="badges/fr_fr.png"> | 2% | 0% |
@@ -34,7 +34,7 @@ Die Übersetzung wird von der Community auf [Crowdin](https://crowdin.com/projec
 | `ko_kr`  | Koreanisch                    | 한국어 (대한민국)             | <img src="badges/ko_kr.png"> | 83% | 11% |
 | `lzh`    | Klassisches Chinesisch        | 文言 (華夏)                | <img src="badges/lzh.png"> | 100% | 63% |
 | `nl_nl`  | Niederländisch                | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 2% | 0% |
-| `pt_br`  | Brasilianisches Portugiesisch | Português (Brasil)     | <img src="badges/pt_br.png"> | 45% | 43% |
+| `pt_br`  | Brasilianisches Portugiesisch | Português (Brasil)     | <img src="badges/pt_br.png"> | 51% | 46% |
 | `pt_pt`  | Portugiesisch                 | Português (Portugal)   | <img src="badges/pt_pt.png"> | 0% | 0% |
 | `ru_ru`  | Russisch                      | Русский (Россия)       | <img src="badges/ru_ru.png"> | 100% | 0% |
 | `th_th`  | Thailändisch                  | ไทย (ประเทศไทย)        | <img src="badges/th_th.png"> | 0% | 0% |
