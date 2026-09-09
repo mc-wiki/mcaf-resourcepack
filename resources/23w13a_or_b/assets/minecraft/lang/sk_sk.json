@@ -1,6 +1,7 @@
 {
     "action.repeal": "Zrušiť „%s“",
     "action.approve": "Schváliť „%s“",
+    "advancements.adventure.vote_1.title": "Hlasoval som!",
     "advancements.adventure.vote_1.description": "Hlasuj po prvý raz",
     "advancements.adventure.vote_256.description": "Hlasuj 256-krát",
     "attribute.name.generic.scale": "Mierka entity",
@@ -167,6 +168,7 @@
     "rule.caep.squid": "Dať všetkým chobotničí plášť chobotnice",
     "rule.caep.veterinarian": "Dať všetkým milovníkom zvierat zverolekársky plášť",
     "rule.caep.nyan": "Nya, nya, nya! UwU!",
+    "rule.payment.item": "Osadníci príjmu %s namiesto drahokamov",
     "rule.rubies": "Nahradiť smaragdy za rubíny (a to je všetko - sme príliš lenivý na to, aby sme to spravili poriadne)",
     "rule.ultra_realistic_mode": "Ultra realistický režim",
     "rule.beeloons": "Povoliť včelóny",
