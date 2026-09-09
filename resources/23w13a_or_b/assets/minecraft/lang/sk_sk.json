@@ -48,6 +48,7 @@
     "rule.flammability.low": "Zmeniť horľavosť kocky %s na nízku",
     "rule.pot_gems": "Z rozbitých ozdobných džbánov vypadnú drahokamy",
     "rule.infinite_cakes": "Nekonečné torty",
+    "rule.spawn_egg_chance": "Nastaviť šancu na vypadnutie vajíčka zrodenia z entity na %s%%",
     "rule.disable_shield": "Vypnúť blokovanie štítom",
     "rule.other_portal.oops": "Chyba 404 Terén nebol nájdený",
     "rule.anonymize_skins": "Anonymizovať skiny hráčov",
@@ -57,6 +58,8 @@
     "rule.recipe.minecraft.diamond_drows": "Povoliť diamantový čem",
     "rule.minecart_collisions.break": "Vozíky sa pri vysokorýchlostných zrážkach rozbijú.",
     "rule.minecart_collisions.explode": "Vozíky vybuchnú pri vysokorýchlostných zrážkach.",
+    "rule.boat_collisions.break": "Člny sa pri vysokorýchlostných zrážkach rozbijú.",
+    "rule.boat_collisions.explode": "Člny vybuchnú pri vysokorýchlostných zrážkach.",
     "rule.the_joke": "Neprestať ignorovať Mobbo",
     "rule.natural_spawn_disable": "%s sa nikdy nezrodí",
     "rule.footprint.0": "Stopy? Aké stopy?",
@@ -173,6 +176,7 @@
     "rule.glow_bees": "Žiariace včely",
     "rule.always_flying": "Podľa všetkých známych zákonov letectva, nie je spôsob, ako by mohol byť tvor schopný chodiť",
     "rule.day_length.set": "Nastaviť dĺžku dňa na %s",
+    "rule.day_length.change": "Zmeniť dĺžku dňa z %s na %s",
     "rule.copy_skin": "Všetci kopírujú hráča %s!",
     "rule.only_mending_trades": "Osadníci obchodujú len s opravovaním",
     "rule.bed_pvp": "Posteľové PVP",
@@ -209,6 +213,7 @@
     "vote.cost": "Cena:",
     "vote.cost.xp": "Bodov očarovaní",
     "vote.cost.health": "Zdravie",
+    "vote.voted": "⯪ Hlasoval som! ⯫",
     "vote.show_current_rules": "Zobraziť schválené návrhy",
     "tooltip.more_like_cooltip": "Obrazovka dlhého popisu"
 }
