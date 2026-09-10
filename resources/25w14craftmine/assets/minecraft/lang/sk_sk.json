@@ -26,6 +26,8 @@
     "gui.door": "Dvere",
     "gui.door.field.active_door": "Dvere, na ktoré si práve klikol",
     "gui.door.field.error": "Niečo nie je v poriadku",
+    "gui.door.field.existing_door": "Existujúce dvere",
+    "gui.door.field.existing_wall": "Existujúca stena",
     "gui.door.field.new_door": "Dvere",
     "gui.door.field.new_room": "Miestnosť",
     "gui.door.field.new_wall": "Stena",
