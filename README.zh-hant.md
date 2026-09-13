@@ -3,7 +3,7 @@
 [![Modrinth](https://img.shields.io/modrinth/dt/april-fools-translation?label=Modrinth&color=darkgreen&labelColor=black&logo=modrinth)](https://modrinth.com/mod/april-fools-translation)
 [![Crowdin](https://badges.crowdin.net/mcaf-resourcepack/localized.svg)](https://crowdin.com/project/mcaf-resourcepack)
 
-[Deutsch](README.de.md) | [English](README.md) | [Português](README.pt-br.md) | [日本語](README.ja.md) | [文言](README.lzh.md) | [简体中文](README.zh-hans.md) | 繁體中文
+[Deutsch](README.de.md) | [English](README.md) | [日本語](README.ja.md) | [文言](README.lzh.md) | [Português](README.pt-br.md) | [简体中文](README.zh-hans.md) | 繁體中文
 
 **使用來自 Minecraft Wiki 的翻譯，暢玩愚人節快照。**
 
@@ -30,36 +30,39 @@
 
 ### 支援語言
 
-本項目的翻譯工作在[Crowdin](https://zh.crowdin.com/project/mcaf-resourcepack)上进行。
+本項目的翻譯工作在[Crowdin](https://crowdin.com/project/mcaf-resourcepack)上进行。
 
 | 代碼       | 語言      | 顯示名稱                   | 進度                            |  已翻譯 |  已批准 |
 |----------|---------|------------------------|-------------------------------|-----:|-----:|
-| `de_de`  | 德語      | Deutsch (Deutschland)  | <img src="badges/de_de.png"> | 18% | 0% |
-| `en_ud`  | 顛倒英語    | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png"> | 100% | 100% |
-| `enp`    | 純粹英語    | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 71% | 71% |
-| `es_es`  | 西班牙語    | Español (España)       | <img src="badges/es_es.png"> | 2% | 0% |
-| `fil_ph` | 菲律賓語    | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0% | 0% |
-| `fr_fr`  | 法語      | Français (France)      | <img src="badges/fr_fr.png"> | 2% | 0% |
-| `he_il`  | 希伯來語    | עברית (ישראל)          | <img src="badges/he_il.png"> | 43% | 9% |
-| `it_it`  | 意大利語    | Italiano (Italia)      | <img src="badges/it_it.png"> | 26% | 0% |
-| `ja_jp`  | 日語      | 日本語 (日本)               | <img src="badges/ja_jp.png"> | 100% | 29% |
-| `ko_kr`  | 韓語      | 한국어 (대한민국)             | <img src="badges/ko_kr.png"> | 83% | 11% |
-| `lzh`    | 漢語（文言文） | 文言 (華夏)                | <img src="badges/lzh.png"> | 100% | 63% |
-| `nl_nl`  | 荷蘭語     | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 2% | 0% |
-| `pt_br`  | 巴西葡萄牙語  | Português (Brasil)     | <img src="badges/pt_br.png"> | 54% | 51% |
-| `pt_pt`  | 葡萄牙語    | Português (Portugal)   | <img src="badges/pt_pt.png"> | 0% | 0% |
-| `ru_ru`  | 俄語      | Русский (Россия)       | <img src="badges/ru_ru.png"> | 100% | 0% |
-| `th_th`  | 泰語      | ไทย (ประเทศไทย)        | <img src="badges/th_th.png"> | 0% | 0% |
-| `uk_ua`  | 烏克蘭語    | Українська (Україна)   | <img src="badges/uk_ua.png"> | 0% | 0% |
-| `zh_cn`  | 漢語      | 简体中文 (中国大陆)            | <img src="badges/zh_cn.png"> | 100% | 99% |
-| `zh_hk`  | 漢語      | 繁體中文 (香港特別行政區)         | <img src="badges/zh_hk.png"> | 78% | 78% |
-| `zh_tw`  | 漢語      | 繁體中文 (台灣)              | <img src="badges/zh_tw.png"> | 68% | 3% |
+| `de_de`  | 德語      | Deutsch (Deutschland)  | <img src="badges/de_de.png">  |  18% |   0% |
+| `en_ud`  | 顛倒英語    | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png">  | 100% | 100% |
+| `enp`    | 純粹英語    | Anglish (Oned Riches)  | <img src="badges/enp.png">    |  71% |  71% |
+| `es_es`  | 西班牙語    | Español (España)       | <img src="badges/es_es.png">  |   2% |   0% |
+| `fil_ph` | 菲律賓語    | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> |   0% |   0% |
+| `fr_fr`  | 法語      | Français (France)      | <img src="badges/fr_fr.png">  |   2% |   0% |
+| `he_il`  | 希伯來語    | עברית (ישראל)          | <img src="badges/he_il.png">  |  43% |   9% |
+| `it_it`  | 意大利語    | Italiano (Italia)      | <img src="badges/it_it.png">  |  26% |   0% |
+| `ja_jp`  | 日語      | 日本語 (日本)               | <img src="badges/ja_jp.png">  | 100% |  29% |
+| `ko_kr`  | 韓語      | 한국어 (대한민국)             | <img src="badges/ko_kr.png">  |  83% |  11% |
+| `lzh`    | 漢語（文言文） | 文言 (華夏)                | <img src="badges/lzh.png">    | 100% |  63% |
+| `nl_nl`  | 荷蘭語     | Nederlands (Nederland) | <img src="badges/nl_nl.png">  |   2% |   0% |
+| `pt_br`  | 巴西葡萄牙語  | Português (Brasil)     | <img src="badges/pt_br.png">  |  54% |  51% |
+| `pt_pt`  | 葡萄牙語    | Português (Portugal)   | <img src="badges/pt_pt.png">  |   0% |   0% |
+| `ru_ru`  | 俄語      | Русский (Россия)       | <img src="badges/ru_ru.png">  | 100% |   0% |
+| `sk_sk`  | 斯洛伐克語   | Slovenčina (Slovensko) | <img src="badges/sk_sk.png">  |   0% |   0% |
+| `th_th`  | 泰語      | ไทย (ประเทศไทย)        | <img src="badges/th_th.png">  |   0% |   0% |
+| `uk_ua`  | 烏克蘭語    | Українська (Україна)   | <img src="badges/uk_ua.png">  |   0% |   0% |
+| `zh_cn`  | 漢語      | 简体中文 (中国大陆)            | <img src="badges/zh_cn.png">  | 100% |  99% |
+| `zh_hk`  | 漢語      | 繁體中文 (香港特別行政區)         | <img src="badges/zh_hk.png">  |  78% |  78% |
+| `zh_tw`  | 漢語      | 繁體中文 (台灣)              | <img src="badges/zh_tw.png">  |  68% |   3% |
 
-可以在本倉庫中[提交issue](https://github.com/mc-wiki/mcaf-resourcepack/issues)申請新語言。
+### 其他語言
+
+可[在此處提交 issue](https://github.com/mc-wiki/mcaf-resourcepack/issues/new?template=request_new_language.yml) 申請新語言。
 
 ## 如何使用
 
-1. 前往[最新 Releases](https://github.com/mc-wiki/mcaf-resourcepack/releases/latest)頁面（每3小時同步）或 [Modrinth](https://modrinth.com/resourcepack/april-fools-translation)（每週同步）。
+1. 前往[最新 Release](https://github.com/mc-wiki/mcaf-resourcepack/releases/latest) 頁面（每3小時同步）或 [Modrinth](https://modrinth.com/resourcepack/april-fools-translation)（每週同步）。
 2. 下載所需語言的資源包。
 3. 安裝到你的遊戲中。
 
@@ -67,18 +70,17 @@
 
 ## 貢獻方法
 
-歡迎在 Crowdin 上完善翻譯：
-[https://zh.crowdin.com/project/mcaf-resourcepack](https://zh.crowdin.com/project/mcaf-resourcepack)
+歡迎在 Crowdin 上完善翻譯：https://crowdin.com/project/mcaf-resourcepack
 
 ## 常見問題
 
 **Q1：遊戲內出現未翻譯文字怎麼辦？**
 
-A1：請到[Crowdin](#貢獻方法)參與貢獻。如果 Crowdin 上也沒有該文字，通常為硬編碼，資源包無法修復。
+A1：請到[Crowdin](https://crowdin.com/project/mcaf-resourcepack)參與貢獻。如果 Crowdin 上也沒有該文字，通常為硬編碼，資源包無法修復。
 
 **Q2：遊戲內出現在地化鍵名（如 `rule.food_restriction.air_block`）怎麼辦？**
 
-A2：通常是語言檔案缺失。請在 [Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues) 回饋。
+A2：通常是語言檔案缺失。請在 [GitHub Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues) 回饋。
 
 <!-- The following content is specifically provided for zh_hk and lzh players, and can be omitted. -->
 

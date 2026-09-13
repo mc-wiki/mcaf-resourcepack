@@ -3,10 +3,10 @@
 import hashlib
 import json
 import os
+from pathlib import Path
 import shutil
 import sys
 import time
-from pathlib import Path
 from zipfile import ZipFile
 
 import mclang
@@ -274,6 +274,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    base_dir = Path(__file__).parent
+    script_dir = Path(__file__).parent
+    base_dir = script_dir.parent
     max_retries = 5
     main()

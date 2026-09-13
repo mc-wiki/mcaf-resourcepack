@@ -27,17 +27,17 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: 3.13
 
       - name: Download Translations and Upload Sources
-        uses: crowdin/github-action@v2
+        uses: crowdin/github-action@v3
         with:
           download_translations: true
           skip_untranslated_strings: true
@@ -66,7 +66,7 @@ jobs:
       - name: Update Progress
         run: |
           pip install -r requirements.txt
-          python update_progress.py
+          python scripts/update_progress.py
 
       - name: Generate Crowdin Translators
         uses: andrii-bodnar/action-crowdin-contributors@v3
@@ -101,7 +101,7 @@ jobs:
 
       - name: Create Release
         id: create_release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           body: |
             Resource packs built from the latest Crowdin translations.
@@ -121,7 +121,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Package Resources for ${{ matrix.folder }}
         run: |
@@ -141,7 +141,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Clean Releases and Workflows
-        uses: ophub/delete-releases-workflows@v0.1.0
+        uses: ophub/delete-releases-workflows@main
         with:
           delete_releases: true
           releases_keep_latest: 10

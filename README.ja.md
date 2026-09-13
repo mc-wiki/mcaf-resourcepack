@@ -3,7 +3,7 @@
 [![Modrinth](https://img.shields.io/modrinth/dt/april-fools-translation?label=Modrinth&color=darkgreen&labelColor=black&logo=modrinth)](https://modrinth.com/mod/april-fools-translation)
 [![Crowdin](https://badges.crowdin.net/mcaf-resourcepack/localized.svg)](https://crowdin.com/project/mcaf-resourcepack)
 
-[Deutsch](README.de.md) | [English](README.md) | [Português](README.pt-br.md) | 日本語 | [文言](README.lzh.md) | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
+[Deutsch](README.de.md) | [English](README.md) | 日本語 | [文言](README.lzh.md) | [Português](README.pt-br.md) | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
 
 **Minecraft Wiki コミュニティによるエイプリルフールバージョンの翻訳リソースパックです。**
 
@@ -32,32 +32,35 @@
 
 ### 対応言語
 
-<!--Translations are provided by the community on [Crowdin](https://ja.crowdin.com/project/mcaf-resourcepack); suggest new translations there.-->
+翻訳は、[Crowdin](https://crowdin.com/project/mcaf-resourcepack)のコミュニティによって提供されています。新しい翻訳案は、そちらで提案してください。
 
 | ロケールコード  | 言語          | 表示名称                   | 進歩                            | 翻訳済み | 承認済み |
 |----------|-------------|------------------------|-------------------------------|-----:|-----:|
-| `de_de`  | ドイツ語        | Deutsch (Deutschland)  | <img src="badges/de_de.png"> | 18% | 0% |
-| `en_ud`  | 上下逆さま英語     | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png"> | 100% | 100% |
-| `enp`    | アングリッシュ     | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 71% | 71% |
-| `es_es`  | ヨーロッパスペイン語  | Español (España)       | <img src="badges/es_es.png"> | 2% | 0% |
-| `fil_ph` | フィリピン語      | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0% | 0% |
-| `fr_fr`  | ヨーロッパフランス語  | Français (France)      | <img src="badges/fr_fr.png"> | 2% | 0% |
-| `he_il`  | ヘブライ語       | עברית (ישראל)          | <img src="badges/he_il.png"> | 43% | 9% |
-| `it_it`  | イタリア語       | Italiano (Italia)      | <img src="badges/it_it.png"> | 26% | 0% |
-| `ja_jp`  | 日本語         | 日本語 (日本)               | <img src="badges/ja_jp.png"> | 100% | 29% |
-| `ko_kr`  | 韓国語         | 한국어 (대한민국)             | <img src="badges/ko_kr.png"> | 83% | 11% |
-| `lzh`    | 漢文          | 文言 (華夏)                | <img src="badges/lzh.png"> | 100% | 63% |
-| `nl_nl`  | オランダ語       | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 2% | 0% |
-| `pt_br`  | ブラジルポルトガル語  | Português (Brasil)     | <img src="badges/pt_br.png"> | 54% | 51% |
-| `pt_pt`  | ヨーロッパポルトガル語 | Português (Portugal)   | <img src="badges/pt_pt.png"> | 0% | 0% |
-| `ru_ru`  | ロシア語        | Русский (Россия)       | <img src="badges/ru_ru.png"> | 100% | 0% |
-| `th_th`  | タイ語         | ไทย (ประเทศไทย)        | <img src="badges/th_th.png"> | 0% | 0% |
-| `uk_ua`  | ウクライナ語      | Українська (Україна)   | <img src="badges/uk_ua.png"> | 0% | 0% |
-| `zh_cn`  | 簡体字中国語      | 简体中文 (中国大陆)            | <img src="badges/zh_cn.png"> | 100% | 99% |
-| `zh_hk`  | 繁体字中国語（香港）  | 繁體中文 (香港特別行政區)         | <img src="badges/zh_hk.png"> | 78% | 78% |
-| `zh_tw`  | 繁体字中国語（台湾）  | 繁體中文 (台灣)              | <img src="badges/zh_tw.png"> | 68% | 3% |
+| `de_de`  | ドイツ語        | Deutsch (Deutschland)  | <img src="badges/de_de.png">  |  18% |   0% |
+| `en_ud`  | 上下逆さま英語     | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png">  | 100% | 100% |
+| `enp`    | アングリッシュ     | Anglish (Oned Riches)  | <img src="badges/enp.png">    |  71% |  71% |
+| `es_es`  | ヨーロッパスペイン語  | Español (España)       | <img src="badges/es_es.png">  |   2% |   0% |
+| `fil_ph` | フィリピン語      | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> |   0% |   0% |
+| `fr_fr`  | ヨーロッパフランス語  | Français (France)      | <img src="badges/fr_fr.png">  |   2% |   0% |
+| `he_il`  | ヘブライ語       | עברית (ישראל)          | <img src="badges/he_il.png">  |  43% |   9% |
+| `it_it`  | イタリア語       | Italiano (Italia)      | <img src="badges/it_it.png">  |  26% |   0% |
+| `ja_jp`  | 日本語         | 日本語 (日本)               | <img src="badges/ja_jp.png">  | 100% |  29% |
+| `ko_kr`  | 韓国語         | 한국어 (대한민국)             | <img src="badges/ko_kr.png">  |  83% |  11% |
+| `lzh`    | 漢文          | 文言 (華夏)                | <img src="badges/lzh.png">    | 100% |  63% |
+| `nl_nl`  | オランダ語       | Nederlands (Nederland) | <img src="badges/nl_nl.png">  |   2% |   0% |
+| `pt_br`  | ブラジルポルトガル語  | Português (Brasil)     | <img src="badges/pt_br.png">  |  54% |  51% |
+| `pt_pt`  | ヨーロッパポルトガル語 | Português (Portugal)   | <img src="badges/pt_pt.png">  |   0% |   0% |
+| `ru_ru`  | ロシア語        | Русский (Россия)       | <img src="badges/ru_ru.png">  | 100% |   0% |
+| `sk_sk`  | スロバキア語      | Slovenčina (Slovensko) | <img src="badges/sk_sk.png">  |   0% |   0% |
+| `th_th`  | タイ語         | ไทย (ประเทศไทย)        | <img src="badges/th_th.png">  |   0% |   0% |
+| `uk_ua`  | ウクライナ語      | Українська (Україна)   | <img src="badges/uk_ua.png">  |   0% |   0% |
+| `zh_cn`  | 簡体字中国語      | 简体中文 (中国大陆)            | <img src="badges/zh_cn.png">  | 100% |  99% |
+| `zh_hk`  | 繁体字中国語（香港）  | 繁體中文 (香港特別行政區)         | <img src="badges/zh_hk.png">  |  78% |  78% |
+| `zh_tw`  | 繁体字中国語（台湾）  | 繁體中文 (台灣)              | <img src="badges/zh_tw.png">  |  68% |   3% |
 
-<!--You can request adding a new language [by creating an issue on GitHub](https://github.com/mc-wiki/mcaf-resourcepack/issues).-->
+### その他の言語
+
+新しい言語の追加をご希望の場合は、[こちらでイシューを作成して](https://github.com/mc-wiki/mcaf-resourcepack/issues/new?template=request_new_language.yml)ご依頼ください。
 
 ## 使用方法
 
@@ -69,8 +72,7 @@
 
 ## 貢献
 
-Crowdin から翻訳に参加できます：
-[https://ja.crowdin.com/project/mcaf-resourcepack](https://ja.crowdin.com/project/mcaf-resourcepack)
+Crowdin から翻訳に参加できます：https://crowdin.com/project/mcaf-resourcepack
 
 ## よくある質問
 
@@ -80,7 +82,7 @@ A1：[Crowdin](#貢献) から翻訳にご協力ください。Crowdin に文字
 
 **Q2：生の翻訳キー（例：`rule.food_restriction.air_block`）が出現します。**
 
-A2：言語ファイルから項目が欠落しています。[Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues) から報告していただけると幸いです。
+A2：言語ファイルから項目が欠落しています。[GitHub Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues) から報告していただけると幸いです。
 
 ## 翻訳者
 

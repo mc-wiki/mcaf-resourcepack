@@ -3,7 +3,7 @@
 [![Modrinth](https://img.shields.io/modrinth/dt/april-fools-translation?label=Modrinth&color=darkgreen&labelColor=black&logo=modrinth)](https://modrinth.com/mod/april-fools-translation)
 [![Crowdin](https://badges.crowdin.net/mcaf-resourcepack/localized.svg)](https://crowdin.com/project/mcaf-resourcepack)
 
-Deutsch | [English](README.md) | [Português](README.pt-br.md) | [日本語](README.ja.md) | [文言](README.lzh.md) | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
+Deutsch | [English](README.md) | [日本語](README.ja.md) | [文言](README.lzh.md) | [Português](README.pt-br.md) | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
 
 **Spiel die Aprilscherz-Versionen mit den Community-Übersetzungen aus dem Minecraft Wiki.**
 
@@ -22,28 +22,31 @@ Die Übersetzung wird von der Community auf [Crowdin](https://crowdin.com/projec
 
 | Code     | Sprache                       | Eigenname              | Fortschritt                   | Übersetzt | Überprüft |
 |----------|-------------------------------|------------------------|-------------------------------|----------:|----------:|
-| `de_de`  | Deutsch                       | Deutsch (Deutschland)  | <img src="badges/de_de.png"> | 18% | 0% |
-| `en_ud`  | Englisch (kopfüber)           | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png"> | 100% | 100% |
-| `enp`    | Puristisches Englisch         | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 71% | 71% |
-| `es_es`  | Spanish                       | Español (España)       | <img src="badges/es_es.png"> | 2% | 0% |
-| `fil_ph` | Filipino                      | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0% | 0% |
-| `fr_fr`  | Französisch                   | Français (France)      | <img src="badges/fr_fr.png"> | 2% | 0% |
-| `he_il`  | Hebräisch                     | עברית (ישראל)          | <img src="badges/he_il.png"> | 43% | 9% |
-| `it_it`  | Italienisch                   | Italiano (Italia)      | <img src="badges/it_it.png"> | 26% | 0% |
-| `ja_jp`  | Japanisch                     | 日本語 (日本)               | <img src="badges/ja_jp.png"> | 100% | 29% |
-| `ko_kr`  | Koreanisch                    | 한국어 (대한민국)             | <img src="badges/ko_kr.png"> | 83% | 11% |
-| `lzh`    | Klassisches Chinesisch        | 文言 (華夏)                | <img src="badges/lzh.png"> | 100% | 63% |
-| `nl_nl`  | Niederländisch                | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 2% | 0% |
-| `pt_br`  | Brasilianisches Portugiesisch | Português (Brasil)     | <img src="badges/pt_br.png"> | 54% | 51% |
-| `pt_pt`  | Portugiesisch                 | Português (Portugal)   | <img src="badges/pt_pt.png"> | 0% | 0% |
-| `ru_ru`  | Russisch                      | Русский (Россия)       | <img src="badges/ru_ru.png"> | 100% | 0% |
-| `th_th`  | Thailändisch                  | ไทย (ประเทศไทย)        | <img src="badges/th_th.png"> | 0% | 0% |
-| `uk_ua`  | Ukrainisch                    | Українська (Україна)   | <img src="badges/uk_ua.png"> | 0% | 0% |
-| `zh_cn`  | Chinesisch (vereinfacht)      | 简体中文 (中国大陆)            | <img src="badges/zh_cn.png"> | 100% | 99% |
-| `zh_hk`  | Chinesisch (Hong Kong)        | 繁體中文 (香港特別行政區)         | <img src="badges/zh_hk.png"> | 78% | 78% |
-| `zh_tw`  | Chinesisch (traditionell)     | 繁體中文 (台灣)              | <img src="badges/zh_tw.png"> | 68% | 3% |
+| `de_de`  | Deutsch                       | Deutsch (Deutschland)  | <img src="badges/de_de.png">  |       18% |        0% |
+| `en_ud`  | Englisch (kopfüber)           | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png">  |      100% |      100% |
+| `enp`    | Puristisches Englisch         | Anglish (Oned Riches)  | <img src="badges/enp.png">    |       71% |       71% |
+| `es_es`  | Spanish                       | Español (España)       | <img src="badges/es_es.png">  |        2% |        0% |
+| `fil_ph` | Filipino                      | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> |        0% |        0% |
+| `fr_fr`  | Französisch                   | Français (France)      | <img src="badges/fr_fr.png">  |        2% |        0% |
+| `he_il`  | Hebräisch                     | עברית (ישראל)          | <img src="badges/he_il.png">  |       43% |        9% |
+| `it_it`  | Italienisch                   | Italiano (Italia)      | <img src="badges/it_it.png">  |       26% |        0% |
+| `ja_jp`  | Japanisch                     | 日本語 (日本)               | <img src="badges/ja_jp.png">  |      100% |       29% |
+| `ko_kr`  | Koreanisch                    | 한국어 (대한민국)             | <img src="badges/ko_kr.png">  |       83% |       11% |
+| `lzh`    | Klassisches Chinesisch        | 文言 (華夏)                | <img src="badges/lzh.png">    |      100% |       63% |
+| `nl_nl`  | Niederländisch                | Nederlands (Nederland) | <img src="badges/nl_nl.png">  |        2% |        0% |
+| `pt_br`  | Brasilianisches Portugiesisch | Português (Brasil)     | <img src="badges/pt_br.png">  |       54% |       51% |
+| `pt_pt`  | Portugiesisch                 | Português (Portugal)   | <img src="badges/pt_pt.png">  |        0% |        0% |
+| `ru_ru`  | Russisch                      | Русский (Россия)       | <img src="badges/ru_ru.png">  |      100% |        0% |
+| `sk_sk`  | Slowakisch                    | Slovenčina (Slovensko) | <img src="badges/sk_sk.png">  |        0% |        0% |
+| `th_th`  | Thailändisch                  | ไทย (ประเทศไทย)        | <img src="badges/th_th.png">  |        0% |        0% |
+| `uk_ua`  | Ukrainisch                    | Українська (Україна)   | <img src="badges/uk_ua.png">  |        0% |        0% |
+| `zh_cn`  | Chinesisch (vereinfacht)      | 简体中文 (中国大陆)            | <img src="badges/zh_cn.png">  |      100% |       99% |
+| `zh_hk`  | Chinesisch (Hong Kong)        | 繁體中文 (香港特別行政區)         | <img src="badges/zh_hk.png">  |       78% |       78% |
+| `zh_tw`  | Chinesisch (traditionell)     | 繁體中文 (台灣)              | <img src="badges/zh_tw.png">  |       68% |        3% |
 
-Wenn du eine neue Sprache hinzufügen möchtest, [erstelle einen neuen Issue auf GitHub](https://github.com/mc-wiki/mcaf-resourcepack/issues).
+### Andere Sprachen
+
+Wenn du eine neue Sprache hinzufügen möchtest, [erstelle einen neuen Issue auf GitHub](https://github.com/mc-wiki/mcaf-resourcepack/issues/new?template=request_new_language.yml).
 
 ## Installation
 
@@ -65,11 +68,7 @@ Schlage eine neue Übersetzung auf [Crowdin](https://crowdin.com/project/mcaf-re
 
 **Ich sehe eine rohe Übersetzungs-Zeichenkette (z.B. `rule.food_restriction.air_block`).**
 
-Das ist wahrscheinlich wegen einem fehlenden Eintrag in den Sprachdateien. Bitte melde uns das [auf GitHub](https://github.com/mc-wiki/mcaf-resourcepack/issues).
-
-**Wie kann ich eine weitere Sprache hinzufügen?**
-
-Bitte erstelle einen neuen [Issue](https://github.com/mc-wiki/mcaf-resourcepack/issues) auf GitHub.
+Das ist wahrscheinlich wegen einem fehlenden Eintrag in den Sprachdateien. Bitte melde uns das [auf GitHub Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues).
 
 ## Übersetzer
 

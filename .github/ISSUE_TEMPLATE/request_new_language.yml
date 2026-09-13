@@ -34,7 +34,7 @@ body:
     id: readme
     attributes:
       label: Readme
-      description: By the way, you can translate the [README.md](https://github.com/mc-wiki/mcaf-resourcepack/blob/main/README.md) into this language.
+      description: By the way, you may translate the [README.md](https://github.com/mc-wiki/mcaf-resourcepack/blob/main/README.md) into this language.
       placeholder: Leave blank to ignore.
     validations:
       required: false

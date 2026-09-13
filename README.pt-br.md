@@ -3,7 +3,7 @@
 [![Modrinth](https://img.shields.io/modrinth/dt/april-fools-translation?label=Modrinth&color=darkgreen&labelColor=black&logo=modrinth)](https://modrinth.com/mod/april-fools-translation)
 [![Crowdin](https://badges.crowdin.net/mcaf-resourcepack/localized.svg)](https://crowdin.com/project/mcaf-resourcepack)
 
-[Deutsch](README.de.md) | [English](README.md) | Português | [日本語](README.ja.md) | [文言](README.lzh.md) | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
+[Deutsch](README.de.md) | [English](README.md) | [日本語](README.ja.md) | [文言](README.lzh.md) | Português | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
 
 **Jogue as snapshots de Dia da Mentira com traduções feitas pela comunidade da Minecraft Wiki.**
 
@@ -31,32 +31,35 @@ As [snapshots de Dia da Mentira](https://pt.minecraft.wiki/w/Piadas_do_Dia_da_Me
 
 ### Idiomas suportados
 
-As traduções são fornecidas pela comunidade através do [Crowdin](https://crowdin.com/project/mcaf-resourcepack/pt-BR); sugira novas lá.
+As traduções são fornecidas pela comunidade através do [Crowdin](https://crowdin.com/project/mcaf-resourcepack); sugira novas lá.
 
-| Código   | Idioma                | Endônimo               | Progresso                     | Traduzido  | Aprovado |
-|----------|-----------------------|------------------------|-------------------------------|-----------:|---------:|
-| `de_de`  | Alemão                | Deutsch (Deutschland)  | <img src="badges/de_de.png">  | 18%  | 0% |
-| `en_ud`  | Inglês (Ao contrário) | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png">  | 100% | 100% |
-| `enp`    | Inglês (Germânico)    | Anglish (Oned Riches)  | <img src="badges/enp.png">    | 70%  | 70% |
-| `es_es`  | Espanhol              | Español (España)       | <img src="badges/es_es.png">  | 2%   | 0% |
-| `fil_ph` | Filipino              | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0%   | 0% |
-| `fr_fr`  | Francês               | Français (France)      | <img src="badges/fr_fr.png">  | 2%   | 0% |
-| `he_il`  | Hebraico              | עברית (ישראל)          | <img src="badges/he_il.png">  | 43%  | 9% |
-| `it_it`  | Italiano              | Italiano (Italia)      | <img src="badges/it_it.png">  | 25%  | 0% |
-| `ja_jp`  | Japonês               | 日本語 (日本)           | <img src="badges/ja_jp.png">  | 100% | 29% |
-| `ko_kr`  | Coreano               | 한국어 (대한민국)         | <img src="badges/ko_kr.png">  | 83%  | 11% |
-| `lzh`    | Chinês literário      | 文言 (華夏)             | <img src="badges/lzh.png">    | 100% | 63% |
-| `nl_nl`  | Holandês              | Nederlands (Nederland) | <img src="badges/nl_nl.png">  | 2%   | 0% |
-| `pt_br`  | Português (Brasil)    | Português (Brasil)     | <img src="badges/pt_br.png">  | 43%  | 37% |
-| `pt_pt`  | Português (Portugal)  | Português (Portugal)   | <img src="badges/pt_pt.png">  | 0%   | 0% |
-| `ru_ru`  | Russo                 | Русский (Россия)       | <img src="badges/ru_ru.png">  | 100% | 0% |
-| `th_th`  | Tailandês             | ไทย (ประเทศไทย)          | <img src="badges/th_th.png">  | 0%   | 0% |
-| `uk_ua`  | Ucraniano             | Українська (Україна)   | <img src="badges/uk_ua.png">  | 0%   | 0% |
-| `zh_cn`  | Chinês (Simplificado) | 简体中文 (中国大陆)       |  <img src="badges/zh_cn.png"> | 100% | 99% |
-| `zh_hk`  | Chinês (Hong Kong)    | 繁體中文 (香港特別行政區)  | <img src="badges/zh_hk.png">  | 78%  | 78% |
-| `zh_tw`  | Chinês (Tradicional)  | 繁體中文 (台灣)          | <img src="badges/zh_tw.png">  | 68%  | 3% |
+| Código   | Idioma                | Endônimo               | Progresso                     | Traduzido | Aprovado |
+|----------|-----------------------|------------------------|-------------------------------|----------:|---------:|
+| `de_de`  | Alemão                | Deutsch (Deutschland)  | <img src="badges/de_de.png">  |       18% |       0% |
+| `en_ud`  | Inglês (Ao contrário) | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png">  |      100% |     100% |
+| `enp`    | Inglês (Germânico)    | Anglish (Oned Riches)  | <img src="badges/enp.png">    |       70% |      70% |
+| `es_es`  | Espanhol              | Español (España)       | <img src="badges/es_es.png">  |        2% |       0% |
+| `fil_ph` | Filipino              | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> |        0% |       0% |
+| `fr_fr`  | Francês               | Français (France)      | <img src="badges/fr_fr.png">  |        2% |       0% |
+| `he_il`  | Hebraico              | עברית (ישראל)          | <img src="badges/he_il.png">  |       43% |       9% |
+| `it_it`  | Italiano              | Italiano (Italia)      | <img src="badges/it_it.png">  |       25% |       0% |
+| `ja_jp`  | Japonês               | 日本語 (日本)               | <img src="badges/ja_jp.png">  |      100% |      29% |
+| `ko_kr`  | Coreano               | 한국어 (대한민국)             | <img src="badges/ko_kr.png">  |       83% |      11% |
+| `lzh`    | Chinês literário      | 文言 (華夏)                | <img src="badges/lzh.png">    |      100% |      63% |
+| `nl_nl`  | Holandês              | Nederlands (Nederland) | <img src="badges/nl_nl.png">  |        2% |       0% |
+| `pt_br`  | Português (Brasil)    | Português (Brasil)     | <img src="badges/pt_br.png">  |       43% |      37% |
+| `pt_pt`  | Português (Portugal)  | Português (Portugal)   | <img src="badges/pt_pt.png">  |        0% |       0% |
+| `ru_ru`  | Russo                 | Русский (Россия)       | <img src="badges/ru_ru.png">  |      100% |       0% |
+| `sk_sk`  | Eslovaco              | Slovenčina (Slovensko) | <img src="badges/sk_sk.png">  |        0% |       0% |
+| `th_th`  | Tailandês             | ไทย (ประเทศไทย)        | <img src="badges/th_th.png">  |        0% |       0% |
+| `uk_ua`  | Ucraniano             | Українська (Україна)   | <img src="badges/uk_ua.png">  |        0% |       0% |
+| `zh_cn`  | Chinês (Simplificado) | 简体中文 (中国大陆)            | <img src="badges/zh_cn.png">  |      100% |      99% |
+| `zh_hk`  | Chinês (Hong Kong)    | 繁體中文 (香港特別行政區)         | <img src="badges/zh_hk.png">  |       78% |      78% |
+| `zh_tw`  | Chinês (Tradicional)  | 繁體中文 (台灣)              | <img src="badges/zh_tw.png">  |       68% |       3% |
 
-Você pode pedir um novo idioma [criando uma *issue* no GitHub](https://github.com/mc-wiki/mcaf-resourcepack/issues).
+### Outros idiomas
+
+Você pode pedir um novo idioma [criando uma solicitação aqui](https://github.com/mc-wiki/mcaf-resourcepack/issues/new?template=request_new_language.yml).
 
 ## Como usar
 
@@ -68,21 +71,17 @@ Precisa de ajuda com a instalação? Veja o [tutorial na wiki](https://pt.minecr
 
 ## Contribuindo
 
-As traduções ocorrem através do [Crowdin](https://crowdin.com/project/mcaf-resourcepack/pt-BR), onde você pode contribuir com outros [tradutores](#translators). Elas são sincronizadas neste repositório regularmente.
+As traduções ocorrem através do [Crowdin](https://crowdin.com/project/mcaf-resourcepack), onde você pode contribuir com outros [tradutores](#tradutores). Elas são sincronizadas neste repositório regularmente.
 
 ## Perguntas e respostas
 
 **P1: Estou vendo textos sem traduções no jogo. O que devo fazer?**
 
-R1: Contribua traduzindo-as no [Crowdin](https://crowdin.com/project/mcaf-resourcepack/pt-BR). Se o texto não estiver lá, é provável que esteja embutido no código do jogo e não pode ser corrigido pelo uso de um pacote de recursos.
+R1: Contribua traduzindo-as no [Crowdin](https://crowdin.com/project/mcaf-resourcepack). Se o texto não estiver lá, é provável que esteja embutido no código do jogo e não pode ser corrigido pelo uso de um pacote de recursos.
 
 **P2: Eu vejo chaves de traduções brutas (por exemplo, `rule.food_restriction.air_block`).**
 
-R2: Isso normalmente significa que há uma entrada ausente nos arquivos de idioma. Relate este erro na seção *[Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues)*.
-
-**P3: Como posso adicionar suporte a um novo idioma?**
-
-R3: Você pode pedir um novo idioma [no Crowdin](https://crowdin.com/project/mcaf-resourcepack).
+R2: Isso normalmente significa que há uma entrada ausente nos arquivos de idioma. Relate este erro na *[GitHub Issues](https://github.com/mc-wiki/mcaf-resourcepack/issues)*.
 
 ## Tradutores
 
