@@ -1,6 +1,6 @@
 # 萬愚譯囊
 
-[Deutsch](README.de.md) | [English](README.md) | [日本語](README.ja.md) | 文言 | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
+[Deutsch](README.de.md) | [English](README.md) | [Português](README.pt-br.md) | [日本語](README.ja.md) | 文言 | [简体中文](README.zh-hans.md) | [繁體中文](README.zh-hant.md)
 
 **用<span style="text-decoration: underline wavy;">礦藝大典</span>之坊間譯文，戲萬愚日之試版。**
 
