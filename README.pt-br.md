@@ -50,7 +50,7 @@ As traduções são fornecidas pela comunidade através do [Crowdin](https://cro
 | `pt_br`  | Português (Brasil)    | Português (Brasil)     | <img src="badges/pt_br.png"> | 54% | 51% |
 | `pt_pt`  | Português (Portugal)  | Português (Portugal)   | <img src="badges/pt_pt.png"> | 0% | 0% |
 | `ru_ru`  | Russo                 | Русский (Россия)       | <img src="badges/ru_ru.png"> | 100% | 0% |
-| `sk_sk`  | Eslovaco              | Slovenčina (Slovensko) | <img src="badges/sk_sk.png"> | 32% | 5% |
+| `sk_sk`  | Eslovaco              | Slovenčina (Slovensko) | <img src="badges/sk_sk.png"> | 33% | 5% |
 | `th_th`  | Tailandês             | ไทย (ประเทศไทย)        | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua`  | Ucraniano             | Українська (Україна)   | <img src="badges/uk_ua.png"> | 0% | 0% |
 | `zh_cn`  | Chinês (Simplificado) | 简体中文 (中国大陆)            | <img src="badges/zh_cn.png"> | 100% | 99% |

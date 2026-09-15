@@ -46,7 +46,7 @@
 | `pt_br`  | <u>枋林</u>埠吐噶語 | Português (Brasil)     | <img src="badges/pt_br.png"> | 54% | 51% |
 | `pt_pt`  | 埠吐噶語          | Português (Portugal)   | <img src="badges/pt_pt.png"> | 0% | 0% |
 | `ru_ru`  | 羅剎語           | Русский (Россия)       | <img src="badges/ru_ru.png"> | 100% | 0% |
-| `sk_sk`  | 斯洛伐克語         | Slovenčina (Slovensko) | <img src="badges/sk_sk.png"> | 32% | 5% |
+| `sk_sk`  | 斯洛伐克語         | Slovenčina (Slovensko) | <img src="badges/sk_sk.png"> | 33% | 5% |
 | `th_th`  | 暹羅語           | ไทย (ประเทศไทย)        | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua`  | 渥蓮語           | Українська (Україна)   | <img src="badges/uk_ua.png"> | 0% | 0% |
 | `zh_cn`  | <u>華夏</u>通語   | 简体中文 (中国大陆)            | <img src="badges/zh_cn.png"> | 100% | 99% |
