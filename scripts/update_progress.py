@@ -40,7 +40,7 @@ crowdin_api_result = requests.get(
 
 # Read and cache the content of all README files
 readme_files = {}
-for readme_file in base_dir.glob("README.*.md"):
+for readme_file in base_dir.glob("README*.md"):
     readme_files[readme_file] = readme_file.read_text(encoding="utf-8")
 
 # Update progress for each languages
