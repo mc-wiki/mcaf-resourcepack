@@ -69,6 +69,7 @@
     "rule.footprint.0": "Stopy? Aké stopy?",
     "rule.invisible_armor": "Urobiť brnenie neviditeľným",
     "rule.new_vote_duration_minutes": "Nastaviť dĺžku nových hlasovaní na %s minút",
+    "rule.new_vote_extra_effect_chance": "Nastaviť pravdepodobnosť na vytvorenie kombinovaných hlasovaní na %s%%",
     "rule.new_vote_max_approve_vote_count": "Nastaviť maximálny počet hlasov na schválenie na %s",
     "rule.nbt_crafting": "Povoliť NBT vyrábanie",
     "rule.change_world_shape": "Zmeniť tvar sveta",
