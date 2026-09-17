@@ -508,7 +508,7 @@
     "potato.quest.wrote_thoughts.jump.18": "最终认为你应该试着把眼睛挖出来。",
     "potato.quest.wrote_thoughts.jump.19": "或者更准确地讲：合成马铃薯之眼。",
     "potato.quest.wrote_thoughts.jump.20": "去吧，%1$s。\n把毒马铃薯做成马铃薯之眼。",
-    "screen.fletching.title": "改造 %s 为 %s",
+    "screen.fletching.title": "改造“%s”为“%s”",
     "stat.minecraft.get_peeled": "削皮次数",
     "stat.minecraft.interact_with_fletching": "与制箭台交互次数",
     "stat.minecraft.potato_quest_time": "马铃薯任务时间",
