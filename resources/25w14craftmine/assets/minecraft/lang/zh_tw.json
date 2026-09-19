@@ -115,6 +115,7 @@
     "death.attack.devour.player": "%1$s 被 %2$s 吞噬了",
     "deathScreen.respawn.hardcore": "認輸",
     "deathScreen.respawn.inMap": "認輸",
+    "deathScreen.respawn.spectate": "旁觀礦境",
     "door.say_the_thing": "門渴望著鑰匙！",
     "effect.minecraft.shazboots": "極速！",
     "entity.minecraft.angry_ghast": "憤怒幽靈",

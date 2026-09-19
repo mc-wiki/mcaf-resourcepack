@@ -118,6 +118,7 @@
     "death.attack.devour.player": "%1$s被%2$s吃掉了",
     "deathScreen.respawn.hardcore": "认输",
     "deathScreen.respawn.inMap": "认输",
+    "deathScreen.respawn.spectate": "旁观矿境",
     "door.say_the_thing": "门渴望着钥匙！",
     "effect.minecraft.shazboots": "Shazboots!",
     "entity.minecraft.angry_ghast": "愤怒恶魂",
