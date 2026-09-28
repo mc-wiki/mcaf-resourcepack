@@ -118,6 +118,7 @@
     "death.attack.devour.player": "%1$sは%2$sに丸呑みにされた",
     "deathScreen.respawn.hardcore": "失敗を受け入れる",
     "deathScreen.respawn.inMap": "失敗を受け入れる",
+    "deathScreen.respawn.spectate": "マインを観覧",
     "door.say_the_thing": "ドアは鍵を欲しがっている！",
     "effect.minecraft.shazboots": "シャズブーツ！",
     "entity.minecraft.angry_ghast": "アングリーガスト",
