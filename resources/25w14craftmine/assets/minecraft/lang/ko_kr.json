@@ -118,6 +118,7 @@
     "death.attack.devour.player": "%1$s이(가) %2$s에게 삼켜졌습니다",
     "deathScreen.respawn.hardcore": "패배 인정",
     "deathScreen.respawn.inMap": "패배 인정",
+    "deathScreen.respawn.spectate": "광산 관전",
     "door.say_the_thing": "문들은 열쇠를 바랍니다!",
     "effect.minecraft.shazboots": "Shazboots!",
     "entity.minecraft.angry_ghast": "화난 가스트",
