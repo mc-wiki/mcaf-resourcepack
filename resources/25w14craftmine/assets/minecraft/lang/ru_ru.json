@@ -118,6 +118,7 @@
     "death.attack.devour.player": "%1$s был поглощён %2$s",
     "deathScreen.respawn.hardcore": "Признать поражение",
     "deathScreen.respawn.inMap": "Признать поражение",
+    "deathScreen.respawn.spectate": "Наблюдение за шахтой",
     "door.say_the_thing": "Двери жаждут ключей!",
     "effect.minecraft.shazboots": "Скороходы!",
     "entity.minecraft.angry_ghast": "Злой гаст",

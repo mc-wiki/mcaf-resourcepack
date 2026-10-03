@@ -49,7 +49,7 @@ Translations are provided by the community on [Crowdin](https://crowdin.com/proj
 | `nl_nl`  | Dutch                 | Nederlands (Nederland) | <img src="badges/nl_nl.png"> | 2% | 0% |
 | `pt_br`  | Portuguese (Brazil)   | Português (Brasil)     | <img src="badges/pt_br.png"> | 54% | 51% |
 | `pt_pt`  | Portuguese (Portugal) | Português (Portugal)   | <img src="badges/pt_pt.png"> | 0% | 0% |
-| `ru_ru`  | Russian               | Русский (Россия)       | <img src="badges/ru_ru.png"> | 99% | 0% |
+| `ru_ru`  | Russian               | Русский (Россия)       | <img src="badges/ru_ru.png"> | 100% | 0% |
 | `sk_sk`  | Slovak                | Slovenčina (Slovensko) | <img src="badges/sk_sk.png"> | 34% | 5% |
 | `th_th`  | Thai                  | ไทย (ประเทศไทย)        | <img src="badges/th_th.png"> | 0% | 0% |
 | `uk_ua`  | Ukrainian             | Українська (Україна)   | <img src="badges/uk_ua.png"> | 0% | 0% |
