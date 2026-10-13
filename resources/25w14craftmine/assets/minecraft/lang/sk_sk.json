@@ -40,6 +40,7 @@
     "item.minecraft.mine": "Baňa",
     "item.minecraft.mine_ingredient": "Banská prísada",
     "item.minecraft.mob_trophy.grade": "Trieda: %s",
+    "item.minecraft.mob_trophy.shiny": "Čo sa to trbliece?",
     "item.minecraft.music_disc_and_action": "Hudobná platňa",
     "item.minecraft.music_disc_and_action.desc": "Tone Deaf Rebellion - And Action!",
     "item.minecraft.shimmering_key.room": "Otvára „%s“",
@@ -50,6 +51,7 @@
     "key.spectatorOutlines": "Zvýrazniť hráčov (divákov)",
     "mine.angry_ghast_boss.name": "Nahnevaný ghast",
     "mine.ender_dragon_boss.name": "Ender drak",
+    "mine.enter.started": "Vstupovanie do bane...",
     "mine.raid.description": "Ochráň dedinu!",
     "mine.raid.name": "Nájazd",
     "mine.wither_boss.description": "NEBEZPEČENSTVO",
@@ -249,7 +251,9 @@
     "world.effect.wither_skeletons.name": "Wither kostlivci",
     "world.effect.zombies.name": "Zombíci",
     "world.effect.zombified_piglins.name": "Zombie piglini",
+    "world.event.angry_ghast": "Zrodenie nahnevaného ghasta",
     "world.event.next_wave": "Ďalšia vlna",
     "world.event.remaining": "Zostávajúce tvory",
+    "world.mine": "Baňa %s",
     "world.mine.next": "Ďalšia baňa"
 }
