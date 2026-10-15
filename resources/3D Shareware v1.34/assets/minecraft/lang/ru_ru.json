@@ -1,7 +1,7 @@
 {
     "menu.select_episode": "Выбрать эпизод",
     "menu.modem_play": "ИграПоМодему™",
-    "menu.modem_played1": "Бип боп",
+    "menu.modem_played1": "Бип-боп",
     "menu.modem_played2": "Nej!",
     "demo.help.nag1": "Пожалуйста, зарегистрируйте эту игру,",
     "demo.help.nag2": "чтобы получить доступ ко всем эпизодам",
@@ -22,5 +22,5 @@
     "ui.next_disk.contents": "Вставьте диск %s в дисковод A и нажмите ВВОД",
     "ui.next_disk.wrong_contents": "Я сказал ВВОД!",
     "feedback.line1": "Предложения? Баги? Похвала? Пришлите нам весточку!",
-    "feedback.line2": "Наш адрес: Mojang AB, Сёдер Маларстранд 43, 118 25 Стокгольм, Швеция"
+    "feedback.line2": "Наш адрес: Mojang AB, Сёдер-Меларстранд 43, 118 25 Стокгольм, Швеция"
 }
