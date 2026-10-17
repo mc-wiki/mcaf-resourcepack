@@ -1851,14 +1851,36 @@
     </g>
     <g class="contributor">
       <defs>
-        <clipPath id="clip-15068691">
+        <clipPath id="clip-17604112">
           <circle cx="260" cy="1792" r="32"/>
+        </clipPath>
+      </defs>
+      <a xlink:href="https://crowdin.com/profile/mdhoyt" target="_blank">
+        <title>mdhoyt</title>
+        <image 
+          x="228" 
+          y="1760" 
+          width="64" 
+          height="64" 
+          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFW0lEQVR4nO3dWW8TVxjG8efMeE+MTVayQFYaJw1L2EFELUSopVULolyXi973A/SqX6T3XFSiQkJVFVALSCVVQITSJAQSsjhpEhOyL56xZ04vEIFTUkIK9nsc3t+dj2Xptf+R7TkzVsT5b7+TYGQM6gHedxyAGAcgxgGIcQBiHIAYByDGAYhxAGIcgBgHIMYBiHEAYhyAGAcgxgGIcQBiHIAYByDGAYhxAGIcgBgHIMYBiHEAYhyAGAcgxgGIcQBiHuoB/g8hBEqLClBdXoaykkJEw2EEA36YhoG042AlaWFuYRGJ6RmMTjzB6GQCjuNQj72mnApQUrAVR/Y249DuJhRGIxBCrPsYKSWSlo3u/kF03u/Bg8dDsOxUFqZ9MzkRIJwXwqetR3C0ZRdCgcCGHiuEQDDgx4HmGPZ92IAbnXdx8Up7hibdOO0D1FaW48K5z1FaWLDm/Y7rwkk7WLEspB0Hfq8XAb8fhiFgGOpHnOu6uPPXg2yM/ca0DtDS1IALZz9DwO9T1lPpNHoHhnC3pw8D8TE8nZ2D47ir9/t9PpQUbkVNRRka62sQq6lCMOBH78AQBuKj2X4ar6VtgKb6Glw4e1p58aWU6H70GJeuXsd4YgquXPvXVZZtIz4+ifj4JG7euYdwXggHmxsxEB+D6+r1iywtA0S3hPH1mdMI+P2ra2nHwc83buGXmx1Ib+AbjZQS84tLuNZxOxOjvjXtAhiGwLlTHyO6Jby6JiVw+doNtP/eCfkff/W5SrsDsdrtFTjQHFPWbnXdx7Vbtzfdiw9oFkAIgbajB5VvL/NLS7jU/hsc133NI3OXVgGKohHEaquUtV877mBhaZlooszTKkBTfQ2CL33wLieT+ONeN+FEmadVgFhttXJ7aGwc03PzNMNkiTYBhBCoKt+mrD0cHCGaJnu0CbAlPw+hkLrPEx+fJJome7QJEMnPg8c0V29LKTE1O0c4UXZoE+D5fv5zlp3Sats4U7QJ4DE9yv6+4zhwN+l3/5dpE0BCYhMe6K5LmwCO40DiRQHTNF/Zz9+MtHmGSctW3nL8Pi98Hu32Ct85bQIsLq8oJ1WEEMqO6GalTYC5hUXYKfVbT0VpMdE02aNNgLTjYHJqWlmrr6okmiZ7tAkAAP0jceV23Y5KhIIbuwoi12gVoKd/SDnPG8nPw64P6ggnyjytAgz/PYHES29DQgicOnZI2aLYbLQKYNk2Ov5U9/8rt5Xgo0P7iCbKPK0CAMDN212YmV9Q1s60taKxrppmoAzTLsDS8gp+unpdOQHv83rxzfkvsTe2k3CyzDCbDrd+Tz3Ev40/mUJhJILtZaWraz6vF7tjO5EXCmJ0IrHhnVKf1wvTNLU7ua9lACmBvsFhlJcUo7ToxTWhpmmgdnsFjrY0o7hgK4QQSFrWKwdwhmEgGs7HjrJt2N1QjxOH9+NMWytM08TACF+a+EaSlo0ffryMrz45idb9e5St6vxQCK0H9uL4/j1wXReWncJyMgnXlfB5PQgGAvCYJgxDKI8zjPUvZ882bQMAz07KXLzSjkdDcXxx4jiKC6LKCyqEgGmaCAXNnD1g0zoA8OyS8s77Pejuf4x9TQ041rILVRVlytmz15FSwk6l0Dc4gr7B4QxPu3EiF/+BQzScj+rKcpSXFKEwGkEoEIDX6wGkhJ1KYzmZxPziEhLTM5h48hSjkwmk0/wTpXdmdmERXb0P0dX7kHqUt6bdccD7hgMQ4wDEOAAxDkCMAxDjAMQ4ADEOQIwDEOMAxDgAMQ5AjAMQ4wDEOAAxDkCMAxDjAMQ4ADEOQIwDEOMAxDgAMQ5AjAMQ4wDEOAAxDkDsH7MVj4FAdD3YAAAAAElFTkSuQmCC"
+          clip-path="url(#clip-17604112)"
+          preserveAspectRatio="xMidYMid slice"
+        />
+        <text x="260" y="1854" class="name">mdhoyt</text>
+        <text x="260" y="1874" class="username"></text>
+        <text x="260" y="1894" class="words">3 words</text>
+      </a>
+    </g>
+    <g class="contributor">
+      <defs>
+        <clipPath id="clip-15068691">
+          <circle cx="364" cy="1792" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/Tetzaton" target="_blank">
         <title>Tetzaton</title>
         <image 
-          x="228" 
+          x="332" 
           y="1760" 
           width="64" 
           height="64" 
@@ -1866,21 +1888,21 @@
           clip-path="url(#clip-15068691)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="260" y="1854" class="name">Tetzaton</text>
-        <text x="260" y="1874" class="username"></text>
-        <text x="260" y="1894" class="words">2 words</text>
+        <text x="364" y="1854" class="name">Tetzaton</text>
+        <text x="364" y="1874" class="username"></text>
+        <text x="364" y="1894" class="words">2 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-17371328">
-          <circle cx="364" cy="1792" r="32"/>
+          <circle cx="468" cy="1792" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/Pitozavr" target="_blank">
         <title>Pitozavr</title>
         <image 
-          x="332" 
+          x="436" 
           y="1760" 
           width="64" 
           height="64" 
@@ -1888,21 +1910,43 @@
           clip-path="url(#clip-17371328)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="364" y="1854" class="name">Pitozavr</text>
-        <text x="364" y="1874" class="username"></text>
-        <text x="364" y="1894" class="words">2 words</text>
+        <text x="468" y="1854" class="name">Pitozavr</text>
+        <text x="468" y="1874" class="username"></text>
+        <text x="468" y="1894" class="words">2 words</text>
+      </a>
+    </g>
+    <g class="contributor">
+      <defs>
+        <clipPath id="clip-17734135">
+          <circle cx="572" cy="1792" r="32"/>
+        </clipPath>
+      </defs>
+      <a xlink:href="https://crowdin.com/profile/IAmREGE" target="_blank">
+        <title>Rhenium Germanide (IAmREGE)</title>
+        <image 
+          x="540" 
+          y="1760" 
+          width="64" 
+          height="64" 
+          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABj0lEQVR4nO3cwU0bQRiAUWMRc/EBKZKlSDRAATRBFRRDIfRBCTSRQ6RcfeUEDZCMYFjeCn/vbGt29WnnsKN/z47H48smzFZfwKkrAFYArABYAbACYAXAzkc/+H3/OLXAr7ubzcXV5Yf//93X7wnACoAVACsAVgCsAFgBsAJgBcAKgBUAKwBWAKwAWAGw4XnArL8PT0svser1R3oCsAJgBcAKgBUAKwBWAKwAWAGwAmAFwAqAFQArAFYA7Gw0J/z85/hV1/Km2ff5P2+vN7vD/pOu5v1+HPab7e7fxy7DA5mZ4YY12B32q76HtiCsAFgBsAJgBcAKgBUAKwBWAKwAWAGwAmAFwAqADc8D9Pd6Zs8jRu/jR5a+/8UHNGat+V3+Z2gLwgqAFQArAFYArABYAbACYAXACoAVACsAVgCsANji8wFr/17PyOx8wcnPB8xaer6gLQgrAFYArABYAbACYAXACoAVACsAVgCsAFgBsAJgw/OAWfp7Q7Nm5wtGFg+Q/2sLwgqAFQArAFYArADYKw/mPpLFPEmBAAAAAElFTkSuQmCC"
+          clip-path="url(#clip-17734135)"
+          preserveAspectRatio="xMidYMid slice"
+        />
+        <text x="572" y="1854" class="name">Rhenium Germanide</text>
+        <text x="572" y="1874" class="username">(IAmREGE)</text>
+        <text x="572" y="1894" class="words">2 words</text>
       </a>
     </g>
     <g class="contributor">
       <defs>
         <clipPath id="clip-16290122">
-          <circle cx="468" cy="1792" r="32"/>
+          <circle cx="676" cy="1792" r="32"/>
         </clipPath>
       </defs>
       <a xlink:href="https://crowdin.com/profile/paran_yeonpil" target="_blank">
         <title>BluPen 블루펜 (paran_yeonpil)</title>
         <image 
-          x="436" 
+          x="644" 
           y="1760" 
           width="64" 
           height="64" 
@@ -1910,9 +1954,9 @@
           clip-path="url(#clip-16290122)"
           preserveAspectRatio="xMidYMid slice"
         />
-        <text x="468" y="1854" class="name">BluPen 블루펜</text>
-        <text x="468" y="1874" class="username">(paran_yeonpil)</text>
-        <text x="468" y="1894" class="words">1 words</text>
+        <text x="676" y="1854" class="name">BluPen 블루펜</text>
+        <text x="676" y="1874" class="username">(paran_yeonpil)</text>
+        <text x="676" y="1894" class="words">1 words</text>
       </a>
     </g>
 </svg>
