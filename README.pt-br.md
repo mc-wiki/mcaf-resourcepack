@@ -37,7 +37,7 @@ As traduções são fornecidas pela comunidade através do [Crowdin](https://cro
 |----------|-----------------------|------------------------|-------------------------------|----------:|---------:|
 | `de_de`  | Alemão                | Deutsch (Deutschland)  | <img src="badges/de_de.png"> | 18% | 0% |
 | `en_ud`  | Inglês (Ao contrário) | ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)  | <img src="badges/en_ud.png"> | 100% | 100% |
-| `enp`    | Inglês (Germânico)    | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 71% | 71% |
+| `enp`    | Inglês (Germânico)    | Anglish (Oned Riches)  | <img src="badges/enp.png"> | 72% | 71% |
 | `es_es`  | Espanhol              | Español (España)       | <img src="badges/es_es.png"> | 2% | 0% |
 | `fil_ph` | Filipino              | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0% | 0% |
 | `fr_fr`  | Francês               | Français (France)      | <img src="badges/fr_fr.png"> | 2% | 0% |
