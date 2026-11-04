@@ -73,7 +73,7 @@
     "item.minecraft.name": "名",
     "item.minecraft.tag": "籤",
     "item.minecraft.string_tag": "字串籤",
-    "item.minecraft.byte_tag": "爻籤",
+    "item.minecraft.byte_tag": "節籤",
     "item.minecraft.short_tag": "短籤",
     "item.minecraft.int_tag": "整籤",
     "item.minecraft.long_tag": "長籤",
