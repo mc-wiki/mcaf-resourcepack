@@ -41,7 +41,7 @@ As traduções são fornecidas pela comunidade através do [Crowdin](https://cro
 | `es_es`  | Espanhol              | Español (España)       | <img src="badges/es_es.png"> | 3% | 0% |
 | `fil_ph` | Filipino              | Filipino (Pilipinas)   | <img src="badges/fil_ph.png"> | 0% | 0% |
 | `fr_fr`  | Francês               | Français (France)      | <img src="badges/fr_fr.png"> | 2% | 0% |
-| `he_il`  | Hebraico              | עברית (ישראל)          | <img src="badges/he_il.png"> | 43% | 9% |
+| `he_il`  | Hebraico              | עברית (ישראל)          | <img src="badges/he_il.png"> | 44% | 9% |
 | `it_it`  | Italiano              | Italiano (Italia)      | <img src="badges/it_it.png"> | 26% | 0% |
 | `ja_jp`  | Japonês               | 日本語 (日本)               | <img src="badges/ja_jp.png"> | 100% | 29% |
 | `ko_kr`  | Coreano               | 한국어 (대한민국)             | <img src="badges/ko_kr.png"> | 83% | 11% |
